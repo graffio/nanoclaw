@@ -383,7 +383,12 @@ export async function runContainerAgent(
       const chunk = data.toString();
       const lines = chunk.trim().split('\n');
       for (const line of lines) {
-        if (line) logger.debug({ container: group.folder }, line);
+        if (!line) continue;
+        if (line.includes('[tool]')) {
+          logger.info({ group: group.name }, line.replace(/^\[agent-runner\]\s*/, ''));
+        } else {
+          logger.debug({ container: group.folder }, line);
+        }
       }
       // Don't reset timeout on stderr — SDK writes debug logs continuously.
       // Timeout only resets on actual output (OUTPUT_MARKER in stdout).
@@ -526,6 +531,12 @@ export async function runContainerAgent(
           stdout,
         );
       } else {
+        // Extract [tool] lines from stderr for activity summary
+        const toolLines = stderr
+          .split('\n')
+          .filter((l) => l.includes('[tool]'))
+          .map((l) => l.replace(/^\[agent-runner\]\s*/, ''));
+
         logLines.push(
           `=== Input Summary ===`,
           `Prompt length: ${input.prompt.length} chars`,
@@ -537,6 +548,14 @@ export async function runContainerAgent(
             .join('\n'),
           ``,
         );
+
+        if (toolLines.length > 0) {
+          logLines.push(
+            `=== Activity ===`,
+            ...toolLines,
+            ``,
+          );
+        }
       }
 
       fs.writeFileSync(logFile, logLines.join('\n'));

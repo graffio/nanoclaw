@@ -435,6 +435,35 @@ async function runQuery(
 
     if (message.type === 'assistant' && 'uuid' in message) {
       lastAssistantUuid = (message as { uuid: string }).uuid;
+      // Log tool uses for monitoring
+      const assistantMsg = message as { message?: { content?: Array<{ type: string; name?: string; input?: Record<string, unknown> }> } };
+      if (assistantMsg.message?.content) {
+        for (const block of assistantMsg.message.content) {
+          if (block.type === 'tool_use' && block.name) {
+            const input = block.input || {};
+            let summary = '';
+            if (block.name === 'Bash' && input.command) {
+              summary = ` cmd=${String(input.command).slice(0, 150)}`;
+            } else if (block.name === 'WebSearch' && input.query) {
+              summary = ` query="${input.query}"`;
+            } else if (block.name === 'WebFetch' && input.url) {
+              summary = ` url=${input.url}`;
+            } else if (block.name === 'Read' && input.file_path) {
+              summary = ` path=${input.file_path}`;
+            } else if ((block.name === 'Write' || block.name === 'Edit') && input.file_path) {
+              summary = ` path=${input.file_path}`;
+            } else if (block.name === 'Glob' && input.pattern) {
+              summary = ` pattern=${input.pattern}`;
+            } else if (block.name === 'Grep' && input.pattern) {
+              summary = ` pattern=${input.pattern}`;
+            } else {
+              const keys = Object.keys(input).slice(0, 3);
+              if (keys.length > 0) summary = ` ${keys.map(k => `${k}=${String(input[k]).slice(0, 50)}`).join(' ')}`;
+            }
+            log(`[tool] ${block.name}${summary}`);
+          }
+        }
+      }
     }
 
     if (message.type === 'system' && message.subtype === 'init') {

@@ -154,7 +154,7 @@ export class TelegramChannel implements Channel {
       });
 
       logger.info(
-        { chatJid, chatName, sender: senderName },
+        { chatJid, chatName, sender: senderName, text: content.slice(0, 200) },
         'Telegram message stored',
       );
     });
