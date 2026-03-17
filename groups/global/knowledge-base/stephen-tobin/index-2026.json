@@ -1,0 +1,255 @@
+{
+  "year": 2026,
+  "items": [
+    {
+      "title": "SW Weekly: Hong Kong and EV Opportunities",
+      "date": "2026-03-15",
+      "slug": "sw-weekly-hong-kong-and-ev-opportunities",
+      "url": "https://stephentobin.substack.com/p/sw-weekly-hong-kong-and-ev-opportunities",
+      "type": "post",
+      "post_type": "sw_weekly",
+      "audience": "only_paid",
+      "summary": "Weekly portfolio update with focus on Hong Kong EV market and EHang earnings. Pivoting research toward European and HK-listed stocks.",
+      "tickers": ["EH", "PONY", "WRD", "EOS", "ROOF", "QRHC", "MDA", "APTV", "BYD", "XPEV", "NIO", "DRO"],
+      "has_images": true
+    },
+    {
+      "date": "2026-03-14",
+      "type": "note",
+      "entity_key": "c-227667436",
+      "summary": "Teaser note linking to AI Bubble post",
+      "tickers": []
+    },
+    {
+      "date": "2026-03-14",
+      "type": "note",
+      "entity_key": "c-227647941",
+      "summary": "Weekly portfolio update: -0.7% this week, +2.5% 1M vs S&P -2.9%. Total value US$14,309, annualised IRR 105.9%.",
+      "tickers": []
+    },
+    {
+      "title": "AI Bubble? A Looming Write-Down for the Ages",
+      "date": "2026-03-14",
+      "slug": "ai-bubble-a-looming-write-down-for",
+      "url": "https://stephentobin.substack.com/p/ai-bubble-a-looming-write-down-for",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "The chips are becoming obsolete too quickly for these investments to make sense — arguing AI capex may be a massive write-down in the making.",
+      "tickers": [],
+      "has_images": true
+    },
+    {
+      "date": "2026-03-13",
+      "type": "chat",
+      "file": "2026-03-13-owl-entry.md",
+      "summary": "Watching OWL — bank run style drop, will buy when selling pressure eases",
+      "thread_topic": "OWL entry point for long-term investment",
+      "tickers": ["OWL"]
+    },
+    {
+      "date": "2026-03-13",
+      "type": "chat",
+      "file": "2026-03-13-newsletter-seekingalpha.md",
+      "summary": "Newsletter moving to SeekingAlpha May 1 as 'Strategic Wave Investments', no cash constraints, both services concurrent for first year",
+      "thread_topic": "Newsletter satisfaction and future plans",
+      "tickers": []
+    },
+    {
+      "date": "2026-03-13",
+      "type": "chat",
+      "file": "2026-03-13-eos-orders.md",
+      "summary": "EOS orders: $3M US + $42M Middle East, both for counter-drone integration by tier 1 defence primes, HELW negotiations in Middle East",
+      "thread_topic": "EOS news",
+      "tickers": ["EOS"]
+    },
+    {
+      "title": "Trade Alert: Adding To an Existing Position",
+      "date": "2026-03-12",
+      "slug": "trade-alert-adding-to-an-existing",
+      "url": "https://stephentobin.substack.com/p/trade-alert-adding-to-an-existing",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "only_paid",
+      "summary": "Trade Alert #104: Adding to EHang (EH) position after strong Q4 2025 earnings — revenue $28M, 43% YoY growth.",
+      "tickers": ["EH"],
+      "has_images": true
+    },
+    {
+      "date": "2026-03-12",
+      "type": "chat",
+      "file": "2026-03-12-roof.md",
+      "summary": "Still likes ROOF, wants to add but waiting for update — risk of missing a move",
+      "thread_topic": "ROOF making progress",
+      "tickers": ["ROOF"]
+    },
+    {
+      "date": "2026-03-12",
+      "type": "chat",
+      "file": "2026-03-12-mda-ticker-dilution.md",
+      "summary": "MDA ticker changed to TSE:MDA, ~7% dilution accounts for pullback, intends to hold",
+      "thread_topic": "MDA ticker change and dilution",
+      "tickers": ["MDA", "TSE:MDA"]
+    },
+    {
+      "date": "2026-03-11",
+      "type": "chat",
+      "file": "2026-03-11-minth-ibkr-fees.md",
+      "summary": "IBKR ISA fees for Minth: £22.11 for 2000 shares, prefers MNTHY over MNTHF as company-approved ADR",
+      "thread_topic": "Minth purchase details and IBKR fees",
+      "tickers": ["MNTHY", "MNTHF", "0425.HK"]
+    },
+    {
+      "date": "2026-03-11",
+      "type": "chat",
+      "file": "2026-03-11-raytheon-anduril-missiles.md",
+      "summary": "Met Raytheon and Anduril engineers — new target company in missile engines sector, demand exceeds manufacturing capacity. QBTS not in golden dome yet, JOBY nowhere in defence",
+      "thread_topic": "Raytheon and Anduril meetings on missile tech and QBTS",
+      "tickers": ["QBTS", "JOBY"]
+    },
+    {
+      "date": "2026-03-11",
+      "type": "chat",
+      "file": "2026-03-11-infleqtion-quantum.md",
+      "summary": "Infleqtion neutral atom qubits easy to scale but hard to error correct. Atom Computing is the real leader.",
+      "thread_topic": "Infleqtion (INFQ) as new quantum company",
+      "tickers": ["INFQ"]
+    },
+    {
+      "title": "Trade Alert #103: Investing In Humanoid Robots",
+      "date": "2026-03-10",
+      "slug": "trade-alert-103-investing-in-humanoid",
+      "url": "https://stephentobin.substack.com/p/trade-alert-103-investing-in-humanoid",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "only_paid",
+      "summary": "Buying Minth Group (0425.HK) as a pure play on strain wave gearing for humanoid robots.",
+      "tickers": ["0425.HK", "MNTHY", "MNTHF", "6324.T", "688017.SS", "002050.SZ", "6268.T"],
+      "has_images": true
+    },
+    {
+      "date": "2026-03-10",
+      "type": "chat",
+      "file": "2026-03-10-best-stocks-risk.md",
+      "summary": "Best picks by risk: autonomous driving close to growth, psychedelics highest upside/risk, Tempus AI a slam dunk",
+      "thread_topic": "Which positions to prioritise, war-end upside risk",
+      "tickers": ["TEM"]
+    },
+    {
+      "date": "2026-03-10",
+      "type": "chat",
+      "file": "2026-03-10-currency-hedge.md",
+      "summary": "Buying on local exchanges offers currency and geopolitical hedge",
+      "thread_topic": "AUD currency gains on ASX trades",
+      "tickers": []
+    },
+    {
+      "date": "2026-03-10",
+      "type": "chat",
+      "file": "2026-03-10-joby-next-trade.md",
+      "summary": "Next trade alert looking at JOBY, possibly a double investment. ACHR accused JOBY of relabelling engine parts as socks",
+      "thread_topic": "Next trade alert preview",
+      "tickers": ["JOBY", "ACHR"]
+    },
+    {
+      "date": "2026-03-09",
+      "type": "chat",
+      "file": "2026-03-09-market-turnaround.md",
+      "summary": "Market turnaround becoming a pattern",
+      "thread_topic": "Surprising QQQ green day",
+      "tickers": []
+    },
+    {
+      "date": "2026-03-09",
+      "type": "chat",
+      "file": "2026-03-09-byrna-ceo.md",
+      "summary": "Byrna revenue below consensus, new CEO's first earnings call will be important",
+      "thread_topic": "Byrna CEO change from Bryan Ganz to Conn Davies",
+      "tickers": ["BYRN"]
+    },
+    {
+      "title": "SW Weekly: Humanoid Robotic Opportunities",
+      "date": "2026-03-08",
+      "slug": "sw-weekly-humanoid-robotic-opportunites",
+      "url": "https://stephentobin.substack.com/p/sw-weekly-humanoid-robotic-opportunites",
+      "type": "post",
+      "post_type": "sw_weekly",
+      "audience": "only_paid",
+      "summary": "Weekly update plus deep-dive on humanoid robot bill of materials — identifying component plays ahead of Trade Alert #103.",
+      "tickers": ["EH", "APTV", "ASPI", "AISP", "GRA", "HSAI", "EOS", "DRO", "BYRN", "MDA", "AREC"],
+      "has_images": true
+    },
+    {
+      "title": "Reviewing Stocks",
+      "date": "2026-03-04",
+      "slug": "reviewing-stocks",
+      "url": "https://stephentobin.substack.com/p/reviewing-stocks",
+      "type": "post",
+      "post_type": "stock_review",
+      "audience": "only_paid",
+      "summary": "Portfolio review: thesis assessment for EH, APTV, AISP, ASPI. Identifies positions on watch for rotation.",
+      "tickers": ["EH", "APTV", "AISP", "ASPI", "SPCE", "EVTL", "PONY", "WRD"],
+      "has_images": true
+    },
+    {
+      "title": "Weekly Update: Q1 Still Flat and Long Term Targets Still On",
+      "date": "2026-03-01",
+      "slug": "weekly-update-q1-still-flat-and-long",
+      "url": "https://stephentobin.substack.com/p/weekly-update-q1-still-flat-and-long",
+      "type": "post",
+      "post_type": "weekly_update",
+      "audience": "only_paid",
+      "summary": "Feb ends -2.5% ($481 loss). Portfolio record 26 stocks. Pivoting to European stocks in March.",
+      "tickers": ["AISP", "AREC", "ASPI", "CMPS", "QBTS", "DRO", "EOS", "GRA", "ROOF", "PONY", "SOUN", "EVTL", "SPCE", "WRD"],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert #102: How Much Risk Can You Take?",
+      "date": "2026-02-24",
+      "slug": "trade-alert-102-how-much-risk-can",
+      "url": "https://stephentobin.substack.com/p/trade-alert-102-how-much-risk-can",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "only_paid",
+      "summary": "Buying NRX Pharmaceuticals (NRXP) — nano-cap psychedelic/ketamine drug play. Very high risk.",
+      "tickers": ["NRXP", "CMPS"],
+      "has_images": true
+    },
+    {
+      "title": "Weekly Update: A Credit Crisis in the making?",
+      "date": "2026-02-22",
+      "slug": "weekly-update-a-credit-crisis-in",
+      "url": "https://stephentobin.substack.com/p/weekly-update-a-credit-crisis-in",
+      "type": "post",
+      "post_type": "weekly_update",
+      "audience": "only_paid",
+      "summary": "Blue Owl (OWL) fund redemption halt analysis; Supreme Court tariff volatility. One purchase (CMPS), no sales.",
+      "tickers": ["OWL", "OBDC", "AISP", "ASPI", "AUR", "CMPS", "QBTS", "EH", "KDK", "MDA", "ROOF", "PONY", "TEM", "EVTL", "SPCE", "WRD"],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Trade #101",
+      "date": "2026-02-18",
+      "slug": "trade-alert-trade-101",
+      "url": "https://stephentobin.substack.com/p/trade-alert-trade-101",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "only_paid",
+      "summary": "Buying Compass Pathways (CMPS) — psilocybin therapy for TRD. $40 price target.",
+      "tickers": ["CMPS"],
+      "has_images": true
+    },
+    {
+      "title": "Weekly Review: Correlation and Causation",
+      "date": "2026-02-15",
+      "slug": "weekly-review-correlation-and-causation",
+      "url": "https://stephentobin.substack.com/p/weekly-review-correlation-and-causation",
+      "type": "post",
+      "post_type": "weekly_update",
+      "audience": "only_paid",
+      "summary": "Weekly review examining sector correlation vs causation. Portfolio -5.3% in Feb to date.",
+      "tickers": ["APTV", "GRA", "HSAI", "EVTL", "AUR", "KDK", "MTM", "DRO", "ROOF"],
+      "has_images": true
+    }
+  ]
+}

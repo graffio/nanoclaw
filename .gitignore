@@ -13,10 +13,15 @@ logs/
 groups/*
 !groups/main/
 !groups/global/
+!groups/telegram_main/
 groups/main/*
-groups/global/*
 !groups/main/CLAUDE.md
-!groups/global/CLAUDE.md
+# Global - track knowledge base, ignore CLAUDE.md (runtime)
+!groups/global/knowledge-base/
+groups/global/CLAUDE.md
+# Telegram main - track everything except credentials and logs
+groups/telegram_main/credentials/
+groups/telegram_main/logs/
 
 # Secrets
 *.keys.json

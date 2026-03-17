@@ -443,7 +443,23 @@ async function runQuery(
             const input = block.input || {};
             let summary = '';
             if (block.name === 'Bash' && input.command) {
-              summary = ` cmd=${String(input.command).slice(0, 150)}`;
+              const cmd = String(input.command);
+              // For heredoc scripts (python3/node/bash -c), show the first
+              // comment or meaningful line from the script body so logs are useful
+              const heredocMatch = cmd.match(/^(\w+\S*)\s.*<<'?EOF'?\n([\s\S]*)/);
+              if (heredocMatch) {
+                const interpreter = heredocMatch[1];
+                const body = heredocMatch[2];
+                const lines = body.split('\n').filter(l => l.trim());
+                // Collect all comment lines as description (they tell the story)
+                const commentLines = lines.filter(l => /^\s*#/.test(l)).map(l => l.trim().replace(/^#\s*/, ''));
+                const desc = commentLines.length > 0
+                  ? commentLines.join(' | ').slice(0, 200)
+                  : lines.slice(0, 2).join(' ').trim().slice(0, 200);
+                summary = ` cmd=${interpreter}: ${desc}`;
+              } else {
+                summary = ` cmd=${cmd.slice(0, 200)}`;
+              }
             } else if (block.name === 'WebSearch' && input.query) {
               summary = ` query="${input.query}"`;
             } else if (block.name === 'WebFetch' && input.url) {
@@ -458,7 +474,11 @@ async function runQuery(
               summary = ` pattern=${input.pattern}`;
             } else {
               const keys = Object.keys(input).slice(0, 3);
-              if (keys.length > 0) summary = ` ${keys.map(k => `${k}=${String(input[k]).slice(0, 50)}`).join(' ')}`;
+              if (keys.length > 0) summary = ` ${keys.map(k => {
+                const v = input[k];
+                const str = typeof v === 'object' ? JSON.stringify(v).slice(0, 80) : String(v).slice(0, 80);
+                return `${k}=${str}`;
+              }).join(' ')}`;
             }
             log(`[tool] ${block.name}${summary}`);
           }
