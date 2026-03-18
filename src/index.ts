@@ -4,12 +4,14 @@ import path from 'path';
 import {
   ASSISTANT_NAME,
   CREDENTIAL_PROXY_PORT,
+  HOMEEXCHANGE_PROXY_PORT,
   IDLE_TIMEOUT,
   POLL_INTERVAL,
   TIMEZONE,
   TRIGGER_PATTERN,
 } from './config.js';
 import { startCredentialProxy } from './credential-proxy.js';
+import { startHomeExchangeProxy } from './homeexchange-proxy.js';
 import './channels/index.js';
 import {
   getChannelFactory,
@@ -207,6 +209,28 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
   let hadError = false;
   let outputSentToUser = false;
 
+  // Heartbeat: if the agent is silently working with no output, let the user know.
+  // Stops as soon as the agent produces a result (turn complete).
+  const HEARTBEAT_INTERVAL_MS = 60_000;
+  let lastOutputTime = Date.now();
+  let heartbeatTimer: ReturnType<typeof setInterval> | null = setInterval(() => {
+    const silentSeconds = Math.round((Date.now() - lastOutputTime) / 1000);
+    channel.sendMessage(chatJid, `_Still working... (${silentSeconds}s)_`).catch(() => {});
+  }, HEARTBEAT_INTERVAL_MS);
+
+  const stopHeartbeat = () => {
+    if (heartbeatTimer) {
+      clearInterval(heartbeatTimer);
+      heartbeatTimer = null;
+    }
+    queue.setActivityCallback(chatJid, null);
+  };
+
+  // Reset heartbeat timer when the agent sends messages via IPC (send_message tool)
+  queue.setActivityCallback(chatJid, () => {
+    lastOutputTime = Date.now();
+  });
+
   const output = await runAgent(group, prompt, chatJid, async (result) => {
     // Streaming output callback — called for each agent result
     if (result.result) {
@@ -220,12 +244,16 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
       if (text) {
         await channel.sendMessage(chatJid, text);
         outputSentToUser = true;
+        // Agent produced visible output — stop heartbeat, turn is effectively done
+        stopHeartbeat();
       }
       // Only reset idle timer on actual results, not session-update markers (result: null)
       resetIdleTimer();
     }
 
     if (result.status === 'success') {
+      // Turn complete — stop heartbeat and enter idle wait
+      stopHeartbeat();
       queue.notifyIdle(chatJid);
     }
 
@@ -236,6 +264,7 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
 
   await channel.setTyping?.(chatJid, false);
   if (idleTimer) clearTimeout(idleTimer);
+  stopHeartbeat();
 
   if (output === 'error' || hadError) {
     // If we already sent output to the user, don't roll back the cursor —
@@ -388,6 +417,24 @@ async function startMessageLoop(): Promise<void> {
           }
 
           const isMainGroup = group.isMain === true;
+
+          // Handle /stop command: interrupt the agent's current turn
+          const stopMsg = groupMessages.find(
+            (m) =>
+              /^\/stop\b/i.test(m.content.trim()) &&
+              (m.is_from_me || (isMainGroup && isSenderAllowed(chatJid, m.sender, loadSenderAllowlist()))),
+          );
+          if (stopMsg) {
+            const stopped = queue.stopAgent(chatJid);
+            if (stopped) {
+              logger.info({ chatJid }, '/stop: interrupting agent turn');
+              await channel.sendMessage(chatJid, 'Stopping current task...');
+            } else {
+              await channel.sendMessage(chatJid, 'Nothing running to stop.');
+            }
+            continue;
+          }
+
           const needsTrigger = !isMainGroup && group.requiresTrigger !== false;
 
           // For non-main groups, only act on trigger messages.
@@ -477,10 +524,14 @@ async function main(): Promise<void> {
     PROXY_BIND_HOST,
   );
 
+  // Start outbound API proxy (blocks unapproved endpoints, injects credentials)
+  const outboundProxyServer = await startHomeExchangeProxy(HOMEEXCHANGE_PROXY_PORT, PROXY_BIND_HOST);
+
   // Graceful shutdown handlers
   const shutdown = async (signal: string) => {
     logger.info({ signal }, 'Shutdown signal received');
     proxyServer.close();
+    outboundProxyServer.close();
     await queue.shutdown(10000);
     for (const ch of channels) await ch.disconnect();
     process.exit(0);
@@ -563,6 +614,7 @@ async function main(): Promise<void> {
       if (!channel) throw new Error(`No channel for JID: ${jid}`);
       return channel.sendMessage(jid, text);
     },
+    onMessageSent: (jid) => queue.notifyActivity(jid),
     registeredGroups: () => registeredGroups,
     registerGroup,
     syncGroups: async (force: boolean) => {

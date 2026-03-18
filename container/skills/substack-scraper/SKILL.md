@@ -3,7 +3,7 @@
 This skill handles scraping, indexing, and derived data extraction from Stephen Tobin's Substack newsletter "Strategic Wave Trading".
 
 Knowledge base location: `/workspace/global/knowledge-base/stephen-tobin/`
-Credentials location: `/workspace/group/credentials/substack-cookies.json`
+Credentials location: `/workspace/global/knowledge-base/stephen-tobin/credentials/substack-cookies.json`
 
 ## CRITICAL RULES — apply to ALL scraping and data extraction tasks
 
@@ -213,10 +213,10 @@ When the user asks a question that might relate to knowledge base content:
 
 ## Scraping Substack
 
-Credentials are stored per-group in `/workspace/group/credentials/substack-cookies.json`. Use them with curl:
+Credentials are stored in the global knowledge base at `/workspace/global/knowledge-base/stephen-tobin/credentials/substack-cookies.json`. Use them with curl:
 
 ```bash
-COOKIES=$(cat /workspace/group/credentials/substack-cookies.json)
+COOKIES=$(cat /workspace/global/knowledge-base/stephen-tobin/credentials/substack-cookies.json)
 SID=$(echo "$COOKIES" | jq -r '.["substack.sid"]')
 LLI=$(echo "$COOKIES" | jq -r '.["substack.lli"]')
 COOKIE_HEADER="Cookie: substack.sid=$SID; substack.lli=$LLI"

@@ -11,6 +11,7 @@
 
 | Date | Status | Shares | Avg Cost | Price | Cost Basis | P&L | P&L % |
 |------|--------|--------|----------|-------|------------|-----|-------|
+| Feb 08 | Hold | 160 | $4.48 | $2.73 | $717 | -$280.00 | -39% |
 | Feb 15 | Hold | 160 | $4.48 | $2.43 | $717 | -$321.60 | -45% |
 | Feb 22 | Hold | 160 | $4.48 | $2.47 | $717 | -$321.60 | -45% |
 | Mar 01 | Under review | 160 | $4.48 | $2.73 | $717 | -$280.00 | -39% |
@@ -39,3 +40,6 @@ Q4 2025: $6.5M revenue (+102% YoY), 51.2% gross margin. Cash-flow positive in Q4
 ### 2026-03-01 — *Weekly Update: Q1 Still Flat*
 
 Filed S-8 registration for employee securities.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: High | Medium-term: Medium. Change of emphasis from border to overseas war, not profitable.

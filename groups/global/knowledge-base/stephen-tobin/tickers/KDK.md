@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Cost | Price | Cost Basis | P&L | P&L % |
 |------|--------|--------|----------|-------|------------|-----|-------|
+| Feb 08 | Pre-Buy | 33 | $9.49 | $9.15 | $313 | -$11.22 | -4% |
 | Feb 15 | Pre-Buy | 33 | $9.49 | $8.61 | $313 | -$29.04 | -9% |
 | Feb 22 | Pre-Buy | 33 | $9.49 | $8.61 | $313 | -$29.04 | -9% |
 | Mar 01 | Pre-Buy | 33 | $9.49 | $8.40 | $313 | -$35.97 | -11% |
@@ -27,3 +28,6 @@ US Marine Corps contract to develop autonomous military ground vehicles (ROGUE-F
 ### 2026-02-22 — *Weekly Update: A Credit Crisis?*
 
 Chet Gryczan appointed VP/MD of Defense (ex-Detroit Defense).
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Medium | Medium-term: Medium. Defence business may counteract commercial problems.

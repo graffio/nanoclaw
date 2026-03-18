@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Cost | Price | Cost Basis | P&L | P&L % |
 |------|--------|--------|----------|-------|------------|-----|-------|
+| Feb 08 | Pre-Buy | 75 | $4.36 | $3.08 | $327 | -$96.00 | -29% |
 | Feb 15 | Pre-Buy | 75 | $4.36 | $3.08 | $327 | -$96.00 | -29% |
 | Feb 22 | Pre-Buy | 75 | $4.36 | $3.02 | $327 | -$100.50 | -31% |
 | Mar 01 | Hold | 75 | $4.36 | $3.00 | $327 | -$102.00 | -31% |
@@ -27,3 +28,6 @@ ReElement Technologies expanding lab capabilities.
 ### 2026-03-08 — *SW Weekly: Humanoid Robotic Opportunities*
 
 EMCO subsidiary announced significant operational capacity expansion to support domestic demand for high-purity battery materials.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Medium | Medium-term: Low. Still developing, spin-off may be an issue.

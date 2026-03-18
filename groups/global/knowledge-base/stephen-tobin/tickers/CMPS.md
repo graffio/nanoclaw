@@ -25,3 +25,6 @@ Priced $150M public offering at $8.00/ADS.
 
 ### 2026-03-01 — Weekly Update
 Exercised over 35M warrants (originally issued Jan 2025) yielding ~$200M gross proceeds.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Low | Medium-term: Low. No immediate impact on cancer/depression drugs.

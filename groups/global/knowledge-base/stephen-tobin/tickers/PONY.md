@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Cost | Price | Cost Basis | P&L | P&L % |
 |------|--------|--------|----------|-------|------------|-----|-------|
+| Feb 08 | Hold | 50 | $13.64 | $14.31 | $682 | +$33.49 | +5% |
 | Feb 15 | Hold | 50 | $13.64 | $14.07 | $682 | -$1.51 | 0% |
 | Feb 22 | Hold | 50 | $13.64 | $13.61 | $682 | -$1.51 | 0% |
 | Mar 01 | Hold | 50 | $13.64 | $14.34 | $682 | +$34.99 | +5% |
@@ -35,3 +36,6 @@ Under review but 'no justification' for selling at current prices — market mov
 ### 2026-03-15 — *SW Weekly: Hong Kong and EV Opportunities*
 
 Achieved unit economics breakeven for Gen-7 Robotaxi in Shenzhen, following similar milestone in Guangzhou.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Medium | Medium-term: Low. Operations gearing up, prolonged oil crisis makes product more competitive.

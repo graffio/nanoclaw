@@ -13,6 +13,7 @@ import {
   CREDENTIAL_PROXY_PORT,
   DATA_DIR,
   GROUPS_DIR,
+  HOMEEXCHANGE_PROXY_PORT,
   IDLE_TIMEOUT,
   TIMEZONE,
 } from './config.js';
@@ -231,6 +232,12 @@ function buildContainerArgs(
     `ANTHROPIC_BASE_URL=http://${CONTAINER_HOST_GATEWAY}:${CREDENTIAL_PROXY_PORT}`,
   );
 
+  // HomeExchange read-only proxy (agents use this instead of calling HomeExchange directly)
+  args.push(
+    '-e',
+    `HOMEEXCHANGE_PROXY_URL=http://${CONTAINER_HOST_GATEWAY}:${HOMEEXCHANGE_PROXY_PORT}`,
+  );
+
   // Mirror the host's auth method with a placeholder value.
   // API key mode: SDK sends x-api-key, proxy replaces with real key.
   // OAuth mode:   SDK exchanges placeholder token for temp API key,
@@ -395,7 +402,10 @@ export async function runContainerAgent(
       for (const line of lines) {
         if (!line) continue;
         if (line.includes('[tool]')) {
-          logger.info({ group: group.name }, line.replace(/^\[agent-runner\]\s*/, ''));
+          logger.info(
+            { group: group.name },
+            line.replace(/^\[agent-runner\]\s*/, ''),
+          );
         } else {
           logger.debug({ container: group.folder }, line);
         }
@@ -560,11 +570,7 @@ export async function runContainerAgent(
         );
 
         if (toolLines.length > 0) {
-          logLines.push(
-            `=== Activity ===`,
-            ...toolLines,
-            ``,
-          );
+          logLines.push(`=== Activity ===`, ...toolLines, ``);
         }
       }
 

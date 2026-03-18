@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Buy | Latest | Invested | Open P&L | Return |
 |------|--------|--------|---------|--------|----------|----------|--------|
+| Feb 08 | Hold | 54 | $11.11 | $8.56 | $600 | -$137.70 | -23% |
 | Feb 15 | Hold | 54 | $11.11 | $7.46 | $600 | -$197.10 | -33% |
 | Feb 22 | Hold | 54 | $11.11 | $7.82 | $600 | -$177.66 | -30% |
 | Mar 01 | Hold | 54 | $11.11 | $8.60 | $600 | -$135.54 | -23% |
@@ -18,3 +19,6 @@
 
 ### 2026-03-01 — Weekly Update
 Record FY2025 revenue $169M (~100% growth). Q4 $55.1M (+59% YoY). Non-GAAP gross margin 60.5%. 2026 guidance $225-260M. New Bengaluru innovation hub. "Sales Assist" launched at MWC.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Medium | Medium-term: High. Growth dependent on consumer/restaurant/retail spending.

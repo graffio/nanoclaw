@@ -56,6 +56,7 @@ interface SDKUserMessage {
 
 const IPC_INPUT_DIR = '/workspace/ipc/input';
 const IPC_INPUT_CLOSE_SENTINEL = path.join(IPC_INPUT_DIR, '_close');
+const IPC_INPUT_STOP_SENTINEL = path.join(IPC_INPUT_DIR, '_stop');
 const IPC_POLL_MS = 500;
 
 /**
@@ -270,6 +271,17 @@ function shouldClose(): boolean {
 }
 
 /**
+ * Check for _stop sentinel (interrupt current turn, stay alive).
+ */
+function shouldStop(): boolean {
+  if (fs.existsSync(IPC_INPUT_STOP_SENTINEL)) {
+    try { fs.unlinkSync(IPC_INPUT_STOP_SENTINEL); } catch { /* ignore */ }
+    return true;
+  }
+  return false;
+}
+
+/**
  * Drain all pending IPC input messages.
  * Returns messages found, or empty array.
  */
@@ -336,13 +348,15 @@ async function runQuery(
   containerInput: ContainerInput,
   sdkEnv: Record<string, string | undefined>,
   resumeAt?: string,
-): Promise<{ newSessionId?: string; lastAssistantUuid?: string; closedDuringQuery: boolean }> {
+): Promise<{ newSessionId?: string; lastAssistantUuid?: string; closedDuringQuery: boolean; stoppedDuringQuery: boolean }> {
   const stream = new MessageStream();
   stream.push(prompt);
 
-  // Poll IPC for follow-up messages and _close sentinel during the query
+  // Poll IPC for follow-up messages, _close sentinel, and _stop sentinel during the query
   let ipcPolling = true;
   let closedDuringQuery = false;
+  let stoppedDuringQuery = false;
+  let queryGenerator: ReturnType<typeof query> | null = null;
   const pollIpcDuringQuery = () => {
     if (!ipcPolling) return;
     if (shouldClose()) {
@@ -350,6 +364,17 @@ async function runQuery(
       closedDuringQuery = true;
       stream.end();
       ipcPolling = false;
+      return;
+    }
+    if (shouldStop()) {
+      log('Stop sentinel detected during query, interrupting');
+      stoppedDuringQuery = true;
+      ipcPolling = false;
+      if (queryGenerator) {
+        queryGenerator.interrupt().catch(err =>
+          log(`interrupt() error: ${err instanceof Error ? err.message : String(err)}`)
+        );
+      }
       return;
     }
     const messages = drainIpcInput();
@@ -389,7 +414,7 @@ async function runQuery(
     log(`Additional directories: ${extraDirs.join(', ')}`);
   }
 
-  for await (const message of query({
+  queryGenerator = query({
     prompt: stream,
     options: {
       cwd: '/workspace/group',
@@ -428,7 +453,9 @@ async function runQuery(
         PreCompact: [{ hooks: [createPreCompactHook(containerInput.assistantName)] }],
       },
     }
-  })) {
+  });
+
+  for await (const message of queryGenerator) {
     messageCount++;
     const msgType = message.type === 'system' ? `system/${(message as { subtype?: string }).subtype}` : message.type;
     log(`[msg #${messageCount}] type=${msgType}`);
@@ -509,8 +536,8 @@ async function runQuery(
   }
 
   ipcPolling = false;
-  log(`Query done. Messages: ${messageCount}, results: ${resultCount}, lastAssistantUuid: ${lastAssistantUuid || 'none'}, closedDuringQuery: ${closedDuringQuery}`);
-  return { newSessionId, lastAssistantUuid, closedDuringQuery };
+  log(`Query done. Messages: ${messageCount}, results: ${resultCount}, lastAssistantUuid: ${lastAssistantUuid || 'none'}, closedDuringQuery: ${closedDuringQuery}, stoppedDuringQuery: ${stoppedDuringQuery}`);
+  return { newSessionId, lastAssistantUuid, closedDuringQuery, stoppedDuringQuery };
 }
 
 async function main(): Promise<void> {
@@ -540,8 +567,9 @@ async function main(): Promise<void> {
   let sessionId = containerInput.sessionId;
   fs.mkdirSync(IPC_INPUT_DIR, { recursive: true });
 
-  // Clean up stale _close sentinel from previous container runs
+  // Clean up stale sentinels from previous container runs
   try { fs.unlinkSync(IPC_INPUT_CLOSE_SENTINEL); } catch { /* ignore */ }
+  try { fs.unlinkSync(IPC_INPUT_STOP_SENTINEL); } catch { /* ignore */ }
 
   // Build initial prompt (drain any pending IPC messages too)
   let prompt = containerInput.prompt;
@@ -576,8 +604,15 @@ async function main(): Promise<void> {
         break;
       }
 
-      // Emit session update so host can track it
-      writeOutput({ status: 'success', result: null, newSessionId: sessionId });
+      // If _stop was consumed, the current turn was interrupted.
+      // Stay alive and wait for the next message (session preserved).
+      if (queryResult.stoppedDuringQuery) {
+        log('Stop: current turn interrupted, waiting for next message');
+        writeOutput({ status: 'success', result: null, newSessionId: sessionId });
+      } else {
+        // Emit session update so host can track it
+        writeOutput({ status: 'success', result: null, newSessionId: sessionId });
+      }
 
       log('Query ended, waiting for next IPC message...');
 

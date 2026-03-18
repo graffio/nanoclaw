@@ -11,6 +11,7 @@ All prices in CAD.
 
 | Date | Status | Shares | Avg Cost | Price | Cost Basis | P&L | P&L % |
 |------|--------|--------|----------|-------|------------|-----|-------|
+| Feb 08 | Pre-Buy | 1250 | $0.34 | $0.20 | $425 | -$175.00 | -41% |
 | Feb 15 | Pre-Buy | 1250 | $0.34 | $0.20 | $425 | -$175.00 | -41% |
 | Feb 22 | Pre-Buy | 1250 | $0.34 | $0.20 | $425 | -$175.00 | -41% |
 | Mar 01 | Pre-Buy | 1250 | $0.34 | $0.20 | $425 | -$175.00 | -41% |
@@ -37,3 +38,6 @@ Stephen still likes ROOF, wants to add but waiting for update — risk of missin
 ### 2026-03-15 — *SW Weekly: Hong Kong and EV Opportunities*
 
 Operational update: technical problems at first site preventing nameplate capacity. Hopes for resolution soon.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: High | Medium-term: Medium. Initial commercial stages need funding, dependent on construction.

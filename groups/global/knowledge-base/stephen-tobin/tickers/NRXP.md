@@ -31,3 +31,6 @@ High-risk nano-cap bet. Bought as companion to CMPS thesis in psychedelic drug t
 ### 2026-03-04 — *Reviewing Stocks*
 
 Mentioned as one of the 'nano caps' bought as high-risk bets at half-size. Will hold until thesis breaks.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Low | Medium-term: Low. No immediate impact.

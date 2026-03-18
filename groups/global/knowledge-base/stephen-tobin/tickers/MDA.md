@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Buy | Latest | Invested | Open P&L | Return |
 |------|--------|--------|---------|--------|----------|----------|--------|
+| Feb 08 | Hold | 28 | $25.36 | $34.50 | $710 | +$255.92 | +36% |
 | Feb 15 | Hold | 28 | $25.36 | $34.90 | $710 | +$267.12 | +38% |
 | Feb 22 | Hold | 28 | $25.36 | $39.58 | $710 | +$398.16 | +56% |
 | Mar 01 | Hold | 28 | $25.36 | $39.55 | $710 | +$397.32 | +56% |
@@ -29,3 +30,6 @@ Ticker changed to TSE:MDA after US launch. ~7% dilution, moderate for multi-bill
 
 ### 2026-03-15 — SW Weekly
 Launched on US stock market with 7% dilution. Stock held up well. Could benefit from increased US investor exposure.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Low | Medium-term: Low. Defence/space unlikely affected.

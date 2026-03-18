@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Cost | Price | Cost Basis | P&L | P&L % |
 |------|--------|--------|----------|-------|------------|-----|-------|
+| Feb 08 | Hold | 125 | $4.84 | $4.53 | $605 | -$38.75 | -6% |
 | Feb 15 | Hold | 125 | $4.84 | $4.39 | $605 | -$56.25 | -9% |
 | Feb 22 | Hold | 125 | $4.84 | $4.40 | $605 | -$55.00 | -9% |
 | Mar 01 | Hold | 125 | $4.84 | $4.24 | $605 | -$75.00 | -12% |
@@ -31,3 +32,6 @@ Listed as 'pressing concern' given distance from profitability and risk-off envi
 ### 2026-03-08 — *SW Weekly: Humanoid Robotic Opportunities*
 
 Responding to Archer Aviation patent infringement lawsuit (filed in E.D. Texas). Dismissed claims as without merit.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: High | Medium-term: Medium. Needs funding and no operations near term.

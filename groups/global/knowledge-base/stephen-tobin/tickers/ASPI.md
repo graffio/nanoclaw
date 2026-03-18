@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Buy | Latest | Invested | Open P&L | Return |
 |------|--------|--------|---------|--------|----------|----------|--------|
+| Feb 08 | Hold | 125 | $7.85 | $5.82 | $981 | -$253.48 | -26% |
 | Feb 15 | Hold | 125 | $7.85 | $5.22 | $981 | -$328.48 | -33% |
 | Feb 22 | Hold | 125 | $7.85 | $5.20 | $981 | -$330.98 | -34% |
 | Mar 01 | Under review | 125 | $7.85 | $5.34 | $981 | -$313.48 | -32% |
@@ -26,3 +27,6 @@ QLE signed MoU with major US nuclear energy company. Dr. Nate Salpeter appointed
 
 ### 2026-03-01 — Weekly Update
 QLE signed Pre-Implementation Services contract with Necsa (South African Nuclear Energy Corp).
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Medium | Medium-term: Low. Requires funding via HALEU spin-off.

@@ -1,6 +1,8 @@
 date,total_value,cash,shares_value,weekly_change_pct,weekly_change_usd,holdings_count,irr,monthly_deposit,profit_from_trading,sp500_comparison
+2026-02-08,,,,,,,,,,"522% total return from inception vs S&P 48%. 24 holdings pre-CMPS/NRXP."
 2026-02-15,17974,4624,13350,-5.39,,26,,250,-1023,
 2026-02-22,18223,4022,14201,-4.08,,26,,250,-774,outperformed (portfolio +3.4% vs S&P +1.1% 7D)
 2026-03-01,18516,3428,15088,-2.53,,26,,250,-481,
 2026-03-08,18398,3678,14720,-1.96,,26,105.9,250,-368,marginally better (portfolio -0.7% vs S&P -1.5% 7D)
-2026-03-15,,,,,,26,105.9,,,outperformed (portfolio -0.7% vs S&P -1.5% 7D). Note: 14309 is total portfolio value from dashboard (includes cash). No account breakdown image available.
+2026-03-15,,,,,,26,105.9,,,"14309 total portfolio value from dashboard. No account breakdown."
+2026-03-18,,,,,-3.5 MTD,,,,,"Portfolio Review: oil risk assessment. Reviewing all holdings for high-oil-price impact."

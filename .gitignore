@@ -26,6 +26,9 @@ groups/telegram_main/logs/
 # Secrets
 *.keys.json
 .env
+**/credentials.json
+**/bearer.json
+**/credentials/
 
 # Temp files
 .tmp-*

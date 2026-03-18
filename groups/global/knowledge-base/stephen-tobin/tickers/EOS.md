@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Buy | Latest | Invested | Open P&L | Return |
 |------|--------|--------|---------|--------|----------|----------|--------|
+| Feb 08 | Concern | 195 | A$5.30 | A$6.00 | A$1033 | +$136.85 | +13% |
 | Feb 15 | Hold | 195 | A$5.30 | A$5.86 | A$1033 | +$109.55 | +11% |
 | Feb 22 | Hold | 195 | A$5.30 | A$7.32 | A$1033 | +$394.25 | +38% |
 | Mar 01 | Hold | 195 | A$5.30 | A$8.98 | A$1033 | +$717.95 | +69% |
@@ -29,3 +30,6 @@ $3M US order + $42M Middle East order. Both for counter-drone integration by tie
 
 ### 2026-03-15 — SW Weekly
 ~$50M contracts caused price jump. Closer to signing additional HELW contracts.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Low | Medium-term: Low. No immediate oil impact, geopolitical concerns boost demand.

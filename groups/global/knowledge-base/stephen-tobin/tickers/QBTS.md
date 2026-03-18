@@ -23,3 +23,6 @@ Record FY2025 revenue $24.6M (+179% YoY). Gross profit +265%. Q4 bookings $13.4M
 
 ### 2026-03-11 — Chat
 Stephen met Raytheon and Anduril engineers. QBTS results "apparently very good" but still time before integrated into live systems. Probably NOT in golden dome defence system.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Medium | Medium-term: Medium. Long way from profitability, high beta.

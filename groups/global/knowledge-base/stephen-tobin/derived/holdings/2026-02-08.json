@@ -1,0 +1,32 @@
+{
+  "date": "2026-02-08",
+  "source": "weekly-history-pointing-higher",
+  "total_value": null,
+  "cash": null,
+  "note": "Feb view. Pre-CMPS, pre-NRXP. 24 holdings. Portfolio return 522% from inception vs S&P 48%.",
+  "holdings": [
+    {"status": "Concern", "ticker": "EH", "invested": 408.28, "equity_pct": 2.18, "open_profit": -86.44, "total_return_pct": -21, "positions": 2, "7d_return_pct": -4, "shares": 27, "avg_buy": 15.12, "latest": 11.92, "fair_value": 60},
+    {"status": "Hold", "ticker": "APTV", "invested": 625.66, "equity_pct": 3.34, "open_profit": 198.14, "total_return_pct": 32, "positions": 2, "7d_return_pct": 6, "shares": 10, "avg_buy": 62.57, "latest": 82.38, "fair_value": 128},
+    {"status": "Hold", "ticker": "ASPI", "invested": 980.975, "equity_pct": 5.23, "open_profit": -253.475, "total_return_pct": -26, "positions": 3, "7d_return_pct": -4, "shares": 125, "avg_buy": 7.85, "latest": 5.82, "fair_value": 25},
+    {"status": "Hold", "ticker": "WRD", "invested": 646.97, "equity_pct": 3.45, "open_profit": -53.41, "total_return_pct": -8, "positions": 3, "7d_return_pct": 1, "shares": 76, "avg_buy": 8.51, "latest": 7.81, "fair_value": 20},
+    {"status": "Hold", "ticker": "PONY", "invested": 682.01, "equity_pct": 3.64, "open_profit": 33.49, "total_return_pct": 5, "positions": 3, "7d_return_pct": 7, "shares": 50, "avg_buy": 13.64, "latest": 14.31, "fair_value": 40},
+    {"status": "Hold", "ticker": "AISP", "invested": 716.8, "equity_pct": 3.82, "open_profit": -280, "total_return_pct": -39, "positions": 2, "7d_return_pct": -9, "shares": 160, "avg_buy": 4.48, "latest": 2.73, "fair_value": 12},
+    {"status": "Pre-Buy", "ticker": "TSE:GRA", "invested": 696.6, "equity_pct": 2.71, "open_profit": -56.7, "total_return_pct": -8, "positions": 1, "7d_return_pct": -5, "shares": 270, "avg_buy": 2.58, "latest": 2.37, "fair_value": 7.50, "currency": "CAD"},
+    {"status": "Hold", "ticker": "HSAI", "invested": 1067.59, "equity_pct": 5.69, "open_profit": 310.41, "total_return_pct": 29, "positions": 3, "7d_return_pct": 13, "shares": 53, "avg_buy": 20.14, "latest": 26.00, "fair_value": 50},
+    {"status": "Hold", "ticker": "SPCE", "invested": 513.6, "equity_pct": 2.74, "open_profit": -108.8, "total_return_pct": -21, "positions": 1, "7d_return_pct": -6, "shares": 160, "avg_buy": 3.21, "latest": 2.53, "fair_value": 6},
+    {"status": "Hold", "ticker": "EVTL", "invested": 605, "equity_pct": 3.23, "open_profit": -38.75, "total_return_pct": -6, "positions": 1, "7d_return_pct": -4, "shares": 125, "avg_buy": 4.84, "latest": 4.53, "fair_value": 17},
+    {"status": "Pre-Buy", "ticker": "CVE:ROOF", "invested": 425, "equity_pct": 1.63, "open_profit": -175, "total_return_pct": -41, "positions": 1, "7d_return_pct": -13, "shares": 1250, "avg_buy": 0.34, "latest": 0.20, "fair_value": 3, "currency": "CAD"},
+    {"status": "Concern", "ticker": "ASX:EOS", "invested": 1033.15, "equity_pct": 3.60, "open_profit": 136.85, "total_return_pct": 13, "positions": 2, "7d_return_pct": -26, "shares": 195, "avg_buy": 5.30, "latest": 6.00, "fair_value": 30, "currency": "AUD"},
+    {"status": "Hold", "ticker": "BYRN", "invested": 738.64, "equity_pct": 3.94, "open_profit": -92.28, "total_return_pct": -12, "positions": 2, "7d_return_pct": 7, "shares": 44, "avg_buy": 16.79, "latest": 14.69, "fair_value": 45},
+    {"status": "Pre-Buy", "ticker": "ABAT", "invested": 501.6, "equity_pct": 2.68, "open_profit": -1.2, "total_return_pct": 0, "positions": 1, "7d_return_pct": 7, "shares": 120, "avg_buy": 4.18, "latest": 4.17, "fair_value": 17},
+    {"status": "Hold", "ticker": "AUR", "invested": 495, "equity_pct": 2.64, "open_profit": -24.2, "total_return_pct": -5, "positions": 1, "7d_return_pct": 5, "shares": 110, "avg_buy": 4.50, "latest": 4.28, "fair_value": 16},
+    {"status": "Hold", "ticker": "QRHC", "invested": 263.75, "equity_pct": 1.41, "open_profit": -10, "total_return_pct": -4, "positions": 1, "7d_return_pct": -7, "shares": 125, "avg_buy": 2.11, "latest": 2.03, "fair_value": 6.5},
+    {"status": "Hold", "ticker": "MDA", "invested": 710.08, "equity_pct": 2.74, "open_profit": 255.92, "total_return_pct": 36, "positions": 1, "7d_return_pct": -9, "shares": 28, "avg_buy": 25.36, "latest": 34.50, "fair_value": 55, "currency": "CAD"},
+    {"status": "Hold", "ticker": "ASX:DRO", "invested": 1275.50, "equity_pct": 4.64, "open_profit": -43, "total_return_pct": -3, "positions": 2, "7d_return_pct": -16, "shares": 425, "avg_buy": 3.00, "latest": 2.90, "fair_value": 10, "currency": "AUD"},
+    {"status": "Hold", "ticker": "ASX:MTM", "invested": 760.00, "equity_pct": 2.72, "open_profit": -96, "total_return_pct": -13, "positions": 1, "7d_return_pct": 2, "shares": 800, "avg_buy": 0.95, "latest": 0.83, "fair_value": 5, "currency": "AUD"},
+    {"status": "Hold", "ticker": "SOUN", "invested": 599.94, "equity_pct": 3.20, "open_profit": -137.7, "total_return_pct": -23, "positions": 1, "7d_return_pct": 2, "shares": 54, "avg_buy": 11.11, "latest": 8.56, "fair_value": 25},
+    {"status": "Pre-Buy", "ticker": "KDK", "invested": 313.17, "equity_pct": 1.67, "open_profit": -11.22, "total_return_pct": -4, "positions": 1, "7d_return_pct": -1, "shares": 33, "avg_buy": 9.49, "latest": 9.15, "fair_value": 19},
+    {"status": "Pre-Buy", "ticker": "AREC", "invested": 327, "equity_pct": 1.74, "open_profit": -96, "total_return_pct": -29, "positions": 1, "7d_return_pct": 5, "shares": 75, "avg_buy": 4.36, "latest": 3.08, "fair_value": 10},
+    {"status": "Hold", "ticker": "TEM", "invested": 613.26, "equity_pct": 3.27, "open_profit": -119.07, "total_return_pct": -19, "positions": 1, "7d_return_pct": -6, "shares": 9, "avg_buy": 68.14, "latest": 54.91, "fair_value": 170}
+  ]
+}

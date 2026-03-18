@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Buy | Latest | Invested | Open P&L | Return |
 |------|--------|--------|---------|--------|----------|----------|--------|
+| Feb 08 | Concern | 27 | $15.12 | $11.92 | $408 | -$86.44 | -21% |
 | Feb 15 | Concern | 27 | $15.12 | $11.58 | $408 | -$95.62 | -23% |
 | Feb 22 | Hold | 27 | $15.12 | $12.20 | $408 | -$78.88 | -19% |
 | Mar 01 | Under review | 27 | $15.12 | $12.27 | $408 | -$76.99 | -19% |
@@ -29,3 +30,6 @@ Added to position after Q4 beat. Record Q4 revenue up 48.4% YoY. First GAAP prof
 
 ### 2026-03-15 — SW Weekly
 Shares rose 5.3% premarket post-Q4. Revenue and EPS beat but 2026 guidance RMB 600M below some analyst expectations of RMB 887.7M.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Medium | Medium-term: High. Operations should lift shares short term but longer term dependent on consumer spending.

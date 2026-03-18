@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Cost | Price | Cost Basis | P&L | P&L % |
 |------|--------|--------|----------|-------|------------|-----|-------|
+| Feb 08 | Hold | 160 | $3.21 | $2.53 | $514 | -$108.80 | -21% |
 | Feb 15 | Hold | 160 | $3.21 | $2.56 | $514 | -$104.00 | -20% |
 | Feb 22 | Hold | 160 | $3.21 | $2.46 | $514 | -$120.00 | -23% |
 | Mar 01 | Hold | 160 | $3.21 | $2.55 | $514 | -$105.60 | -21% |
@@ -27,3 +28,6 @@ Listed as 'pressing concern' given distance from profitability.
 ### 2026-03-15 — *SW Weekly: Hong Kong and EV Opportunities*
 
 Next week: plans to sell one space stock and buy another with more immediate growth catalysts. SPCE likely the one being exited.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: High | Medium-term: High. Requires funding, dependent on discretionary spending.

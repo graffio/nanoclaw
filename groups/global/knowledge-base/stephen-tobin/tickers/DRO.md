@@ -9,6 +9,7 @@
 
 | Date | Status | Shares | Avg Buy | Latest | Invested | Open P&L | Return |
 |------|--------|--------|---------|--------|----------|----------|--------|
+| Feb 08 | Hold | 425 | A$3.00 | A$2.90 | A$1276 | -$43.00 | -3% |
 | Feb 15 | Hold | 425 | A$3.00 | A$3.03 | A$1276 | +$12.25 | +1% |
 | Feb 22 | Hold | 425 | A$3.00 | A$3.22 | A$1276 | +$93.00 | +7% |
 | Mar 01 | Hold | 425 | A$3.00 | A$3.62 | A$1276 | +$263.00 | +21% |
@@ -23,3 +24,6 @@ Record FY2025 revenue A$216.5M (+276%). Underlying PBT A$33.3M (15% margin). 202
 
 ### 2026-03-08 — SW Weekly
 FY2025 profit after tax A$3.5M (+367%). SaaS revenue +475%. Targeting 600 staff by end 2026.
+
+### 2026-03-18 — Portfolio Review: Oil Risk
+Short-term: Low | Medium-term: Low. No immediate oil impact, geopolitical concerns boost demand.
