@@ -5,8 +5,8 @@
  * Input protocol:
  *   Stdin: Full ContainerInput JSON (read until EOF, like before)
  *   IPC:   Follow-up messages written as JSON files to /workspace/ipc/input/
- *          Files: {type:"message", text:"..."}.json — polled and consumed
- *          Sentinel: /workspace/ipc/input/_close — signals session end
+ *          Files: {type:"message", text:"..."}.json -- polled and consumed
+ *          Sentinel: /workspace/ipc/input/_close -- signals session end
  *
  * Stdout protocol:
  *   Each result is wrapped in OUTPUT_START_MARKER / OUTPUT_END_MARKER pairs.
@@ -16,43 +16,8 @@
 
 import fs from 'fs';
 import path from 'path';
-import { query, HookCallback, PreCompactHookInput } from '@anthropic-ai/claude-agent-sdk';
+import { query } from '@anthropic-ai/claude-agent-sdk';
 import { fileURLToPath } from 'url';
-
-interface ContainerInput {
-  prompt: string;
-  sessionId?: string;
-  groupFolder: string;
-  chatJid: string;
-  isMain: boolean;
-  isScheduledTask?: boolean;
-  assistantName?: string;
-}
-
-interface ContainerOutput {
-  status: 'success' | 'error';
-  result: string | null;
-  newSessionId?: string;
-  error?: string;
-}
-
-interface SessionEntry {
-  sessionId: string;
-  fullPath: string;
-  summary: string;
-  firstPrompt: string;
-}
-
-interface SessionsIndex {
-  entries: SessionEntry[];
-}
-
-interface SDKUserMessage {
-  type: 'user';
-  message: { role: 'user'; content: string };
-  parent_tool_use_id: null;
-  session_id: string;
-}
 
 const IPC_INPUT_DIR = '/workspace/ipc/input';
 const IPC_INPUT_CLOSE_SENTINEL = path.join(IPC_INPUT_DIR, '_close');
@@ -64,11 +29,11 @@ const IPC_POLL_MS = 500;
  * Keeps the iterable alive until end() is called, preventing isSingleUserTurn.
  */
 class MessageStream {
-  private queue: SDKUserMessage[] = [];
-  private waiting: (() => void) | null = null;
-  private done = false;
+  queue = [];
+  waiting = null;
+  done = false;
 
-  push(text: string): void {
+  push(text) {
     this.queue.push({
       type: 'user',
       message: { role: 'user', content: text },
@@ -78,24 +43,24 @@ class MessageStream {
     this.waiting?.();
   }
 
-  end(): void {
+  end() {
     this.done = true;
     this.waiting?.();
   }
 
-  async *[Symbol.asyncIterator](): AsyncGenerator<SDKUserMessage> {
+  async *[Symbol.asyncIterator]() {
     while (true) {
       while (this.queue.length > 0) {
-        yield this.queue.shift()!;
+        yield this.queue.shift();
       }
       if (this.done) return;
-      await new Promise<void>(r => { this.waiting = r; });
+      await new Promise(r => { this.waiting = r; });
       this.waiting = null;
     }
   }
 }
 
-async function readStdin(): Promise<string> {
+async function readStdin() {
   return new Promise((resolve, reject) => {
     let data = '';
     process.stdin.setEncoding('utf8');
@@ -108,17 +73,17 @@ async function readStdin(): Promise<string> {
 const OUTPUT_START_MARKER = '---NANOCLAW_OUTPUT_START---';
 const OUTPUT_END_MARKER = '---NANOCLAW_OUTPUT_END---';
 
-function writeOutput(output: ContainerOutput): void {
+function writeOutput(output) {
   console.log(OUTPUT_START_MARKER);
   console.log(JSON.stringify(output));
   console.log(OUTPUT_END_MARKER);
 }
 
-function log(message: string): void {
+function log(message) {
   console.error(`[agent-runner] ${message}`);
 }
 
-function getSessionSummary(sessionId: string, transcriptPath: string): string | null {
+function getSessionSummary(sessionId, transcriptPath) {
   const projectDir = path.dirname(transcriptPath);
   const indexPath = path.join(projectDir, 'sessions-index.json');
 
@@ -128,7 +93,7 @@ function getSessionSummary(sessionId: string, transcriptPath: string): string | 
   }
 
   try {
-    const index: SessionsIndex = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+    const index = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
     const entry = index.entries.find(e => e.sessionId === sessionId);
     if (entry?.summary) {
       return entry.summary;
@@ -143,11 +108,10 @@ function getSessionSummary(sessionId: string, transcriptPath: string): string | 
 /**
  * Archive the full transcript to conversations/ before compaction.
  */
-function createPreCompactHook(assistantName?: string): HookCallback {
+function createPreCompactHook(assistantName) {
   return async (input, _toolUseId, _context) => {
-    const preCompact = input as PreCompactHookInput;
-    const transcriptPath = preCompact.transcript_path;
-    const sessionId = preCompact.session_id;
+    const transcriptPath = input.transcript_path;
+    const sessionId = input.session_id;
 
     if (!transcriptPath || !fs.existsSync(transcriptPath)) {
       log('No transcript found for archiving');
@@ -185,7 +149,7 @@ function createPreCompactHook(assistantName?: string): HookCallback {
   };
 }
 
-function sanitizeFilename(summary: string): string {
+function sanitizeFilename(summary) {
   return summary
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
@@ -193,18 +157,13 @@ function sanitizeFilename(summary: string): string {
     .slice(0, 50);
 }
 
-function generateFallbackName(): string {
+function generateFallbackName() {
   const time = new Date();
   return `conversation-${time.getHours().toString().padStart(2, '0')}${time.getMinutes().toString().padStart(2, '0')}`;
 }
 
-interface ParsedMessage {
-  role: 'user' | 'assistant';
-  content: string;
-}
-
-function parseTranscript(content: string): ParsedMessage[] {
-  const messages: ParsedMessage[] = [];
+function parseTranscript(content) {
+  const messages = [];
 
   for (const line of content.split('\n')) {
     if (!line.trim()) continue;
@@ -213,12 +172,12 @@ function parseTranscript(content: string): ParsedMessage[] {
       if (entry.type === 'user' && entry.message?.content) {
         const text = typeof entry.message.content === 'string'
           ? entry.message.content
-          : entry.message.content.map((c: { text?: string }) => c.text || '').join('');
+          : entry.message.content.map(c => c.text || '').join('');
         if (text) messages.push({ role: 'user', content: text });
       } else if (entry.type === 'assistant' && entry.message?.content) {
         const textParts = entry.message.content
-          .filter((c: { type: string }) => c.type === 'text')
-          .map((c: { text: string }) => c.text);
+          .filter(c => c.type === 'text')
+          .map(c => c.text);
         const text = textParts.join('');
         if (text) messages.push({ role: 'assistant', content: text });
       }
@@ -229,9 +188,9 @@ function parseTranscript(content: string): ParsedMessage[] {
   return messages;
 }
 
-function formatTranscriptMarkdown(messages: ParsedMessage[], title?: string | null, assistantName?: string): string {
+function formatTranscriptMarkdown(messages, title, assistantName) {
   const now = new Date();
-  const formatDateTime = (d: Date) => d.toLocaleString('en-US', {
+  const formatDateTime = (d) => d.toLocaleString('en-US', {
     month: 'short',
     day: 'numeric',
     hour: 'numeric',
@@ -239,7 +198,7 @@ function formatTranscriptMarkdown(messages: ParsedMessage[], title?: string | nu
     hour12: true
   });
 
-  const lines: string[] = [];
+  const lines = [];
   lines.push(`# ${title || 'Conversation'}`);
   lines.push('');
   lines.push(`Archived: ${formatDateTime(now)}`);
@@ -262,7 +221,7 @@ function formatTranscriptMarkdown(messages: ParsedMessage[], title?: string | nu
 /**
  * Check for _close sentinel.
  */
-function shouldClose(): boolean {
+function shouldClose() {
   if (fs.existsSync(IPC_INPUT_CLOSE_SENTINEL)) {
     try { fs.unlinkSync(IPC_INPUT_CLOSE_SENTINEL); } catch { /* ignore */ }
     return true;
@@ -273,7 +232,7 @@ function shouldClose(): boolean {
 /**
  * Check for _stop sentinel (interrupt current turn, stay alive).
  */
-function shouldStop(): boolean {
+function shouldStop() {
   if (fs.existsSync(IPC_INPUT_STOP_SENTINEL)) {
     try { fs.unlinkSync(IPC_INPUT_STOP_SENTINEL); } catch { /* ignore */ }
     return true;
@@ -285,14 +244,14 @@ function shouldStop(): boolean {
  * Drain all pending IPC input messages.
  * Returns messages found, or empty array.
  */
-function drainIpcInput(): string[] {
+function drainIpcInput() {
   try {
     fs.mkdirSync(IPC_INPUT_DIR, { recursive: true });
     const files = fs.readdirSync(IPC_INPUT_DIR)
       .filter(f => f.endsWith('.json'))
       .sort();
 
-    const messages: string[] = [];
+    const messages = [];
     for (const file of files) {
       const filePath = path.join(IPC_INPUT_DIR, file);
       try {
@@ -317,7 +276,7 @@ function drainIpcInput(): string[] {
  * Wait for a new IPC message or _close sentinel.
  * Returns the messages as a single string, or null if _close.
  */
-function waitForIpcMessage(): Promise<string | null> {
+function waitForIpcMessage() {
   return new Promise((resolve) => {
     const poll = () => {
       if (shouldClose()) {
@@ -342,13 +301,13 @@ function waitForIpcMessage(): Promise<string | null> {
  * Also pipes IPC messages into the stream during the query.
  */
 async function runQuery(
-  prompt: string,
-  sessionId: string | undefined,
-  mcpServerPath: string,
-  containerInput: ContainerInput,
-  sdkEnv: Record<string, string | undefined>,
-  resumeAt?: string,
-): Promise<{ newSessionId?: string; lastAssistantUuid?: string; closedDuringQuery: boolean; stoppedDuringQuery: boolean }> {
+  prompt,
+  sessionId,
+  mcpServerPath,
+  containerInput,
+  sdkEnv,
+  resumeAt,
+) {
   const stream = new MessageStream();
   stream.push(prompt);
 
@@ -356,7 +315,7 @@ async function runQuery(
   let ipcPolling = true;
   let closedDuringQuery = false;
   let stoppedDuringQuery = false;
-  let queryGenerator: ReturnType<typeof query> | null = null;
+  let queryGenerator = null;
   const pollIpcDuringQuery = () => {
     if (!ipcPolling) return;
     if (shouldClose()) {
@@ -386,21 +345,21 @@ async function runQuery(
   };
   setTimeout(pollIpcDuringQuery, IPC_POLL_MS);
 
-  let newSessionId: string | undefined;
-  let lastAssistantUuid: string | undefined;
+  let newSessionId;
+  let lastAssistantUuid;
   let messageCount = 0;
   let resultCount = 0;
 
   // Load global CLAUDE.md as additional system context (shared across all groups)
   const globalClaudeMdPath = '/workspace/global/CLAUDE.md';
-  let globalClaudeMd: string | undefined;
+  let globalClaudeMd;
   if (!containerInput.isMain && fs.existsSync(globalClaudeMdPath)) {
     globalClaudeMd = fs.readFileSync(globalClaudeMdPath, 'utf-8');
   }
 
   // Discover additional directories mounted at /workspace/extra/*
   // These are passed to the SDK so their CLAUDE.md files are loaded automatically
-  const extraDirs: string[] = [];
+  const extraDirs = [];
   const extraBase = '/workspace/extra';
   if (fs.existsSync(extraBase)) {
     for (const entry of fs.readdirSync(extraBase)) {
@@ -422,7 +381,7 @@ async function runQuery(
       resume: sessionId,
       resumeSessionAt: resumeAt,
       systemPrompt: globalClaudeMd
-        ? { type: 'preset' as const, preset: 'claude_code' as const, append: globalClaudeMd }
+        ? { type: 'preset', preset: 'claude_code', append: globalClaudeMd }
         : undefined,
       allowedTools: [
         'Bash',
@@ -457,28 +416,26 @@ async function runQuery(
 
   for await (const message of queryGenerator) {
     messageCount++;
-    const msgType = message.type === 'system' ? `system/${(message as { subtype?: string }).subtype}` : message.type;
+    const msgType = message.type === 'system' ? `system/${message.subtype}` : message.type;
     log(`[msg #${messageCount}] type=${msgType}`);
 
     if (message.type === 'assistant' && 'uuid' in message) {
-      lastAssistantUuid = (message as { uuid: string }).uuid;
+      lastAssistantUuid = message.uuid;
       // Log tool uses for monitoring
-      const assistantMsg = message as { message?: { content?: Array<{ type: string; name?: string; input?: Record<string, unknown> }> } };
-      if (assistantMsg.message?.content) {
-        for (const block of assistantMsg.message.content) {
+      const content = message.message?.content;
+      if (content) {
+        for (const block of content) {
           if (block.type === 'tool_use' && block.name) {
             const input = block.input || {};
             let summary = '';
             if (block.name === 'Bash' && input.command) {
               const cmd = String(input.command);
-              // For heredoc scripts (python3/node/bash -c), show the first
-              // comment or meaningful line from the script body so logs are useful
+              // For heredoc scripts, show the first comment or meaningful line
               const heredocMatch = cmd.match(/^(\w+\S*)\s.*<<'?EOF'?\n([\s\S]*)/);
               if (heredocMatch) {
                 const interpreter = heredocMatch[1];
                 const body = heredocMatch[2];
                 const lines = body.split('\n').filter(l => l.trim());
-                // Collect all comment lines as description (they tell the story)
                 const commentLines = lines.filter(l => /^\s*#/.test(l)).map(l => l.trim().replace(/^#\s*/, ''));
                 const desc = commentLines.length > 0
                   ? commentLines.join(' | ').slice(0, 200)
@@ -518,18 +475,17 @@ async function runQuery(
       log(`Session initialized: ${newSessionId}`);
     }
 
-    if (message.type === 'system' && (message as { subtype?: string }).subtype === 'task_notification') {
-      const tn = message as { task_id: string; status: string; summary: string };
-      log(`Task notification: task=${tn.task_id} status=${tn.status} summary=${tn.summary}`);
+    if (message.type === 'system' && message.subtype === 'task_notification') {
+      log(`Task notification: task=${message.task_id} status=${message.status} summary=${message.summary}`);
     }
 
     if (message.type === 'result') {
       resultCount++;
-      const textResult = 'result' in message ? (message as { result?: string }).result : null;
+      const textResult = message.result || null;
       log(`Result #${resultCount}: subtype=${message.subtype}${textResult ? ` text=${textResult.slice(0, 200)}` : ''}`);
       writeOutput({
         status: 'success',
-        result: textResult || null,
+        result: textResult,
         newSessionId
       });
     }
@@ -540,8 +496,8 @@ async function runQuery(
   return { newSessionId, lastAssistantUuid, closedDuringQuery, stoppedDuringQuery };
 }
 
-async function main(): Promise<void> {
-  let containerInput: ContainerInput;
+async function main() {
+  let containerInput;
 
   try {
     const stdinData = await readStdin();
@@ -559,7 +515,7 @@ async function main(): Promise<void> {
 
   // Credentials are injected by the host's credential proxy via ANTHROPIC_BASE_URL.
   // No real secrets exist in the container environment.
-  const sdkEnv: Record<string, string | undefined> = { ...process.env };
+  const sdkEnv = { ...process.env };
 
   const __dirname = path.dirname(fileURLToPath(import.meta.url));
   const mcpServerPath = path.join(__dirname, 'ipc-mcp-stdio.js');
@@ -582,8 +538,8 @@ async function main(): Promise<void> {
     prompt += '\n' + pending.join('\n');
   }
 
-  // Query loop: run query → wait for IPC message → run new query → repeat
-  let resumeAt: string | undefined;
+  // Query loop: run query -> wait for IPC message -> run new query -> repeat
+  let resumeAt;
   try {
     while (true) {
       log(`Starting query (session: ${sessionId || 'new'}, resumeAt: ${resumeAt || 'latest'})...`);
@@ -597,8 +553,6 @@ async function main(): Promise<void> {
       }
 
       // If _close was consumed during the query, exit immediately.
-      // Don't emit a session-update marker (it would reset the host's
-      // idle timer and cause a 30-min delay before the next _close).
       if (queryResult.closedDuringQuery) {
         log('Close sentinel consumed during query, exiting');
         break;

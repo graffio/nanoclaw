@@ -16,11 +16,11 @@ const MESSAGES_DIR = path.join(IPC_DIR, 'messages');
 const TASKS_DIR = path.join(IPC_DIR, 'tasks');
 
 // Context from environment variables (set by the agent runner)
-const chatJid = process.env.NANOCLAW_CHAT_JID!;
-const groupFolder = process.env.NANOCLAW_GROUP_FOLDER!;
+const chatJid = process.env.NANOCLAW_CHAT_JID;
+const groupFolder = process.env.NANOCLAW_GROUP_FOLDER;
 const isMain = process.env.NANOCLAW_IS_MAIN === '1';
 
-function writeIpcFile(dir: string, data: object): string {
+function writeIpcFile(dir, data) {
   fs.mkdirSync(dir, { recursive: true });
 
   const filename = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}.json`;
@@ -47,7 +47,7 @@ server.tool(
     sender: z.string().optional().describe('Your role/identity name (e.g. "Researcher"). When set, messages appear from a dedicated bot in Telegram.'),
   },
   async (args) => {
-    const data: Record<string, string | undefined> = {
+    const data = {
       type: 'message',
       chatJid,
       text: args.text,
@@ -58,7 +58,37 @@ server.tool(
 
     writeIpcFile(MESSAGES_DIR, data);
 
-    return { content: [{ type: 'text' as const, text: 'Message sent.' }] };
+    return { content: [{ type: 'text', text: 'Message sent.' }] };
+  },
+);
+
+server.tool(
+  'send_document',
+  'Send a file as a document attachment to the user or group. The file must exist in the container filesystem (e.g., in /workspace/). Useful for sending HTML reports, images, or other files.',
+  {
+    file_path: z.string().describe('Absolute path to the file inside the container'),
+    caption: z.string().optional().describe('Optional caption text to show with the document'),
+  },
+  async (args) => {
+    if (!fs.existsSync(args.file_path)) {
+      return {
+        content: [{ type: 'text', text: `File not found: ${args.file_path}` }],
+        isError: true,
+      };
+    }
+
+    const data = {
+      type: 'document',
+      chatJid,
+      filePath: args.file_path,
+      caption: args.caption || undefined,
+      groupFolder,
+      timestamp: new Date().toISOString(),
+    };
+
+    writeIpcFile(MESSAGES_DIR, data);
+
+    return { content: [{ type: 'text', text: `Document queued for sending: ${path.basename(args.file_path)}` }] };
   },
 );
 
@@ -99,7 +129,7 @@ SCHEDULE VALUE FORMAT (all times are LOCAL timezone):
         CronExpressionParser.parse(args.schedule_value);
       } catch {
         return {
-          content: [{ type: 'text' as const, text: `Invalid cron: "${args.schedule_value}". Use format like "0 9 * * *" (daily 9am) or "*/5 * * * *" (every 5 min).` }],
+          content: [{ type: 'text', text: `Invalid cron: "${args.schedule_value}". Use format like "0 9 * * *" (daily 9am) or "*/5 * * * *" (every 5 min).` }],
           isError: true,
         };
       }
@@ -107,21 +137,21 @@ SCHEDULE VALUE FORMAT (all times are LOCAL timezone):
       const ms = parseInt(args.schedule_value, 10);
       if (isNaN(ms) || ms <= 0) {
         return {
-          content: [{ type: 'text' as const, text: `Invalid interval: "${args.schedule_value}". Must be positive milliseconds (e.g., "300000" for 5 min).` }],
+          content: [{ type: 'text', text: `Invalid interval: "${args.schedule_value}". Must be positive milliseconds (e.g., "300000" for 5 min).` }],
           isError: true,
         };
       }
     } else if (args.schedule_type === 'once') {
       if (/[Zz]$/.test(args.schedule_value) || /[+-]\d{2}:\d{2}$/.test(args.schedule_value)) {
         return {
-          content: [{ type: 'text' as const, text: `Timestamp must be local time without timezone suffix. Got "${args.schedule_value}" — use format like "2026-02-01T15:30:00".` }],
+          content: [{ type: 'text', text: `Timestamp must be local time without timezone suffix. Got "${args.schedule_value}" -- use format like "2026-02-01T15:30:00".` }],
           isError: true,
         };
       }
       const date = new Date(args.schedule_value);
       if (isNaN(date.getTime())) {
         return {
-          content: [{ type: 'text' as const, text: `Invalid timestamp: "${args.schedule_value}". Use local time format like "2026-02-01T15:30:00".` }],
+          content: [{ type: 'text', text: `Invalid timestamp: "${args.schedule_value}". Use local time format like "2026-02-01T15:30:00".` }],
           isError: true,
         };
       }
@@ -147,7 +177,7 @@ SCHEDULE VALUE FORMAT (all times are LOCAL timezone):
     writeIpcFile(TASKS_DIR, data);
 
     return {
-      content: [{ type: 'text' as const, text: `Task ${taskId} scheduled: ${args.schedule_type} - ${args.schedule_value}` }],
+      content: [{ type: 'text', text: `Task ${taskId} scheduled: ${args.schedule_type} - ${args.schedule_value}` }],
     };
   },
 );
@@ -161,30 +191,30 @@ server.tool(
 
     try {
       if (!fs.existsSync(tasksFile)) {
-        return { content: [{ type: 'text' as const, text: 'No scheduled tasks found.' }] };
+        return { content: [{ type: 'text', text: 'No scheduled tasks found.' }] };
       }
 
       const allTasks = JSON.parse(fs.readFileSync(tasksFile, 'utf-8'));
 
       const tasks = isMain
         ? allTasks
-        : allTasks.filter((t: { groupFolder: string }) => t.groupFolder === groupFolder);
+        : allTasks.filter(t => t.groupFolder === groupFolder);
 
       if (tasks.length === 0) {
-        return { content: [{ type: 'text' as const, text: 'No scheduled tasks found.' }] };
+        return { content: [{ type: 'text', text: 'No scheduled tasks found.' }] };
       }
 
       const formatted = tasks
         .map(
-          (t: { id: string; prompt: string; schedule_type: string; schedule_value: string; status: string; next_run: string }) =>
+          t =>
             `- [${t.id}] ${t.prompt.slice(0, 50)}... (${t.schedule_type}: ${t.schedule_value}) - ${t.status}, next: ${t.next_run || 'N/A'}`,
         )
         .join('\n');
 
-      return { content: [{ type: 'text' as const, text: `Scheduled tasks:\n${formatted}` }] };
+      return { content: [{ type: 'text', text: `Scheduled tasks:\n${formatted}` }] };
     } catch (err) {
       return {
-        content: [{ type: 'text' as const, text: `Error reading tasks: ${err instanceof Error ? err.message : String(err)}` }],
+        content: [{ type: 'text', text: `Error reading tasks: ${err instanceof Error ? err.message : String(err)}` }],
       };
     }
   },
@@ -205,7 +235,7 @@ server.tool(
 
     writeIpcFile(TASKS_DIR, data);
 
-    return { content: [{ type: 'text' as const, text: `Task ${args.task_id} pause requested.` }] };
+    return { content: [{ type: 'text', text: `Task ${args.task_id} pause requested.` }] };
   },
 );
 
@@ -224,7 +254,7 @@ server.tool(
 
     writeIpcFile(TASKS_DIR, data);
 
-    return { content: [{ type: 'text' as const, text: `Task ${args.task_id} resume requested.` }] };
+    return { content: [{ type: 'text', text: `Task ${args.task_id} resume requested.` }] };
   },
 );
 
@@ -243,7 +273,7 @@ server.tool(
 
     writeIpcFile(TASKS_DIR, data);
 
-    return { content: [{ type: 'text' as const, text: `Task ${args.task_id} cancellation requested.` }] };
+    return { content: [{ type: 'text', text: `Task ${args.task_id} cancellation requested.` }] };
   },
 );
 
@@ -264,7 +294,7 @@ server.tool(
           CronExpressionParser.parse(args.schedule_value);
         } catch {
           return {
-            content: [{ type: 'text' as const, text: `Invalid cron: "${args.schedule_value}".` }],
+            content: [{ type: 'text', text: `Invalid cron: "${args.schedule_value}".` }],
             isError: true,
           };
         }
@@ -274,13 +304,13 @@ server.tool(
       const ms = parseInt(args.schedule_value, 10);
       if (isNaN(ms) || ms <= 0) {
         return {
-          content: [{ type: 'text' as const, text: `Invalid interval: "${args.schedule_value}".` }],
+          content: [{ type: 'text', text: `Invalid interval: "${args.schedule_value}".` }],
           isError: true,
         };
       }
     }
 
-    const data: Record<string, string | undefined> = {
+    const data = {
       type: 'update_task',
       taskId: args.task_id,
       groupFolder,
@@ -293,7 +323,7 @@ server.tool(
 
     writeIpcFile(TASKS_DIR, data);
 
-    return { content: [{ type: 'text' as const, text: `Task ${args.task_id} update requested.` }] };
+    return { content: [{ type: 'text', text: `Task ${args.task_id} update requested.` }] };
   },
 );
 
@@ -311,7 +341,7 @@ Use available_groups.json to find the JID for a group. The folder name must be c
   async (args) => {
     if (!isMain) {
       return {
-        content: [{ type: 'text' as const, text: 'Only the main group can register new groups.' }],
+        content: [{ type: 'text', text: 'Only the main group can register new groups.' }],
         isError: true,
       };
     }
@@ -328,7 +358,7 @@ Use available_groups.json to find the JID for a group. The folder name must be c
     writeIpcFile(TASKS_DIR, data);
 
     return {
-      content: [{ type: 'text' as const, text: `Group "${args.name}" registered. It will start receiving messages immediately.` }],
+      content: [{ type: 'text', text: `Group "${args.name}" registered. It will start receiving messages immediately.` }],
     };
   },
 );
