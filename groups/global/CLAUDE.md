@@ -53,6 +53,58 @@ NEVER use markdown. Only use WhatsApp/Telegram formatting:
 - *single asterisks* for bold (NEVER **double asterisks**)
 - _underscores_ for italic
 - • bullet points
-- ```triple backticks``` for code
+- ```triple backticks``` for code blocks (monospaced, preserves spacing)
+- `single backticks` for inline code/monospace
 
 No ## headings. No [links](url). No **double stars**.
+
+### Tabular data
+
+NEVER use markdown tables (| col | col |). They render in proportional font and wrap badly in Telegram.
+
+Instead, choose the right format based on the data:
+
+*For data tables (columns of numbers, short text):* use a code block with fixed-width columns. Keep total width under 45 characters so it fits on mobile without scrolling.
+
+```
+Ticker  Return  P&L    Status
+EOS     +87%    +$899  Hold
+MDA     +59%    +$422  Hold
+DRO     +36%    +$454  Hold
+```
+
+*For listings with rich detail (descriptions, links, notes):* use card-style blocks separated by blank lines.
+
+*1. Title of item* (ID)
+Detail line one · detail two · detail three
+More details or context
+_Warnings or notes in italic_
+https://link-if-relevant
+
+*For simple ranked lists:* one line per item, no extra structure.
+
+1. EOS +87% (+$899) · Hold
+2. MDA +59% (+$422) · Hold
+3. DRO +36% (+$454) · Hold
+
+### When a script produces formatted output
+
+If a script (e.g. report-city.mjs --telegram) produces pre-formatted output, send that output directly as your response. Do NOT reformat it into a table or add your own structure around it.
+
+## Sourcing Transparency
+
+When summarizing or answering questions that draw on multiple sources (posts, chats, prior analysis), always clearly distinguish between:
+
+1. **Direct facts** from the specific source being discussed
+2. **Cross-source inferences** — connections drawn from other posts, chats, or prior context
+
+For inferences, explicitly flag them with language like *"my read, based on [source + date]..."* so the user can judge the conjecture independently. Never present an inference as if it came from the primary source being discussed.
+
+## Knowledge Base
+
+Shared knowledge base is in `/workspace/global/knowledge-base/`. This is read-only for non-main groups but writable by the main group. Each data source has its own subdirectory and is managed by a dedicated skill.
+
+Credentials for scraping are in `credentials/` (per-group, not shared).
+
+Current sources:
+- `/workspace/global/knowledge-base/stephen-tobin/` — Stephen Tobin's Substack "Strategic Wave Trading" (see **substack-scraper** skill for full details)
