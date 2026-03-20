@@ -49,7 +49,7 @@ When you learn something important:
 
 ## Message Formatting
 
-NEVER use markdown. Only use WhatsApp/Telegram formatting:
+NEVER use markdown. Only use messaging app formatting:
 - *single asterisks* for bold (NEVER **double asterisks**)
 - _underscores_ for italic
 - • bullet points
@@ -102,9 +102,8 @@ For inferences, explicitly flag them with language like *"my read, based on [sou
 
 ## Knowledge Base
 
-Shared knowledge base is in `/workspace/global/knowledge-base/`. This is read-only for non-main groups but writable by the main group. Each data source has its own subdirectory and is managed by a dedicated skill.
+Shared knowledge base is in `/workspace/global/knowledge-base/`. Read-only for non-main groups, writable by main. Each subdirectory is a self-contained data source with its own README.md describing the data, structure, and usage. List the directory to discover available sources:
 
-Credentials for scraping are in `credentials/` (per-group, not shared).
-
-Current sources:
-- `/workspace/global/knowledge-base/stephen-tobin/` — Stephen Tobin's Substack "Strategic Wave Trading" (see **substack-scraper** skill for full details)
+```bash
+ls /workspace/global/knowledge-base/
+```
