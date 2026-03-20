@@ -1,0 +1,20 @@
+{
+  "source": "https://www.homeexchange.com",
+  "my_home_id": 1632849,
+  "trip": {
+    "window": "2026-06-15 to 2026-08-21",
+    "party_size": 5,
+    "target_cities": ["london", "copenhagen", "stockholm", "helsinki"],
+    "potential_exchanges": [
+      {
+        "city": "london",
+        "dates": "2026-07-29 to 2026-08-09",
+        "type": "reciprocal",
+        "area": "Clapham/Balham",
+        "status": "potential"
+      }
+    ]
+  },
+  "cities": {},
+  "last_scraped": null
+}

@@ -1,0 +1,76 @@
+{
+  "cities": {
+    "london": {
+      "label": "London",
+      "center": [51.5074, -0.1278],
+      "neighborhoods": {
+        "hampstead": { "label": "Hampstead", "n": 51.575, "s": 51.550, "e": -0.155, "w": -0.195 },
+        "islington": { "label": "Islington", "n": 51.550, "s": 51.530, "e": -0.090, "w": -0.130 },
+        "hackney": { "label": "Hackney", "n": 51.555, "s": 51.535, "e": -0.035, "w": -0.075 },
+        "stoke_newington": { "label": "Stoke Newington", "n": 51.570, "s": 51.555, "e": -0.065, "w": -0.085 },
+        "highbury": { "label": "Highbury", "n": 51.555, "s": 51.543, "e": -0.090, "w": -0.110 },
+        "clapham": { "label": "Clapham", "n": 51.470, "s": 51.450, "e": -0.130, "w": -0.160 },
+        "balham": { "label": "Balham", "n": 51.450, "s": 51.435, "e": -0.140, "w": -0.160 },
+        "brixton": { "label": "Brixton", "n": 51.470, "s": 51.455, "e": -0.105, "w": -0.125 },
+        "peckham": { "label": "Peckham", "n": 51.478, "s": 51.462, "e": -0.050, "w": -0.080 },
+        "dulwich": { "label": "Dulwich", "n": 51.455, "s": 51.435, "e": -0.065, "w": -0.095 },
+        "camden": { "label": "Camden", "n": 51.548, "s": 51.530, "e": -0.125, "w": -0.155 },
+        "queens_park": { "label": "Queen's Park", "n": 51.540, "s": 51.525, "e": -0.195, "w": -0.215 },
+        "notting_hill": { "label": "Notting Hill", "n": 51.525, "s": 51.508, "e": -0.185, "w": -0.210 }
+      },
+      "wide_bounds": { "n": 51.58, "s": 51.43, "e": 0.01, "w": -0.22 },
+      "notes": "London is difficult on HomeExchange. Ealing is too far. Greenwich is too far. Prefer 'village' neighborhoods with character and good tube/overground connections."
+    },
+    "copenhagen": {
+      "label": "Copenhagen",
+      "center": [55.6761, 12.5683],
+      "neighborhoods": {
+        "norrebro": { "label": "Nørrebro", "n": 55.700, "s": 55.685, "e": 12.560, "w": 12.530 },
+        "vesterbro": { "label": "Vesterbro", "n": 55.675, "s": 55.662, "e": 12.565, "w": 12.535 },
+        "frederiksberg": { "label": "Frederiksberg", "n": 55.688, "s": 55.670, "e": 12.540, "w": 12.510 },
+        "christianshavn": { "label": "Christianshavn", "n": 55.678, "s": 55.668, "e": 12.600, "w": 12.580 },
+        "indre_by": { "label": "Indre By (Center)", "n": 55.685, "s": 55.672, "e": 12.590, "w": 12.560 },
+        "osterbro": { "label": "Østerbro", "n": 55.700, "s": 55.688, "e": 12.590, "w": 12.560 }
+      },
+      "wide_bounds": { "n": 55.72, "s": 55.65, "e": 12.62, "w": 12.49 },
+      "notes": "Compact city. Frederiksberg has larger apartments suited for families. Christianshavn is charming but listings are rare."
+    },
+    "stockholm": {
+      "label": "Stockholm",
+      "center": [59.3293, 18.0686],
+      "neighborhoods": {
+        "sodermalm": { "label": "Södermalm", "n": 59.322, "s": 59.305, "e": 18.090, "w": 18.050 },
+        "ostermalm": { "label": "Östermalm", "n": 59.345, "s": 59.330, "e": 18.095, "w": 18.060 },
+        "kungsholmen": { "label": "Kungsholmen", "n": 59.340, "s": 59.325, "e": 18.050, "w": 18.015 },
+        "vasastan": { "label": "Vasastan", "n": 59.350, "s": 59.338, "e": 18.065, "w": 18.035 },
+        "gamla_stan": { "label": "Gamla Stan", "n": 59.328, "s": 59.322, "e": 18.075, "w": 18.065 },
+        "norrmalm": { "label": "Norrmalm", "n": 59.340, "s": 59.328, "e": 18.080, "w": 18.055 }
+      },
+      "wide_bounds": { "n": 59.36, "s": 59.29, "e": 18.12, "w": 18.00 },
+      "notes": "Södermalm is the obvious choice. Kungsholmen is underrated — quieter, waterfront, good transit. Vasastan is very livable."
+    },
+    "helsinki": {
+      "label": "Helsinki",
+      "center": [60.1699, 24.9384],
+      "neighborhoods": {
+        "kallio": { "label": "Kallio", "n": 60.190, "s": 60.178, "e": 24.960, "w": 24.940 },
+        "kruununhaka": { "label": "Kruununhaka", "n": 60.175, "s": 60.168, "e": 24.960, "w": 24.945 },
+        "toolo": { "label": "Töölö", "n": 60.185, "s": 60.172, "e": 24.935, "w": 24.910 },
+        "punavuori": { "label": "Punavuori / Design District", "n": 60.168, "s": 60.158, "e": 24.945, "w": 24.930 },
+        "ullanlinna": { "label": "Ullanlinna", "n": 60.165, "s": 60.155, "e": 24.955, "w": 24.935 },
+        "kamppi": { "label": "Kamppi", "n": 60.172, "s": 60.165, "e": 24.940, "w": 24.925 }
+      },
+      "wide_bounds": { "n": 60.20, "s": 60.15, "e": 24.98, "w": 24.89 },
+      "notes": "Very compact. Almost anywhere within 3km of central railway station works. Excellent tram network. Kallio is the hip neighborhood. Töölö has bigger apartments near the sea."
+    }
+  },
+  "search_defaults": {
+    "min_beds": 5,
+    "filters": ["response-rate-above-threshold", "home-with-picture"],
+    "delay_between_requests_ms": 2000,
+    "page_size": 20,
+    "max_pages": 20
+  },
+  "my_home_id": 1632849,
+  "preferred_locations": ["San Francisco", "California", "CA", "Bay Area"]
+}
