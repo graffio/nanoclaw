@@ -1,5 +1,7 @@
+import fs from 'fs';
 import https from 'https';
-import { Api, Bot } from 'grammy';
+import path from 'path';
+import { Api, Bot, InputFile } from 'grammy';
 
 import { ASSISTANT_NAME, TRIGGER_PATTERN } from '../config.js';
 import { readEnvFile } from '../env.js';
@@ -272,6 +274,29 @@ export class TelegramChannel implements Channel {
       this.bot.stop();
       this.bot = null;
       logger.info('Telegram bot stopped');
+    }
+  }
+
+  async sendDocument(
+    jid: string,
+    filePath: string,
+    caption?: string,
+  ): Promise<void> {
+    if (!this.bot) {
+      logger.warn('Telegram bot not initialized');
+      return;
+    }
+    try {
+      const numericId = jid.replace(/^tg:/, '');
+      const filename = path.basename(filePath);
+      const fileData = new InputFile(fs.createReadStream(filePath), filename);
+      await this.bot.api.sendDocument(numericId, fileData, {
+        caption,
+        parse_mode: 'Markdown',
+      });
+      logger.info({ jid, filePath: filename }, 'Telegram document sent');
+    } catch (err) {
+      logger.error({ jid, filePath, err }, 'Failed to send Telegram document');
     }
   }
 

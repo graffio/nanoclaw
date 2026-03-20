@@ -3,7 +3,7 @@ import path from 'path';
 
 import { CronExpressionParser } from 'cron-parser';
 
-import { DATA_DIR, IPC_POLL_INTERVAL, TIMEZONE } from './config.js';
+import { DATA_DIR, GROUPS_DIR, IPC_POLL_INTERVAL, TIMEZONE } from './config.js';
 import { AvailableGroup } from './container-runner.js';
 import { createTask, deleteTask, getTaskById, updateTask } from './db.js';
 import { isValidGroupFolder } from './group-folder.js';
@@ -12,6 +12,12 @@ import { RegisteredGroup } from './types.js';
 
 export interface IpcDeps {
   sendMessage: (jid: string, text: string) => Promise<void>;
+  sendDocument?: (
+    jid: string,
+    filePath: string,
+    caption?: string,
+  ) => Promise<void>;
+  onMessageSent?: (jid: string) => void;
   registeredGroups: () => Record<string, RegisteredGroup>;
   registerGroup: (jid: string, group: RegisteredGroup) => void;
   syncGroups: (force: boolean) => Promise<void>;
@@ -73,22 +79,60 @@ export function startIpcWatcher(deps: IpcDeps): void {
             const filePath = path.join(messagesDir, file);
             try {
               const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-              if (data.type === 'message' && data.chatJid && data.text) {
+              if (data.chatJid) {
                 // Authorization: verify this group can send to this chatJid
                 const targetGroup = registeredGroups[data.chatJid];
-                if (
-                  isMain ||
-                  (targetGroup && targetGroup.folder === sourceGroup)
-                ) {
+                const authorized =
+                  isMain || (targetGroup && targetGroup.folder === sourceGroup);
+
+                if (!authorized) {
+                  logger.warn(
+                    { chatJid: data.chatJid, sourceGroup, type: data.type },
+                    'Unauthorized IPC message attempt blocked',
+                  );
+                } else if (data.type === 'message' && data.text) {
                   await deps.sendMessage(data.chatJid, data.text);
+                  deps.onMessageSent?.(data.chatJid);
                   logger.info(
                     { chatJid: data.chatJid, sourceGroup },
                     'IPC message sent',
                   );
-                } else {
-                  logger.warn(
-                    { chatJid: data.chatJid, sourceGroup },
-                    'Unauthorized IPC message attempt blocked',
+                } else if (
+                  data.type === 'document' &&
+                  data.filePath &&
+                  deps.sendDocument
+                ) {
+                  // Translate container paths to host paths
+                  let hostPath = data.filePath;
+                  if (hostPath.startsWith('/workspace/global/')) {
+                    hostPath = path.join(
+                      GROUPS_DIR,
+                      'global',
+                      hostPath.slice('/workspace/global/'.length),
+                    );
+                  } else if (hostPath.startsWith('/workspace/group/')) {
+                    hostPath = path.join(
+                      GROUPS_DIR,
+                      sourceGroup,
+                      hostPath.slice('/workspace/group/'.length),
+                    );
+                  }
+                  if (!fs.existsSync(hostPath)) {
+                    logger.error(
+                      { containerPath: data.filePath, hostPath },
+                      'IPC document: file not found on host',
+                    );
+                  } else {
+                    await deps.sendDocument(
+                      data.chatJid,
+                      hostPath,
+                      data.caption,
+                    );
+                  }
+                  deps.onMessageSent?.(data.chatJid);
+                  logger.info(
+                    { chatJid: data.chatJid, sourceGroup, file: data.filePath },
+                    'IPC document sent',
                   );
                 }
               }
