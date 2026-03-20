@@ -1,0 +1,779 @@
+{
+  "year": 2024,
+  "items": [
+    {
+      "date": "2024-12-31",
+      "type": "note",
+      "entity_key": "c-83831333",
+      "summary": "ARBE now down 10% today, most of our stocks are in the red. I will be looking to add to the ARBE position when the price action suggests a good entry/ hopefully straight after the holidays as we expec",
+      "tickers": [
+        "ARBE"
+      ]
+    },
+    {
+      "date": "2024-12-31",
+      "type": "note",
+      "entity_key": "c-83798365",
+      "summary": "Ehang (EH) has released preliminary guidance that surpasses expectations, a promising sign for our investment (we bought in August at $14.44). While my forecast was for 399 million in revenue for 2024",
+      "tickers": [
+        "ARBE",
+        "EH"
+      ]
+    },
+    {
+      "date": "2024-12-30",
+      "type": "note",
+      "entity_key": "c-83673529",
+      "summary": "Electrovaya (ELVA) is up 13% today on no particular news. We added to this position on December 26th and think it has a long way to go. No other stocks in the portfolio are currently changing more tha",
+      "tickers": [
+        "ARBE",
+        "ELVA"
+      ]
+    },
+    {
+      "date": "2024-12-27",
+      "type": "note",
+      "entity_key": "c-83262787",
+      "summary": "ARBE is up 15% today, we bought it in June and it has been pretty flat since. I interviewed the CEO of Arbe last week (a link to the interview is in a post) and have been considering adding to the pos",
+      "tickers": [
+        "ARBE"
+      ]
+    },
+    {
+      "title": "Portfolio Adjustment: Buying Elva",
+      "date": "2024-12-26",
+      "slug": "portfolio-adjustment-buying-elva",
+      "url": "https://stephentobin.substack.com/p/portfolio-adjustment-buying-elva",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "First of several company reviews complete",
+      "tickers": [
+        "ARIS",
+        "BLBD",
+        "BYRN",
+        "ELVA",
+        "HSAI",
+        "IBKR",
+        "JOBY",
+        "LUNR",
+        "MSFT",
+        "NPWR"
+      ],
+      "has_images": true
+    },
+    {
+      "date": "2024-12-26",
+      "type": "note",
+      "entity_key": "c-83144330",
+      "summary": "Santa rally in full force. From the portfolio LUNR, JOBY,HSAI all up more than 10% today, only ARBE in the red (-5%). Even ELVA which I bought this morning is up 5%. The portfolio is up 29% in Decembe",
+      "tickers": [
+        "ARBE",
+        "ELVA",
+        "HSAI",
+        "JOBY",
+        "LUNR"
+      ]
+    },
+    {
+      "date": "2024-12-26",
+      "type": "note",
+      "entity_key": "c-83110838",
+      "summary": "Spending Christmas in London with our daughter. Thanks to Netflix for putting the NFL on, fairly sure I only got to watch the game so my daughter could watch the Beyoncé show. Today is Boxing Day in t",
+      "tickers": [
+        "NFL"
+      ]
+    },
+    {
+      "date": "2024-12-24",
+      "type": "note",
+      "entity_key": "c-82930000",
+      "summary": "Intuitive Machines is up 10% today. We added to this position on December 12th, and the stock has risen 30% since then. The original position from April is up 196%.  The chart below shows the pattern ",
+      "tickers": [
+        "QBTS"
+      ]
+    },
+    {
+      "date": "2024-12-19",
+      "type": "note",
+      "entity_key": "c-82263918",
+      "summary": "A 10% jump higher for BYRN on the news of expanding manufacturing facilities in Latin America. We bought BYRN on August 9th and are up 187% at the moment.   I am forecasting knockout results next quar",
+      "tickers": [
+        "BYRN"
+      ]
+    },
+    {
+      "title": "EVENT: Interview with Kobi Marenko",
+      "date": "2024-12-18",
+      "slug": "event-interview-with-kobi-marenko",
+      "url": "https://stephentobin.substack.com/p/event-interview-with-kobi-marenko",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "CEO of Arbe discussing, prospects for 2025.",
+      "tickers": [
+        "ARBE",
+        "EVENT",
+        "QBTS",
+        "XS"
+      ],
+      "has_images": true
+    },
+    {
+      "date": "2024-12-18",
+      "type": "note",
+      "entity_key": "c-82054157",
+      "summary": "A big jump for Hesai yesterday. 35% in one day is unusual. We bought Hesai on October 3rd and it is up 170% since then. The market seemed to have lost interest in LiDAR but some recent deals, especial",
+      "tickers": []
+    },
+    {
+      "title": "Trade Alert: Closing D-Wave",
+      "date": "2024-12-17",
+      "slug": "trade-alert-closing-d-wave",
+      "url": "https://stephentobin.substack.com/p/trade-alert-closing-d-wave",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Taking a 600% Profit",
+      "tickers": [],
+      "has_images": false
+    },
+    {
+      "date": "2024-12-17",
+      "type": "note",
+      "entity_key": "c-81933101",
+      "summary": "Price action on Quantum stocks has been just crazy, I have decided to take some profits and closed D-Wave booked over 600% so very happy",
+      "tickers": []
+    },
+    {
+      "date": "2024-12-16",
+      "type": "note",
+      "entity_key": "c-81738752",
+      "summary": "2024 coming to an end and my portfolio has recorded a 103% gain! The second year in a row we have been over a hundred percent.  Top performers were  QBTS +350%  BITF +200%  BYRN +144%  BLBD +138%  17 ",
+      "tickers": [
+        "ARBE",
+        "BITF",
+        "BLBD",
+        "BYRN",
+        "QBTS"
+      ]
+    },
+    {
+      "title": "Trade Alert: Adding to LUNR",
+      "date": "2024-12-12",
+      "slug": "trade-alert-adding-to-lunr",
+      "url": "https://stephentobin.substack.com/p/trade-alert-adding-to-lunr",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Recent Pullback Offers Entry Point",
+      "tickers": [
+        "HSAI",
+        "IBKR",
+        "LUNR",
+        "META",
+        "QBTS"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying Electrovaya",
+      "date": "2024-11-22",
+      "slug": "trade-alert-buying-electrovaya",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-electrovaya",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Buying again following meeting with CEO",
+      "tickers": [
+        "ELVA",
+        "EXIM",
+        "IBKR",
+        "IRT",
+        "SA",
+        "SOP"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying NPWR again",
+      "date": "2024-11-12",
+      "slug": "trade-alert-buying-npwr-again",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-npwr-again",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Portfolio up over 12% in September",
+      "tickers": [
+        "AMPX",
+        "ARIS",
+        "LUNR",
+        "NPWR",
+        "SA",
+        "SPAC",
+        "ULBI",
+        "XMTR"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Adding to BLBD",
+      "date": "2024-11-07",
+      "slug": "trade-alert-adding-to-blbd",
+      "url": "https://stephentobin.substack.com/p/trade-alert-adding-to-blbd",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Review Complete and taking opportunity following Pullbacks",
+      "tickers": [
+        "BLBD",
+        "BYRN"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying D-Wave",
+      "date": "2024-10-25",
+      "slug": "trade-alert-buying-d-wave",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-d-wave",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Sold Centrus for a 104% gain",
+      "tickers": [
+        "ARIS",
+        "BLBD",
+        "BYRN",
+        "CFO",
+        "IBM",
+        "IT",
+        "JOBY",
+        "QBTS"
+      ],
+      "has_images": true
+    },
+    {
+      "date": "2024-10-17",
+      "type": "note",
+      "entity_key": "c-73017316",
+      "summary": "Centrus Energy (LEU) trade closed at $82 for a 100% gain in a single month. ",
+      "tickers": [
+        "LEU"
+      ]
+    },
+    {
+      "date": "2024-10-17",
+      "type": "note",
+      "entity_key": "c-72978948",
+      "summary": "Put stop loss on LEU at $82, hype induced move so preparing to take profit",
+      "tickers": [
+        "LEU"
+      ]
+    },
+    {
+      "title": "Trade Alert: Buying Hesai",
+      "date": "2024-10-03",
+      "slug": "trade-alert-buying-hesai",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-hesai",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Buying Chinese LiDAR maker",
+      "tickers": [
+        "ARRY",
+        "AUDC"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying Centrus Energy",
+      "date": "2024-09-16",
+      "slug": "trade-alert-buying-centrus-energy",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-centrus-energy",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "First Trade of September,",
+      "tickers": [
+        "CCJ",
+        "LEU",
+        "MULN",
+        "NEE",
+        "NEP",
+        "NNE",
+        "PCT",
+        "SA",
+        "SMR"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying EHang",
+      "date": "2024-08-28",
+      "slug": "trade-alert-buying-ehang-0d9",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-ehang-0d9",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Adding EH to my Strong-Buy Portfolio",
+      "tickers": [
+        "ACHR",
+        "ATM",
+        "GAC",
+        "HQ",
+        "JOBY",
+        "RV"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Portfolio Adjustment: Exiting ELVA and NPWR",
+      "date": "2024-08-19",
+      "slug": "portfolio-adjustment-exiting-elva",
+      "url": "https://stephentobin.substack.com/p/portfolio-adjustment-exiting-elva",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "The Strong Buy portfolio continues to make excellent progress",
+      "tickers": [
+        "ARBE",
+        "ELVA",
+        "NPWR",
+        "RV"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying BYRN",
+      "date": "2024-08-09",
+      "slug": "trade-alert-buying-byrn",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-byrn",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Adding Byrna Technologies to the Strong Buy Portfolio",
+      "tickers": [
+        "BYRN",
+        "CDRE"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Event: Meeting with D-Wave Management",
+      "date": "2024-07-30",
+      "slug": "event-meeting-with-d-wave-management",
+      "url": "https://stephentobin.substack.com/p/event-meeting-with-d-wave-management",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "A lot of additional information adds color to this trading opportunity",
+      "tickers": [
+        "BCG",
+        "CFO",
+        "DCF",
+        "GPU",
+        "NTT",
+        "SA",
+        "TAM"
+      ],
+      "has_images": false
+    },
+    {
+      "title": "Trade Alert: Buying Aris",
+      "date": "2024-07-03",
+      "slug": "trade-alert-buying-aris",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-aris",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Realignment of Portfolio",
+      "tickers": [],
+      "has_images": true
+    },
+    {
+      "title": "Event: Interview Kobi Marenko CEO ARBE",
+      "date": "2024-06-07",
+      "slug": "event-interview-kobi-marenko-ceo",
+      "url": "https://stephentobin.substack.com/p/event-interview-kobi-marenko-ceo",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "A treasure trove of information for small caps investors",
+      "tickers": [
+        "ARBE",
+        "BYD"
+      ],
+      "has_images": false
+    },
+    {
+      "title": "Event: Interview with Zapata CEO",
+      "date": "2024-05-19",
+      "slug": "event-interview-with-zapata-ceo",
+      "url": "https://stephentobin.substack.com/p/event-interview-with-zapata-ceo",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "A Dress Down Friday chat with Christopher Savoie",
+      "tickers": [
+        "DARPA",
+        "IBM",
+        "ICR",
+        "IONQ"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying CDRE before earnings",
+      "date": "2024-05-07",
+      "slug": "trade-alert-buying-cdre-before-earnings",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-cdre-before-earnings",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Excellent time to buy this growing dividend payer",
+      "tickers": [
+        "BAE",
+        "CDRE",
+        "GENI",
+        "NPWR",
+        "WAVE"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying VRNT Verint Systems",
+      "date": "2024-05-02",
+      "slug": "trade-alert-buying-vrnt-verint-systems",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-vrnt-verint-systems",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Still Waiting for Bitfarms",
+      "tickers": [
+        "ACV",
+        "BITF",
+        "BTC",
+        "CX",
+        "NPWR",
+        "TCV",
+        "VRNT"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying LUNR",
+      "date": "2024-04-23",
+      "slug": "trade-alert-buying-lunr",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-lunr",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "NPWR also on the short term buy list",
+      "tickers": [
+        "III",
+        "IM",
+        "LUNR",
+        "NASA",
+        "NPWR"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying Vertical Aerospace",
+      "date": "2024-03-20",
+      "slug": "trade-alert-buying-vertical-aerospace",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-vertical-aerospace",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "MULN hit stop loss.",
+      "tickers": [
+        "AMPX",
+        "EH",
+        "ELVA",
+        "EVTL",
+        "JOBY",
+        "LICY",
+        "MULN"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying Ehang",
+      "date": "2024-03-15",
+      "slug": "trade-alert-buying-ehang",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-ehang",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Considering ABAT",
+      "tickers": [
+        "ABAT",
+        "CAAC",
+        "EH",
+        "IV",
+        "LICY",
+        "RV",
+        "UAE"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying LICY again",
+      "date": "2024-03-13",
+      "slug": "trade-alert-buying-licy-again",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-licy-again",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Also adding to CYBN, cutting INVZ, reviewing other trades",
+      "tickers": [
+        "AMPX",
+        "ARBE",
+        "CYBN",
+        "ELVA",
+        "INVZ",
+        "LICY"
+      ],
+      "has_images": false
+    },
+    {
+      "title": "Trade Alert: Buying Taboola",
+      "date": "2024-03-07",
+      "slug": "trade-alert-buying-taboola",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-taboola",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Recent trades amaking good progress but concern about AMPX, ARBE and ",
+      "tickers": [
+        "AMPX",
+        "ARBE",
+        "BBC",
+        "CNBC",
+        "COURS",
+        "MULN",
+        "NBC",
+        "QSI",
+        "TBLA",
+        "WNNR"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying WNNR",
+      "date": "2024-03-01",
+      "slug": "trade-alert-buying-wnnr",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-wnnr",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "BITF closed for 50%, February another winning month",
+      "tickers": [
+        "BITF",
+        "INVZ",
+        "NYSE",
+        "SPAC",
+        "WNNR"
+      ],
+      "has_images": false
+    },
+    {
+      "title": "Trade Alert: Buying COUR",
+      "date": "2024-02-26",
+      "slug": "trade-alert-buying-cour",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-cour",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Adding to GENI, pivoting the portfolio to Generative AI the theme of 2024",
+      "tickers": [
+        "AMPX",
+        "ARBE",
+        "COUR",
+        "GENI",
+        "III",
+        "INVZ",
+        "JOBY",
+        "MULN"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying PCT and MULN",
+      "date": "2024-02-15",
+      "slug": "trade-alert-buying-pct-and-muln",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-pct-and-muln",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "February is looking good",
+      "tickers": [
+        "ELMS",
+        "IRS",
+        "MULN",
+        "PCT",
+        "RRDS",
+        "SSB",
+        "SUV"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying JOBY",
+      "date": "2024-02-11",
+      "slug": "trade-alert-buying-joby",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-joby",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "100% return possible in short order.",
+      "tickers": [
+        "EVEX",
+        "EW",
+        "FAA",
+        "III",
+        "JOBY",
+        "NYC",
+        "RSI"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "January Results",
+      "date": "2024-02-05",
+      "slug": "january-results",
+      "url": "https://stephentobin.substack.com/p/january-results",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "A move to cash and Pivot to new Sectors.",
+      "tickers": [
+        "AMPX",
+        "ARBE",
+        "BITF",
+        "CNBC",
+        "CYBN",
+        "ELVA",
+        "FAA",
+        "GENI",
+        "INVZ",
+        "IV",
+        "JOBY",
+        "MULN",
+        "QSI"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade Alert: Buying QSI",
+      "date": "2024-01-30",
+      "slug": "trade-alert-buying-qsi",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-qsi",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Product Launch imminent",
+      "tickers": [
+        "EW",
+        "II",
+        "III",
+        "QSI"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "SES AI: Changing Tack",
+      "date": "2024-01-29",
+      "slug": "ses-ai-changing-tack",
+      "url": "https://stephentobin.substack.com/p/ses-ai-changing-tack",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "A review of the 4 trade alerts issued in January",
+      "tickers": [
+        "ARBE",
+        "EH",
+        "GM",
+        "SES"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "3 Trades on the Buy List for this week",
+      "date": "2024-01-22",
+      "slug": "4-trades-on-the-buy-list-for-this",
+      "url": "https://stephentobin.substack.com/p/4-trades-on-the-buy-list-for-this",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "ARBE, SES and BITF ready to trigger trades",
+      "tickers": [
+        "ARBE",
+        "BITF",
+        "CES",
+        "II",
+        "LIDAR",
+        "SES"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Risk Off Trading Hits Portfolio",
+      "date": "2024-01-17",
+      "slug": "risk-off-trading-hits-portfolio",
+      "url": "https://stephentobin.substack.com/p/risk-off-trading-hits-portfolio",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "Moving back to cash",
+      "tickers": [
+        "ABAT",
+        "BLBD",
+        "COVID",
+        "EU",
+        "IONQ",
+        "LIDR",
+        "NKLA",
+        "TSP"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "Trade ALert: Buying Cybin (CYBN)",
+      "date": "2024-01-10",
+      "slug": "trade-alert-buying-cybin-cybn",
+      "url": "https://stephentobin.substack.com/p/trade-alert-buying-cybin-cybn",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "everyone",
+      "summary": "Low value multibagger potential",
+      "tickers": [
+        "ATAI",
+        "CYB",
+        "CYBN",
+        "DCPD",
+        "DMT",
+        "EW",
+        "SPL"
+      ],
+      "has_images": true
+    },
+    {
+      "title": "December returns 15.5%",
+      "date": "2024-01-05",
+      "slug": "december-returns-155",
+      "url": "https://stephentobin.substack.com/p/december-returns-155",
+      "type": "post",
+      "post_type": "thematic",
+      "audience": "everyone",
+      "summary": "The account is now above the S&P 500!",
+      "tickers": [
+        "LIDR",
+        "PENN",
+        "RV"
+      ],
+      "has_images": true
+    }
+  ]
+}

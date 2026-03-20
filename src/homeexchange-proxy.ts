@@ -123,10 +123,7 @@ const ALLOWED_ROUTES: AllowedRoute[] = [
   },
 ];
 
-function matchRoute(
-  method: string,
-  path: string,
-): AllowedRoute | null {
+function matchRoute(method: string, path: string): AllowedRoute | null {
   for (const route of ALLOWED_ROUTES) {
     if (route.method === method && route.pattern.test(path)) {
       return route;
@@ -254,7 +251,8 @@ function buildHeaders(
       accept: 'application/json',
       cookie: substackCookies,
       'content-length': body.length,
-      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) NanoClaw/1.0',
+      'user-agent':
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) NanoClaw/1.0',
     };
   }
 

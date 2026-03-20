@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Substack scraper for Stephen Tobin / Strategic Wave Trading
-// Usage: node scripts/scrape-substack.js [--posts] [--notes] [--chat] [--since YYYY-MM-DD] [--dry-run]
+// Usage: node scripts/scrape-substack.js [--posts] [--notes] [--chat] [--since YYYY-MM-DD] [--dry-run] [--proxy]
 // No flags = posts only (notes/chat require explicit opt-in until endpoints are confirmed)
 
 import fs from 'fs';
@@ -706,6 +706,12 @@ async function scrapeChat(cookieHeader, sinceDate) {
 }
 
 // --- Main ---
+
+// NOTE: Image extraction (holdings snapshots from portfolio spreadsheet screenshots)
+// is not automated in this CLI. The OAuth token used by Claude Code cannot call the
+// Anthropic API directly. Image extraction is done either:
+//   - Manually in Claude Code (reading images and writing derived data)
+//   - By the container agent via cron (which authenticates through the credential proxy)
 
 async function main() {
   console.log('Substack scraper for Strategic Wave Trading');

@@ -209,28 +209,6 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
   let hadError = false;
   let outputSentToUser = false;
 
-  // Heartbeat: if the agent is silently working with no output, let the user know.
-  // Stops as soon as the agent produces a result (turn complete).
-  const HEARTBEAT_INTERVAL_MS = 60_000;
-  let lastOutputTime = Date.now();
-  let heartbeatTimer: ReturnType<typeof setInterval> | null = setInterval(() => {
-    const silentSeconds = Math.round((Date.now() - lastOutputTime) / 1000);
-    channel.sendMessage(chatJid, `_Still working... (${silentSeconds}s)_`).catch(() => {});
-  }, HEARTBEAT_INTERVAL_MS);
-
-  const stopHeartbeat = () => {
-    if (heartbeatTimer) {
-      clearInterval(heartbeatTimer);
-      heartbeatTimer = null;
-    }
-    queue.setActivityCallback(chatJid, null);
-  };
-
-  // Reset heartbeat timer when the agent sends messages via IPC (send_message tool)
-  queue.setActivityCallback(chatJid, () => {
-    lastOutputTime = Date.now();
-  });
-
   const output = await runAgent(group, prompt, chatJid, async (result) => {
     // Streaming output callback — called for each agent result
     if (result.result) {
@@ -244,16 +222,14 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
       if (text) {
         await channel.sendMessage(chatJid, text);
         outputSentToUser = true;
-        // Agent produced visible output — stop heartbeat, turn is effectively done
-        stopHeartbeat();
+        // Agent produced visible output — notify queue to reset heartbeat
+        queue.notifyActivity(chatJid);
       }
       // Only reset idle timer on actual results, not session-update markers (result: null)
       resetIdleTimer();
     }
 
     if (result.status === 'success') {
-      // Turn complete — stop heartbeat and enter idle wait
-      stopHeartbeat();
       queue.notifyIdle(chatJid);
     }
 
@@ -264,7 +240,6 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
 
   await channel.setTyping?.(chatJid, false);
   if (idleTimer) clearTimeout(idleTimer);
-  stopHeartbeat();
 
   if (output === 'error' || hadError) {
     // If we already sent output to the user, don't roll back the cursor —
@@ -422,7 +397,9 @@ async function startMessageLoop(): Promise<void> {
           const stopMsg = groupMessages.find(
             (m) =>
               /^\/stop\b/i.test(m.content.trim()) &&
-              (m.is_from_me || (isMainGroup && isSenderAllowed(chatJid, m.sender, loadSenderAllowlist()))),
+              (m.is_from_me ||
+                (isMainGroup &&
+                  isSenderAllowed(chatJid, m.sender, loadSenderAllowlist()))),
           );
           if (stopMsg) {
             const stopped = queue.stopAgent(chatJid);
@@ -525,7 +502,10 @@ async function main(): Promise<void> {
   );
 
   // Start outbound API proxy (blocks unapproved endpoints, injects credentials)
-  const outboundProxyServer = await startHomeExchangeProxy(HOMEEXCHANGE_PROXY_PORT, PROXY_BIND_HOST);
+  const outboundProxyServer = await startHomeExchangeProxy(
+    HOMEEXCHANGE_PROXY_PORT,
+    PROXY_BIND_HOST,
+  );
 
   // Graceful shutdown handlers
   const shutdown = async (signal: string) => {
@@ -614,6 +594,14 @@ async function main(): Promise<void> {
       if (!channel) throw new Error(`No channel for JID: ${jid}`);
       return channel.sendMessage(jid, text);
     },
+    sendDocument: async (jid, filePath, caption) => {
+      const channel = findChannel(channels, jid);
+      if (!channel) throw new Error(`No channel for JID: ${jid}`);
+      if (!channel.sendDocument) {
+        throw new Error(`Channel ${channel.name} does not support document sending`);
+      }
+      return channel.sendDocument(jid, filePath, caption);
+    },
     onMessageSent: (jid) => queue.notifyActivity(jid),
     registeredGroups: () => registeredGroups,
     registerGroup,
@@ -629,6 +617,13 @@ async function main(): Promise<void> {
       writeGroupsSnapshot(gf, im, ag, rj),
   });
   queue.setProcessMessagesFn(processGroupMessages);
+  queue.setHeartbeatFn((groupJid, silentSeconds) => {
+    const channel = findChannel(channels, groupJid);
+    if (!channel) return;
+    channel
+      .sendMessage(groupJid, `_Still working... (${silentSeconds}s)_`)
+      .catch(() => {});
+  });
   recoverPendingMessages();
   startMessageLoop().catch((err) => {
     logger.fatal({ err }, 'Message loop crashed unexpectedly');
