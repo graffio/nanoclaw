@@ -1,9 +1,12 @@
-import { ChildProcess } from 'child_process';
+import { ChildProcess, exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 
 import { DATA_DIR, MAX_CONCURRENT_CONTAINERS } from './config.js';
+import { CONTAINER_RUNTIME_BIN } from './container-runtime.js';
 import { logger } from './logger.js';
+
+const HEARTBEAT_INTERVAL_MS = 60_000;
 
 interface QueuedTask {
   id: string;
@@ -13,6 +16,8 @@ interface QueuedTask {
 
 const MAX_RETRIES = 5;
 const BASE_RETRY_MS = 5000;
+
+const FORCE_STOP_DELAY_MS = 5_000;
 
 interface GroupState {
   active: boolean;
@@ -25,6 +30,9 @@ interface GroupState {
   containerName: string | null;
   groupFolder: string | null;
   retryCount: number;
+  heartbeatTimer: ReturnType<typeof setInterval> | null;
+  lastActivityTime: number;
+  stopping: boolean;
 }
 
 export class GroupQueue {
@@ -33,6 +41,9 @@ export class GroupQueue {
   private waitingGroups: string[] = [];
   private processMessagesFn: ((groupJid: string) => Promise<boolean>) | null =
     null;
+  private sendHeartbeatFn:
+    | ((groupJid: string, silentSeconds: number) => void)
+    | null = null;
   private shuttingDown = false;
 
   private getGroup(groupJid: string): GroupState {
@@ -49,6 +60,9 @@ export class GroupQueue {
         containerName: null,
         groupFolder: null,
         retryCount: 0,
+        heartbeatTimer: null,
+        lastActivityTime: 0,
+        stopping: false,
       };
       this.groups.set(groupJid, state);
     }
@@ -143,11 +157,13 @@ export class GroupQueue {
 
   /**
    * Mark the container as idle-waiting (finished work, waiting for IPC input).
+   * Stops the heartbeat since the agent's turn is done.
    * If tasks are pending, preempt the idle container immediately.
    */
   notifyIdle(groupJid: string): void {
     const state = this.getGroup(groupJid);
     state.idleWaiting = true;
+    this.stopHeartbeat(groupJid);
     if (state.pendingTasks.length > 0) {
       this.closeStdin(groupJid);
     }
@@ -171,6 +187,7 @@ export class GroupQueue {
       const tempPath = `${filepath}.tmp`;
       fs.writeFileSync(tempPath, JSON.stringify({ type: 'message', text }));
       fs.renameSync(tempPath, filepath);
+      this.startHeartbeat(groupJid);
       return true;
     } catch {
       return false;
@@ -193,12 +210,117 @@ export class GroupQueue {
     }
   }
 
+  /**
+   * Set the function used to send heartbeat messages to the user.
+   */
+  setHeartbeatFn(fn: (groupJid: string, silentSeconds: number) => void): void {
+    this.sendHeartbeatFn = fn;
+  }
+
+  /**
+   * Start the heartbeat timer for a group. Called when the agent starts working
+   * (new container or piped message). Sends periodic "still working" messages
+   * if the agent goes silent.
+   */
+  private startHeartbeat(groupJid: string): void {
+    const state = this.getGroup(groupJid);
+    state.lastActivityTime = Date.now();
+    if (state.heartbeatTimer) return; // already running
+    state.heartbeatTimer = setInterval(() => {
+      if (!this.sendHeartbeatFn) return;
+      const silentSeconds = Math.round(
+        (Date.now() - state.lastActivityTime) / 1000,
+      );
+      this.sendHeartbeatFn(groupJid, silentSeconds);
+    }, HEARTBEAT_INTERVAL_MS);
+  }
+
+  /**
+   * Stop the heartbeat timer for a group.
+   */
+  private stopHeartbeat(groupJid: string): void {
+    const state = this.getGroup(groupJid);
+    if (state.heartbeatTimer) {
+      clearInterval(state.heartbeatTimer);
+      state.heartbeatTimer = null;
+    }
+  }
+
+  /**
+   * Notify that the agent produced visible output for this group
+   * (e.g. IPC send_message, streaming result). Resets the heartbeat timer.
+   */
+  notifyActivity(groupJid: string): void {
+    const state = this.getGroup(groupJid);
+    state.lastActivityTime = Date.now();
+  }
+
+  /**
+   * Interrupt the agent's current turn. Two-phase:
+   * 1. Write _stop sentinel for cooperative interrupt via SDK interrupt()
+   * 2. After FORCE_STOP_DELAY_MS, kill tool subprocesses inside the container
+   *    (handles long-running Bash commands that block interrupt()).
+   *    The agent-runner (node) stays alive so the session is preserved.
+   * Returns true if there was an active container to stop.
+   */
+  stopAgent(groupJid: string): boolean {
+    const state = this.getGroup(groupJid);
+    if (!state.active || !state.groupFolder) return false;
+
+    state.stopping = true;
+    const containerName = state.containerName;
+
+    // Phase 1: cooperative stop via IPC sentinel
+    const inputDir = path.join(DATA_DIR, 'ipc', state.groupFolder, 'input');
+    try {
+      fs.mkdirSync(inputDir, { recursive: true });
+      fs.writeFileSync(path.join(inputDir, '_stop'), '');
+    } catch {
+      return false;
+    }
+
+    // Phase 2: kill tool subprocesses after timeout if still running.
+    // Kills everything except node and sh, so the agent-runner stays alive
+    // but Bash tool commands (curl, python, bash scripts, etc.) are terminated.
+    // This unblocks interrupt() which only takes effect between tool calls.
+    if (containerName) {
+      setTimeout(() => {
+        if (state.active && state.containerName === containerName) {
+          logger.info(
+            { groupJid, containerName },
+            '/stop: cooperative interrupt timed out, killing tool subprocesses',
+          );
+          const killCmd = `${CONTAINER_RUNTIME_BIN} exec ${containerName} sh -c "ps -eo pid,comm --no-headers | grep -v -e node -e sh -e ps -e grep | awk '{print \\$1}' | xargs -r kill -9 2>/dev/null; true"`;
+          exec(killCmd, (err) => {
+            if (err) {
+              logger.debug(
+                { containerName, err: err.message },
+                'Subprocess kill error (container may have already exited)',
+              );
+            }
+          });
+        }
+      }, FORCE_STOP_DELAY_MS);
+    }
+
+    return true;
+  }
+
+  /**
+   * Check if a group is in the process of being stopped.
+   * Used to suppress error messages when a container is force-killed.
+   */
+  isStopping(groupJid: string): boolean {
+    return this.getGroup(groupJid).stopping;
+  }
+
   private async runForGroup(
     groupJid: string,
     reason: 'messages' | 'drain',
   ): Promise<void> {
     const state = this.getGroup(groupJid);
     state.active = true;
+    this.startHeartbeat(groupJid);
     state.idleWaiting = false;
     state.isTaskContainer = false;
     state.pendingMessages = false;
@@ -223,9 +345,11 @@ export class GroupQueue {
       this.scheduleRetry(groupJid, state);
     } finally {
       state.active = false;
+      state.stopping = false;
       state.process = null;
       state.containerName = null;
       state.groupFolder = null;
+      this.stopHeartbeat(groupJid);
       this.activeCount--;
       this.drainGroup(groupJid);
     }
@@ -250,6 +374,7 @@ export class GroupQueue {
       logger.error({ groupJid, taskId: task.id, err }, 'Error running task');
     } finally {
       state.active = false;
+      state.stopping = false;
       state.isTaskContainer = false;
       state.runningTaskId = null;
       state.process = null;

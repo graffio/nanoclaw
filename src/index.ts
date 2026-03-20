@@ -242,7 +242,15 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
   if (idleTimer) clearTimeout(idleTimer);
 
   if (output === 'error' || hadError) {
-    // If we already sent output to the user, don't roll back the cursor —
+    // If the agent was force-stopped via /stop, treat as success
+    if (queue.isStopping(chatJid)) {
+      logger.info(
+        { group: group.name },
+        'Agent was force-stopped, treating as success',
+      );
+      return true;
+    }
+    // If we already sent output to the user, don't roll back the cursor --
     // the user got their response and re-processing would send duplicates.
     if (outputSentToUser) {
       logger.warn(
@@ -598,7 +606,9 @@ async function main(): Promise<void> {
       const channel = findChannel(channels, jid);
       if (!channel) throw new Error(`No channel for JID: ${jid}`);
       if (!channel.sendDocument) {
-        throw new Error(`Channel ${channel.name} does not support document sending`);
+        throw new Error(
+          `Channel ${channel.name} does not support document sending`,
+        );
       }
       return channel.sendDocument(jid, filePath, caption);
     },
