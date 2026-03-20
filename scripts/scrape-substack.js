@@ -11,11 +11,20 @@ import TurndownService from 'turndown';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, '..');
-const KB_DIR = path.join(PROJECT_ROOT, 'groups/global/knowledge-base/stephen-tobin');
-const CRED_PATHS = [
-  path.join(KB_DIR, 'credentials/substack-cookies.json'),
-  path.join(PROJECT_ROOT, 'groups/telegram_main/credentials/substack-cookies.json'),
-];
+
+// Allow overriding paths for container use (--kb-dir, --creds)
+function getArg(name) {
+  const idx = process.argv.indexOf(name);
+  return idx !== -1 && process.argv[idx + 1] ? process.argv[idx + 1] : null;
+}
+
+const KB_DIR = getArg('--kb-dir') || path.join(PROJECT_ROOT, 'groups/global/knowledge-base/stephen-tobin');
+const CRED_PATHS = getArg('--creds')
+  ? [getArg('--creds')]
+  : [
+      path.join(KB_DIR, 'credentials/substack-cookies.json'),
+      path.join(PROJECT_ROOT, 'groups/telegram_main/credentials/substack-cookies.json'),
+    ];
 const BASE_URL = 'https://stephentobin.substack.com';
 const PUBLICATION_ID = 1592835;
 const RATE_LIMIT_MS = 2000;
@@ -366,6 +375,7 @@ async function scrapePosts(cookieHeader, sinceDate) {
       yearIndex.items.push(indexEntry);
       if (!rootIndex.years.includes(year)) rootIndex.years.push(year);
       saveYearIndex(year, yearIndex);
+      manifest.posts.push({ ...indexEntry, file: `posts/${post.slug}.md`, imageCount: imageUrls.length });
       totalNew++;
     }
 
@@ -504,6 +514,7 @@ async function scrapeNotes(cookieHeader, sinceDate) {
       yearIndex.items.push(indexEntry);
       if (!rootIndex.years.includes(year)) rootIndex.years.push(year);
       saveYearIndex(year, yearIndex);
+      manifest.notes.push({ ...indexEntry, file: `notes/note-${entityKey}.md` });
       totalNew++;
     }
 
@@ -653,7 +664,7 @@ async function scrapeChat(cookieHeader, sinceDate) {
       const allText = [cp.body || '', ...replies.map(r => r.body)].join(' ');
       const tickers = extractTickers(allText);
 
-      yearIndex.items.push({
+      const chatIndexEntry = {
         date,
         type: 'chat',
         thread_id: threadId,
@@ -667,9 +678,11 @@ async function scrapeChat(cookieHeader, sinceDate) {
         tickers,
         reply_count: replies.length,
         stephen_reply_count: stephenReplies.length,
-      });
+      };
+      yearIndex.items.push(chatIndexEntry);
       if (!rootIndex.years.includes(year)) rootIndex.years.push(year);
       saveYearIndex(year, yearIndex);
+      manifest.chat.push({ ...chatIndexEntry, stephen_content: stephenReplies.map(r => r.body).join('\n') });
       totalNew++;
     }
 
@@ -707,15 +720,14 @@ async function scrapeChat(cookieHeader, sinceDate) {
 
 // --- Main ---
 
-// NOTE: Image extraction (holdings snapshots from portfolio spreadsheet screenshots)
-// is not automated in this CLI. The OAuth token used by Claude Code cannot call the
-// Anthropic API directly. Image extraction is done either:
-//   - Manually in Claude Code (reading images and writing derived data)
-//   - By the container agent via cron (which authenticates through the credential proxy)
+// --- Manifest ---
+// After scraping, write a manifest of what's new so the agent can process it
+
+const manifest = { posts: [], notes: [], chat: [], timestamp: new Date().toISOString() };
 
 async function main() {
   console.log('Substack scraper for Strategic Wave Trading');
-  console.log(`Knowledge base: ${path.relative(PROJECT_ROOT, KB_DIR)}`);
+  console.log(`Knowledge base: ${KB_DIR}`);
   if (flags.since) console.log(`Since: ${flags.since}`);
   if (flags.dryRun) console.log('DRY RUN - no files will be written');
   console.log(`Scraping: ${[flags.posts && 'posts', flags.notes && 'notes', flags.chat && 'chat'].filter(Boolean).join(', ')}`);
@@ -726,6 +738,13 @@ async function main() {
   if (flags.posts) totalNew += await scrapePosts(cookieHeader, flags.since);
   if (flags.notes) totalNew += await scrapeNotes(cookieHeader, flags.since);
   if (flags.chat) totalNew += await scrapeChat(cookieHeader, flags.since);
+
+  // Write manifest for the agent to process
+  if (!flags.dryRun && totalNew > 0) {
+    const manifestPath = path.join(KB_DIR, 'scrape-manifest.json');
+    fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
+    console.log(`Manifest written: ${manifestPath} (${totalNew} items)`);
+  }
 
   console.log(`\nDone. ${totalNew} new items.`);
 }

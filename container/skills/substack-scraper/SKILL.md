@@ -221,20 +221,34 @@ SID=$(echo "$COOKIES" | jq -r '.["substack.sid"]')
 LLI=$(echo "$COOKIES" | jq -r '.["substack.lli"]')
 COOKIE_HEADER="Cookie: substack.sid=$SID; substack.lli=$LLI"
 
-# List posts
+# List posts (paginate with offset)
 curl -s "https://stephentobin.substack.com/api/v1/archive?sort=new&limit=25&offset=0" \
   -H "$COOKIE_HEADER"
 
 # Get a single post (returns JSON with body_html)
 curl -s "https://stephentobin.substack.com/api/v1/posts/{slug}" \
   -H "$COOKIE_HEADER"
+
+# List notes (Stephen's profile, user_id=39434881, paginate with cursor)
+curl -s "https://substack.com/api/v1/reader/feed/profile/39434881?types=note&limit=20" \
+  -H "$COOKIE_HEADER"
+# Note body is in response.items[].comment.body (plain text, not HTML)
+# Pagination: use response.nextCursor as &cursor= parameter
+
+# List chat threads (publication_id=1592835, paginate with before=)
+curl -s "https://substack.com/api/v1/community/publications/1592835/posts?limit=25" \
+  -H "$COOKIE_HEADER"
+# Threads are in response.threads[].communityPost
+# Pagination: if response.moreBefore is true, use oldest thread's created_at as &before=
+
+# Get chat thread replies
+curl -s "https://substack.com/api/v1/community/posts/{thread_id}/comments?limit=100" \
+  -H "$COOKIE_HEADER"
+# Replies are in response.replies[].comment (body, user_id, created_at)
+# Stephen's user_id is 39434881
 ```
 
-Note: the API endpoints for notes, chat, and comments need to be discovered. Use the browser
-(`agent-browser`) to inspect network requests if curl endpoints aren't obvious. Check:
-- Profile page: `https://substack.com/@stephentobin`
-- Chat: look for chat-related API calls in the network tab
-- Comments: try `https://stephentobin.substack.com/api/v1/post/{post_id}/comments`
+IMPORTANT: Use these curl endpoints directly. Do NOT use agent-browser for scraping — the API endpoints above are confirmed working and much faster/more reliable than browser automation. Rate limit: max 1 request per 2 seconds.
 
 ### Scrape Workflow
 
@@ -253,12 +267,19 @@ Note: the API endpoints for notes, chat, and comments need to be discovered. Use
 5. Scrape notes (discover the API endpoint first)
 6. Scrape chat — **ONLY Stephen's messages** with thread topic and parent for context. Save as `chat/{date}-{topic-slug}.md`
 7. Update `index-{year}.json` index with ALL new content and metadata
-8. **Run derived data extraction**:
-   a. For each ticker found in new content, update or create `tickers/{TICKER}.md`
-   b. For weekly updates: extract portfolio numbers → append to `derived/portfolio-history.csv`
-   c. For weekly updates with holdings screenshots: extract → save `derived/holdings/{date}.json`
-   d. For trade alerts: extract trade details → update relevant ticker file
-9. Report what was found
+8. **Update ticker dossiers** — for each ticker mentioned in new content:
+   a. Read the existing `tickers/{TICKER}.md` file
+   b. Append a new entry to the **Complete Timeline** section with the date, source type, actual content (not just a summary), and a Source link to the file
+   c. If it's a trade alert: also add a row to the **Trade History** table
+   d. If it's a weekly update with a holdings spreadsheet: add a row to the **Position Snapshots** table
+   e. If the thesis has changed: update the **Investment Thesis** section
+   f. All dollar signs must be escaped as `\$` to prevent LaTeX rendering
+   g. If the ticker file doesn't exist yet: create it following the format in existing ticker files (see any file in `tickers/` for the template)
+9. **Update portfolio-level derived data**:
+   a. For weekly updates: extract portfolio numbers → append to `derived/portfolio-history.csv`
+   b. For weekly updates with holdings screenshots: read the image, extract all rows → save `derived/holdings/{date}.json`
+   c. For account summary images: update `derived/account-balances.csv`
+10. Report what was found
 
 ### Handling Images with Data
 
