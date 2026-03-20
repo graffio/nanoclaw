@@ -2,6 +2,172 @@
   "year": 2026,
   "items": [
     {
+      "date": "2026-03-20",
+      "type": "chat",
+      "file": "2026-03-20-palladyne-missile-company.md",
+      "summary": "Not looked at PDYN. Has been researching a missile company but frustrated by lack of contract finance transparency.",
+      "thread_topic": "Palladyne AI / missile company research",
+      "tickers": [
+        "PDYN"
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "type": "chat",
+      "file": "2026-03-20-lunr-space-spending.md",
+      "summary": "LUNR: \"not at the top of my space list.\" Was going to buy a space company this week but Iran war likely to cut US government spending. Watching but holding off.",
+      "thread_topic": "LUNR — space spending concerns post Iran war",
+      "tickers": [
+        "LUNR"
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "type": "chat",
+      "thread_id": "79264f0a-3feb-42c4-bb09-88be9678c28e",
+      "file": "chat/chat-2026-03-20.md",
+      "author": "Karel Goderis",
+      "has_stephen": true,
+      "thread_topic": "LUNR holding up after a revenue miss, and on a higher timeframe it looks like it bottomed. Stephen, worthwhile a revisit?",
+      "summary": "Karel Goderis: LUNR holding up after a revenue miss... Stephen: I will definitely look but they are not at the top of my space list at the moment. I was going to buy a new space company this week but suspect a change in US government spending following the Iran war.",
+      "tickers": [
+        "LUNR"
+      ],
+      "reply_count": 2,
+      "stephen_reply_count": 1
+    },
+    {
+      "date": "2026-03-19",
+      "type": "chat",
+      "file": "2026-03-19-market-risk-off.md",
+      "summary": "Market hitting hard. Stephen: \"Agreed, but easier said than done.\"",
+      "thread_topic": "Market risk-off — staying the course",
+      "tickers": []
+    },
+    {
+      "date": "2026-03-19",
+      "type": "chat",
+      "file": "2026-03-19-exit-strategy-backtesting.md",
+      "summary": "Detailed backtesting explanation: exit on thesis failure, take profit at 200% (not 100%). \"I have missed out on more dollars by closing early than I have gained by limiting losses.\" No technical stop-loss signals planned.",
+      "thread_topic": "Exit strategy and backtesting",
+      "tickers": [
+        "ONDS",
+        "ELVA"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "type": "chat",
+      "file": "2026-03-19-aspi-vs-aisp.md",
+      "summary": "Clarified: exited AISP (Airship AI), NOT ASPI — \"those two tickers are too similar for comfort\". ASPI still held.",
+      "thread_topic": "ASPI vs AISP clarification",
+      "tickers": [
+        "ASPI",
+        "AISP"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "type": "chat",
+      "file": "2026-03-19-portfolio-exits.md",
+      "summary": "Posted final exit prices/losses for 6 positions closed today (BYRN, QRHC, AISP, SPCE + 2 others); \"a transitional time\" — positioning for changed economic environment post-Middle East escalation",
+      "thread_topic": "Portfolio exit update — final prices and losses",
+      "tickers": [
+        "BYRN",
+        "QRHC",
+        "AISP",
+        "SPCE"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "type": "chat",
+      "thread_id": "dcbd72c8-4ced-42d4-8d5a-a231f2c6c9bd",
+      "file": "chat/chat-2026-03-19.md",
+      "author": "stephen Tobin",
+      "has_stephen": true,
+      "thread_topic": "The situation in the Middle East is clearly getting worse",
+      "summary": "Stephen Tobin: The situation in the Middle East is clearly getting worse I will execute the exit of trades highlighted in yesterday's piece",
+      "tickers": [],
+      "reply_count": 0,
+      "stephen_reply_count": 1
+    },
+    {
+      "date": "2026-03-19",
+      "type": "chat",
+      "thread_id": "bfd18231-99f2-4aa9-b1f6-f9fa17780905",
+      "file": "chat/chat-2026-03-19.md",
+      "author": "Sebastian",
+      "has_stephen": true,
+      "thread_topic": "Careful all, another Stephen Tobin imposter on Substack.",
+      "summary": "Sebastian: Careful all, another Stephen Tobin imposter on Substack. Stephen: Thanks for highlighting, after your note two more arrived on my MDA note. I wonder what the scam is",
+      "tickers": [],
+      "reply_count": 2,
+      "stephen_reply_count": 1
+    },
+    {
+      "date": "2026-03-19",
+      "type": "chat",
+      "thread_id": "432dcd91-13bc-40fa-a1b0-d8fd763935b1",
+      "file": "chat/chat-2026-03-19.md",
+      "author": "stephen Tobin",
+      "has_stephen": true,
+      "thread_topic": "Picture of final prices and losses taken today",
+      "summary": "Stephen Tobin: Picture of final prices and losses taken today. A poor day but I want to get the money recovered into stocks more likely to appreciate in the coming economic situation... Two weeks is a long time in politics but it will take the economy far more than 2 weeks to recover from the situation unfolding in the middle east.",
+      "tickers": [],
+      "reply_count": 5,
+      "stephen_reply_count": 3
+    },
+    {
+      "date": "2026-03-19",
+      "type": "chat",
+      "thread_id": "49929c01-f583-46cf-bb57-7a4d66cab65a",
+      "file": "chat/chat-2026-03-19.md",
+      "author": "Jacob Templeman",
+      "has_stephen": true,
+      "thread_topic": "Just wanted to confirm, are we still holding onto ASPI?",
+      "summary": "Jacob Templeman: Just wanted to confirm, are we still holding onto ASPI? Stephen: Yes, it was AISP I exited not ASPI, those two tickers are too similar for comfort",
+      "tickers": [
+        "ASPI",
+        "AISP"
+      ],
+      "reply_count": 2,
+      "stephen_reply_count": 1
+    },
+    {
+      "date": "2026-03-19",
+      "type": "chat",
+      "thread_id": "12457b10-fc19-4487-8a36-0205c919cc54",
+      "file": "chat/chat-2026-03-19.md",
+      "author": "Emmanuel Trigenis",
+      "has_stephen": true,
+      "thread_topic": "Thank you for the updates and trade notifications/exits [stop losses discussion]",
+      "summary": "Emmanuel Trigenis asks about stop losses. Stephen: I often back test the portfolio performance with different strategies. Stop loss and take profit are two I regularly play around with... backtesting suggests 200% take profit is the most successful strategy... exit if the thesis fails.",
+      "tickers": [
+        "ONDS",
+        "ELVA"
+      ],
+      "reply_count": 7,
+      "stephen_reply_count": 2
+    },
+    {
+      "title": "Close Alert",
+      "subtitle": "Middle East Getting Worse",
+      "date": "2026-03-19",
+      "slug": "close-alert",
+      "type": "post",
+      "post_type": "trade_alert",
+      "audience": "only_paid",
+      "summary": "Selling BYRN, QRHC, AISP, SPCE due to escalating Middle East conflict (Israel-Iran) causing 25% jump in European gas prices and risk-off environment.",
+      "tickers": [
+        "BYRN",
+        "QRHC",
+        "AISP",
+        "SPCE"
+      ],
+      "has_images": false
+    },
+    {
       "title": "Portfolio Review: Higher for Longer?",
       "date": "2026-03-18",
       "slug": "portfolio-review-higher-for-longer",
