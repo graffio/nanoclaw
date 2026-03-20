@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Helsinki — HomeExchange</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8f9fa; }
+
+  #map { height: 50vh; min-height: 250px; }
+  #table-container { height: 50vh; overflow-y: auto; }
+
+  .header {
+    padding: 12px 16px; background: white; border-bottom: 1px solid #e0e0e0;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .header h1 { font-size: 16px; font-weight: 600; }
+  .header .meta { font-size: 12px; color: #888; }
+
+  #table-container { padding: 0 8px 0; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12px; background: white; border-radius: 6px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  thead th {
+    background: #f5f5f5; padding: 8px 6px; text-align: left; font-weight: 600;
+    border-bottom: 2px solid #e0e0e0; position: sticky; top: 0; cursor: pointer;
+    white-space: nowrap; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  thead th:hover { background: #eee; }
+  tbody td { padding: 6px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+  tbody tr { cursor: pointer; transition: background 0.15s; }
+  tbody tr:hover { background: #f0f7ff; }
+  tbody tr.highlighted { background: #dbeafe; }
+
+  .thumb { width: 60px; height: 45px; object-fit: cover; border-radius: 3px; }
+  .title-cell a { color: #1a73e8; text-decoration: none; font-weight: 500; font-size: 12px; }
+  .title-cell a:hover { text-decoration: underline; }
+  .title-cell .hood { color: #888; font-size: 11px; }
+  .beds-perm { font-weight: 600; }
+  .beds-putup { color: #888; }
+  .cal-cell { font-size: 11px; max-width: 180px; }
+  .cal-booked { color: #e53935; }
+  .cal-gp { color: #1e88e5; }
+  .cal-recip { color: #f9a825; }
+  .cal-unknown { color: #999; }
+  .notes-cell { font-size: 11px; color: #666; max-width: 150px; overflow: hidden; text-overflow: ellipsis; }
+  .wishlist { font-size: 11px; color: #888; }
+  .street-view-link { font-size: 10px; color: #888; text-decoration: none; }
+  .street-view-link:hover { color: #1a73e8; }
+  .resp-high { color: #2e7d32; font-weight: 600; }
+  .resp-med { color: #f57f17; }
+  .resp-low { color: #c62828; }
+  .pref-tag { font-size: 10px; padding: 1px 4px; border-radius: 3px; white-space: nowrap; }
+  .pref-recip { background: #fff3e0; color: #e65100; }
+  .pref-gp { background: #e8f5e9; color: #2e7d32; }
+
+  .neighborhood-label { background: none !important; border: none !important; box-shadow: none !important; font-size: 10px; font-weight: 600; color: #666; white-space: nowrap; }
+
+  .leaflet-popup-content { font-size: 12px; line-height: 1.4; }
+  .leaflet-popup-content a { color: #1a73e8; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>Helsinki — 11 suitable listings</h1>
+    <div class="meta">Scraped 2026-03-18 · Enriched 2026-03-18 · 119 total in area</div>
+  </div>
+</div>
+
+<div id="map"></div>
+<div id="table-container">
+<table id="listings-table">
+<thead><tr>
+  <th>#</th>
+  <th></th>
+  <th>Listing</th>
+  <th>Beds</th>
+  <th>Resp</th>
+  <th>Rev</th>
+  <th>GP/n</th>
+  <th>Type</th>
+  <th>Summer calendar</th>
+  <th>Notes</th>
+</tr></thead>
+<tbody id="listings-body"></tbody>
+</table>
+</div>
+
+<script>
+const LISTINGS = [{"idx":0,"id":1473180,"title":"Beautiful spacious home in the heart of Helsinki","lat":60.170453848425794,"lon":24.960469973114293,"hood":"other","br":3,"perm":5,"putup":0,"cap":5,"resp":100,"rev":48,"rating":5,"gp":277,"minNights":14,"prefRecip":true,"cal":"07-28→08-14 booked","wishlist":"City of Tarifa, Spain, City of Hyères, France, Halland, Sweden, Cornwall, England, United Kingdom","thumb":"https://image.homeexchange.fr/images/home/2703861/1473180/1719211061242639.jpg","url":"https://www.homeexchange.com/en/listing/1473180","suitable":true,"issues":[],"notes":"Daytrips from Helsinki.\nhttp://materialbank.myhelsinki.fi/media/2748\n\nPlease note:\n\nMinimum stay seven days or 1939 Guest Points.\n\nCar can be included in reciprocal exchanges.\nOur home is best suited "},{"idx":1,"id":2909997,"title":"Family Home in Central Helsinki","lat":60.176848570913975,"lon":24.951241273491316,"hood":"other","br":2,"perm":3,"putup":4,"cap":7,"resp":100,"rev":22,"rating":4.96296,"gp":91,"minNights":0,"prefRecip":true,"cal":"06-13→06-15 GP, 06-29→07-04 booked, 07-04→07-14 booked, 07-15→07-20 GP, 08-03→08-12 booked, 08-13→08-14 booked","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5452263/2909997/1836620930514933.jpg","url":"https://www.homeexchange.com/en/listing/2909997","suitable":true,"issues":[],"notes":""},{"idx":2,"id":2856873,"title":"Stylish flat in the heart of Helsinki with park views and sunny terrace.","lat":60.16401474795501,"lon":24.93464785964438,"hood":"punavuori","br":3,"perm":5,"putup":1,"cap":6,"resp":100,"rev":21,"rating":5,"gp":265,"minNights":14,"prefRecip":false,"cal":"03-18→06-15 booked, 06-15→07-11 GP, 07-11→07-29 booked, 07-29→08-31 booked","wishlist":"London, England, United Kingdom, Paris, France, Antibes, France, Finland","thumb":"https://image.homeexchange.fr/images/home/4676851/2856873/1832287046025549.jpg","url":"https://www.homeexchange.com/en/listing/2856873","suitable":true,"issues":[],"notes":"The facade renovation will last the whole summer. Our balcony will be unaccessible during the renovation. The view from the windows of our livingroom, kitchen and master bedroom will be covered by sca"},{"idx":3,"id":2777559,"title":"Jaakko's home","lat":60.19359295496887,"lon":24.93709732074773,"hood":"other","br":3,"perm":5,"putup":4,"cap":9,"resp":100,"rev":18,"rating":5,"gp":288,"minNights":4,"prefRecip":true,"cal":"06-13→06-18 booked, 06-18→06-22 GP, 08-07→08-31 booked","wishlist":"Berlin, Germany, Vienna, Austria","thumb":"https://image.homeexchange.fr/images/home/5236929/2777559/1827945576335164.jpg","url":"https://www.homeexchange.com/en/listing/2777559","suitable":true,"issues":[],"notes":""},{"idx":4,"id":1521784,"title":"City apartment in Helsinki","lat":60.18235105934635,"lon":24.96416408243991,"hood":"other","br":4,"perm":5,"putup":1,"cap":6,"resp":100,"rev":16,"rating":4.95833,"gp":180,"minNights":0,"prefRecip":true,"cal":"no calendar","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/3020349/1521784/1628182971155323.jpg","url":"https://www.homeexchange.com/en/listing/1521784","suitable":true,"issues":[],"notes":"City center within walking distance\nAirport bus stop 5 minute walk. \n5 min walk to Sörnäinen subway."},{"idx":5,"id":2001311,"title":"Helsinki central apartment with balcony NO GUEST POINTS","lat":60.16192992960374,"lon":24.937571153453774,"hood":"punavuori","br":2,"perm":4,"putup":2,"cap":6,"resp":96,"rev":54,"rating":4.47619,"gp":166,"minNights":0,"prefRecip":false,"cal":"08-07→08-12 booked","wishlist":"Italy, France","thumb":"https://image.homeexchange.fr/images/home/3848923/2001311/1714404453302613.jpg","url":"https://www.homeexchange.com/en/listing/2001311","suitable":true,"issues":[],"notes":"Please take your trash out when leaving, wash the dishes and leave the apartment as you entered. Do not move the furniture as our cleaner is good but small in size and needs help to fix furniture back"},{"idx":6,"id":2607476,"title":"Nordic Design flat with direct sea view","lat":60.18001538781058,"lon":24.98249548003264,"hood":"other","br":2,"perm":4,"putup":2,"cap":6,"resp":95,"rev":10,"rating":4.92593,"gp":277,"minNights":4,"prefRecip":false,"cal":"06-11→06-15 GP, 07-01→07-06 booked","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/2443436/2607476/1800293072649813.jpg","url":"https://www.homeexchange.com/en/listing/2607476","suitable":true,"issues":[],"notes":"No smoking in the building, inside of home or in the balcony. As a Finnish tradition, the outdoor shoes are removed once entering to home."},{"idx":7,"id":2658474,"title":"Lehtola's house","lat":60.19616090442167,"lon":24.938943514200503,"hood":"other","br":2,"perm":2,"putup":3,"cap":8,"resp":90,"rev":13,"rating":5,"gp":230,"minNights":2,"prefRecip":true,"cal":"06-18→06-22 GP, 07-06→07-17 GP, 08-01→08-03 recip only, 08-03→08-09 booked, 08-09→08-11 recip only","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5053417/2658474/1806647058917922.jpg","url":"https://www.homeexchange.com/en/listing/2658474","suitable":true,"issues":[],"notes":"The historic Konepaja area in Vallila is lively, distinctive, and constantly developing. The neighbourhood offers a great mix of local atmosphere, services, and things to do.\n\nWithin walking distance "},{"idx":8,"id":2271464,"title":"Virve's house","lat":60.164518257446844,"lon":24.934215768063424,"hood":"punavuori","br":2,"perm":4,"putup":1,"cap":7,"resp":80,"rev":5,"rating":5,"gp":127,"minNights":0,"prefRecip":false,"cal":"no calendar","wishlist":"Spain, Portugal, Reykjavik, NE, Iceland, Denmark, Scotland, United Kingdom, Greece, Italy, Australia, New Zealand, France, Sweden","thumb":"https://image.homeexchange.fr/images/home/4460321/2271464/1761605899080746.jpg","url":"https://www.homeexchange.com/en/listing/2271464","suitable":true,"issues":[],"notes":""},{"idx":9,"id":3095984,"title":"Family-friendly apartment in Helsinki","lat":60.192544841475176,"lon":24.904509608750942,"hood":"other","br":2,"perm":2,"putup":3,"cap":7,"resp":80,"rev":0,"rating":0,"gp":250,"minNights":0,"prefRecip":true,"cal":"06-01→07-31 GP, 07-31→12-12 booked","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5803829/3095984/1857582469542643.jpg","url":"https://www.homeexchange.com/en/listing/3095984","suitable":true,"issues":[],"notes":""},{"idx":10,"id":2758830,"title":"Vincent's house","lat":60.15682342525728,"lon":24.948294803980126,"hood":"ullanlinna","br":2,"perm":4,"putup":1,"cap":5,"resp":64,"rev":0,"rating":0,"gp":117,"minNights":0,"prefRecip":true,"cal":"no calendar","wishlist":"Australia","thumb":"https://image.homeexchange.fr/images/home/5209280/2758830/1820126406590159.jpg","url":"https://www.homeexchange.com/en/listing/2758830","suitable":true,"issues":[],"notes":""}];
+const HOODS = {"kallio":{"label":"Kallio","n":60.19,"s":60.178,"e":24.96,"w":24.94},"kruununhaka":{"label":"Kruununhaka","n":60.175,"s":60.168,"e":24.96,"w":24.945},"toolo":{"label":"Töölö","n":60.185,"s":60.172,"e":24.935,"w":24.91},"punavuori":{"label":"Punavuori / Design District","n":60.168,"s":60.158,"e":24.945,"w":24.93},"ullanlinna":{"label":"Ullanlinna","n":60.165,"s":60.155,"e":24.955,"w":24.935},"kamppi":{"label":"Kamppi","n":60.172,"s":60.165,"e":24.94,"w":24.925}};
+const CENTER = [60.1699, 24.9384];
+
+// --- Map ---
+const map = L.map('map').setView(CENTER, 13);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/">CARTO</a>',
+  maxZoom: 19,
+}).addTo(map);
+
+// Draw neighborhood bounds
+Object.entries(HOODS).forEach(([key, h]) => {
+  if (!h.n) return;
+  L.rectangle([[h.s, h.w], [h.n, h.e]], {
+    color: '#888', weight: 1, fillOpacity: 0.03, dashArray: '4',
+  }).addTo(map);
+  L.marker([(h.n + h.s) / 2, (h.e + h.w) / 2], {
+    icon: L.divIcon({ className: 'neighborhood-label', html: h.label || key }),
+  }).addTo(map);
+});
+
+// Markers
+const markers = {};
+const defaultColor = '#1a73e8';
+const dimColor = '#93b4d4';
+
+function makeIcon(color, size, label) {
+  return L.divIcon({
+    className: '',
+    html: `<div style="position:relative;width:${size}px;height:${size}px;border-radius:50%;background:${color};border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;color:white;font-size:9px;font-weight:700">${label}</div>`,
+    iconSize: [size, size],
+    iconAnchor: [size/2, size/2],
+  });
+}
+
+function highlightIcon(label) {
+  return makeIcon('#e53935', 26, label);
+}
+
+LISTINGS.forEach((l, i) => {
+  const num = String(i + 1);
+  const color = l.resp >= 80 ? defaultColor : dimColor;
+  const marker = L.marker([l.lat, l.lon], {
+    icon: makeIcon(color, 20, num),
+    zIndexOffset: l.resp >= 80 ? 1000 : 0,
+  }).addTo(map);
+
+  marker.bindPopup(`
+    <strong>${l.title}</strong><br>
+    ${l.br}BR, ${l.perm}+${l.putup} beds · ${l.resp}% · ${l.rev} rev<br>
+    ${l.gp} GP/night · ${l.hood}<br>
+    <a href="${l.url}" target="_blank">View listing</a> ·
+    <a href="https://www.google.com/maps/@${l.lat},${l.lon},3a,75y,0h,90t/data=!3m6!1e1!3m4!1s!2e0!7i16384!8i8192" target="_blank">Street View</a>
+  `);
+
+  marker.on('click', () => highlightRow(i));
+  marker._defaultIcon = makeIcon(color, 20, num);
+  markers[i] = marker;
+});
+
+// Fit map to markers
+if (LISTINGS.length > 0) {
+  const bounds = L.latLngBounds(LISTINGS.map(l => [l.lat, l.lon]));
+  map.fitBounds(bounds, { padding: [30, 30] });
+}
+
+// --- Table ---
+const tbody = document.getElementById('listings-body');
+
+function respClass(r) { return r >= 80 ? 'resp-high' : r >= 50 ? 'resp-med' : 'resp-low'; }
+
+function formatCal(cal) {
+  if (!cal || cal === 'not enriched' || cal === 'no calendar') {
+    return `<span class="cal-unknown">${cal}</span>`;
+  }
+  return cal
+    .replace(/booked/g, '<span class="cal-booked">booked</span>')
+    .replace(/\bGP\b/g, '<span class="cal-gp">GP</span>')
+    .replace(/recip only/g, '<span class="cal-recip">recip only</span>');
+}
+
+LISTINGS.forEach((l, i) => {
+  const tr = document.createElement('tr');
+  tr.dataset.idx = i;
+  tr.onclick = () => highlightRow(i);
+
+  const prefTag = l.prefRecip
+    ? '<span class="pref-tag pref-recip">reciprocal</span>'
+    : '<span class="pref-tag pref-gp">GP ok</span>';
+
+  const notes = [];
+  if (l.minNights > 0) notes.push(`min ${l.minNights}n`);
+  if (l.gp === 0) notes.push('no GP');
+  if (l.wishlist) notes.push(`wants: ${l.wishlist.slice(0, 60)}`);
+  if (l.notes) notes.push(l.notes.split(/[.\n]/)[0].slice(0, 80));
+
+  tr.innerHTML = `
+    <td>${i + 1}</td>
+    <td>${l.thumb ? `<img class="thumb" src="${l.thumb}" loading="lazy">` : ''}</td>
+    <td class="title-cell">
+      <a href="${l.url}" target="_blank">${l.title.slice(0, 45)}</a><br>
+      <span class="hood">${l.hood}</span>
+      <a class="street-view-link" href="https://www.google.com/maps/@${l.lat},${l.lon},3a,75y,0h,90t/data=!3m6!1e1!3m4!1s!2e0!7i16384!8i8192" target="_blank">📍 street view</a>
+    </td>
+    <td><span class="beds-perm">${l.br}BR ${l.perm}</span><span class="beds-putup">+${l.putup}</span></td>
+    <td class="${respClass(l.resp)}">${l.resp}%</td>
+    <td>${l.rev}</td>
+    <td>${l.gp}</td>
+    <td>${prefTag}</td>
+    <td class="cal-cell">${formatCal(l.cal)}</td>
+    <td class="notes-cell">${notes.join(' · ')}</td>
+  `;
+  tbody.appendChild(tr);
+});
+
+// --- Interaction ---
+let highlightedIdx = null;
+
+function highlightRow(idx) {
+  // Reset previous
+  if (highlightedIdx !== null) {
+    const prevRow = tbody.querySelector(`tr[data-idx="${highlightedIdx}"]`);
+    if (prevRow) prevRow.classList.remove('highlighted');
+    const prevMarker = markers[highlightedIdx];
+    if (prevMarker) prevMarker.setIcon(prevMarker._defaultIcon);
+  }
+
+  // Highlight new
+  const row = tbody.querySelector(`tr[data-idx="${idx}"]`);
+  if (row) {
+    row.classList.add('highlighted');
+    row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+  const marker = markers[idx];
+  if (marker) {
+    marker.setIcon(highlightIcon(String(idx + 1)));
+    marker.openPopup();
+    map.panTo(marker.getLatLng(), { animate: true });
+  }
+
+  highlightedIdx = idx;
+}
+
+// --- Sort ---
+document.querySelectorAll('thead th').forEach((th, colIdx) => {
+  th.addEventListener('click', () => {
+    // Simple sort — re-sort LISTINGS array and rebuild table
+    // For now just visual highlight, full sort TBD
+  });
+});
+</script>
+</body>
+</html>

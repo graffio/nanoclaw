@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>London — HomeExchange</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8f9fa; }
+
+  #map { height: 50vh; min-height: 250px; }
+  #table-container { height: 50vh; overflow-y: auto; padding: 0 8px; }
+
+  .header {
+    padding: 12px 16px; background: white; border-bottom: 1px solid #e0e0e0;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .header h1 { font-size: 16px; font-weight: 600; }
+  .header .meta { font-size: 12px; color: #888; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12px; background: white; border-radius: 6px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  thead th {
+    background: #f5f5f5; padding: 8px 6px; text-align: left; font-weight: 600;
+    border-bottom: 2px solid #e0e0e0; position: sticky; top: 0; cursor: pointer;
+    white-space: nowrap; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+    user-select: none;
+  }
+  thead th:hover { background: #eee; }
+  thead th.sort-asc::after  { content: ' ↑'; color: #1a73e8; }
+  thead th.sort-desc::after { content: ' ↓'; color: #1a73e8; }
+  thead th.sorted { background: #e8f0fe; color: #1a73e8; }
+  tbody td { padding: 6px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+  tbody tr { cursor: pointer; transition: background 0.15s; }
+  tbody tr:hover { background: #f0f7ff; }
+  tbody tr.highlighted { background: #dbeafe; }
+
+  .thumb { width: 60px; height: 45px; object-fit: cover; border-radius: 3px; }
+  .title-cell a { color: #1a73e8; text-decoration: none; font-weight: 500; font-size: 12px; }
+  .title-cell a:hover { text-decoration: underline; }
+  .street-view-link { font-size: 10px; color: #888; text-decoration: none; display: block; margin-top: 2px; }
+  .street-view-link:hover { color: #1a73e8; }
+  .hood-cell { font-size: 11px; color: #555; white-space: nowrap; }
+  .beds-perm { font-weight: 600; }
+  .beds-putup { color: #888; }
+  .cal-cell { font-size: 11px; max-width: 180px; }
+  .cal-booked { color: #e53935; }
+  .cal-gp { color: #1e88e5; }
+  .cal-recip { color: #f9a825; }
+  .cal-unknown { color: #999; }
+  .notes-cell { font-size: 11px; color: #555; max-width: 180px; }
+  .warning { display: block; color: #d84315; font-size: 10px; margin-bottom: 1px; }
+  .note-text { color: #888; font-size: 11px; }
+  .resp-high { color: #2e7d32; font-weight: 600; }
+  .resp-med  { color: #f57f17; }
+  .resp-low  { color: #c62828; }
+  .pref-tag { font-size: 10px; padding: 1px 4px; border-radius: 3px; white-space: nowrap; }
+  .pref-recip { background: #fff3e0; color: #e65100; }
+  .pref-gp    { background: #e8f5e9; color: #2e7d32; }
+  .recip-badge { font-size: 10px; padding: 1px 4px; border-radius: 3px; margin-left: 3px; white-space: nowrap; }
+  .recip-exact  { background: #e8f5e9; color: #1b5e20; }
+  .recip-region { background: #e8f5e9; color: #1b5e20; }
+  .recip-state  { background: #f1f8e9; color: #33691e; }
+  .recip-other  { background: #f5f5f5; color: #616161; }
+  .score-cell { white-space: nowrap; }
+  .score-bar-wrap { background: #eee; border-radius: 3px; height: 6px; width: 60px; display: inline-block; vertical-align: middle; margin-right: 4px; }
+  .score-bar { height: 6px; border-radius: 3px; }
+  .score-num { font-weight: 600; font-size: 12px; }
+  .neighborhood-label { background: none !important; border: none !important; box-shadow: none !important; font-size: 10px; font-weight: 600; color: #666; white-space: nowrap; }
+  .leaflet-popup-content { font-size: 12px; line-height: 1.4; }
+  .leaflet-popup-content a { color: #1a73e8; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>London — 25 listings (named neighbourhoods)</h1>
+    <div class="meta">Scraped 2026-03-19 · Enriched 2026-03-19 · Sorted by suitability score</div>
+  </div>
+</div>
+
+<div id="map"></div>
+<div id="table-container">
+<table id="listings-table">
+<thead><tr>
+  <th data-col="idx"    data-type="num">#</th>
+  <th></th>
+  <th data-col="title"  data-type="str">Listing</th>
+  <th data-col="hood"   data-type="str">Neighbourhood</th>
+  <th data-col="br"     data-type="num">Beds</th>
+  <th data-col="resp"   data-type="num">Resp</th>
+  <th data-col="rev"    data-type="num">Rev</th>
+  <th data-col="gp"     data-type="num">GP/n</th>
+  <th data-col="prefRecip" data-type="str">Type</th>
+  <th data-col="cal"    data-type="str">Summer calendar</th>
+  <th data-col="score"  data-type="num" class="sorted sort-desc">Score</th>
+  <th>Notes</th>
+</tr></thead>
+<tbody id="listings-body"></tbody>
+</table>
+</div>
+
+<script>
+const LISTINGS = [{"idx":0,"id":1395982,"title":"Historic Artist Studio  Primrose Hill - please note my preference is for city house swaps","lat":51.54155098696334,"lon":-0.15464786466073255,"hood":"camden","br":3,"perm":5,"putup":1,"resp":100,"rev":59,"gp":250,"score":83,"warnings":[],"prefRecip":true,"recipMatch":"state","wishlist":"Valencia, Spain, Vancouver, BC, Canada, Norfolk, England, United Kingdom, Copenhagen, HS, Denmark, Tokyo, Chiyoda, Japan, Kyoto-shi, Kyoto, Japan","cal":"likely available all summer","thumb":"https://image.homeexchange.fr/images/home/2387439/1395982/1800414371534474.jpg","url":"https://www.homeexchange.com/en/listing/1395982","notes":""},{"idx":1,"id":1378699,"title":"CENTRAL LONDON 4 bed large house (voted top 5 neighborhood). Over 80, 5* exchanges!","lat":51.561590622301445,"lon":-0.07794475117899727,"hood":"stoke_newington","br":4,"perm":6,"putup":1,"resp":100,"rev":89,"gp":275,"score":81,"warnings":[],"prefRecip":true,"recipMatch":"state","wishlist":"New York, NY, USA, Los Angeles, CA, USA, Las Vegas, Clark, NV, USA, Tokyo, Japan, Japan, Paris, Ile-de-France, France, United States (USA)","cal":"08-14→08-16 GP, 08-16→08-28 booked","thumb":"https://image.homeexchange.fr/images/home/2284330/1378699/1781918078293298.jpg","url":"https://www.homeexchange.com/en/listing/1378699","notes":"A very short bus ride from Central London & The City\nAmazing neighbourhood w/ great cafes shops & parks\nStylish and comfortable interiors in a big 4 bed house"},{"idx":2,"id":2345947,"title":"Todd's house","lat":51.541395658056324,"lon":-0.10657442698639087,"hood":"islington","br":4,"perm":13,"putup":0,"resp":100,"rev":82,"gp":423,"score":79,"warnings":[],"prefRecip":false,"recipMatch":"state","wishlist":"Sicily, Italy, Croatia, Corsica, France, Stellenbosch, WC, South Africa","cal":"likely available all summer","thumb":"https://image.homeexchange.fr/images/home/4595048/2345947/1772500346356321.jpg","url":"https://www.homeexchange.com/en/listing/2345947","notes":"Ideally looking for exchanges of 7 nights or longer\n\nCleaning fee of 180 GBP per stay, payable by bank transfer.\n\nNo shoes in the house please.\n\nAbsolutely no smoking or vaping and while we love animals, none allowed in our brand new home. \n\nWe do not & will not accept additional guests after finali"},{"idx":3,"id":2232858,"title":"Cosy Islington Terraced Home","lat":51.54208878544372,"lon":-0.11392924136763342,"hood":"islington","br":2,"perm":3,"putup":3,"resp":100,"rev":16,"gp":255,"score":74,"warnings":[],"prefRecip":true,"recipMatch":"country","wishlist":"Portland, OR, USA, Vancouver, WA, USA, Venice, VE, Italy, Amsterdam, NH, Netherlands, New York, NY, USA, Brooklyn, New York, NY, USA, Paris, France, Paris, France, Malaysia","cal":"likely available all summer","thumb":"https://image.homeexchange.fr/images/home/4379805/2232858/1755945226691199.jpg","url":"https://www.homeexchange.com/en/listing/2232858","notes":"We would hope that you could feed our cat for us and water our plants. \n\nBe aware that we have lodgers living in our basement flat. We all share an entrance but live separately. \n\nWe sometimes have musicians or music groups / ensembles rehearsing in the music room. If this is happening during your s"},{"idx":4,"id":2151422,"title":"Vic's Hackney Duplex","lat":51.54601922706242,"lon":-0.04535515673503791,"hood":"hackney","br":2,"perm":4,"putup":1,"resp":100,"rev":14,"gp":275,"score":74,"warnings":[],"prefRecip":true,"recipMatch":"country","wishlist":"New York, NY, USA, Barcelona, Spain, New Orleans, LA, USA, Municipality of Athens, AT, Greece","cal":"06-01→06-28 booked","thumb":"https://image.homeexchange.fr/images/home/4106444/2151422/1855781260038475.jpg","url":"https://www.homeexchange.com/en/listing/2151422","notes":"Children are welcome, but I would be mindful of the staircase and suggest it's not ideal for small children. \n\nPlease note the sofa bed is a vintage 70's pull out, so I would suggest it would be preferred for small children or minimise to one nights sleep for adults or best just one adult!"},{"idx":5,"id":1280579,"title":"Beautiful London home for 8 people, Hackney. Looking for Easter 2026 (2-6 April)","lat":51.56312657593675,"lon":-0.07370260838792424,"hood":"stoke_newington","br":4,"perm":8,"putup":0,"resp":100,"rev":32,"gp":175,"score":74,"warnings":[],"prefRecip":true,"recipMatch":"none","wishlist":"","cal":"likely available all summer","thumb":"https://image.homeexchange.fr/images/home/1795999/1280579/1824025248239758.jpg","url":"https://www.homeexchange.com/en/listing/1280579","notes":"It has character, charm and space for eight people\n\nGreat location. Lots of cafes, restaurants, shops and bars. People we have exchanged with have found it a good base to enjoy London's major attractions , but also to enjoy local life too.\n\nFrom our house, it's easy to travel to central London.\n\nWe "},{"idx":6,"id":2133641,"title":"Modern Warehouse Conversion in Quirky Brixton, London","lat":51.45586467732677,"lon":-0.12115234165197107,"hood":"brixton","br":2,"perm":4,"putup":1,"resp":100,"rev":84,"gp":270,"score":74,"warnings":[],"prefRecip":true,"recipMatch":"none","wishlist":"","cal":"likely available all summer","thumb":"https://image.homeexchange.fr/images/home/3012019/2133641/1737965467653582.jpg","url":"https://www.homeexchange.com/en/listing/2133641","notes":"Our Cat, a grumpy ragdoll, Tux will always stay. So as long as you love cats, were good to go!\n\nOur cleaners will come in at the end of the stay - there is a charge of £60. We kindly ask that cash is left on the exit of the stay."},{"idx":7,"id":1074565,"title":"Beautiful House  in Central London. 1 stop from Kings Cross station.\n\nBooked until August 2023","lat":51.54748047505673,"lon":-0.0900208568045343,"hood":"islington","br":3,"perm":6,"putup":1,"resp":100,"rev":18,"gp":135,"score":73,"warnings":["⚠️ reciprocal-only periods, no SF interest"],"prefRecip":true,"recipMatch":"none","wishlist":"Portugal, Bath, England, United Kingdom, New Forest, England, United Kingdom","cal":"06-01→06-30 recip only","thumb":"https://image.homeexchange.fr/images/home/1220576/1074565/1719233397591438.jpg","url":"https://www.homeexchange.com/en/listing/1074565","notes":"Quiet neighbourhood but close to central London!\n10 minutes to restaurants, theatre, shops.\nFriendly neighbours. Our cleaner comes once a week and we are happy to pay for her whilst visitors are there."},{"idx":8,"id":526060,"title":"Family home in Hackney","lat":51.54952882442067,"lon":-0.04775072114786977,"hood":"hackney","br":4,"perm":7,"putup":2,"resp":100,"rev":7,"gp":293,"score":67,"warnings":[],"prefRecip":false,"recipMatch":"none","wishlist":"Spain, Croatia, Italy, Greece","cal":"07-31→08-29 AVAILABLE","thumb":"https://image.homeexchange.fr/images/home/618095/526060/1758484843934565.jpg","url":"https://www.homeexchange.com/en/listing/526060","notes":"If you are planning days out in London we would recommend the Tate Modern gallery and the South Bank of the Thames as a great destination. The 242 bus from the end of the our road will take you through the heart of the financial district where passing by the world famous Bank of England you can stop"},{"idx":9,"id":2496825,"title":"Historic London townhouse","lat":51.54190627963119,"lon":-0.11626840590927846,"hood":"islington","br":3,"perm":4,"putup":2,"resp":100,"rev":9,"gp":322,"score":65,"warnings":[],"prefRecip":true,"recipMatch":"none","wishlist":"Yorkshire de l'Ouest, Angleterre, Royaume-Uni, Highland, Scotland, United Kingdom","cal":"likely available all summer","thumb":"https://image.homeexchange.fr/images/home/4781950/2496825/1787697479640591.jpg","url":"https://www.homeexchange.com/en/listing/2496825","notes":""},{"idx":10,"id":2270078,"title":"Barry's house","lat":51.541621145550224,"lon":-0.14773027039554446,"hood":"camden","br":4,"perm":8,"putup":0,"resp":100,"rev":12,"gp":372,"score":55,"warnings":[],"prefRecip":false,"recipMatch":"none","wishlist":"","cal":"07-31→08-03 booked, 08-03→08-13 booked, 08-13→08-14 GP, 08-21→08-29 booked","thumb":"https://image.homeexchange.fr/images/home/4457976/2270078/1775949991497780.jpg","url":"https://www.homeexchange.com/en/listing/2270078","notes":"We have five beautiful cats that are super friendly to be looked after they are very easy going so feeding them is easy. Litter tray will need to be scooped daily as they are indoor cats"},{"idx":11,"id":964907,"title":"Large Hampstead family home near huge green space and Central London","lat":51.55259918090112,"lon":-0.16118819683901925,"hood":"hampstead","br":4,"perm":6,"putup":0,"resp":100,"rev":30,"gp":176,"score":49,"warnings":["❓ no calendar set (3mo ago)"],"prefRecip":false,"recipMatch":"none","wishlist":"South Korea","cal":"no calendar","thumb":"https://image.homeexchange.fr/images/home/1168518/964907/1719220735521885.jpg","url":"https://www.homeexchange.com/en/listing/964907","notes":"Large, mature garden, with fruit trees and herbs\nMinutes away from London's largest green space \nClose to Central London,with great transport links\n\nNOTE We have severe animal allergies in the family so are not able to exchange with any home with dogs, cats etc.  NOTE We also only want to exchange w"},{"idx":12,"id":1968144,"title":"Don and Emma's house","lat":51.55992436349455,"lon":-0.07460959632181605,"hood":"stoke_newington","br":4,"perm":7,"putup":2,"resp":100,"rev":21,"gp":340,"score":48,"warnings":[],"prefRecip":true,"recipMatch":"none","wishlist":"","cal":"07-22→08-05 booked, 08-05→08-06 AVAILABLE, 08-06→08-17 booked, 08-17→08-18 AVAILABLE","thumb":"https://image.homeexchange.fr/images/home/3802603/1968144/1742403785094135.jpg","url":"https://www.homeexchange.com/en/listing/1968144","notes":""},{"idx":13,"id":2779631,"title":"Lovely period home near Notting Hill","lat":51.52747693143254,"lon":-0.21388841906269354,"hood":"queens_park","br":3,"perm":3,"putup":3,"resp":100,"rev":10,"gp":161,"score":46,"warnings":["❓ no calendar set (2mo ago)"],"prefRecip":false,"recipMatch":"none","wishlist":"","cal":"no calendar","thumb":"https://image.homeexchange.fr/images/home/5240510/2779631/1822310735113183.jpg","url":"https://www.homeexchange.com/en/listing/2779631","notes":"We will message you further information about the house when you arrange a stay with us."},{"idx":14,"id":367663,"title":"Cosy Hackney garden maisonette, London Fields","lat":51.53898530136661,"lon":-0.064639563904581,"hood":"hackney","br":2,"perm":4,"putup":1,"resp":100,"rev":27,"gp":160,"score":45,"warnings":["🕐 calendar stale (14mo ago)"],"prefRecip":true,"recipMatch":"state","wishlist":"Lisbon (Lisboa), Portugal, Porto, Portugal, Budapest, Hungary, Norfolk, United Kingdom, Croatia, Copenhagen, Capital, Denmark, Edinburgh (Edimburgo), Midlothian, Scotland, United Kingdom, Berne, Bern-Mittelland, Switzerland, Azores (Açores), Portugal, Cornwall, United Kingdom, Bristol, Avon, England, United Kingdom, Madeira Island, Portugal, County Dublin, Ireland, Rome, Latium, Italy, Florence, Tuscany, Italy, Venice, Veneto, Italy, Azores, Portugal","cal":"03-19→06-30 booked, 07-01→01-31 booked","thumb":"https://image.homeexchange.fr/images/home/409738/367663/1724743630577358.jpg","url":"https://www.homeexchange.com/en/listing/367663","notes":"Please note we are currently only looking for exchanges within the UK."},{"idx":15,"id":2500673,"title":"Alessandra's house","lat":51.55022433464086,"lon":-0.03783003308230041,"hood":"hackney","br":3,"perm":5,"putup":0,"resp":100,"rev":14,"gp":252,"score":42,"warnings":[],"prefRecip":true,"recipMatch":"state","wishlist":"Edinburgh, Scotland, United Kingdom, New York, NY, USA, Amsterdam, NH, Netherlands, Belfast, Northern Ireland, United Kingdom, Whitby, England, United Kingdom, Oslo, Norway, Catania, CT, Italy, Seville, Spain, Paris, France, King's Lynn, England, United Kingdom, Manchester, England, United Kingdom, Krakow, MA, Poland","cal":"06-01→06-30 booked, 07-01→07-26 booked, 07-27→07-30 booked, 07-30→07-31 AVAILABLE, 07-31→08-09 booked, 08-09→08-12 booked, 08-13→08-23 booked","thumb":"https://image.homeexchange.fr/images/home/525565/2500673/1788706468609783.jpg","url":"https://www.homeexchange.com/en/listing/2500673","notes":"We have a pet cat called Django. She  is very friendly and enjoys to be petted."},{"idx":16,"id":1476124,"title":"Large family home in London Zone 2","lat":51.44795106471912,"lon":-0.08968045290617684,"hood":"dulwich","br":4,"perm":7,"putup":1,"resp":100,"rev":71,"gp":184,"score":38,"warnings":[],"prefRecip":true,"recipMatch":"none","wishlist":"","cal":"03-19→07-07 booked, 07-07→07-31 booked, 07-31→10-17 booked","thumb":"https://image.homeexchange.fr/images/home/2822189/1476124/1633766415189350.jpg","url":"https://www.homeexchange.com/en/listing/1476124","notes":"Family friendly home in Dulwich Village - a stunning part of London.\nWe are close to bus stops and trains to central London.\nWe have a beautiful sunny garden to chill out in after the hustle and bustle of London life."},{"idx":17,"id":2100597,"title":"Brodie’s house","lat":51.54428918278786,"lon":-0.10980538793000447,"hood":"islington","br":3,"perm":5,"putup":2,"resp":100,"rev":16,"gp":160,"score":37,"warnings":["❓ no calendar set (7mo ago)"],"prefRecip":false,"recipMatch":"none","wishlist":"","cal":"no calendar","thumb":"https://image.homeexchange.fr/images/home/4008095/2100597/1732559228829145.jpg","url":"https://www.homeexchange.com/en/listing/2100597","notes":""},{"idx":18,"id":1042405,"title":"Typical terraced family home in London","lat":51.55247566455431,"lon":-0.04225671318636614,"hood":"hackney","br":4,"perm":6,"putup":1,"resp":100,"rev":41,"gp":300,"score":35,"warnings":["❓ no calendar set (4mo ago)"],"prefRecip":true,"recipMatch":"none","wishlist":"","cal":"no calendar","thumb":"https://image.homeexchange.fr/images/home/1290569/1042405/1722607859853849.jpg","url":"https://www.homeexchange.com/en/listing/1042405","notes":"London is the best place to live and Hackney is a fantastic neighbourhood. \nThe house is light and our garden is peaceful"},{"idx":19,"id":2371386,"title":"Away from it all, in the heart of it all! (GP stays, minimum 7 nights)","lat":51.53866140102418,"lon":-0.06069990369354536,"hood":"hackney","br":3,"perm":5,"putup":0,"resp":100,"rev":65,"gp":282,"score":35,"warnings":[],"prefRecip":true,"recipMatch":"none","wishlist":"Argentina, Japan","cal":"05-21→02-28 booked","thumb":"https://image.homeexchange.fr/images/home/4614298/2371386/1772936533794038.jpg","url":"https://www.homeexchange.com/en/listing/2371386","notes":"Apart from being at the heart of the very trendy and cool London Fields area (a destination in its own right) the flat is within easy reach of many favourite places for visitors. For example, public transport travel times to:\n\nSt Paul’s Cathedral (29 mins)\nTower of London (35 mins)\nOxford Circus (34"},{"idx":20,"id":2755065,"title":"Vibrant Hackney 2 Bedroom Flat","lat":51.55133770561171,"lon":-0.058795947950984445,"hood":"hackney","br":2,"perm":4,"putup":2,"resp":100,"rev":10,"gp":112,"score":32,"warnings":[],"prefRecip":true,"recipMatch":"none","wishlist":"Seville, Spain, Umbria, Italy, San Gimignano, SI, Italy, Copenhagen, HS, Denmark, Florence, FI, Italy, Vienna, Austria, Valencia, Spain","cal":"03-19→12-31 booked","thumb":"https://image.homeexchange.fr/images/home/5203380/2755065/1820351366785124.jpg","url":"https://www.homeexchange.com/en/listing/2755065","notes":"We kindly ask you to pay £45 for the cleaning.\n\nWe only have one last availability in our current home: reciprocal exchange - 10 days between 16-31st July - we’re looking for a 2+ bedroom home with outdoor space, fast wifi and near cultural attractions and food. (Not available for guest points, sorr"},{"idx":21,"id":2234094,"title":"Large 3 double bedroom home in London’s leafy and cool Stoke Newington","lat":51.560980751582626,"lon":-0.07710663537429313,"hood":"stoke_newington","br":4,"perm":7,"putup":0,"resp":100,"rev":34,"gp":350,"score":30,"warnings":[],"prefRecip":true,"recipMatch":"none","wishlist":"Porto, Portugal, Stockholm, Sweden, Porto, Portugal","cal":"05-01→12-31 booked","thumb":"https://image.homeexchange.fr/images/home/4390997/2234094/1756204156442569.jpg","url":"https://www.homeexchange.com/en/listing/2234094","notes":""},{"idx":22,"id":2380161,"title":"Immaculate 3 bed flat in Central London","lat":51.55400443528437,"lon":-0.1078934854979288,"hood":"highbury","br":3,"perm":9,"putup":1,"resp":100,"rev":24,"gp":400,"score":28,"warnings":[],"prefRecip":false,"recipMatch":"none","wishlist":"","cal":"03-19→09-30 booked","thumb":"https://image.homeexchange.fr/images/home/4618133/2380161/1772936814129477.jpg","url":"https://www.homeexchange.com/en/listing/2380161","notes":"We don't accept more than 6 guests, although the flat is large. We are not currently able to offer stays in peak seasons, but can accommodate occasional or short notice stays. \n\nCleaning and laundry fee of £100 per stay. With thanks!"},{"idx":23,"id":2373688,"title":"Hampstead Heath Garden home","lat":51.55574911033231,"lon":-0.16014261147770584,"hood":"hampstead","br":4,"perm":6,"putup":1,"resp":100,"rev":11,"gp":275,"score":26,"warnings":["❓ no calendar set (9mo ago)"],"prefRecip":true,"recipMatch":"none","wishlist":"Greece, Denmark, Italy, Croatia, Sri Lanka","cal":"no calendar","thumb":"https://image.homeexchange.fr/images/home/2701627/2373688/1772936984170715.jpg","url":"https://www.homeexchange.com/en/listing/2373688","notes":""},{"idx":24,"id":2952445,"title":"Razzy's house","lat":51.53217977705564,"lon":-0.13978884733831798,"hood":"camden","br":4,"perm":8,"putup":2,"resp":100,"rev":5,"gp":384,"score":24,"warnings":[],"prefRecip":true,"recipMatch":"none","wishlist":"Lisbon, Portugal","cal":"03-19→10-31 booked","thumb":"https://image.homeexchange.fr/images/home/5028252/2952445/1841325982280108.jpg","url":"https://www.homeexchange.com/en/listing/2952445","notes":""}];
+const HOODS = {"hampstead":{"label":"Hampstead","n":51.575,"s":51.55,"e":-0.155,"w":-0.195},"islington":{"label":"Islington","n":51.55,"s":51.53,"e":-0.09,"w":-0.13},"hackney":{"label":"Hackney","n":51.555,"s":51.535,"e":-0.035,"w":-0.075},"stoke_newington":{"label":"Stoke Newington","n":51.57,"s":51.555,"e":-0.065,"w":-0.085},"highbury":{"label":"Highbury","n":51.555,"s":51.543,"e":-0.09,"w":-0.11},"clapham":{"label":"Clapham","n":51.47,"s":51.45,"e":-0.13,"w":-0.16},"balham":{"label":"Balham","n":51.45,"s":51.435,"e":-0.14,"w":-0.16},"brixton":{"label":"Brixton","n":51.47,"s":51.455,"e":-0.105,"w":-0.125},"peckham":{"label":"Peckham","n":51.478,"s":51.462,"e":-0.05,"w":-0.08},"dulwich":{"label":"Dulwich","n":51.455,"s":51.435,"e":-0.065,"w":-0.095},"camden":{"label":"Camden","n":51.548,"s":51.53,"e":-0.125,"w":-0.155},"queens_park":{"label":"Queen's Park","n":51.54,"s":51.525,"e":-0.195,"w":-0.215},"notting_hill":{"label":"Notting Hill","n":51.525,"s":51.508,"e":-0.185,"w":-0.21}};
+const CENTER = [51.5074, -0.1278];
+
+// --- Map ---
+const map = L.map('map').setView(CENTER, 13);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap, &copy; CARTO',
+  maxZoom: 19,
+}).addTo(map);
+
+// Draw neighbourhood bounds
+Object.entries(HOODS).forEach(([key, h]) => {
+  if (!h.n) return;
+  L.rectangle([[h.s, h.w], [h.n, h.e]], {
+    color: '#888', weight: 1, fillOpacity: 0.03, dashArray: '4',
+  }).addTo(map);
+  L.marker([(h.n + h.s) / 2, (h.e + h.w) / 2], {
+    icon: L.divIcon({ className: 'neighborhood-label', html: h.label || key }),
+  }).addTo(map);
+});
+
+// Markers — colour by score
+function scoreColor(score) {
+  if (score >= 70) return '#2e7d32'; // green
+  if (score >= 50) return '#1a73e8'; // blue
+  if (score >= 30) return '#f57f17'; // amber
+  return '#9e9e9e';                  // grey
+}
+
+function makeIcon(color, size, label) {
+  return L.divIcon({
+    className: '',
+    html: `<div style="position:relative;width:${size}px;height:${size}px;border-radius:50%;background:${color};border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;color:white;font-size:9px;font-weight:700">${label}</div>`,
+    iconSize: [size, size],
+    iconAnchor: [size/2, size/2],
+  });
+}
+
+const markers = {};
+LISTINGS.forEach((l, i) => {
+  const color = scoreColor(l.score);
+  const marker = L.marker([l.lat, l.lon], {
+    icon: makeIcon(color, 20, String(i + 1)),
+    zIndexOffset: l.score,
+  }).addTo(map);
+  marker.bindPopup(`
+    <strong>${l.title}</strong><br>
+    ${l.hood} · ${l.br}BR · ${l.resp}% resp · ${l.rev} reviews<br>
+    ${l.gp ? l.gp + ' GP/night' : 'no GP'} · score <strong>${l.score}</strong><br>
+    <a href="${l.url}" target="_blank">View listing</a> ·
+    <a href="https://www.google.com/maps/@${l.lat},${l.lon},3a,75y,0h,90t/data=!3m6!1e1!3m4!1s!2e0!7i16384!8i8192" target="_blank">Street View</a>
+  `);
+  marker.on('click', () => highlightRow(i));
+  marker._defaultIcon = makeIcon(color, 20, String(i + 1));
+  markers[i] = marker;
+});
+
+if (LISTINGS.length > 0) {
+  const bounds = L.latLngBounds(LISTINGS.map(l => [l.lat, l.lon]));
+  map.fitBounds(bounds, { padding: [30, 30] });
+}
+
+// --- Table ---
+const tbody = document.getElementById('listings-body');
+
+function respClass(r) { return r >= 80 ? 'resp-high' : r >= 50 ? 'resp-med' : 'resp-low'; }
+
+function formatCal(cal) {
+  if (!cal || cal === 'not enriched' || cal === 'no calendar') {
+    return `<span class="cal-unknown">${cal}</span>`;
+  }
+  return cal
+    .replace(/booked/g, '<span class="cal-booked">booked</span>')
+    .replace(/\bGP\b/g, '<span class="cal-gp">GP</span>')
+    .replace(/recip only/g, '<span class="cal-recip">recip only</span>');
+}
+
+function scoreBar(score) {
+  const color = score >= 70 ? '#2e7d32' : score >= 50 ? '#1a73e8' : score >= 30 ? '#f57f17' : '#9e9e9e';
+  return `<div class="score-bar-wrap"><div class="score-bar" style="width:${score}%;background:${color}"></div></div><span class="score-num" style="color:${color}">${score}</span>`;
+}
+
+function recipBadge(match, wishlist) {
+  if (!match || match === 'none') return '';
+  const cls = { exact: 'recip-exact', region: 'recip-region', state: 'recip-state' }[match] || 'recip-other';
+  const short = wishlist ? wishlist.split(',')[0].trim().slice(0, 20) : match;
+  return `<span class="recip-badge ${cls}" title="${wishlist}">${short}</span>`;
+}
+
+let displayOrder = LISTINGS.map((_, i) => i); // current display order
+
+function buildTable(order) {
+  tbody.innerHTML = '';
+  order.forEach((dataIdx, rowNum) => {
+    const l = LISTINGS[dataIdx];
+    const tr = document.createElement('tr');
+    tr.dataset.idx = dataIdx;
+    tr.onclick = () => highlightRow(dataIdx);
+
+    const prefTag = l.prefRecip
+      ? '<span class="pref-tag pref-recip">reciprocal pref</span>'
+      : '<span class="pref-tag pref-gp">GP ok</span>';
+
+    const warningHtml = l.warnings.map(w => `<span class="warning">${w}</span>`).join('');
+    const noteText = l.notes ? `<span class="note-text">${l.notes.split(/[.\n]/)[0].slice(0, 80)}</span>` : '';
+
+    tr.innerHTML = `
+      <td>${rowNum + 1}</td>
+      <td>${l.thumb ? `<img class="thumb" src="${l.thumb}" loading="lazy">` : ''}</td>
+      <td class="title-cell">
+        <a href="${l.url}" target="_blank">${l.title.slice(0, 45)}</a>
+        <a class="street-view-link" href="https://www.google.com/maps/@${l.lat},${l.lon},3a,75y,0h,90t/data=!3m6!1e1!3m4!1s!2e0!7i16384!8i8192" target="_blank">📍 street view</a>
+      </td>
+      <td class="hood-cell">${l.hood}</td>
+      <td><span class="beds-perm">${l.br}BR ${l.perm}</span><span class="beds-putup">+${l.putup}</span></td>
+      <td class="${respClass(l.resp)}">${l.resp}%</td>
+      <td>${l.rev}</td>
+      <td>${l.gp || '–'}</td>
+      <td>${prefTag}${recipBadge(l.recipMatch, l.wishlist)}</td>
+      <td class="cal-cell">${formatCal(l.cal)}</td>
+      <td class="score-cell">${scoreBar(l.score)}</td>
+      <td class="notes-cell">${warningHtml}${noteText}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+buildTable(displayOrder);
+
+// --- Column sort ---
+let sortCol = 'score';
+let sortDir = -1; // -1 = desc
+
+document.querySelectorAll('thead th[data-col]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.col;
+    const type = th.dataset.type;
+    if (sortCol === col) {
+      sortDir *= -1;
+    } else {
+      sortCol = col;
+      sortDir = type === 'num' ? -1 : 1;
+    }
+    document.querySelectorAll('thead th').forEach(t => {
+      t.classList.remove('sorted', 'sort-asc', 'sort-desc');
+    });
+    th.classList.add('sorted', sortDir === 1 ? 'sort-asc' : 'sort-desc');
+
+    displayOrder = [...LISTINGS.keys()].sort((a, b) => {
+      const va = LISTINGS[a][col];
+      const vb = LISTINGS[b][col];
+      if (type === 'num') return sortDir * ((vb ?? -1) - (va ?? -1));
+      return sortDir * String(va ?? '').localeCompare(String(vb ?? ''));
+    });
+    buildTable(displayOrder);
+  });
+});
+
+// --- Map ↔ table interaction ---
+let highlightedIdx = null;
+
+function highlightRow(dataIdx) {
+  if (highlightedIdx !== null) {
+    const prevRow = tbody.querySelector(`tr[data-idx="${highlightedIdx}"]`);
+    if (prevRow) prevRow.classList.remove('highlighted');
+    const prevMarker = markers[highlightedIdx];
+    if (prevMarker) prevMarker.setIcon(prevMarker._defaultIcon);
+  }
+  const row = tbody.querySelector(`tr[data-idx="${dataIdx}"]`);
+  if (row) {
+    row.classList.add('highlighted');
+    row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+  const marker = markers[dataIdx];
+  if (marker) {
+    const hiIcon = L.divIcon({
+      className: '',
+      html: `<div style="position:relative;width:28px;height:28px;border-radius:50%;background:#e53935;border:3px solid white;box-shadow:0 2px 5px rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;color:white;font-size:10px;font-weight:700">${displayOrder.indexOf(dataIdx)+1}</div>`,
+      iconSize: [28, 28], iconAnchor: [14, 14],
+    });
+    marker.setIcon(hiIcon);
+    marker.openPopup();
+    map.panTo(marker.getLatLng(), { animate: true });
+  }
+  highlightedIdx = dataIdx;
+}
+</script>
+</body>
+</html>

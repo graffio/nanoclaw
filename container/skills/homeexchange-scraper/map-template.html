@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HomeExchange — {{CITY_LABEL}}</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+  #map { height: 100vh; width: 100vw; }
+  .listing-popup { max-width: 280px; line-height: 1.4; }
+  .listing-popup h3 { font-size: 14px; margin-bottom: 4px; }
+  .listing-popup .meta { color: #666; font-size: 12px; margin-bottom: 6px; }
+  .listing-popup .score { font-weight: bold; }
+  .listing-popup .reciprocal { color: #d4a017; font-weight: bold; }
+  .listing-popup a { color: #0066cc; }
+  .legend {
+    background: white; padding: 10px 14px; border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2); font-size: 13px; line-height: 1.8;
+  }
+  .legend-dot {
+    display: inline-block; width: 12px; height: 12px;
+    border-radius: 50%; margin-right: 6px; vertical-align: middle;
+  }
+  .stats {
+    position: absolute; top: 10px; left: 60px; z-index: 1000;
+    background: white; padding: 8px 14px; border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2); font-size: 13px;
+  }
+  .neighborhood-label {
+    background: none; border: none; box-shadow: none;
+    font-size: 11px; font-weight: bold; color: #555;
+  }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="stats" id="stats"></div>
+<script>
+// DATA_INJECTION_POINT — the agent replaces these with actual values
+const CITY_CENTER = {{CITY_CENTER}};
+const LISTINGS = {{LISTINGS_JSON}};
+const NEIGHBORHOODS = {{NEIGHBORHOODS_JSON}};
+const GENERATED = "{{GENERATED_DATE}}";
+
+const map = L.map('map').setView(CITY_CENTER, 13);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap contributors',
+  maxZoom: 18,
+}).addTo(map);
+
+// Draw neighborhood boundaries
+Object.entries(NEIGHBORHOODS).forEach(([key, hood]) => {
+  if (hood.n && hood.s && hood.e && hood.w) {
+    L.rectangle([[hood.s, hood.w], [hood.n, hood.e]], {
+      color: '#666', weight: 1, fillOpacity: 0.05, dashArray: '4',
+    }).addTo(map);
+
+    L.marker([(hood.n + hood.s) / 2, (hood.e + hood.w) / 2], {
+      icon: L.divIcon({ className: 'neighborhood-label', html: hood.label || key }),
+    }).addTo(map);
+  }
+});
+
+// Marker colors
+function markerColor(listing) {
+  if (listing.dismissed) return '#ccc';
+  if (listing.reciprocal_interest) return '#d4a017';
+  if (listing.score >= 60) return '#2196F3';
+  return '#999';
+}
+
+function createIcon(color) {
+  return L.divIcon({
+    className: '',
+    html: `<div style="width:14px;height:14px;border-radius:50%;background:${color};border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.3)"></div>`,
+    iconSize: [14, 14],
+    iconAnchor: [7, 7],
+  });
+}
+
+// Add listings
+let reciprocalCount = 0;
+let hoodCounts = {};
+
+LISTINGS.forEach(l => {
+  if (l.reciprocal_interest) reciprocalCount++;
+  hoodCounts[l.neighborhood || 'other'] = (hoodCounts[l.neighborhood || 'other'] || 0) + 1;
+
+  const color = markerColor(l);
+  const marker = L.marker([l.lat, l.lon], { icon: createIcon(color) }).addTo(map);
+
+  const reciprocalBadge = l.reciprocal_interest
+    ? `<div class="reciprocal">★ Wants to visit ${l.reciprocal_interest}</div>` : '';
+
+  marker.bindPopup(`
+    <div class="listing-popup">
+      <h3>${l.title || 'Listing ' + l.home_id}</h3>
+      <div class="meta">
+        ${l.neighborhood || 'Unknown area'} · ${l.bedrooms || '?'}BR · Sleeps ${l.capacity || '?'}
+      </div>
+      ${reciprocalBadge}
+      <div class="meta">
+        Response: ${l.response_rate || '?'}% · <span class="score">Score: ${l.score || '?'}</span>
+        ${l.has_guest_points ? ' · GP ✓' : ''}
+      </div>
+      <div style="margin-top:6px">
+        <a href="https://www.homeexchange.com/en/listing/${l.home_id}" target="_blank">View on HomeExchange →</a>
+      </div>
+      ${l.summary ? `<div class="meta" style="margin-top:4px">${l.summary}</div>` : ''}
+    </div>
+  `);
+});
+
+// Stats
+document.getElementById('stats').innerHTML =
+  `<strong>${LISTINGS.length}</strong> listings · ` +
+  `<span style="color:#d4a017">★ ${reciprocalCount} reciprocal</span> · ` +
+  `Updated ${GENERATED}`;
+
+// Legend
+const legend = L.control({ position: 'bottomright' });
+legend.onAdd = function() {
+  const div = L.DomUtil.create('div', 'legend');
+  div.innerHTML = [
+    '<strong>Listings</strong>',
+    '<div><span class="legend-dot" style="background:#d4a017"></span>Reciprocal interest</div>',
+    '<div><span class="legend-dot" style="background:#2196F3"></span>Good match (score ≥ 60)</div>',
+    '<div><span class="legend-dot" style="background:#999"></span>Lower score</div>',
+    '<div><span class="legend-dot" style="background:#ccc"></span>Dismissed</div>',
+  ].join('');
+  return div;
+};
+legend.addTo(map);
+</script>
+</body>
+</html>
