@@ -16,26 +16,39 @@ Scripts are at `/home/node/.claude/skills/homeexchange-scraper/`.
 City configs are at `/home/node/.claude/skills/homeexchange-scraper/cities.json`.
 Knowledge base is at `/workspace/global/knowledge-base/homeexchange/`.
 
+## Search Algorithm
+
+**Pull everything, filter client-side.**
+
+1. The API search (`bff.homeexchange.com/search/homes`) requires geographic bounds and accepts date ranges. We send the widest bounds per city (`wide_bounds` in cities.json) with `adults: 1` to get ALL listings regardless of size.
+
+2. Pagination: first request gets total count, then we fetch remaining pages. Page size is 200 (API rejects anything above this). Default delay between pages is 200ms.
+
+3. Client-side suitability tagging:
+   - In a named neighborhood (defined in cities.json)
+   - 4+ adult beds (permanent + put-up)
+   - 2+ bedrooms
+   - Not a private room
+
+   Adult bed counting: `big_double_bed*2 + double_bed*2 + single_bed + double_bed_up*2 + single_bed_up` (excludes children's beds and baby beds). The `_up` suffix means put-up/sofa beds.
+
+4. Enrichment (separate step): for suitable listings, fetches calendar availability, user travel wishlist, and full home details via 3 API calls per listing.
+
 ## Three-Step Pipeline
 
 ### Step 1: Fetch all listings for a city
 
 ```bash
-node /home/node/.claude/skills/homeexchange-scraper/save-city.mjs --city helsinki --max-pages 10
+node /home/node/.claude/skills/homeexchange-scraper/save-city.mjs --city helsinki
 ```
 
-Fetches ALL listings in the city bounds (adults=1), then tags each as `suitable` or not.
+Fetches ALL listings in the city bounds, tags suitability client-side, saves to `/workspace/global/knowledge-base/homeexchange/cities/{city}.json`.
 
-Suitable = verified AND contact allowed AND NOT private room AND 5+ adult sleeping spots AND 2+ bedrooms AND 50%+ response rate.
-
-Adult sleeping spots = big_double_bed*2 + double_bed*2 + single_bed + double_bed_up*2 + single_bed_up (excludes children's beds and baby beds). The `_up` suffix means put-up/sofa beds.
-
-Saves everything to `/workspace/global/knowledge-base/homeexchange/cities/{city}.json`.
-
-IMPORTANT: Always use the default dates (Jul 1 – Aug 21, flex 0). Omitting dates returns FEWER results, not more. Never pass --no-dates.
+IMPORTANT: Always use the default dates (Jul 1 -- Aug 21, flex 0). Omitting dates returns FEWER results, not more. Never pass --no-dates.
 
 Options:
-- `--max-pages 10` (need this to get all results; default is 5)
+- `--page-size 200` (default; API max is 200)
+- `--delay-ms 200` (default; increase if rate limited)
 - `--reverse 1632849` (filter to reciprocal candidates only)
 - `--from` / `--to` / `--flexibility` (override date range; defaults are correct for this trip)
 
@@ -53,7 +66,7 @@ For each suitable listing, fetches:
 Options:
 - `--all` (enrich all listings, not just suitable)
 - `--force` (re-enrich already enriched listings)
-- `--delay-ms 3000` (slow down if rate limited; default 2000)
+- `--delay-ms 200` (default is 2000; lower if not rate limited)
 
 ### Step 3: Generate a report
 
@@ -82,23 +95,23 @@ Options:
 When the user asks about HomeExchange listings:
 
 **"Show me Helsinki listings"** or **"What's available in Helsinki?"**
-→ If city data exists in the knowledge base, just run `report-map.mjs` and send the document. Do NOT re-scrape.
-→ If no data, run save-city then enrich-city then report-map.
+-> If city data exists in the knowledge base, just run `report-map.mjs` and send the document. Do NOT re-scrape.
+-> If no data, run save-city then enrich-city then report-map.
 
 **"Refresh Helsinki"** or **"Update Helsinki listings"**
-→ Run `save-city.mjs` then `enrich-city.mjs` then `report-map.mjs`.
+-> Run `save-city.mjs` then `enrich-city.mjs` then `report-map.mjs`.
 
 **"Show me all four cities"** or **"Run the full pipeline"**
-→ Run all three steps for each city: london, copenhagen, stockholm, helsinki.
+-> Run all three steps for each city: london, copenhagen, stockholm, helsinki.
 
 **"What reciprocal options are there for Stockholm?"**
-→ Run `save-city.mjs --city stockholm --reverse 1632849 --max-pages 10`, then enrich, then report.
+-> Run `save-city.mjs --city stockholm --reverse 1632849`, then enrich, then report.
 
 **"Tell me about listing 1473180"**
-→ Look it up in the city JSON. If enriched, show full details. If not, enrich it first.
+-> Look it up in the city JSON. If enriched, show full details. If not, enrich it first.
 
 **Questions about the data** (e.g., "which Helsinki listings are available in July?", "who has the most reviews?")
-→ Read the city JSON from the knowledge base and answer from the stored data. No need to re-fetch.
+-> Read the city JSON from the knowledge base and answer from the stored data. No need to re-fetch.
 
 ## Low-Level Search (for ad-hoc queries)
 
@@ -115,21 +128,21 @@ node /home/node/.claude/skills/homeexchange-scraper/search.mjs --enrich <home_id
 
 ## City & Neighborhood Context
 
-**London** — Difficult on HomeExchange. Good neighborhoods: Hampstead, Islington, Highbury, Hackney, Stoke Newington, Camden, Clapham, Balham, Brixton, Peckham, Notting Hill, Queen's Park. Too far: Ealing, Greenwich. Potential reciprocal exchange Jul 29 – Aug 9 in Clapham/Balham.
+**London** -- Difficult on HomeExchange. Good neighborhoods: Hampstead, Islington, Highbury, Hackney, Stoke Newington, Camden, Clapham, Balham, Brixton, Peckham, Notting Hill, Queen's Park. Too far: Ealing, Greenwich. Potential reciprocal exchange Jul 29 -- Aug 9 in Clapham/Balham.
 
-**Copenhagen** — Nørrebro, Vesterbro, Frederiksberg (bigger apartments), Christianshavn (rare), Østerbro, Indre By.
+**Copenhagen** -- Norrebro, Vesterbro, Frederiksberg (bigger apartments), Christianshavn (rare), Osterbro, Indre By.
 
-**Stockholm** — Södermalm (hip), Östermalm, Kungsholmen (underrated), Vasastan, Norrmalm, Gamla Stan.
+**Stockholm** -- Sodermalm (hip), Ostermalm, Kungsholmen (underrated), Vasastan, Norrmalm, Gamla Stan.
 
-**Helsinki** — Kallio (hip), Töölö (bigger, near sea), Punavuori/Design District, Kruununhaka, Ullanlinna, Kamppi. Very compact — almost anywhere within 3km of central station works.
+**Helsinki** -- Kallio (hip), Toolo (bigger, near sea), Punavuori/Design District, Kruununhaka, Ullanlinna, Kamppi. Very compact -- almost anywhere within 3km of central station works.
 
 ## Trip Planning Context
 
 - Flexible dates mid-June through Aug 21, 2026
 - Most European exchangers travel July/August (school holidays)
-- Potential reciprocal: London Jul 29 – Aug 9 (Clapham/Balham)
+- Potential reciprocal: London Jul 29 -- Aug 9 (Clapham/Balham)
 - Guest points growing from incoming requests early Jul through early Aug
 - Prefer longer stays (7-10 nights per city) over tourist-length
 - 3-4 week total trip, 3-4 cities
-- No car — walkable neighborhoods with good transit
+- No car -- walkable neighborhoods with good transit
 - Consider: Helsinki first (longest days in June), then Stockholm, Copenhagen, London last

@@ -38,6 +38,23 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// Send a progress message to the user via IPC
+const IPC_MESSAGES_DIR = '/workspace/ipc/messages';
+const CHAT_JID = process.env.NANOCLAW_CHAT_JID;
+const GROUP_FOLDER = process.env.NANOCLAW_GROUP_FOLDER;
+
+function sendProgress(text) {
+  if (!CHAT_JID || !GROUP_FOLDER) return;
+  try {
+    fs.mkdirSync(IPC_MESSAGES_DIR, { recursive: true });
+    const filename = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}.json`;
+    const filepath = `${IPC_MESSAGES_DIR}/${filename}`;
+    const data = { type: 'message', chatJid: CHAT_JID, text, groupFolder: GROUP_FOLDER, timestamp: new Date().toISOString() };
+    fs.writeFileSync(`${filepath}.tmp`, JSON.stringify(data));
+    fs.renameSync(`${filepath}.tmp`, filepath);
+  } catch { /* best effort */ }
+}
+
 async function apiFetch(path) {
   const url = `${PROXY_URL}${path}`;
   log(`GET ${path}`);
@@ -259,6 +276,8 @@ if (toEnrich.length === 0) {
   process.exit(0);
 }
 
+sendProgress(`Enriching ${toEnrich.length} ${cityData.label} listings (calendar + wishlist + details)...`);
+
 try {
   // Deduplicate user IDs (same user might have multiple listings)
   const alertsCache = {};
@@ -287,12 +306,23 @@ try {
 
     listing.enriched = true;
     listing.enriched_at = new Date().toISOString();
+
+    // Progress every 5 listings or on the last one
+    if ((i + 1) % 5 === 0 || i === toEnrich.length - 1) {
+      const recipSoFar = toEnrich.slice(0, i + 1).filter(l => l.reciprocal?.match !== 'none').length;
+      sendProgress(`Enriched ${i + 1}/${toEnrich.length} ${cityData.label} listings. ${recipSoFar} want SF so far.`);
+    }
   }
 
   // Write back
   cityData.last_enriched = new Date().toISOString();
   fs.writeFileSync(cityFile, JSON.stringify(cityData, null, 2));
   log(`\nSaved enriched data to ${cityFile}`);
+
+  // Final summary to user
+  const enrichedAll = cityData.listings.filter(l => l.enriched);
+  const recipAll = enrichedAll.filter(l => l.reciprocal && l.reciprocal.match !== 'none');
+  sendProgress(`${cityData.label} enrichment done. ${enrichedAll.length} enriched, ${recipAll.length} want SF. Generating report...`);
 
   // Summary
   const enriched = cityData.listings.filter(l => l.enriched);

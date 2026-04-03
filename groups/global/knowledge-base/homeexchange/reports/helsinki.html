@@ -40,10 +40,11 @@
   .title-cell .hood { color: #888; font-size: 11px; }
   .beds-perm { font-weight: 600; }
   .beds-putup { color: #888; }
-  .cal-cell { font-size: 11px; max-width: 180px; }
+  .cal-cell { font-size: 11px; max-width: 220px; white-space: pre-line; }
   .cal-booked { color: #e53935; }
   .cal-gp { color: #1e88e5; }
   .cal-recip { color: #f9a825; }
+  .cal-avail { color: #2e7d32; }
   .cal-unknown { color: #999; }
   .notes-cell { font-size: 11px; color: #666; max-width: 150px; overflow: hidden; text-overflow: ellipsis; }
   .wishlist { font-size: 11px; color: #888; }
@@ -55,6 +56,12 @@
   .pref-tag { font-size: 10px; padding: 1px 4px; border-radius: 3px; white-space: nowrap; }
   .pref-recip { background: #fff3e0; color: #e65100; }
   .pref-gp { background: #e8f5e9; color: #2e7d32; }
+  .rank-high { color: #2e7d32; font-weight: 700; }
+  .rank-med { color: #f57f17; font-weight: 600; }
+  .rank-low { color: #999; }
+  .hood-cell { font-size: 11px; white-space: nowrap; }
+  th.sort-asc::after { content: ' \25B2'; font-size: 9px; }
+  th.sort-desc::after { content: ' \25BC'; font-size: 9px; }
 
   .neighborhood-label { background: none !important; border: none !important; box-shadow: none !important; font-size: 10px; font-weight: 600; color: #666; white-space: nowrap; }
 
@@ -66,8 +73,8 @@
 
 <div class="header">
   <div>
-    <h1>Helsinki — 11 suitable listings</h1>
-    <div class="meta">Scraped 2026-03-18 · Enriched 2026-03-18 · 119 total in area</div>
+    <h1>Helsinki — 16 suitable listings</h1>
+    <div class="meta">Scraped 2026-03-21 · Enriched 2026-03-21 · 118 total in area</div>
   </div>
 </div>
 
@@ -75,25 +82,29 @@
 <div id="table-container">
 <table id="listings-table">
 <thead><tr>
-  <th>#</th>
+  <th data-col="idx">#</th>
+  <th data-col="id">ID</th>
   <th></th>
-  <th>Listing</th>
-  <th>Beds</th>
-  <th>Resp</th>
-  <th>Rev</th>
-  <th>GP/n</th>
-  <th>Type</th>
-  <th>Summer calendar</th>
-  <th>Notes</th>
+  <th data-col="title">Listing</th>
+  <th data-col="hood">Hood</th>
+  <th data-col="rank">Rank</th>
+  <th data-col="beds">Beds</th>
+  <th data-col="resp">Resp</th>
+  <th data-col="rev">Rev</th>
+  <th data-col="gp">GP/n</th>
+  <th data-col="type">Type</th>
+  <th data-col="cal">Summer calendar</th>
+  <th data-col="notes">Notes</th>
 </tr></thead>
 <tbody id="listings-body"></tbody>
 </table>
 </div>
 
 <script>
-const LISTINGS = [{"idx":0,"id":1473180,"title":"Beautiful spacious home in the heart of Helsinki","lat":60.170453848425794,"lon":24.960469973114293,"hood":"other","br":3,"perm":5,"putup":0,"cap":5,"resp":100,"rev":48,"rating":5,"gp":277,"minNights":14,"prefRecip":true,"cal":"07-28→08-14 booked","wishlist":"City of Tarifa, Spain, City of Hyères, France, Halland, Sweden, Cornwall, England, United Kingdom","thumb":"https://image.homeexchange.fr/images/home/2703861/1473180/1719211061242639.jpg","url":"https://www.homeexchange.com/en/listing/1473180","suitable":true,"issues":[],"notes":"Daytrips from Helsinki.\nhttp://materialbank.myhelsinki.fi/media/2748\n\nPlease note:\n\nMinimum stay seven days or 1939 Guest Points.\n\nCar can be included in reciprocal exchanges.\nOur home is best suited "},{"idx":1,"id":2909997,"title":"Family Home in Central Helsinki","lat":60.176848570913975,"lon":24.951241273491316,"hood":"other","br":2,"perm":3,"putup":4,"cap":7,"resp":100,"rev":22,"rating":4.96296,"gp":91,"minNights":0,"prefRecip":true,"cal":"06-13→06-15 GP, 06-29→07-04 booked, 07-04→07-14 booked, 07-15→07-20 GP, 08-03→08-12 booked, 08-13→08-14 booked","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5452263/2909997/1836620930514933.jpg","url":"https://www.homeexchange.com/en/listing/2909997","suitable":true,"issues":[],"notes":""},{"idx":2,"id":2856873,"title":"Stylish flat in the heart of Helsinki with park views and sunny terrace.","lat":60.16401474795501,"lon":24.93464785964438,"hood":"punavuori","br":3,"perm":5,"putup":1,"cap":6,"resp":100,"rev":21,"rating":5,"gp":265,"minNights":14,"prefRecip":false,"cal":"03-18→06-15 booked, 06-15→07-11 GP, 07-11→07-29 booked, 07-29→08-31 booked","wishlist":"London, England, United Kingdom, Paris, France, Antibes, France, Finland","thumb":"https://image.homeexchange.fr/images/home/4676851/2856873/1832287046025549.jpg","url":"https://www.homeexchange.com/en/listing/2856873","suitable":true,"issues":[],"notes":"The facade renovation will last the whole summer. Our balcony will be unaccessible during the renovation. The view from the windows of our livingroom, kitchen and master bedroom will be covered by sca"},{"idx":3,"id":2777559,"title":"Jaakko's home","lat":60.19359295496887,"lon":24.93709732074773,"hood":"other","br":3,"perm":5,"putup":4,"cap":9,"resp":100,"rev":18,"rating":5,"gp":288,"minNights":4,"prefRecip":true,"cal":"06-13→06-18 booked, 06-18→06-22 GP, 08-07→08-31 booked","wishlist":"Berlin, Germany, Vienna, Austria","thumb":"https://image.homeexchange.fr/images/home/5236929/2777559/1827945576335164.jpg","url":"https://www.homeexchange.com/en/listing/2777559","suitable":true,"issues":[],"notes":""},{"idx":4,"id":1521784,"title":"City apartment in Helsinki","lat":60.18235105934635,"lon":24.96416408243991,"hood":"other","br":4,"perm":5,"putup":1,"cap":6,"resp":100,"rev":16,"rating":4.95833,"gp":180,"minNights":0,"prefRecip":true,"cal":"no calendar","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/3020349/1521784/1628182971155323.jpg","url":"https://www.homeexchange.com/en/listing/1521784","suitable":true,"issues":[],"notes":"City center within walking distance\nAirport bus stop 5 minute walk. \n5 min walk to Sörnäinen subway."},{"idx":5,"id":2001311,"title":"Helsinki central apartment with balcony NO GUEST POINTS","lat":60.16192992960374,"lon":24.937571153453774,"hood":"punavuori","br":2,"perm":4,"putup":2,"cap":6,"resp":96,"rev":54,"rating":4.47619,"gp":166,"minNights":0,"prefRecip":false,"cal":"08-07→08-12 booked","wishlist":"Italy, France","thumb":"https://image.homeexchange.fr/images/home/3848923/2001311/1714404453302613.jpg","url":"https://www.homeexchange.com/en/listing/2001311","suitable":true,"issues":[],"notes":"Please take your trash out when leaving, wash the dishes and leave the apartment as you entered. Do not move the furniture as our cleaner is good but small in size and needs help to fix furniture back"},{"idx":6,"id":2607476,"title":"Nordic Design flat with direct sea view","lat":60.18001538781058,"lon":24.98249548003264,"hood":"other","br":2,"perm":4,"putup":2,"cap":6,"resp":95,"rev":10,"rating":4.92593,"gp":277,"minNights":4,"prefRecip":false,"cal":"06-11→06-15 GP, 07-01→07-06 booked","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/2443436/2607476/1800293072649813.jpg","url":"https://www.homeexchange.com/en/listing/2607476","suitable":true,"issues":[],"notes":"No smoking in the building, inside of home or in the balcony. As a Finnish tradition, the outdoor shoes are removed once entering to home."},{"idx":7,"id":2658474,"title":"Lehtola's house","lat":60.19616090442167,"lon":24.938943514200503,"hood":"other","br":2,"perm":2,"putup":3,"cap":8,"resp":90,"rev":13,"rating":5,"gp":230,"minNights":2,"prefRecip":true,"cal":"06-18→06-22 GP, 07-06→07-17 GP, 08-01→08-03 recip only, 08-03→08-09 booked, 08-09→08-11 recip only","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5053417/2658474/1806647058917922.jpg","url":"https://www.homeexchange.com/en/listing/2658474","suitable":true,"issues":[],"notes":"The historic Konepaja area in Vallila is lively, distinctive, and constantly developing. The neighbourhood offers a great mix of local atmosphere, services, and things to do.\n\nWithin walking distance "},{"idx":8,"id":2271464,"title":"Virve's house","lat":60.164518257446844,"lon":24.934215768063424,"hood":"punavuori","br":2,"perm":4,"putup":1,"cap":7,"resp":80,"rev":5,"rating":5,"gp":127,"minNights":0,"prefRecip":false,"cal":"no calendar","wishlist":"Spain, Portugal, Reykjavik, NE, Iceland, Denmark, Scotland, United Kingdom, Greece, Italy, Australia, New Zealand, France, Sweden","thumb":"https://image.homeexchange.fr/images/home/4460321/2271464/1761605899080746.jpg","url":"https://www.homeexchange.com/en/listing/2271464","suitable":true,"issues":[],"notes":""},{"idx":9,"id":3095984,"title":"Family-friendly apartment in Helsinki","lat":60.192544841475176,"lon":24.904509608750942,"hood":"other","br":2,"perm":2,"putup":3,"cap":7,"resp":80,"rev":0,"rating":0,"gp":250,"minNights":0,"prefRecip":true,"cal":"06-01→07-31 GP, 07-31→12-12 booked","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5803829/3095984/1857582469542643.jpg","url":"https://www.homeexchange.com/en/listing/3095984","suitable":true,"issues":[],"notes":""},{"idx":10,"id":2758830,"title":"Vincent's house","lat":60.15682342525728,"lon":24.948294803980126,"hood":"ullanlinna","br":2,"perm":4,"putup":1,"cap":5,"resp":64,"rev":0,"rating":0,"gp":117,"minNights":0,"prefRecip":true,"cal":"no calendar","wishlist":"Australia","thumb":"https://image.homeexchange.fr/images/home/5209280/2758830/1820126406590159.jpg","url":"https://www.homeexchange.com/en/listing/2758830","suitable":true,"issues":[],"notes":""}];
+const LISTINGS = [{"idx":0,"id":2001311,"title":"Helsinki central apartment with balcony NO GUEST POINTS","lat":60.16192992960374,"lon":24.937571153453774,"hood":"punavuori","hoodLabel":"Punavuori / Design District","rank":83,"br":2,"perm":4,"putup":2,"cap":6,"resp":96,"rev":54,"rating":4.47619,"gp":166,"minNights":0,"prefRecip":false,"cal":"booked: Aug 6 - 5d","wishlist":"Italy, France","thumb":"https://image.homeexchange.fr/images/home/3848923/2001311/1714404453302613.jpg","url":"https://www.homeexchange.com/en/listing/2001311","suitable":true,"issues":[],"notes":"Please take your trash out when leaving, wash the dishes and leave the apartment as you entered. Do not move the furniture as our cleaner is good but small in size and needs help to fix furniture back"},{"idx":1,"id":2312774,"title":"Stylish and comfy home in the center of Helsinki","lat":60.1593461570058,"lon":24.93819474172717,"hood":"punavuori","hoodLabel":"Punavuori / Design District","rank":75,"br":2,"perm":3,"putup":2,"cap":5,"resp":100,"rev":0,"rating":0,"gp":165,"minNights":7,"prefRecip":false,"cal":"GP ok: Jul 3 - 4d, Jul 14 - 9d\nbooked: Jul 7 - 7d","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/3716877/2312774/1767606443764664.jpg","url":"https://www.homeexchange.com/en/listing/2312774","suitable":true,"issues":[],"notes":""},{"idx":2,"id":2856873,"title":"Stylish flat in the heart of Helsinki with park views and sunny terrace.","lat":60.16401474795501,"lon":24.93464785964438,"hood":"punavuori","hoodLabel":"Punavuori / Design District","rank":70,"br":3,"perm":5,"putup":1,"cap":6,"resp":100,"rev":21,"rating":5,"gp":265,"minNights":14,"prefRecip":false,"cal":"booked: Mar 20 - 86d, Jul 10 - 18d, Jul 28 - 33d\nGP ok: Jun 14 - 26d","wishlist":"London, England, United Kingdom, Paris, France, Antibes, France, Finland","thumb":"https://image.homeexchange.fr/images/home/4676851/2856873/1832287046025549.jpg","url":"https://www.homeexchange.com/en/listing/2856873","suitable":true,"issues":[],"notes":"The facade renovation will last the whole summer. Our balcony will be unaccessible during the renovation. The view from the windows of our livingroom, kitchen and master bedroom will be covered by sca"},{"idx":3,"id":2807637,"title":"Penthouse Apartment with Unique Charm & Rooftop Views in Central Helsinki","lat":60.16674816141844,"lon":24.934929720225245,"hood":"punavuori","hoodLabel":"Punavuori / Design District","rank":57,"br":2,"perm":2,"putup":2,"cap":4,"resp":78,"rev":1,"rating":4.66667,"gp":118,"minNights":0,"prefRecip":false,"cal":"booked: Mar 20 - 101d","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5267229/2807637/1826680315616960.jpg","url":"https://www.homeexchange.com/en/listing/2807637","suitable":true,"issues":[],"notes":"This is our primary home, so we’re generally not able to host short visits during the year. Summer 2025 is already booked, but the next available periods will be over the Christmas break (December–Jan"},{"idx":4,"id":2271464,"title":"Virve's house","lat":60.164518257446844,"lon":24.934215768063424,"hood":"punavuori","hoodLabel":"Punavuori / Design District","rank":54,"br":2,"perm":4,"putup":1,"cap":7,"resp":80,"rev":5,"rating":5,"gp":127,"minNights":0,"prefRecip":false,"cal":"no calendar","wishlist":"Spain, Portugal, Reykjavik, NE, Iceland, Denmark, Scotland, United Kingdom, Greece, Italy, Australia, New Zealand, France, Sweden","thumb":"https://image.homeexchange.fr/images/home/4460321/2271464/1761605899080746.jpg","url":"https://www.homeexchange.com/en/listing/2271464","suitable":true,"issues":[],"notes":""},{"idx":5,"id":2079815,"title":"Elisa's house in Helsinki","lat":60.16892845335985,"lon":24.93210918609773,"hood":"kamppi","hoodLabel":"Kamppi","rank":49,"br":5,"perm":5,"putup":0,"cap":8,"resp":100,"rev":0,"rating":0,"gp":215,"minNights":0,"prefRecip":false,"cal":"no calendar","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/2415251/2079815/1730356592466258.jpg","url":"https://www.homeexchange.com/en/listing/2079815","suitable":true,"issues":[],"notes":""},{"idx":6,"id":2305645,"title":"Home in the historic center of Helsinki by the sea and close to parks.","lat":60.174826647577106,"lon":24.95541718716749,"hood":"kruununhaka","hoodLabel":"Kruununhaka","rank":48,"br":3,"perm":4,"putup":0,"cap":5,"resp":36,"rev":6,"rating":5,"gp":204,"minNights":0,"prefRecip":false,"cal":"no calendar","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/4513472/2305645/1766659985745533.jpg","url":"https://www.homeexchange.com/en/listing/2305645","suitable":true,"issues":[],"notes":"At this time interested in reciprocal or guest point exchanges of min 1 week for the month of July."},{"idx":7,"id":2791732,"title":"Helsinki downtown penthouse with sauna and roof terrace","lat":60.176694915189856,"lon":24.929965765723523,"hood":"toolo","hoodLabel":"Töölö","rank":47,"br":2,"perm":5,"putup":2,"cap":7,"resp":0,"rev":6,"rating":4.16667,"gp":176,"minNights":3,"prefRecip":false,"cal":"no calendar","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5237864/2791732/1823678251418348.jpg","url":"https://www.homeexchange.com/en/listing/2791732","suitable":true,"issues":[],"notes":"We will take a fee of 100eur for the cleaning of the apartment when you’ll leave. If you would like to have sheets and towels it´s additional cost for 10€ / guest."},{"idx":8,"id":2782020,"title":"Salli's house","lat":60.160082648345046,"lon":24.951254435935457,"hood":"ullanlinna","hoodLabel":"Ullanlinna","rank":46,"br":3,"perm":5,"putup":0,"cap":6,"resp":30,"rev":2,"rating":5,"gp":94,"minNights":3,"prefRecip":false,"cal":"no calendar","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/4921211/2782020/1822521001400660.jpg","url":"https://www.homeexchange.com/en/listing/2782020","suitable":true,"issues":[],"notes":"We have bikes ( 1x  adult, 1 x 9-year-old, 1 x 5-year-old) which you can use."},{"idx":9,"id":2168682,"title":"Ezra's house","lat":60.17934815697358,"lon":24.92773223766121,"hood":"toolo","hoodLabel":"Töölö","rank":45,"br":2,"perm":3,"putup":2,"cap":5,"resp":10,"rev":3,"rating":4,"gp":166,"minNights":0,"prefRecip":false,"cal":"no calendar","wishlist":"Crete, Greece","thumb":"https://image.homeexchange.fr/images/home/3746861/2168682/1742677703634797.jpg","url":"https://www.homeexchange.com/en/listing/2168682","suitable":true,"issues":[],"notes":""},{"idx":10,"id":2264233,"title":"Annika’s & Jussi's home","lat":60.1712668321176,"lon":24.925785986122314,"hood":"kamppi","hoodLabel":"Kamppi","rank":45,"br":2,"perm":3,"putup":1,"cap":8,"resp":100,"rev":1,"rating":5,"gp":130,"minNights":0,"prefRecip":false,"cal":"no summer dates set","wishlist":"Portugal, Italy, Berlin, Germany, Paris, France, Nice, France","thumb":"https://image.homeexchange.fr/images/home/4447682/2264233/1794719115217556.jpg","url":"https://www.homeexchange.com/en/listing/2264233","suitable":true,"issues":[],"notes":""},{"idx":11,"id":2778008,"title":"Helsinki downtown penthouse with private sauna and roof terrace","lat":60.17675370569049,"lon":24.92658080038244,"hood":"toolo","hoodLabel":"Töölö","rank":42,"br":2,"perm":4,"putup":4,"cap":8,"resp":0,"rev":6,"rating":4.16667,"gp":273,"minNights":3,"prefRecip":false,"cal":"no summer dates set","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5237864/2778008/1822093476306662.jpg","url":"https://www.homeexchange.com/en/listing/2778008","suitable":true,"issues":[],"notes":"We will take a fee of 100eur for the cleaning of the apartment when you’ll leave + additional cost for 10€ / guest."},{"idx":12,"id":2576739,"title":"Johan's house","lat":60.18198697630938,"lon":24.923947576331326,"hood":"toolo","hoodLabel":"Töölö","rank":37,"br":2,"perm":4,"putup":0,"cap":4,"resp":0,"rev":0,"rating":0,"gp":125,"minNights":0,"prefRecip":false,"cal":"no calendar","wishlist":"Milan, MI, Italy, Paris, France","thumb":"https://image.homeexchange.fr/images/home/4909872/2576739/1796506052203983.jpg","url":"https://www.homeexchange.com/en/listing/2576739","suitable":true,"issues":[],"notes":""},{"idx":13,"id":952150,"title":"Helsinki City Centre","lat":60.164967781057506,"lon":24.93809691073629,"hood":"punavuori","hoodLabel":"Punavuori / Design District","rank":34,"br":2,"perm":2,"putup":2,"cap":4,"resp":51,"rev":23,"rating":5,"gp":140,"minNights":7,"prefRecip":true,"cal":"no calendar","wishlist":"Sydney, NSW, Australia, Montevideo, Uruguay, Punta del Este, MA, Uruguay, Tasmania, Australia","thumb":"https://image.homeexchange.fr/images/home/1152731/952150/1811703911887201.jpg","url":"https://www.homeexchange.com/en/listing/952150","suitable":true,"issues":[],"notes":"The most central location in Helsinki to live in!\nTrendy restaurants just around the corner.\nEnjoy our collection of modern art."},{"idx":14,"id":2758830,"title":"Vincent's house","lat":60.15682342525728,"lon":24.948294803980126,"hood":"ullanlinna","hoodLabel":"Ullanlinna","rank":23,"br":2,"perm":4,"putup":1,"cap":5,"resp":64,"rev":0,"rating":0,"gp":117,"minNights":0,"prefRecip":true,"cal":"no calendar","wishlist":"Australia","thumb":"https://image.homeexchange.fr/images/home/5209280/2758830/1820126406590159.jpg","url":"https://www.homeexchange.com/en/listing/2758830","suitable":true,"issues":[],"notes":""},{"idx":15,"id":2999475,"title":"Cozy 3-Bedroom Flat in Central Helsinki — Ideal for a Unique Winter Exchange","lat":60.18688529847482,"lon":24.951409313289112,"hood":"kallio","hoodLabel":"Kallio","rank":18,"br":3,"perm":4,"putup":0,"cap":4,"resp":80,"rev":0,"rating":0,"gp":100,"minNights":0,"prefRecip":true,"cal":"no summer dates set","wishlist":"","thumb":"https://image.homeexchange.fr/images/home/5630453/2999475/1847066613577066.jpg","url":"https://www.homeexchange.com/en/listing/2999475","suitable":true,"issues":[],"notes":"My home is colorful, cozy, and full of character — a joyful mix of creativity and comfort. The entrance hall welcomes you with bright pink and orange walls, setting a cheerful and uplifting tone. The "}];
 const HOODS = {"kallio":{"label":"Kallio","n":60.19,"s":60.178,"e":24.96,"w":24.94},"kruununhaka":{"label":"Kruununhaka","n":60.175,"s":60.168,"e":24.96,"w":24.945},"toolo":{"label":"Töölö","n":60.185,"s":60.172,"e":24.935,"w":24.91},"punavuori":{"label":"Punavuori / Design District","n":60.168,"s":60.158,"e":24.945,"w":24.93},"ullanlinna":{"label":"Ullanlinna","n":60.165,"s":60.155,"e":24.955,"w":24.935},"kamppi":{"label":"Kamppi","n":60.172,"s":60.165,"e":24.94,"w":24.925}};
 const CENTER = [60.1699, 24.9384];
+const CITY_LABEL = "Helsinki";
 
 // --- Map ---
 const map = L.map('map').setView(CENTER, 13);
@@ -144,7 +155,7 @@ LISTINGS.forEach((l, i) => {
     ${l.br}BR, ${l.perm}+${l.putup} beds · ${l.resp}% · ${l.rev} rev<br>
     ${l.gp} GP/night · ${l.hood}<br>
     <a href="${l.url}" target="_blank">View listing</a> ·
-    <a href="https://www.google.com/maps/@${l.lat},${l.lon},3a,75y,0h,90t/data=!3m6!1e1!3m4!1s!2e0!7i16384!8i8192" target="_blank">Street View</a>
+    <a href="https://www.google.com/maps/dir/${l.lat},${l.lon}/${CITY_LABEL}/data=!4m2!4m1!3e2" target="_blank">Walking directions</a>
   `);
 
   marker.on('click', () => highlightRow(i));
@@ -162,6 +173,7 @@ if (LISTINGS.length > 0) {
 const tbody = document.getElementById('listings-body');
 
 function respClass(r) { return r >= 80 ? 'resp-high' : r >= 50 ? 'resp-med' : 'resp-low'; }
+function rankClass(r) { return r >= 60 ? 'rank-high' : r >= 40 ? 'rank-med' : 'rank-low'; }
 
 function formatCal(cal) {
   if (!cal || cal === 'not enriched' || cal === 'no calendar') {
@@ -170,42 +182,49 @@ function formatCal(cal) {
   return cal
     .replace(/booked/g, '<span class="cal-booked">booked</span>')
     .replace(/\bGP\b/g, '<span class="cal-gp">GP</span>')
-    .replace(/recip only/g, '<span class="cal-recip">recip only</span>');
+    .replace(/recip only/g, '<span class="cal-recip">recip only</span>')
+    .replace(/available/g, '<span class="cal-avail">available</span>');
 }
 
-LISTINGS.forEach((l, i) => {
-  const tr = document.createElement('tr');
-  tr.dataset.idx = i;
-  tr.onclick = () => highlightRow(i);
+function renderTable() {
+  tbody.innerHTML = '';
+  LISTINGS.forEach((l, i) => {
+    const tr = document.createElement('tr');
+    tr.dataset.idx = i;
+    tr.onclick = () => highlightRow(i);
 
-  const prefTag = l.prefRecip
-    ? '<span class="pref-tag pref-recip">reciprocal</span>'
-    : '<span class="pref-tag pref-gp">GP ok</span>';
+    const prefTag = l.prefRecip
+      ? '<span class="pref-tag pref-recip">reciprocal</span>'
+      : '<span class="pref-tag pref-gp">GP ok</span>';
 
-  const notes = [];
-  if (l.minNights > 0) notes.push(`min ${l.minNights}n`);
-  if (l.gp === 0) notes.push('no GP');
-  if (l.wishlist) notes.push(`wants: ${l.wishlist.slice(0, 60)}`);
-  if (l.notes) notes.push(l.notes.split(/[.\n]/)[0].slice(0, 80));
+    const notes = [];
+    if (l.minNights > 0) notes.push(`min ${l.minNights}n`);
+    if (l.gp === 0) notes.push('no GP');
+    if (l.wishlist) notes.push(`wants: ${l.wishlist.slice(0, 60)}`);
+    if (l.notes) notes.push(l.notes.split(/[.\n]/)[0].slice(0, 80));
 
-  tr.innerHTML = `
-    <td>${i + 1}</td>
-    <td>${l.thumb ? `<img class="thumb" src="${l.thumb}" loading="lazy">` : ''}</td>
-    <td class="title-cell">
-      <a href="${l.url}" target="_blank">${l.title.slice(0, 45)}</a><br>
-      <span class="hood">${l.hood}</span>
-      <a class="street-view-link" href="https://www.google.com/maps/@${l.lat},${l.lon},3a,75y,0h,90t/data=!3m6!1e1!3m4!1s!2e0!7i16384!8i8192" target="_blank">📍 street view</a>
-    </td>
-    <td><span class="beds-perm">${l.br}BR ${l.perm}</span><span class="beds-putup">+${l.putup}</span></td>
-    <td class="${respClass(l.resp)}">${l.resp}%</td>
-    <td>${l.rev}</td>
-    <td>${l.gp}</td>
-    <td>${prefTag}</td>
-    <td class="cal-cell">${formatCal(l.cal)}</td>
-    <td class="notes-cell">${notes.join(' · ')}</td>
-  `;
-  tbody.appendChild(tr);
-});
+    tr.innerHTML = `
+      <td>${i + 1}</td>
+      <td><a href="${l.url}" target="_blank" style="font-size:11px;color:#888">${l.id}</a></td>
+      <td>${l.thumb ? `<img class="thumb" src="${l.thumb}" loading="lazy">` : ''}</td>
+      <td class="title-cell">
+        <a href="${l.url}" target="_blank">${l.title.slice(0, 45)}</a><br>
+        <a class="street-view-link" href="https://www.google.com/maps/dir/${l.lat},${l.lon}/${CITY_LABEL}/data=!4m2!4m1!3e2" target="_blank">walk to center</a>
+      </td>
+      <td class="hood-cell">${l.hoodLabel}</td>
+      <td class="${rankClass(l.rank)}">${l.rank}</td>
+      <td><span class="beds-perm">${l.br}BR ${l.perm}</span><span class="beds-putup">+${l.putup}</span></td>
+      <td class="${respClass(l.resp)}">${l.resp}%</td>
+      <td>${l.rev}</td>
+      <td>${l.gp}</td>
+      <td>${prefTag}</td>
+      <td class="cal-cell">${formatCal(l.cal)}</td>
+      <td class="notes-cell">${notes.join(' · ')}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+renderTable();
 
 // --- Interaction ---
 let highlightedIdx = null;
@@ -236,10 +255,43 @@ function highlightRow(idx) {
 }
 
 // --- Sort ---
-document.querySelectorAll('thead th').forEach((th, colIdx) => {
+let sortCol = null;
+let sortDir = 'desc';
+
+const sortKeys = {
+  idx: l => l.idx,
+  id: l => l.id,
+  title: l => l.title.toLowerCase(),
+  hood: l => l.hoodLabel.toLowerCase(),
+  rank: l => l.rank,
+  beds: l => l.perm + l.putup,
+  resp: l => l.resp,
+  rev: l => l.rev,
+  gp: l => l.gp,
+  type: l => l.prefRecip ? 1 : 0,
+  cal: l => l.cal,
+  notes: l => '',
+};
+
+document.querySelectorAll('thead th[data-col]').forEach(th => {
   th.addEventListener('click', () => {
-    // Simple sort — re-sort LISTINGS array and rebuild table
-    // For now just visual highlight, full sort TBD
+    const col = th.dataset.col;
+    if (sortCol === col) {
+      sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+    } else {
+      sortCol = col;
+      sortDir = col === 'title' || col === 'hood' || col === 'cal' ? 'asc' : 'desc';
+    }
+    const fn = sortKeys[col];
+    if (!fn) return;
+    LISTINGS.sort((a, b) => {
+      const va = fn(a), vb = fn(b);
+      const cmp = typeof va === 'string' ? va.localeCompare(vb) : va - vb;
+      return sortDir === 'asc' ? cmp : -cmp;
+    });
+    document.querySelectorAll('thead th').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+    th.classList.add(sortDir === 'asc' ? 'sort-asc' : 'sort-desc');
+    renderTable();
   });
 });
 </script>
