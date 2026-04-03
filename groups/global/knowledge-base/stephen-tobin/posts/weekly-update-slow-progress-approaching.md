@@ -21,7 +21,7 @@ I opened two new trades last week. Recent trades are all performing reasonably w
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/c0b565a5-4768-441a-89da-0ae6d8c8d858_1138x544.png)
+![Image 1](../images/weekly-update-slow-progress-approaching-1.png)
 
 
 
@@ -31,7 +31,7 @@ I closed one trade in SES.AI, I have invested in the company repeatedly as its b
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/14f9a494-3069-422d-a4a2-b33f5ddfc4e4_1295x545.png)
+![Image 2](../images/weekly-update-slow-progress-approaching-2.png)
 
 
 
@@ -45,7 +45,7 @@ The current list of sectors in the portfolio with their weighting according to d
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/928c9bd3-64fa-43e7-9c22-e4a81d8f2338_330x448.png)
+![Image 3](../images/weekly-update-slow-progress-approaching-3.png)
 
 
 
@@ -65,7 +65,7 @@ The Portfolio as a whole remains above target as we approach the halfway stage i
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/f05cfcf5-51a3-4eca-81a9-46264136c6bb_1141x704.png)
+![Image 4](../images/weekly-update-slow-progress-approaching-4.png)
 
 
 
@@ -137,7 +137,7 @@ NorthStar (ROOF)
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/97d57cc8-2894-4ed4-9992-abfea6ca0f57_1525x833.png)
+![Image 5](../images/weekly-update-slow-progress-approaching-5.png)
 
 
 
@@ -159,7 +159,7 @@ The pace of buying will slow as we approach the end of the year but we have a ve
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/b49b0381-996a-489b-8075-742c8665faa6_894x528.png)
+![Image 6](../images/weekly-update-slow-progress-approaching-6.png)
 
 
 

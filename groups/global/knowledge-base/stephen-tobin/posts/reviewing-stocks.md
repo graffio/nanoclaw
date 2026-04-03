@@ -3,7 +3,6 @@ title: "Reviewing Stocks"
 date: 2026-03-04
 url: https://stephentobin.substack.com/p/reviewing-stocks
 audience: only_paid
-post_type: stock_review
 summary: "Being vigilant with the portfolio"
 ---
 
@@ -19,12 +18,9 @@ Over the three years I have been publishing results, we have had 6 previous occa
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/7dae0e46-c95a-40d8-8864-19b9bede79c2_996x656.png)
-
-
+![Image 1](../images/reviewing-stocks-1.png)
 
 ](https://substackcdn.com/image/fetch/$s_!nG9U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7dae0e46-c95a-40d8-8864-19b9bede79c2_996x656.png)
-
 I currently hold positions in 26 companies. In the last 7 days, only 4 have shown a profit; the best performer is up 18%, and the worst is down 13%.
 
 I have not made any trades so far this month and it is unlikely I will buy anything this week, risks of a greater pullback remain high.
@@ -41,12 +37,9 @@ I have made two investments in Ehang both quite some time ago and the stock has 
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/d389f545-d3c7-48d3-9f30-03194c0a757e_1315x216.png)
-
-
+![Image 2](../images/reviewing-stocks-2.png)
 
 ](https://substackcdn.com/image/fetch/$s_!HPQA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd389f545-d3c7-48d3-9f30-03194c0a757e_1315x216.png)
-
 Ehang's stock often trades in hype cycles; the underlying business has rarely been reflected in the stock price, but we have been lacking any catalysts of late. They remain the only certified eVTOL but face ongoing regulatory uncertainty and a very skeptical Western market. Geopolitical tensions always play on ADR stocks as concerns rise about how the US authorities will treat these foreign stocks and the threat of de-listing has been held over Chinese stocks for decades.
 
 **Slowing indicators**
@@ -81,12 +74,9 @@ I have made two trades in APTV the holding is currently in the money 14%
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/c32b0485-4f0b-4aa6-ab94-a9130151f1f6_1207x252.png)
-
-
+![Image 3](../images/reviewing-stocks-3.png)
 
 ](https://substackcdn.com/image/fetch/$s_!BM8H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc32b0485-4f0b-4aa6-ab94-a9130151f1f6_1207x252.png)
-
 APTV does not fit the general makeup of the portfolio, being a large, well-established company.
 
 The original thesis was that orders expected to go to ARBE and its radar were actually going to APTV. Likely that particular thesis was wrong and it is probably LiDAR that is being adopted instead of Radar. AEVA recently reported that it has won the Mercedes deal with its 4D LiDAR solution. Mercedes had been a key Arbe target.
@@ -115,12 +105,9 @@ I have taken two positions in AISP
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/89d9fd47-770e-49b7-ba86-593a73d5c770_1200x251.png)
-
-
+![Image 4](../images/reviewing-stocks-4.png)
 
 ](https://substackcdn.com/image/fetch/$s_!4hjH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89d9fd47-770e-49b7-ba86-593a73d5c770_1200x251.png)
-
 The technology and the thesis looked very solid but it is clearly not going according to plan.
 
 Following 87% revenue growth in 2024, AISP was hit by US government headwinds in 2025. I had expected them to benefit from the administration’s desire to strengthen their borders but spending does not appear to have followed the rhetoric.
@@ -149,12 +136,9 @@ I have made three investments in ASPI, all underwater
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/4ecdc65e-1dbf-437d-ac3b-cb496219ff93_1208x305.png)
-
-
+![Image 5](../images/reviewing-stocks-5.png)
 
 ](https://substackcdn.com/image/fetch/$s_!ddjF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ecdc65e-1dbf-437d-ac3b-cb496219ff93_1208x305.png)
-
 ASPI is a speculative bet that they can move their enrichment technology from the lab and into commercial production.
 
 In Q3 2025, timeline delays led to a significant miss in revenue and margins. In an interview on Feb 12th, the CEO, Paul Mann, who has recently returned to work following a medical issue, was very clear that he believed the timeline extensions will end this year and that commercial shipments of several isotopes are imminent. He maintained that initial batches have passed customer evaluation and that the problems with feedstock have been solved. He also said that when the 4 isotopes that have passed customer approval start shipping later this year ASPI will become cash generating.

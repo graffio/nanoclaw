@@ -21,7 +21,7 @@ The technical Chart is very promising and suggests now is a great time to buy. A
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/83c9661c-dec4-4c3d-bf70-bb11078fff1c_490x600.png)
+![Image 1](../images/trade-alert-buying-sesai-1.png)
 
 
 

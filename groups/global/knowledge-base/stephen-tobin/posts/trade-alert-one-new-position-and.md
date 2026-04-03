@@ -19,7 +19,7 @@ Pony took a battering yesterday, dropping 20%. You can see our entry point and t
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/dc31c02d-e3bb-4641-ae3a-d616a29aa532_750x588.png)
+![Image 1](../images/trade-alert-one-new-position-and-1.png)
 
 
 
@@ -45,7 +45,7 @@ The original investment was $468, and I will increase that by placing a mid-mark
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/498ce8cf-b4bb-444e-a792-c09006719be3_1600x971.png)
+![Image 2](../images/trade-alert-one-new-position-and-2.png)
 
 
 
@@ -57,7 +57,7 @@ The two previous trades in Bluebird are shown below
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/83f17015-84f4-4e25-b3df-214b955d10dd_1600x381.png)
+![Image 3](../images/trade-alert-one-new-position-and-3.png)
 
 
 
@@ -67,7 +67,7 @@ The trades closed when they hit a stop loss added in February, when I was very c
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/f9166735-3b18-4d70-87ef-50c7ab1dea3b_1600x867.png)
+![Image 4](../images/trade-alert-one-new-position-and-4.png)
 
 
 
@@ -85,7 +85,7 @@ I have updated my mathematical model with the information from the last quarterl
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/2f36cd5d-e303-44f5-a708-c813b30fdb1d_1355x469.png)
+![Image 5](../images/trade-alert-one-new-position-and-5.png)
 
 
 

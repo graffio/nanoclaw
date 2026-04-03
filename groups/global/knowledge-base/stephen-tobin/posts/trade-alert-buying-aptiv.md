@@ -76,7 +76,7 @@ The Gen 6 Platform integrates sensing and perception using radar, LiDAR, cameras
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/5b579a72-6c29-4b51-aba7-edda67838014_1169x538.png)
+![Image 1](../images/trade-alert-buying-aptiv-1.png)
 
 
 
@@ -130,7 +130,7 @@ The fully integrated but open solution from Aptiv seems an easier product to buy
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/b1a2f4f8-0943-4878-98c6-e5efed30f41e_590x349.png)
+![Image 2](../images/trade-alert-buying-aptiv-2.png)
 
 
 
@@ -146,7 +146,7 @@ Aptiv has a high level of penetration in the automotive market, and flatlined in
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/33881966-5317-48c4-b750-eab0dbe02405_762x210.png)
+![Image 3](../images/trade-alert-buying-aptiv-3.png)
 
 
 
@@ -201,7 +201,7 @@ The key line items of the model are shown below.
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/8bea4191-1363-492a-a3e9-5457f71603ba_1585x337.png)
+![Image 4](../images/trade-alert-buying-aptiv-4.png)
 
 
 

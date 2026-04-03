@@ -33,7 +33,7 @@ A full-size position is currently US$500, and as of today, that is 2.8% of equit
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e725e497-c6cd-4c43-b259-ea3c1a0af8e6_1187x693.png)
+![Image 1](../images/trade-alert-91-chasing-fools-gold-1.png)
 
 
 
@@ -43,7 +43,7 @@ We have invested in Droneshield twice
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/e4dca11a-2b77-48a0-a710-d5e9016fd8c2_1112x226.png)
+![Image 2](../images/trade-alert-91-chasing-fools-gold-2.png)
 
 
 
@@ -116,7 +116,7 @@ The chart for DroneShield showing the two previous trades is below
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/0bdc878c-f5d4-4c1d-ac91-2fabb01ca6df_1860x895.png)
+![Image 3](../images/trade-alert-91-chasing-fools-gold-3.png)
 
 
 
@@ -128,7 +128,7 @@ In the second article, I revised all the figures and presented three scenarios. 
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/82e742a7-64ec-4172-9443-7e080b1a62ac_1238x422.png)
+![Image 4](../images/trade-alert-91-chasing-fools-gold-4.png)
 
 
 

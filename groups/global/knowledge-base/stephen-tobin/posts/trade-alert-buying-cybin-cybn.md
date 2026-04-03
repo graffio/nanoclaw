@@ -53,7 +53,7 @@ Simplywall.st gives the following fair value based on a discounted cash flow.
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/d387c2c3-8b82-4c4c-922d-6d07b64e5e97_835x461.png)
+![Image 1](../images/trade-alert-buying-cybin-cybn-1.png)
 
 
 
@@ -65,7 +65,7 @@ Cybin is short on cash, it always has been. (simplywall.st graph)
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/eed981ce-8844-4bdf-9117-be617cd9450d_790x351.png)
+![Image 2](../images/trade-alert-buying-cybin-cybn-2.png)
 
 
 
@@ -79,7 +79,7 @@ The EW wave chart shows the beginning of a new motive wave higher, the current d
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/a5071c2c-6e38-4529-9dd8-d20938f48729_624x312.png)
+![Image 3](../images/trade-alert-buying-cybin-cybn-3.png)
 
 
 
@@ -91,7 +91,7 @@ All of the Psycadelics have moved through a typical Gartner hype cycle. This wee
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/c206c847-cca9-4e98-954c-8aa49c92d87d_624x389.png)
+![Image 4](../images/trade-alert-buying-cybin-cybn-4.png)
 
 
 

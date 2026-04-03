@@ -15,9 +15,9 @@ The Lithium Battery Sector is the one in which we have been most active and has 
 
 [
 
-[Image 1: A table with text and numbers
+![A table with text and numbers
 
-AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/3241e4a3-3d6a-4952-9bda-0967f75920ea_556x259.png)
+AI-generated content may be incorrect.](../images/trade-alert-73-from-hype-to-reality-1.png)
 
 
 
@@ -51,7 +51,7 @@ ABAT has been through the hype cycle we see play out time and time again, with i
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/0ff809fc-cba8-4806-8d36-4e9ebed1c400_695x389.png)
+![Image 2](../images/trade-alert-73-from-hype-to-reality-2.png)
 
 
 
@@ -79,9 +79,9 @@ With the lifespan of an EV being 8-15 years, 2026 will still be the early stages
 
 [
 
-[Image 3: A graph with numbers and a line
+![A graph with numbers and a line
 
-AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/25ed031d-7598-4ed7-9492-4d6e29c92a74_688x322.png)
+AI-generated content may be incorrect.](../images/trade-alert-73-from-hype-to-reality-3.png)
 
 
 
@@ -99,7 +99,7 @@ The second hydrometallurgical phase refines the intermediate Black Mass, produci
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/ae0753c1-a02f-4361-9cff-ba9bed4c61e4_1051x504.png)
+![Image 4](../images/trade-alert-73-from-hype-to-reality-4.png)
 
 
 
@@ -129,9 +129,9 @@ The improvement in production has led to a significant ramp-up in revenue.
 
 [
 
-[Image 5: A screenshot of a graph
+![A screenshot of a graph
 
-AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/e4f6d848-476c-4beb-a36e-7572e3a37bd0_342x283.png)
+AI-generated content may be incorrect.](../images/trade-alert-73-from-hype-to-reality-5.png)
 
 
 
@@ -143,9 +143,9 @@ The recycling operation continues to show a negative gross margin, but this is a
 
 [
 
-[Image 6: A white grid with numbers and letters
+![A white grid with numbers and letters
 
-AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/1320ab86-316b-435d-9004-73b97910475a_402x247.png)
+AI-generated content may be incorrect.](../images/trade-alert-73-from-hype-to-reality-6.png)
 
 
 

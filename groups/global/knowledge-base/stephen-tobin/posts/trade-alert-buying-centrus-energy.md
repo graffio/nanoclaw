@@ -23,7 +23,7 @@ I am following 17 companies in my Nuclear Watchlist, the chart below shows some 
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/99dbfe55-8250-447c-8406-717776899235_624x263.png)
+![Image 1](../images/trade-alert-buying-centrus-energy-1.png)
 
 
 
@@ -45,7 +45,7 @@ The Strong Buy portfolio continues to do well and is beating the S and P on a re
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/6cf972be-59a7-4fbf-a4aa-10c613f8aeda_645x474.png)
+![Image 2](../images/trade-alert-buying-centrus-energy-2.png)
 
 
 
@@ -53,7 +53,7 @@ The Strong Buy portfolio continues to do well and is beating the S and P on a re
 
 [Subscribe now](https://stephentobin.substack.com/subscribe?)
 
-[Share](https://stephentobin.substack.com/p/trade-alert-buying-centrus-energy?utm_source=substack&utm_medium=email&utm_content=share&action=share&token=eyJ1c2VyX2lkIjoxMDQ0NjksInBvc3RfaWQiOjE0ODk2MjQxOCwiaWF0IjoxNzc1MjM2OTM1LCJleHAiOjE3Nzc4Mjg5MzUsImlzcyI6InB1Yi0xNTkyODM1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.QQZmgcyHKykQFbx0qb9JFTcyXPs7cjq-xQ_5TsS4ngo)
+[Share](https://stephentobin.substack.com/p/trade-alert-buying-centrus-energy?utm_source=substack&utm_medium=email&utm_content=share&action=share&token=eyJ1c2VyX2lkIjoxMDQ0NjksInBvc3RfaWQiOjE0ODk2MjQxOCwiaWF0IjoxNzczODYzNTA1LCJleHAiOjE3NzY0NTU1MDUsImlzcyI6InB1Yi0xNTkyODM1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.A8iNrTPZl1bC9sMris_k3T63yk9j2spW0bxY0VaYwOA)
 
 ---
 

@@ -23,7 +23,7 @@ These are the RoboTaxi forms I have been investigating over the last month. I co
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/de4b3696-bcec-4900-a26c-2b28b76dac84_1229x614.png)
+![Image 1](../images/trade-alert-buying-pony-closing-tbla-1.png)
 
 
 
@@ -66,7 +66,7 @@ It is not yet practical to determine a fair value. I don't have information abou
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/f18c37ba-320c-487e-b27d-251d172f5e7b_1115x678.png)
+![Image 2](../images/trade-alert-buying-pony-closing-tbla-2.png)
 
 
 

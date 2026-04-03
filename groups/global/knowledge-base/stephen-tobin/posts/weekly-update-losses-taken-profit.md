@@ -15,7 +15,7 @@ It was a wild ride for the portfolio this week. Big falls in the early part of t
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/c8643867-620e-4401-bdef-6eeb050a517b_1454x566.png)
+![Image 1](../images/weekly-update-losses-taken-profit-1.png)
 
 
 
@@ -31,7 +31,7 @@ All of my trading rules are based on my previous trading experience. I have kept
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/7dc904b3-7b1d-47d3-bc00-5bd643e4cee6_1600x519.png)
+![Image 2](../images/weekly-update-losses-taken-profit-2.png)
 
 
 
@@ -43,7 +43,7 @@ The portfolio as a whole continues to perform well; our target average return is
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/0067f4e9-0b26-429b-a60a-7fb932564848_1185x693.png)
+![Image 3](../images/weekly-update-losses-taken-profit-3.png)
 
 
 
@@ -63,7 +63,7 @@ Seeking Alpha has started to publish its ranking system, allowing people to look
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/85a4e297-c7fd-434d-83b1-c268cee086a9_1600x767.png)
+![Image 4](../images/weekly-update-losses-taken-profit-4.png)
 
 
 
@@ -85,7 +85,7 @@ The complete list of my space sector is below. RKLB, ASTS, MNTS, and SIDU are cu
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/097ba6b5-82fa-4b9f-bb31-65f349a04436_1406x365.png)
+![Image 5](../images/weekly-update-losses-taken-profit-5.png)
 
 
 
@@ -93,7 +93,7 @@ The complete list of my space sector is below. RKLB, ASTS, MNTS, and SIDU are cu
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/a01d03b6-c3c3-4ac1-9c3e-10e33414c7a6_1239x361.png)
+![Image 6](../images/weekly-update-losses-taken-profit-6.png)
 
 
 
@@ -105,7 +105,7 @@ We are currently light on eVTOL, having sold JOBY recently. Joby is pulling back
 
 [
 
-[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/c124a105-a260-49f5-9fc9-6a5a59c7f163_1152x836.png)
+![Image 7](../images/weekly-update-losses-taken-profit-7.png)
 
 
 
@@ -119,7 +119,7 @@ Joby has already proved it is prone to such moves; look at this chart showing a 
 
 [
 
-[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/eb3890e0-15a9-4c45-a479-eb7dcb32391e_1600x926.png)
+![Image 8](../images/weekly-update-losses-taken-profit-8.png)
 
 
 
@@ -176,7 +176,7 @@ I have increased the price target for ELVA from $9.60 to $14 following the revie
 
 [
 
-[Image 9: Image 9](https://substack-post-media.s3.amazonaws.com/public/images/8bca6fcc-b419-41e4-a56b-124b59e64d11_1553x920.png)
+![Image 9](../images/weekly-update-losses-taken-profit-9.png)
 
 
 
@@ -190,7 +190,7 @@ I took the same actions as on the US stock trading account, booking profits on B
 
 [
 
-[Image 10: Image 10](https://substack-post-media.s3.amazonaws.com/public/images/dab4f738-ce9d-445a-925b-5bdd889f1d62_509x337.png)
+![Image 10](../images/weekly-update-losses-taken-profit-10.png)
 
 
 
@@ -204,7 +204,7 @@ Remaining holdings are
 
 [
 
-[Image 11: Image 11](https://substack-post-media.s3.amazonaws.com/public/images/de5dcee3-2880-4a42-b052-ff54e9bd2cf5_1510x590.png)
+![Image 11](../images/weekly-update-losses-taken-profit-11.png)
 
 
 

@@ -21,7 +21,7 @@ The account ended the week on $20,647, an increase of $119 from this time last w
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/7373071b-2eac-436a-9cdd-240e410de0bc_933x387.png)
+![Image 1](../images/week-2-of-2026-profits-made-cash-1.png)
 
 
 
@@ -33,7 +33,7 @@ We opened two trades last week, bringing the total to three so far this year. We
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/3546c048-bb65-4c01-b033-18db87f03fc1_964x273.png)
+![Image 2](../images/week-2-of-2026-profits-made-cash-2.png)
 
 
 
@@ -43,7 +43,7 @@ The account continues to exceed target, with total return since inception in Aug
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/1eb35765-3adb-4d1a-b4ee-14fc0bfd43b1_1141x725.png)
+![Image 3](../images/week-2-of-2026-profits-made-cash-3.png)
 
 
 
@@ -77,7 +77,7 @@ This diagram shows the target equity size for the account in 2026. On average, I
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/b912d77c-efdd-491e-91e7-141c18295087_873x643.png)
+![Image 4](../images/week-2-of-2026-profits-made-cash-4.png)
 
 
 
@@ -119,7 +119,7 @@ European leaders must be wondering what the point is in negotiating with the US 
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/396b800a-8ad6-4b02-858e-983bfe15644d_1178x665.png)
+![Image 5](../images/week-2-of-2026-profits-made-cash-5.png)
 
 
 
@@ -133,7 +133,7 @@ I expect two more trades in the remainder of January, not sure of timing yet, bu
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/aa357401-b595-4353-97c8-741dbc2fe01c_1379x713.png)
+![Image 6](../images/week-2-of-2026-profits-made-cash-6.png)
 
 
 
@@ -141,7 +141,7 @@ I expect two more trades in the remainder of January, not sure of timing yet, bu
 
 [
 
-[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/8f8f0e8c-46e7-4d4a-8549-7bc93609ccf2_1378x655.png)
+![Image 7](../images/week-2-of-2026-profits-made-cash-7.png)
 
 
 

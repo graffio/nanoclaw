@@ -98,7 +98,7 @@ As is often the case when I first buy a company, I do not have enough informatio
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/460b4307-d1d9-4f72-b668-7f0f62f5aa28_841x374.png)
+![Image 1](../images/trade-alert-buying-nuclear-1.png)
 
 
 
@@ -112,7 +112,7 @@ The long-term chart suggests a target above $25. It was below $5 when I started 
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/f8113238-c802-4dd3-94d6-79a228e1bbc2_1207x725.png)
+![Image 2](../images/trade-alert-buying-nuclear-2.png)
 
 
 

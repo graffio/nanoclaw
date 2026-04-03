@@ -35,7 +35,7 @@ At present, I have one trade in APTV
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/02b0ec4c-4578-4a4b-9c14-20bda8db76de_1293x169.png)
+![Image 1](../images/trade-alert-67-adding-to-auto-tech-1.png)
 
 
 
@@ -77,7 +77,7 @@ EBITDA forecast in US$ billions
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/c6f5a272-5a3d-4fce-b05a-6c276f27ca63_985x205.png)
+![Image 2](../images/trade-alert-67-adding-to-auto-tech-2.png)
 
 
 
@@ -95,7 +95,7 @@ On the chart below, you can see the confirmed uptrend to the blue (1) on the cha
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/1547e989-ede9-4edd-b999-eaf1b0e0334f_793x604.png)
+![Image 3](../images/trade-alert-67-adding-to-auto-tech-3.png)
 
 
 

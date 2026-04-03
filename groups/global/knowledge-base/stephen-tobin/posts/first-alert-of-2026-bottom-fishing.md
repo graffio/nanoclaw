@@ -35,7 +35,7 @@ The big deal about Agentic AI is that it acts; it doesn’t just respond to a pr
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/edd52b45-325a-4d5b-a939-e320e9ad10ac_1185x597.png)
+![Image 1](../images/first-alert-of-2026-bottom-fishing-1.png)
 
 
 
@@ -51,7 +51,7 @@ I considered buying the April pullback but decided against it because the drop r
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/b1187772-1837-454a-b024-6bd9c692797e_1600x963.png)
+![Image 2](../images/first-alert-of-2026-bottom-fishing-2.png)
 
 
 
@@ -165,7 +165,7 @@ Independent validation supports SoundHound’s performance claims, notably throu
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/1caf6c62-88a5-4f54-9dda-725df0476417_603x920.png)
+![Image 3](../images/first-alert-of-2026-bottom-fishing-3.png)
 
 
 

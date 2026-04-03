@@ -19,7 +19,7 @@ Extreme volatility is becoming a watchword for 2025, this week we saw an all tim
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/91d9ef20-e928-4d39-a669-8591cfa93008_1108x461.png)
+![Image 1](../images/weekly-update-new-subscriber-addition-1.png)
 
 
 
@@ -31,7 +31,7 @@ Extreme volatility is becoming a watchword for 2025, this week we saw an all tim
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/c683e9f9-4beb-4d15-b4fd-72c302b965ac_1119x473.png)
+![Image 2](../images/weekly-update-new-subscriber-addition-2.png)
 
 
 
@@ -43,7 +43,7 @@ We booked a big profit closing ABAT just before the big sell-off and managed to 
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/04332a1d-475f-4f9d-b2eb-c0176d32e959_1061x153.png)
+![Image 3](../images/weekly-update-new-subscriber-addition-3.png)
 
 
 
@@ -53,7 +53,7 @@ ABAT jumped to second place on our list of best-performing assets.
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/2c5040f3-148c-4df4-a5c8-960d90d72e0c_783x461.png)
+![Image 4](../images/weekly-update-new-subscriber-addition-4.png)
 
 
 
@@ -67,7 +67,7 @@ The account did pass $20K for the first time during the week, but has since fall
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/042caeee-ddfa-4e00-93a3-459ae43f5917_1072x706.png)
+![Image 5](../images/weekly-update-new-subscriber-addition-5.png)
 
 
 
@@ -121,7 +121,7 @@ The results of applying this strategy are shown in the graph.
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/2b4906b1-b25c-4ed3-8b10-c3781c7a2bd9_563x342.png)
+![Image 6](../images/weekly-update-new-subscriber-addition-6.png)
 
 
 
@@ -131,7 +131,7 @@ The total return of 78% is far better than the first year of the actual returns 
 
 [
 
-[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/a43ad5ee-ae63-4a48-bc3b-0ff1ba24b69f_569x343.png)
+![Image 7](../images/weekly-update-new-subscriber-addition-7.png)
 
 
 
@@ -207,7 +207,7 @@ It was a very wild ride, the drop in drone stocks is of particular interest and 
 
 [
 
-[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/72b5cf2f-24d9-456b-8f5c-992c00880cc6_1185x826.png)
+![Image 8](../images/weekly-update-new-subscriber-addition-8.png)
 
 
 
@@ -221,7 +221,7 @@ Here is the up-to-date list, with yellow highlight in CAD$ and blue highlight in
 
 [
 
-[Image 9: Image 9](https://substack-post-media.s3.amazonaws.com/public/images/451f56a1-7049-4b56-928c-25eca5b2ef1e_1020x582.png)
+![Image 9](../images/weekly-update-new-subscriber-addition-9.png)
 
 
 
@@ -235,7 +235,7 @@ The experimental margin account was even more volatile, (it did not have ABAT), 
 
 [
 
-[Image 10: Image 10](https://substack-post-media.s3.amazonaws.com/public/images/4047d6cc-3cce-4631-98e3-7ccd3fdadc9b_509x348.png)
+![Image 10](../images/weekly-update-new-subscriber-addition-10.png)
 
 
 
@@ -245,7 +245,7 @@ The experimental margin account was even more volatile, (it did not have ABAT), 
 
 [
 
-[Image 11: Image 11](https://substack-post-media.s3.amazonaws.com/public/images/2ca54081-feb3-4dd8-8deb-a34a130acc75_1498x706.png)
+![Image 11](../images/weekly-update-new-subscriber-addition-11.png)
 
 
 

@@ -21,7 +21,7 @@ The account remains above its target, but the pullback is clear on this chart.
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/ef3620fb-97c0-476a-8e46-59edf95ad19d_879x568.png)
+![Image 1](../images/weekly-review-portfolio-drawdown-1.png)
 
 
 
@@ -35,7 +35,7 @@ This table shows all drawdowns on equity since inception (it is on equity, not a
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/e7fd1806-7241-4b9f-81cb-5f5f675e2cd1_386x285.png)
+![Image 2](../images/weekly-review-portfolio-drawdown-2.png)
 
 
 
@@ -47,7 +47,7 @@ The first part of the plan is to move to cash, which has been implemented as I h
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/0b926882-fda5-4cc7-91b2-5529d4f08b6f_642x567.png)
+![Image 3](../images/weekly-review-portfolio-drawdown-3.png)
 
 
 
@@ -83,7 +83,7 @@ EH, SES, BYRN are also performing below expectations and will remian under revie
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/480b9768-b30f-4aaf-9d06-155246a9af1f_1531x761.png)
+![Image 4](../images/weekly-review-portfolio-drawdown-4.png)
 
 
 

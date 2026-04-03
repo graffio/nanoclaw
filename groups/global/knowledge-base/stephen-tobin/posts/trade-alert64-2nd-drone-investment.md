@@ -41,7 +41,7 @@ I am expecting some drawdown with this trade. Its price is falling sharply and c
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/b8f4720c-12a9-4e61-a43f-4eacaa57e344_649x715.png)
+![Image 1](../images/trade-alert64-2nd-drone-investment-1.png)
 
 
 

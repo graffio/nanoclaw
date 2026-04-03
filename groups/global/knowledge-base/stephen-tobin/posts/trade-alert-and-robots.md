@@ -41,7 +41,7 @@ This is a picture of a Serv Robotics device delivering a Burrito.
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/d38bdc98-ab81-4f57-b6c3-c343ee898d55_1022x1188.png)
+![Image 1](../images/trade-alert-and-robots-1.png)
 
 
 

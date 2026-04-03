@@ -21,7 +21,7 @@ Despite experiencing considerable volatility throughout the month, the performan
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1d5617f8-66c1-4c45-9c74-485e871a0f09_1431x566.png)
+![Image 1](../images/end-of-q2-results-1.png)
 
 
 
@@ -39,7 +39,7 @@ Monthly reports will be significantly condensed, with all detailed updates and i
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/a0ab804f-4944-4a17-8cf7-7b08f0d94563_1032x501.png)
+![Image 2](../images/end-of-q2-results-2.png)
 
 
 
@@ -49,7 +49,7 @@ We opened a record 7 trades in June, 5 of which are in profit. The total return 
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/335f4332-1f5b-43ae-ac46-94ae64f5348b_432x147.png)
+![Image 3](../images/end-of-q2-results-3.png)
 
 
 
@@ -61,7 +61,7 @@ The indices had a consistent performance in June. Internationally, the best-perf
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/5d6897ae-a5f3-4c90-86d4-68a3d4626dd4_792x325.png)
+![Image 4](../images/end-of-q2-results-4.png)
 
 
 
@@ -73,7 +73,7 @@ This five-year StrategicWaves project aims to reach $100,000 by August 1st, 2028
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/fdb452c8-97e7-476e-b3fa-a51e1fadb25a_987x620.png)
+![Image 5](../images/end-of-q2-results-5.png)
 
 
 
@@ -91,7 +91,7 @@ The first month's statement is below.
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/240b169d-612c-4935-b3aa-bfe0533e2f05_892x490.png)
+![Image 6](../images/end-of-q2-results-6.png)
 
 
 

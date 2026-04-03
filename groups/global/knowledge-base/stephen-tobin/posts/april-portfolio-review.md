@@ -23,7 +23,7 @@ April was a good month for the portfolio, significantly outperforming the key in
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/0496709b-9f1d-4278-9f74-3eb84238f92d_611x257.png)
+![Image 1](../images/april-portfolio-review-1.png)
 
 
 
@@ -35,7 +35,7 @@ At the end of April, the account balance on the demonstration account was:
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/19192382-e2a6-4a5c-8cf0-e79ef2ffe77f_649x453.png)
+![Image 2](../images/april-portfolio-review-2.png)
 
 
 
@@ -45,7 +45,7 @@ It was a wild ride for many of our stocks, returns ranged from -34% to +64% in t
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/a08f7e7f-3bac-41c7-aa7e-5d7b09ce95cc_566x534.png)
+![Image 3](../images/april-portfolio-review-3.png)
 
 
 

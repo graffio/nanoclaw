@@ -25,7 +25,7 @@ I closed QBTS yesterday the 6th trade closed in 2024. The complete list of close
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/6bc4317f-161b-463e-b2b4-7699f16fcc1a_655x282.png)
+![Image 1](../images/event-interview-with-kobi-marenko-1.png)
 
 
 
@@ -35,7 +35,7 @@ The demonstration account close trades ($250 invested each month) now gives the 
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/f5d4c0b4-5081-4f28-a1ac-1d27d5dd6967_962x477.png)
+![Image 2](../images/event-interview-with-kobi-marenko-2.png)
 
 
 
@@ -49,7 +49,7 @@ We currently have 15 open positions with 12 in the money and the performance sin
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/bd645982-d1fb-40a9-99a8-4930741eee38_1101x494.png)
+![Image 3](../images/event-interview-with-kobi-marenko-3.png)
 
 
 

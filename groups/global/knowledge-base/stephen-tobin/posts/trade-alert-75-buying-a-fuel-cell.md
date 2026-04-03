@@ -29,7 +29,7 @@ This table provides a summary of the technologies I have reviewed, with the comp
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/916c708a-673d-4c71-a8df-45e1c6a25bfa_616x792.png)
+![Image 1](../images/trade-alert-75-buying-a-fuel-cell-1.png)
 
 
 
@@ -70,7 +70,7 @@ Founded in 2001 as a spin-off from Imperial College, London, the company has evo
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/52f2599b-c472-443e-807e-5edda16c5cd6_1059x617.png)
+![Image 2](../images/trade-alert-75-buying-a-fuel-cell-2.png)
 
 
 
@@ -154,7 +154,7 @@ Screenshot from the HyAxiom website
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/3bd33a4a-d745-410e-ad17-2c4a9029effd_1239x246.png)
+![Image 3](../images/trade-alert-75-buying-a-fuel-cell-3.png)
 
 
 
@@ -202,7 +202,7 @@ My forecast assumes two further partners sign production deals before the end of
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/8b2c7f28-1d7f-48d1-9af7-db2f47e82c97_1199x407.png)
+![Image 4](../images/trade-alert-75-buying-a-fuel-cell-4.png)
 
 
 

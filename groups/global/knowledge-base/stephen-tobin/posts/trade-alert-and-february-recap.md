@@ -49,7 +49,7 @@ The wave higher we are hoping to trade is shown below and a turning point may ha
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/4d07e355-09b8-41ca-8620-b121b83024df_1192x710.png)
+![Image 1](../images/trade-alert-and-february-recap-1.png)
 
 
 
@@ -63,7 +63,7 @@ Our only oil and Gas play has been performing well and may benefit from the US p
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/73364ce4-1740-44e6-989d-f6b8542b20eb_1241x716.png)
+![Image 2](../images/trade-alert-and-february-recap-2.png)
 
 
 
@@ -75,7 +75,7 @@ It was a poor month. The portfolio fell 11%, the third time in 19 months we have
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/3c04e2cc-a709-4a6d-9f0f-bd141a99734a_452x504.png)
+![Image 3](../images/trade-alert-and-february-recap-3.png)
 
 
 
@@ -87,7 +87,7 @@ Our new energy-oriented US stocks took a large hit. I will continue to rotate ou
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/937cf85e-499c-4c58-b649-08a0a4f88c79_972x461.png)
+![Image 4](../images/trade-alert-and-february-recap-4.png)
 
 
 
@@ -99,7 +99,7 @@ The performance of the significant financial areas is diverging**.** For more th
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/d35244dd-ae4c-4e60-853d-33ad6e7c5bbd_442x297.png)
+![Image 5](../images/trade-alert-and-february-recap-5.png)
 
 
 
@@ -117,7 +117,7 @@ The prospect list for March shows the rotation in action: more European stocks a
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/8ace6eb9-f129-48e9-8cc2-f0fb174667c6_518x507.png)
+![Image 6](../images/trade-alert-and-february-recap-6.png)
 
 
 

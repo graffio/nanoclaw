@@ -3,34 +3,27 @@ title: "Trade Alert #102: How Much Risk Can You Bear?"
 date: 2026-02-24
 url: https://stephentobin.substack.com/p/trade-alert-102-how-much-risk-can
 audience: only_paid
-post_type: trade_alert
-summary: "Potential Twenty Baggers are never a Sure Thing"
+summary: "Potential Twenty Baggers are never a Sure Thing, Risk and Reward are always linked."
 ---
 
 # Trade Alert #102: How Much Risk Can You Bear?
 
-*Potential Twenty Baggers are never a Sure Thing*
+*Potential Twenty Baggers are never a Sure Thing, Risk and Reward are always linked.*
 
 Risk and reward go together; we all love it when we get the big win, a huge return in hardly any time at all. These are the top four short-term winners we have had, and all subscribers love these gains.
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/4797ee8a-3ce3-4c90-947b-de874512ba07_794x284.png)
-
-
+![Image 1](../images/trade-alert-102-how-much-risk-can-1.png)
 
 ](https://substackcdn.com/image/fetch/$s_!hAg3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4797ee8a-3ce3-4c90-947b-de874512ba07_794x284.png)
-
 We don’t mind trades that take longer if they deliver returns, but these longer trades usually involve significant drawdown during their lifetimes. Subscribers tend not to like the drawdown but quickly forget about it when the big win is delivered.
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/1a45ed2a-e5c6-4228-9ef6-e9f6077b1b51_787x324.png)
-
-
+![Image 2](../images/trade-alert-102-how-much-risk-can-2.png)
 
 ](https://substackcdn.com/image/fetch/$s_!YjJj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a45ed2a-e5c6-4228-9ef6-e9f6077b1b51_787x324.png)
-
 20 of our 63 closed trades have delivered returns of more than 100%, but we get those big wins by taking on risk.
 
 QBTS, ABAT, and ELVA were all in negative equity when we first bought them.
@@ -43,12 +36,9 @@ Risk is a double-edged sword; the more you take, the greater the potential retur
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/36d0dd3a-195d-4e25-8212-aa4cf9707365_788x379.png)
-
-
+![Image 3](../images/trade-alert-102-how-much-risk-can-3.png)
 
 ](https://substackcdn.com/image/fetch/$s_!i_D3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36d0dd3a-195d-4e25-8212-aa4cf9707365_788x379.png)
-
 These are our 6 biggest losses, you can see that some of these losses came quickly, DroneShield lost nearly 60% in three weeks and LUNR over 40% in ten days.
 
 That is the nature of my trading plan; it can and does deliver exceptional results, but it can also deliver big losses, and it can deliver both very quickly.
@@ -79,7 +69,7 @@ In 2020, they tried to pivot to treating COVID-19 patients with respiratory prob
 
 In 2023, they secured some funds to help them move NRX-101 towards approval, and in 2025 began another pivot, launching Hope Therapeutics, which they hope will become the clinics where people receive NRX-101.
 
-Last year, they pivoted to a psychedelic drug, ketamine, with their own formulation (NRX-100), undergoing FDA consideration
+Last year, they pivoted to a psychedelic drug, ketamine, with their own formulation (NRX-100), undergoing FDA consideration 
 
 On top of all of this, they have insufficient funds, a 10-K full of related-party transactions, a market cap of only $50 million, and are competing with some of the most well-funded companies in the world.
 
@@ -125,7 +115,7 @@ NRX has applied to have BZT banned from all ketamine products, but even if that 
 
 Acceptance of the ANDA de-risked this drug and application and the FDA said that no new phase trials are required for this use case.
 
-## The New Drug Application \[NDA\]
+## The New Drug Application [NDA]
 
 The same NRX-100 drug discussed above, but NRX is seeking approval for it be used in emergency room-type treatment of patients in crisis with suicidal ideation.
 
@@ -187,12 +177,9 @@ NRX-101 has composition of matter patents lasting to 2033 and NRX-100 (IV) has p
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/ed43e326-1c60-488b-aca5-d49c6b870c9f_1205x430.png)
-
-
+![Image 4](../images/trade-alert-102-how-much-risk-can-4.png)
 
 ](https://substackcdn.com/image/fetch/$s_!VkyW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed43e326-1c60-488b-aca5-d49c6b870c9f_1205x430.png)
-
 ## Finances
 
 Saying NRX has had financial issues would be very kind.
@@ -217,12 +204,9 @@ To get an idea of the financial problem, look at the bottom line of this table a
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/d6afebdc-0630-42e8-a1a3-79063234f45f_642x211.png)
-
-
+![Image 5](../images/trade-alert-102-how-much-risk-can-5.png)
 
 ](https://substackcdn.com/image/fetch/$s_!bTSQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6afebdc-0630-42e8-a1a3-79063234f45f_642x211.png)
-
 The $242,000 in revenue represents 3 weeks of operations from Dura Medical acquired in September.
 
 R&D costs have contracted substantially as the company moves towards final submission to the FDA and first commercial operations. G&A also fell, reflecting lower insurance and employee count.
@@ -239,9 +223,7 @@ I have forecast the progress of NRX as follows
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/7796dda3-29f1-4744-9913-41a359e8f730_983x589.png)
-
-
+![Image 6](../images/trade-alert-102-how-much-risk-can-6.png)
 
 ](https://substackcdn.com/image/fetch/$s_!zT5o!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7796dda3-29f1-4744-9913-41a359e8f730_983x589.png)
 
@@ -259,12 +241,9 @@ The model produces a fair value of $50, which seems crazy, so I looked for confi
 
 [
 
-[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/3dca1562-bcd1-4e4e-aeea-fafdf2f51b17_651x122.png)
-
-
+![Image 7](../images/trade-alert-102-how-much-risk-can-7.png)
 
 ](https://substackcdn.com/image/fetch/$s_!QY15!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dca1562-bcd1-4e4e-aeea-fafdf2f51b17_651x122.png)
-
 It would appear my bullish sentiment is in line with the only other analysts covering this company. Note the dates of these analyst reports, the acceptance of the NDA and ANDA by the FDA has all three analysts and myself forecasting extraordinary gains.
 
 ## Conclusion

@@ -42,7 +42,7 @@ I am always looking to buy low and sell high; JOBY appears to be at a low point 
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/2ed6b8e5-d4f0-43f2-8c7f-84cf67f9964e_1438x515.png)
+![Image 1](../images/trade-alert-buying-joby-1.png)
 
 
 
@@ -60,7 +60,7 @@ Three sectors have arrived on my research list this month; individual companies 
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/3c1fe561-9cac-4cf4-91e2-eabbc1bbeaf9_1291x507.png)
+![Image 2](../images/trade-alert-buying-joby-2.png)
 
 
 

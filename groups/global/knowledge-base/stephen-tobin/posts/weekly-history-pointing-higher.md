@@ -19,7 +19,7 @@ It is interesting that performance correlates with the Seeking Alpha Quant strat
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/80765c34-b2c5-4496-bd42-da91e6be4b07_829x399.png)
+![Image 1](../images/weekly-history-pointing-higher-1.png)
 
 
 
@@ -81,7 +81,7 @@ The Portfolio
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/d5fdb8ad-16ed-41c6-b135-9ace96f5d4e5_1024x664.png)
+![Image 2](../images/weekly-history-pointing-higher-2.png)
 
 
 

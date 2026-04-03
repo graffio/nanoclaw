@@ -15,7 +15,7 @@ Another “Friday Down” day, the third in a row, saw the portfolio end the wee
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/55412f8d-ed82-4bd3-b68b-913d8f6b2849_1264x486.png)
+![Image 1](../images/weekly-review-quantum-next-1.png)
 
 
 
@@ -33,7 +33,7 @@ Results of the closed trades are
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/3397bdd9-7567-4c97-a953-fc0b4062dfbd_867x456.png)
+![Image 2](../images/weekly-review-quantum-next-2.png)
 
 
 
@@ -69,7 +69,7 @@ D-Wave is approaching the buying area I highlighted when we sold a few weeks ago
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/95f99c16-d549-4ead-89e2-80c97edbbac0_1600x799.png)
+![Image 3](../images/weekly-review-quantum-next-3.png)
 
 
 
@@ -114,7 +114,7 @@ I am not a financial advisor and do not provide investment advice. This newslett
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/a5a30929-edc0-460f-a370-bb6942c81a78_796x603.png)
+![Image 4](../images/weekly-review-quantum-next-4.png)
 
 
 
@@ -138,7 +138,7 @@ The Prospect list remains robust and, despite the number of investments in recen
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/5c4740ef-45e3-4b43-99f9-aebac36cac79_1044x608.png)
+![Image 5](../images/weekly-review-quantum-next-5.png)
 
 
 

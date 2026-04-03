@@ -41,7 +41,7 @@ It is now 600 days since I first bought Cadre, and it is not making the kind of 
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/a625319b-844f-419e-836f-f3b127552a07_1382x659.png)
+![Image 1](../images/trade-alert-rounding-out-the-ai-sector-1.png)
 
 
 
@@ -200,7 +200,7 @@ Taking a conservative approach, assuming the Algo business doesn’t work, and t
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/8f8ef780-6b02-4038-a16d-e054937bfa04_1340x435.png)
+![Image 2](../images/trade-alert-rounding-out-the-ai-sector-2.png)
 
 
 
@@ -212,7 +212,7 @@ If the Algo business does go into hyper growth, as I am predicting, then the mod
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/81c65478-1d2c-4aaf-8d28-d35813360e3d_1330x405.png)
+![Image 3](../images/trade-alert-rounding-out-the-ai-sector-3.png)
 
 
 
@@ -224,7 +224,7 @@ The technical chart suggests a share price of $300 ( 400% by 2029). It is an aut
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/5847a7e1-c317-4b51-98a3-eed75f1074ef_1267x915.png)
+![Image 4](../images/trade-alert-rounding-out-the-ai-sector-4.png)
 
 
 

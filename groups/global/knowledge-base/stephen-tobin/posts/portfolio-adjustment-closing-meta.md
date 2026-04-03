@@ -23,7 +23,7 @@ The chart below shows the entry and exit points. The exit would appear to agree 
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/6c72d768-a2d5-44fa-bf2e-fdaa74c1875b_1380x704.png)
+![Image 1](../images/portfolio-adjustment-closing-meta-1.png)
 
 
 

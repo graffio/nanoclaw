@@ -49,7 +49,7 @@ Key Takeaway: I will buy a half-size position in AREC, $300, approximately 1.5% 
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/a119d550-d3eb-4913-bd87-786f5f99a299_1380x700.png)
+![Image 1](../images/trade-alert-there-are-no-rare-earths-1.png)
 
 
 
@@ -69,7 +69,7 @@ The structure of AREC is important; the key technology is held in two subsidiari
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/88c880e5-06cb-4de3-b745-01996dd94ef9_1048x1002.png)
+![Image 2](../images/trade-alert-there-are-no-rare-earths-2.png)
 
 
 
@@ -87,7 +87,7 @@ ReElement has proprietary Chromatographic Separation technology developed at Pur
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/40aac1fb-c5e5-46c2-861d-41e21a871f9b_913x949.png)
+![Image 3](../images/trade-alert-there-are-no-rare-earths-3.png)
 
 
 
@@ -101,7 +101,7 @@ ReElements technology can refine mined ores as well as coal waste streams and by
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/66c02a18-30c0-4e62-a85d-6e6d8b4a6c68_1600x460.png)
+![Image 4](../images/trade-alert-there-are-no-rare-earths-4.png)
 
 
 
@@ -145,7 +145,7 @@ Management frames the near-term roadmap around four mutually reinforcing pillars
     
     [
     
-    [Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/39ac029b-90a8-4709-9b6e-db7d417f070e_1124x927.png)
+    ![Image 5](../images/trade-alert-there-are-no-rare-earths-5.png)
     
     
     

@@ -19,7 +19,7 @@ This is an image of their best-selling device. The Byrna SD
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/a2621a0a-9559-4afb-9c4e-cf64be123a2b_629x485.png)
+![Image 1](../images/byrna-technologies-raising-my-revenue-1.png)
 
 
 
@@ -51,7 +51,7 @@ In February, I presented my mathematical model, which forecasts a share price of
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/99e80880-da62-4ae4-a156-74f9fe929647_1261x362.png)
+![Image 2](../images/byrna-technologies-raising-my-revenue-2.png)
 
 
 
@@ -73,7 +73,7 @@ We are long Byrna, the entry prices are shown in this chart.
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/c20bea4d-b422-4050-8cc9-cdef780f069a_1262x701.png)
+![Image 3](../images/byrna-technologies-raising-my-revenue-3.png)
 
 
 
@@ -91,7 +91,7 @@ As you may remember, I was keen to buy Xiaomi last week, but was delayed with ta
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/abb5d586-4257-40f9-be5c-78bd0ab9f1b4_1587x701.png)
+![Image 4](../images/byrna-technologies-raising-my-revenue-4.png)
 
 
 
@@ -105,7 +105,7 @@ The portfolio continues to outperform the markets but is down this month. My bas
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/913eaeba-847f-40cb-a4bc-103f5f2dff25_970x455.png)
+![Image 5](../images/byrna-technologies-raising-my-revenue-5.png)
 
 
 

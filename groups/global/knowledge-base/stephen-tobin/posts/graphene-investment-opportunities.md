@@ -37,7 +37,7 @@ This image from [Graphene-info](https://www.graphene-info.com/graphene-structur
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/8406cfbe-2bd2-44fd-9c9c-8127ed891038_624x524.png)
+![Image 1](../images/graphene-investment-opportunities-1.png)
 
 
 
@@ -104,7 +104,7 @@ The four small-cap companies approaching volume production capability are summar
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/312fdf97-ece1-4699-b5fb-8a2ec0beb4e1_908x829.png)
+![Image 2](../images/graphene-investment-opportunities-2.png)
 
 
 
@@ -112,7 +112,7 @@ The four small-cap companies approaching volume production capability are summar
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/f24bdf8e-884b-4895-9410-4b9379e725e7_905x623.png)
+![Image 3](../images/graphene-investment-opportunities-3.png)
 
 
 

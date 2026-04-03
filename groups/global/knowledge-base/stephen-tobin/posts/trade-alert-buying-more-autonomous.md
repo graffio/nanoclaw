@@ -17,7 +17,7 @@ We had a big dip yesterday but so far we are up a lot in January, but dont’t g
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e946e949-cf6a-4137-92d4-df3a69476266_1105x602.png)
+![Image 1](../images/trade-alert-buying-more-autonomous-1.png)
 
 
 
@@ -47,7 +47,7 @@ It is this that keeps me out of technologies like solid batteries. These product
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/1ad93716-137d-4f0b-8b12-8ae71151a3b2_1383x661.png)
+![Image 2](../images/trade-alert-buying-more-autonomous-2.png)
 
 
 
@@ -81,7 +81,7 @@ I don’t believe Tesla is near a launch in this market. PONY is concentrating o
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/27037775-e1f4-4921-91de-d89028e195da_743x387.png)
+![Image 3](../images/trade-alert-buying-more-autonomous-3.png)
 
 
 
@@ -168,7 +168,7 @@ SimplyWall has a fair value of $44 for Kodiak, Wall Street has an average target
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/6062d6fa-5fda-44f2-bf3b-03e2144cafb6_1199x282.png)
+![Image 4](../images/trade-alert-buying-more-autonomous-4.png)
 
 
 
@@ -196,7 +196,7 @@ ARK has been on a Kodiak spending spree of late acquiring as many as 60,000 shar
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/17cd3e7a-ec9f-460a-bd39-ec5d7963c3e2_861x315.png)
+![Image 5](../images/trade-alert-buying-more-autonomous-5.png)
 
 
 

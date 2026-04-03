@@ -15,7 +15,7 @@ The drone and eVTOL sector I track has been very profitable, with a 100% hit rat
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/b67c08d9-1e17-405f-8719-7fb5a2a6ee8b_975x300.png)
+![Image 1](../images/trade-alert-68-buying-drone-technology-1.png)
 
 
 
@@ -69,7 +69,7 @@ AIRO drone is based in Denmark and builds the battle-proven RQ-35 Heidrun drone.
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/909c5d9e-c1eb-48c7-8734-811fa6aa8c84_705x496.png)
+![Image 2](../images/trade-alert-68-buying-drone-technology-2.png)
 
 
 
@@ -135,7 +135,7 @@ Last month, AIRO unveiled its medium lift cargo drone capable of carrying 500 po
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/acb5d535-b749-42d4-b368-0896ea101ce8_802x408.png)
+![Image 3](../images/trade-alert-68-buying-drone-technology-3.png)
 
 
 
@@ -183,7 +183,7 @@ Revenue is growing quickly. Drone revenue is the driver, and that division is gr
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/257ed8eb-3926-4b05-95c1-9fab6945abab_1035x169.png)
+![Image 4](../images/trade-alert-68-buying-drone-technology-4.png)
 
 
 
@@ -199,7 +199,7 @@ I have compared AIRO with a peer group of companies spanning drones and eVTOLs r
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/87e3a3d1-f173-4731-a927-135a5559a7ba_1355x259.png)
+![Image 5](../images/trade-alert-68-buying-drone-technology-5.png)
 
 
 

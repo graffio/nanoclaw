@@ -15,7 +15,7 @@ A second profitable week in a row. The portfolio closed at $18,319, up from $17,
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/a96b7c18-ece0-4693-8663-016b66b0ddfd_1106x619.png)
+![Image 1](../images/weekly-review-strong-growth-across-1.png)
 
 
 
@@ -27,7 +27,7 @@ The Portfolio remains below its all-time high recorded in October, but above the
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/98915ed4-488b-469b-b06b-574d12c8f111_1117x685.png)
+![Image 2](../images/weekly-review-strong-growth-across-2.png)
 
 
 
@@ -37,7 +37,7 @@ To achieve the $100,000 target in 5 years, we need to grow at 5.2% per month. De
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/2b47e87c-0a71-4a90-a783-21aa669ef4e9_1379x692.png)
+![Image 3](../images/weekly-review-strong-growth-across-3.png)
 
 
 
@@ -76,7 +76,7 @@ Early next week (target Tuesday), I expect to buy a Space stock, and later in th
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/84395ca7-9825-400a-a7dd-040097ae8086_1516x837.png)
+![Image 4](../images/weekly-review-strong-growth-across-4.png)
 
 
 
@@ -94,7 +94,7 @@ As the account grows, the size of positions changes, allowing for additional tra
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/86f94c97-9cea-4d79-bec3-49ce5a7e7df6_689x123.png)
+![Image 5](../images/weekly-review-strong-growth-across-5.png)
 
 
 

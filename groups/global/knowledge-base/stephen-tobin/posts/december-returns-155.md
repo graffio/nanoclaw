@@ -25,7 +25,7 @@ In December, the Strategic Wave Trading Account\* returned 15.5%; this account w
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1b3ef2e2-6707-47dd-ab26-21194a52743a_552x343.png)
+![Image 1](../images/december-returns-155-1.png)
 
 
 
@@ -35,7 +35,7 @@ In December, the Strategic Wave Trading Account\* returned 15.5%; this account w
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/eeb8090d-a0d9-4163-a46c-5613c3773d6e_572x96.png)
+![Image 2](../images/december-returns-155-2.png)
 
 
 
@@ -51,7 +51,7 @@ I closed six trades in December, three in profit and three in the red. The avera
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/5403d83e-cd33-40d0-99c0-fa425cbd346d_587x245.png)
+![Image 3](../images/december-returns-155-3.png)
 
 
 
@@ -67,7 +67,7 @@ Trades are usually opened for around 5% of account equity.
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/a4d4d487-1974-4112-9e24-3707a208fa6e_415x567.png)
+![Image 4](../images/december-returns-155-4.png)
 
 
 

@@ -23,7 +23,7 @@ Year to date, we are up 73% and the Annualized IRR is 124.9%. We remain ahead of
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/c716fa29-362f-4338-9086-9f5d7eb3d13d_731x478.png)
+![Image 1](../images/weekly-stock-recovery-ends-november-1.png)
 
 
 
@@ -39,7 +39,7 @@ We closed a lot of trades in November, a significant pullback in risk-based asse
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/9d27c6fe-6b55-47b3-a40f-eef755bd7185_640x642.png)
+![Image 2](../images/weekly-stock-recovery-ends-november-2.png)
 
 
 
@@ -79,7 +79,7 @@ ELVA and SMR are also of interest and ELVA will deliver earnings next week, most
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/82da872d-6490-49e6-8a65-47f5f84fa377_1405x607.png)
+![Image 3](../images/weekly-stock-recovery-ends-november-3.png)
 
 
 

@@ -37,7 +37,7 @@ The Chart I am following is shown below.
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/3cdc10b8-af11-4920-9be5-0d0680098c51_1326x698.png)
+![Image 1](../images/trade-alert-adding-to-byrna-technologies-1.png)
 
 
 

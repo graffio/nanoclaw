@@ -19,7 +19,7 @@ Our portfolio of small-cap technology stocks beat the market with a 4.8% gain la
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1c0d511b-516d-4000-913f-cf8d2c4fe12b_1109x447.png)
+![Image 1](../images/weekly-update-volatility-falls-profits-1.png)
 
 
 
@@ -31,7 +31,7 @@ If we hold this performance, we will have made a profit in six consecutive month
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/3c45905c-08de-4c56-9800-cb2c2e577607_1383x698.png)
+![Image 2](../images/weekly-update-volatility-falls-profits-2.png)
 
 
 
@@ -41,7 +41,7 @@ The account began on August 1, 2023, with the first $250 deposit, and we are tar
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/29985c63-d786-4a7e-b1c7-7d0d43733d6c_1025x469.png)
+![Image 3](../images/weekly-update-volatility-falls-profits-3.png)
 
 
 
@@ -51,7 +51,7 @@ These are the account balances.
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/ab85cfd9-2773-4889-b0ab-cec9389a9750_1380x699.png)
+![Image 4](../images/weekly-update-volatility-falls-profits-4.png)
 
 
 
@@ -160,7 +160,7 @@ I will keep altering the columns to give slightly different information each wee
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/05e8280f-260d-4228-b137-89a49a8813fe_1395x834.png)
+![Image 5](../images/weekly-update-volatility-falls-profits-5.png)
 
 
 
@@ -170,7 +170,7 @@ The only trade opened in the week was an add-on.
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/55ae669b-0671-4070-8763-7fd377c45638_1159x134.png)
+![Image 6](../images/weekly-update-volatility-falls-profits-6.png)
 
 
 
@@ -184,7 +184,7 @@ Key balances at the close of markets
 
 [
 
-[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/a2e835a9-acab-44fd-9c29-0a53162b3d63_441x289.png)
+![Image 7](../images/weekly-update-volatility-falls-profits-7.png)
 
 
 
@@ -194,7 +194,7 @@ The account made a profit of £83 in the week, pulling it above water for Septem
 
 [
 
-[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/41fa44c5-77f8-49cb-b380-4426341d07e3_542x182.png)
+![Image 8](../images/weekly-update-volatility-falls-profits-8.png)
 
 
 
@@ -206,7 +206,7 @@ Full list of holdings
 
 [
 
-[Image 9: Image 9](https://substack-post-media.s3.amazonaws.com/public/images/1bcb5021-96cb-4471-991d-96939e7b909e_1600x643.png)
+![Image 9](../images/weekly-update-volatility-falls-profits-9.png)
 
 
 
@@ -216,7 +216,7 @@ Finally, any thoughts on the new pink wave logo would be appreciated. I think it
 
 [
 
-[Image 10: Image 10](https://substack-post-media.s3.amazonaws.com/public/images/ec56dc4b-63e7-4458-ac20-98ef8ef447ec_943x310.png)
+![Image 10](../images/weekly-update-volatility-falls-profits-10.png)
 
 
 

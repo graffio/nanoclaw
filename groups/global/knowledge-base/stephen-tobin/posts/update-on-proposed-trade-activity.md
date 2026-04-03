@@ -41,7 +41,7 @@ The chart below shows past trades on D-Wave and suggests that now may be a good 
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/a96151fb-028a-4fc2-b4a9-75c494a021dc_925x725.png)
+![Image 1](../images/update-on-proposed-trade-activity-1.png)
 
 
 
@@ -71,7 +71,7 @@ Should I decide to buy it, I will send the complete analysis I did last week.
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/774f1e48-3e54-45cb-9f0b-11d7b5bb0667_1576x710.png)
+![Image 2](../images/update-on-proposed-trade-activity-2.png)
 
 
 
@@ -89,7 +89,7 @@ The portfolio continues to fall, dropping 8% so far in April, following losses o
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/e8e564fd-edc6-4d9c-84b5-c7224482e2b2_966x451.png)
+![Image 3](../images/update-on-proposed-trade-activity-3.png)
 
 
 

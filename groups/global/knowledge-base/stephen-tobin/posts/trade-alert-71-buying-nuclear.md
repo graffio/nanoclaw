@@ -62,9 +62,9 @@ I first wrote about NuScale last year, rating them a hold.
 
 [
 
-[Image 1: A screenshot of a computer
+![A screenshot of a computer
 
-AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/f9e63305-f4c2-4ac5-9496-2945816e9450_1053x218.png)
+AI-generated content may be incorrect.](../images/trade-alert-71-buying-nuclear-1.png)
 
 
 
@@ -145,7 +145,7 @@ After certification comes the ability to manufacture, and then the business mode
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/9ee54439-83bf-488a-9d65-5153b8c3b5a5_971x843.png)
+![Image 2](../images/trade-alert-71-buying-nuclear-2.png)
 
 
 
@@ -183,9 +183,9 @@ The mathematical model is under construction, but is only an indicative one at t
 
 [
 
-[Image 3: A table with numbers and numbers
+![A table with numbers and numbers
 
-AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/2fd11030-606d-47d6-8be0-19ff431de997_1052x377.png)
+AI-generated content may be incorrect.](../images/trade-alert-71-buying-nuclear-3.png)
 
 
 
@@ -213,9 +213,9 @@ ASPI and AIRO have pulled back, and I will be analysing with a view to adding.
 
 [
 
-[Image 4: A screenshot of a chart
+![A screenshot of a chart
 
-AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/0783361c-9383-4419-8bae-b9cc78ca3a55_704x455.png)
+AI-generated content may be incorrect.](../images/trade-alert-71-buying-nuclear-4.png)
 
 
 
@@ -225,9 +225,9 @@ The Drone review continues. Here is a graphic of the sector I am analysing
 
 [
 
-[Image 5: A white paper with black lines and numbers
+![A white paper with black lines and numbers
 
-AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/8a3208a4-91dc-423f-a13c-07cf200b83d1_1052x358.png)
+AI-generated content may be incorrect.](../images/trade-alert-71-buying-nuclear-5.png)
 
 
 

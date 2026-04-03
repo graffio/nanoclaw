@@ -13,7 +13,7 @@ summary: "Potential for a Black Monday and the greatest wealth generation sector
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/35ffd499-c28f-4e3c-8192-130bbdaa3481_2816x1536.png)
+![Image 1](../images/sw-weekly-robotaxi-review-market-1.png)
 
 
 
@@ -29,7 +29,7 @@ There is no ignoring the market turbulence we are in, and my portfolio has been 
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/76dfcdc5-8a7a-4580-ae87-2027f1ff9a8f_1086x595.png)
+![Image 2](../images/sw-weekly-robotaxi-review-market-2.png)
 
 
 
@@ -67,7 +67,7 @@ Other UBER deals in the US include
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/31fbc40d-898d-45d4-9e84-d51445ec61e4_1029x412.png)
+![Image 3](../images/sw-weekly-robotaxi-review-market-3.png)
 
 
 
@@ -91,7 +91,7 @@ Didi has a fleet manufactured by GAC already in operation and significant deals 
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/3f85aafc-7b31-4606-8825-367cacafe009_1223x564.png)
+![Image 4](../images/sw-weekly-robotaxi-review-market-4.png)
 
 
 
@@ -109,7 +109,7 @@ Tesla is struggling here. The NHTSA has launched an investigation into Tesla’s
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/022220fb-ba3f-46b9-ad33-158a9832681c_973x263.png)
+![Image 5](../images/sw-weekly-robotaxi-review-market-5.png)
 
 
 
@@ -127,7 +127,7 @@ Tesla's Cybercab has a target production price of only $30,000, whereas Waymo's 
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/6277bbab-cd80-4fce-849f-3bcbd7a66654_935x314.png)
+![Image 6](../images/sw-weekly-robotaxi-review-market-6.png)
 
 
 
@@ -139,7 +139,7 @@ I have tried to develop a cost-per-mile estimate for the different vehicles, con
 
 [
 
-[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/d270048a-fb19-4951-bb47-d3d400abe52a_763x291.png)
+![Image 7](../images/sw-weekly-robotaxi-review-market-7.png)
 
 
 
@@ -173,7 +173,7 @@ Clearly, my portfolio took a hit last week, and it is now down almost 9% in Marc
 
 [
 
-[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/5e3795d5-1b1a-43fe-b9e1-984953e82cee_797x699.png)
+![Image 8](../images/sw-weekly-robotaxi-review-market-8.png)
 
 
 
@@ -185,7 +185,7 @@ The portfolio
 
 [
 
-[Image 9: Image 9](https://substack-post-media.s3.amazonaws.com/public/images/305407be-24b8-43cf-b816-bf0c32e9e91e_789x635.png)
+![Image 9](../images/sw-weekly-robotaxi-review-market-9.png)
 
 
 

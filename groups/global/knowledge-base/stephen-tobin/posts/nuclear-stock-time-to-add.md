@@ -27,7 +27,7 @@ On the technical chart, it appears to be an excellent place to add; the stock is
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1abdbba5-69dd-440e-ac50-1eeda38b1499_1466x1041.png)
+![Image 1](../images/nuclear-stock-time-to-add-1.png)
 
 
 
@@ -65,7 +65,7 @@ Full Holdings below.
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/d34cd65c-3986-4423-8286-be865a7a6c77_768x871.png)
+![Image 2](../images/nuclear-stock-time-to-add-2.png)
 
 
 

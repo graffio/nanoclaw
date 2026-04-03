@@ -33,7 +33,7 @@ Despite producing excellent results and maintaining guidance for 2025, increased
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/7d5ab251-86fd-43c5-bc00-6263fa932532_1327x748.png)
+![Image 1](../images/company-take-blue-bird-corporation-1.png)
 
 
 
@@ -45,7 +45,7 @@ A complete list of open trades is below. Note additional positions are always ha
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/a511fa88-0e2a-44a0-938c-057a1e006745_208x410.png)
+![Image 2](../images/company-take-blue-bird-corporation-2.png)
 
 
 

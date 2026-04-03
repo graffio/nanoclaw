@@ -21,7 +21,7 @@ Trades requiring attention are shown below.
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/ab793e29-52f1-43da-8bd9-739a8963ebf5_1007x391.png)
+![Image 1](../images/closing-alerts-and-plans-1.png)
 
 
 
@@ -39,7 +39,7 @@ I will watch closely, if it starts to drop, I will exit, but at the moment I int
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/35da9f17-e51b-435a-b9e5-e20e212025f8_1600x807.png)
+![Image 2](../images/closing-alerts-and-plans-2.png)
 
 
 
@@ -51,7 +51,7 @@ Droneshield is up 85% in less than a month, but it fell almost 10% yesterday, wh
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/f1a3b7f7-c80f-4eba-9fe4-32ab1c8eb23a_1600x830.png)
+![Image 3](../images/closing-alerts-and-plans-3.png)
 
 
 
@@ -63,7 +63,7 @@ AMPX is up 100% in less than a month and is now in the area where we can expect 
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/10361eaf-095a-4110-845d-c5f27e052fa0_1600x966.png)
+![Image 4](../images/closing-alerts-and-plans-4.png)
 
 
 
@@ -75,7 +75,7 @@ Pump continues to underperform, down 15% over the last 30 days. Neither the patt
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/a97f1c8d-aef5-455b-920a-91a03c0ab82a_1600x787.png)
+![Image 5](../images/closing-alerts-and-plans-5.png)
 
 
 
@@ -89,7 +89,7 @@ I will close today if the price continues to fall; if not, I will put a trailing
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/053e6633-143d-4cc7-91cb-918106ed1093_1600x870.png)
+![Image 6](../images/closing-alerts-and-plans-6.png)
 
 
 

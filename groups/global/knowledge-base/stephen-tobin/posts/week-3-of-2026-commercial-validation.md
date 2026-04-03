@@ -17,7 +17,7 @@ The portfolio closed a fraction of a percent lower this week, matching the S&P 5
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/656812f8-c968-41fa-899b-abd6b1c8eb01_1088x457.png)
+![Image 1](../images/week-3-of-2026-commercial-validation-1.png)
 
 
 
@@ -33,7 +33,7 @@ The position closed was ACM Research, and we exited both trades in the company.
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/f798e16a-4b95-46b7-9b08-222b8ff386e0_1518x198.png)
+![Image 2](../images/week-3-of-2026-commercial-validation-2.png)
 
 
 
@@ -49,7 +49,7 @@ Average monthly return is 5.5% against a target of 5.2% needed to hit the $100K 
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/9fc04a9e-5327-4e88-96fb-0685c2c50139_1380x659.png)
+![Image 3](../images/week-3-of-2026-commercial-validation-3.png)
 
 
 
@@ -85,7 +85,7 @@ The price performance of the six over the last 12 months is shown here.
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/30cf8c17-c80e-4f09-b0fb-29666593bae8_1157x905.png)
+![Image 4](../images/week-3-of-2026-commercial-validation-4.png)
 
 
 
@@ -101,7 +101,7 @@ Isolating the two companies with commercial validation, we can see a clear trend
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/0b1141e0-18f2-47a7-9fc5-3a9d9b7b8c05_1160x764.png)
+![Image 5](../images/week-3-of-2026-commercial-validation-5.png)
 
 
 
@@ -115,7 +115,7 @@ This is the same chart for the non-commercially validated.
 
 [
 
-[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/d9ace6dd-d09f-45a3-bb1c-8b1ea76bc44d_1184x827.png)
+![Image 6](../images/week-3-of-2026-commercial-validation-6.png)
 
 
 
@@ -157,7 +157,7 @@ The old order is cracking, and it looks increasingly likely to break. In a tradi
 
 [
 
-[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/88943e36-259d-4973-b1f9-39e1f37ca3f6_1097x663.png)
+![Image 7](../images/week-3-of-2026-commercial-validation-7.png)
 
 
 

@@ -49,7 +49,7 @@ We are having a bumper month in the demonstration portfolio. We were not well po
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/f62d6280-56d2-4529-ac5d-9fdfcb183dd0_612x495.png)
+![Image 1](../images/trade-alert-buying-npwr-again-1.png)
 
 
 
@@ -59,7 +59,7 @@ We continue to outperform the S and P and Alpha Picks from Seeking Alpha.
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/a5672ecd-b07c-4c5d-8167-37d40b36d418_985x546.png)
+![Image 2](../images/trade-alert-buying-npwr-again-2.png)
 
 
 

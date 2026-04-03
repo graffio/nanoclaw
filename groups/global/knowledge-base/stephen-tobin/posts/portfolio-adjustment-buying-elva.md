@@ -19,7 +19,7 @@ The larger position size should reduce the cash balance to a more manageable lev
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/46b40e75-bea9-4db8-9142-36ebb695a3e5_852x456.png)
+![Image 1](../images/portfolio-adjustment-buying-elva-1.png)
 
 
 
@@ -29,7 +29,7 @@ The increase in position size is an opportunity to look at open positions and de
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/ecad082c-5e59-45f3-92ba-b1bbd6fc753b_655x522.png)
+![Image 2](../images/portfolio-adjustment-buying-elva-2.png)
 
 
 
@@ -45,7 +45,7 @@ Technically, this is an excellent time to buy the stock is oversold and a new wa
 
 [
 
-[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/d1cc406c-b181-4c7c-87b5-9aaadc496884_1392x663.png)
+![Image 3](../images/portfolio-adjustment-buying-elva-3.png)
 
 
 
@@ -101,7 +101,7 @@ The capital raise was unexpected, but it has improved the balance sheet substant
 
 [
 
-[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/3502a3ff-172d-4dcc-995b-7d66823e3df5_571x350.png)
+![Image 4](../images/portfolio-adjustment-buying-elva-4.png)
 
 
 
@@ -113,7 +113,7 @@ The new revenue guidance is above my forecasts for 2025, with significant growth
 
 [
 
-[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/ab4d7d46-bcbc-4072-afca-3f632f57e935_1189x500.png)
+![Image 5](../images/portfolio-adjustment-buying-elva-5.png)
 
 
 

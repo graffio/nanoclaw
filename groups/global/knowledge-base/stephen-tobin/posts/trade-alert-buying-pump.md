@@ -33,7 +33,7 @@ My mathematical model suggests this might be a ten-bagger and the chart looks ve
 
 [
 
-[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/b4418fb4-bae2-4bcb-bf44-66b6b2394981_1155x637.png)
+![Image 1](../images/trade-alert-buying-pump-1.png)
 
 
 
@@ -43,7 +43,7 @@ A couple of people have asked to see the full open trades list. I will share it 
 
 [
 
-[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/8b466db6-2cc9-4379-b1a0-1e84e5d1ef48_877x516.png)
+![Image 2](../images/trade-alert-buying-pump-2.png)
 
 
 
