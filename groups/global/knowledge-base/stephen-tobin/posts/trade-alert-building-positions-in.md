@@ -61,7 +61,7 @@ The chart shows the pattern I am trading
 
 [
 
-![Image 1](../images/trade-alert-building-positions-in-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/a5d913ad-798c-4823-baec-0cf947b41cd4_1469x1046.png)
 
 
 
@@ -79,7 +79,7 @@ When compared to its immediate peer group, DroneShield looks to be good value
 
 [
 
-![Image 2](../images/trade-alert-building-positions-in-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/1c5fbcd8-513f-4bff-a489-b36242776b5f_1011x388.png)
 
 
 
@@ -123,7 +123,7 @@ This is the first slide of the investor presentation, it says almost everything 
 
 [
 
-![Image 3](../images/trade-alert-building-positions-in-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/0202e926-adb3-4d6c-9ac4-758c570e47b5_1827x999.png)
 
 
 

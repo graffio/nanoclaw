@@ -17,7 +17,7 @@ The portfolio showed broad gains, with 5 holdings up double digits and only thre
 
 [
 
-![Image 1](../images/weekly-update-a-good-week-to-end-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/12076539-f624-41fa-8c4c-7fa7512ae160_1094x447.png)
 
 
 
@@ -29,7 +29,7 @@ Trades opened of late have been doing very well
 
 [
 
-![Image 2](../images/weekly-update-a-good-week-to-end-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/e9aecc98-f688-4bb4-b246-28ae11feed8f_840x621.png)
 
 
 
@@ -39,7 +39,7 @@ The portfolio continues towards its long-term target of $100K by Aug 2028
 
 [
 
-![Image 3](../images/weekly-update-a-good-week-to-end-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/638c5fd9-4fb1-4c4f-beaf-2e79c4b3b7e5_1128x737.png)
 
 
 
@@ -49,7 +49,7 @@ I do not expect any trading next week, but I will kick off the year by increasin
 
 [
 
-![Image 4](../images/weekly-update-a-good-week-to-end-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/16f2934a-d037-4aaa-a607-19e4daf9e858_2563x665.png)
 
 
 
@@ -65,7 +65,7 @@ No weekly digest this week but this is the current portfolio situation
 
 [
 
-![Image 5](../images/weekly-update-a-good-week-to-end-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/538f0c02-99ed-43c5-b979-0bd7f71fb577_1424x860.png)
 
 
 

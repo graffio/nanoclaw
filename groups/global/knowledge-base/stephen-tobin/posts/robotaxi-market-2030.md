@@ -29,7 +29,7 @@ It represents an opportunity the scale of which is unmatched at present. If thes
 
 [
 
-![Image 1](../images/robotaxi-market-2030-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/ff0a362f-885f-467a-b2cd-7f8cced3d151_797x390.png)
 
 
 
@@ -64,7 +64,7 @@ Six companies have reached commercial operations, and at least five are either c
 
 [
 
-![Image 2](../images/robotaxi-market-2030-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/8118893b-8277-41a6-8172-4c62c342385a_1210x572.png)
 
 
 

@@ -27,7 +27,7 @@ I closed out my positions in Bryna Technologies after they released earnings. Pr
 
 [
 
-![Image 1](../images/weekly-review-c1b-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/df8c49d3-4f3f-4d1b-8802-ce49ec0d861f_1075x484.png)
 
 
 
@@ -62,7 +62,7 @@ Five material press releases during the week, spanning M&A progress, product com
 
 [
 
-![Image 2](../images/weekly-review-c1b-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/6f0e0d19-e3c7-43e2-9a26-de6074ce1c25_537x688.png)
 
 
 
@@ -85,7 +85,7 @@ I have added quarterly and annual price performance to the spreadsheet for this 
 
 [
 
-![Image 3](../images/weekly-review-c1b-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/e123ba25-fb95-4fe2-a194-3073955a4657_936x696.png)
 
 
 
@@ -107,7 +107,7 @@ IONQ could easily fall below $20, and it will likely drag all the other quantum 
 
 [
 
-![Image 4](../images/weekly-review-c1b-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/07800292-feed-4c07-b70d-248ccf72bc1b_1144x859.png)
 
 
 
@@ -125,7 +125,7 @@ Here is an example using ASP Isotopes. The image is from the platform
 
 [
 
-![Image 5](../images/weekly-review-c1b-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/a26dd6f5-7276-46c3-83cd-ca8a50151274_437x385.png)
 
 
 
@@ -145,7 +145,7 @@ Current holdings are
 
 [
 
-![Image 6](../images/weekly-review-c1b-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/4fa626a7-359c-45c5-8174-36839e141774_1498x414.png)
 
 
 

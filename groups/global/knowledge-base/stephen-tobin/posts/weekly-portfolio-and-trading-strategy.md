@@ -17,7 +17,7 @@ The US stock trading account saw nine stocks make double-digit gains and deliver
 
 [
 
-![Image 1](../images/weekly-portfolio-and-trading-strategy-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1f8783b5-6003-48d4-81d0-42668f529b34_1120x453.png)
 
 
 
@@ -70,7 +70,7 @@ I try to time my entry in the slope of enlightenment, aiming to enter one or two
 
 [
 
-![Image 2](../images/weekly-portfolio-and-trading-strategy-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/96120f41-7f09-4436-8725-32c743adc180_1600x978.png)
 
 
 
@@ -126,7 +126,7 @@ This is the price chart for ABAT. You can see the 2020/2021 hype cycle in motion
 
 [
 
-![Image 3](../images/weekly-portfolio-and-trading-strategy-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/b391f3b3-6995-427b-b945-a3e1aa0aa4a9_1212x1004.png)
 
 
 
@@ -255,7 +255,7 @@ The US stock trading portfolio showed significant gains in multiple stocks. I wi
 
 [
 
-![Image 4](../images/weekly-portfolio-and-trading-strategy-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/8d448529-378e-4db5-b658-75da0fc01d70_1504x874.png)
 
 
 
@@ -265,7 +265,7 @@ We opened one trade in the week, but did not close any
 
 [
 
-![Image 5](../images/weekly-portfolio-and-trading-strategy-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/0c75f0ef-810f-4c64-bab6-d630247e8e8b_1268x148.png)
 
 
 
@@ -275,7 +275,7 @@ The US stock Trading account is targeting $100K in five years. December will mar
 
 [
 
-![Image 6](../images/weekly-portfolio-and-trading-strategy-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/766a3243-cc94-4118-a7a6-2fa2b12884d4_1033x125.png)
 
 
 
@@ -287,7 +287,7 @@ Key Balances
 
 [
 
-![Image 7](../images/weekly-portfolio-and-trading-strategy-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/264f076a-b745-4b22-93cb-8f8b3614cf43_513x325.png)
 
 
 
@@ -301,7 +301,7 @@ Full list of open positions, I could not add ABAT.
 
 [
 
-![Image 8](../images/weekly-portfolio-and-trading-strategy-8.png)
+![Image 8](https://substack-post-media.s3.amazonaws.com/public/images/d269d8a8-3d7b-417d-979e-18301e462722_1495x685.png)
 
 
 
@@ -311,7 +311,7 @@ The account is now ahead of the two monthly compound percentage returns I am usi
 
 [
 
-![Image 9](../images/weekly-portfolio-and-trading-strategy-9.png)
+![Image 9](https://substack-post-media.s3.amazonaws.com/public/images/6bc144cd-549a-4dd2-a2dd-8b69927b461a_559x178.png)
 
 
 

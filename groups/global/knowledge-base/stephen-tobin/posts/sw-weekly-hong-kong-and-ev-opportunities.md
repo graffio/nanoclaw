@@ -18,7 +18,7 @@ Another volatile week that ended with little impact, the portfolio outperformed 
 
 [
 
-![Image 1](../images/sw-weekly-hong-kong-and-ev-opportunities-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/79989853-bb1f-4452-996c-56957a57ae3e_1103x595.png)
 
 - ](https://substackcdn.com/image/fetch/$s_!mhBo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79989853-bb1f-4452-996c-56957a57ae3e_1103x595.png)
 Current trading conditions are difficult; I am moving very conservatively, and trades at the moment are more of a rotation within a sector, moving my dollars from one company to another in the same area. I am trying to ensure that my money is invested in companies that offer the greatest chance of a sharp correction higher if conditions improve, but also names that have a slightly lower risk profile.
@@ -27,7 +27,7 @@ This week, I sold Aptiv PLC. Many brokers are raising price targets to $100 per 
 
 [
 
-![Image 2](../images/sw-weekly-hong-kong-and-ev-opportunities-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/68864133-9622-432f-bebe-8621b359ff96_952x204.png)
 
 ](https://substackcdn.com/image/fetch/$s_!kNYG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68864133-9622-432f-bebe-8621b359ff96_952x204.png)
 Small profits, but I have invested the money in a direct competitor with much higher growth potential.
@@ -48,7 +48,7 @@ The first table looks at the market cap per vehicle sold.
 
 [
 
-![Image 3](../images/sw-weekly-hong-kong-and-ev-opportunities-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/54bd041b-02ec-4e11-992a-6f5160bf7008_1279x565.png)
 
 ](https://substackcdn.com/image/fetch/$s_!Af0Q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54bd041b-02ec-4e11-992a-6f5160bf7008_1279x565.png)
 * all BYD sales are PHEV.
@@ -59,7 +59,7 @@ On the table above, Stellantis looks the best value, and BYD is quite highly val
 
 [
 
-![Image 4](../images/sw-weekly-hong-kong-and-ev-opportunities-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/809204ef-b7bd-4fec-b628-c93fa0634632_716x890.png)
 
 ](https://substackcdn.com/image/fetch/$s_!kIh_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F809204ef-b7bd-4fec-b628-c93fa0634632_716x890.png)
 Stellantis is third on this list, meaning it sells quite high-priced cars, but at the bottom of the previous list, meaning the market does not value each sale that much.
@@ -72,7 +72,7 @@ If electricity generation is dependent on oil and natural gas from the Middle Ea
 
 [
 
-![Image 5](../images/sw-weekly-hong-kong-and-ev-opportunities-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/3a54d402-4240-4a55-bb91-de55299aaf11_1351x514.png)
 
 ](https://substackcdn.com/image/fetch/$s_!Mq06!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a54d402-4240-4a55-bb91-de55299aaf11_1351x514.png)
 The European countries dominate the bottom of the list with France best placed, USA is a big exporter so its oil companies and oil executives stand to make large profits however I feel it almost impossible that they will sell oil to US companies and citizens at a discount to the world benchmark prices so the economy as a whole and the American people are likely to pay more at the pumps despite having a domestic supply. The opposite is probably true in Russia, and if not for the war in Ukraine, the Russian economy might have done very well.
@@ -85,7 +85,7 @@ As a final point, I had a look at the smaller EV companies to see if any stood o
 
 [
 
-![Image 6](../images/sw-weekly-hong-kong-and-ev-opportunities-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/a008fa36-c5b2-4ffc-9c6f-d1b6d20cbfa2_1284x443.png)
 
 ](https://substackcdn.com/image/fetch/$s_!8KA0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa008fa36-c5b2-4ffc-9c6f-d1b6d20cbfa2_1284x443.png)
 Interestingly, the chart shows that the Asian car makers XPeng, Nio, VinFast, and Li are now valued on a per-car market cap basis, similar to the major car makers in the first list.
@@ -106,7 +106,7 @@ There is no end in sight to the geopolitical problems that make investing and tr
 
 [
 
-![Image 7](../images/sw-weekly-hong-kong-and-ev-opportunities-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/849803fa-8076-4f3a-bdcc-fbfa94342546_888x741.png)
 
 ](https://substackcdn.com/image/fetch/$s_!ai-W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F849803fa-8076-4f3a-bdcc-fbfa94342546_888x741.png)
 (*Highlights denote different currencies: blue HK$, brown AUSSIE$*,* and Yellow CAD$. All other figures in US $*.)

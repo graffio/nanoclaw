@@ -57,7 +57,7 @@ The technical chart suggests that now is a good time to invest. There has been a
 
 [
 
-![Image 1](../images/trade-alert-buying-taboola-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/25d72cb3-7d0d-4c5f-a6d9-a241113bbb57_1519x683.png)
 
 
 

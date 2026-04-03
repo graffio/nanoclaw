@@ -19,7 +19,7 @@ IM has three more missions and two more NASA awards pending. 2024 could be a hug
 
 [
 
-![Image 1](../images/trade-alert-buying-lunr-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e7d13b7c-a462-4671-acec-17bec992f688_1176x711.png)
 
 
 

@@ -17,7 +17,7 @@ The Sector tracking sheet for these companies has indicated a change in sentimen
 
 [
 
-![Image 1](../images/ev-vans-sector-deep-dive-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1a49815b-ccaa-4eae-aee0-7b2fc8355cc2_1600x205.png)
 
 
 
@@ -37,7 +37,7 @@ The five companies exhibit very different stages of commercialization. **Rivian 
 
 [
 
-![Image 2](../images/ev-vans-sector-deep-dive-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/57755cf8-20ed-484e-b564-bbd617aed108_952x915.png)
 
 
 
@@ -136,7 +136,7 @@ These new activities are (i) generating, or are expected to generate, material r
 
 [
 
-![Image 3](../images/ev-vans-sector-deep-dive-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/145fc0a9-4233-4f68-a389-d8027798151b_639x918.png)
 
 
 
@@ -177,7 +177,7 @@ Broker Quote “Rivian will license its existing electrical (E/E) architecture a
 
 [
 
-![Image 4](../images/ev-vans-sector-deep-dive-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/15fcd0f0-d283-4b80-a042-a7d53a51594e_615x630.png)
 
 
 

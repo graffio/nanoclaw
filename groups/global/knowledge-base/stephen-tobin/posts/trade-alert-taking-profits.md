@@ -31,7 +31,7 @@ If I were a longer-term investor, I might consider holding to see how this plays
 
 [
 
-![Image 1](../images/trade-alert-taking-profits-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/d8a53931-02b6-44eb-b2cb-23321cc24ada_1434x998.png)
 
 
 
@@ -43,7 +43,7 @@ The diagram below shows the two ACMR trades and the other trades taken in the sa
 
 [
 
-![Image 2](../images/trade-alert-taking-profits-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/7fe57b9a-14ee-4d52-90eb-11c2898ea12d_1355x726.png)
 
 
 

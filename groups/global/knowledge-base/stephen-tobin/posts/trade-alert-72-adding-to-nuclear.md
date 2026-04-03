@@ -55,7 +55,7 @@ ASPI has been inviting investment companies to view its operational facilities, 
 
 [
 
-![Image 1](../images/trade-alert-72-adding-to-nuclear-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/38be3e81-55cc-4e01-866a-eeb915ae405c_1236x549.png)
 
 
 
@@ -92,7 +92,7 @@ ASPI's ability to build a low-cost enrichment facility quickly could see it sell
 
 [
 
-![Image 2](../images/trade-alert-72-adding-to-nuclear-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/8c553b96-0444-497a-8237-19f3e2574f3f_1216x945.png)
 
 
 
@@ -115,7 +115,7 @@ Having an ASPI enrichment site co-located will allow for the US supply of all ot
 
 [
 
-![Image 3](../images/trade-alert-72-adding-to-nuclear-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/8d98580b-06a9-4fc0-8d8a-b9b44ea30d11_1203x1003.png)
 
 
 
@@ -150,7 +150,7 @@ The technical chart is constructive; a new high has been registered since our in
 
 [
 
-![Image 4](../images/trade-alert-72-adding-to-nuclear-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/84bdf4cd-fa92-4a16-b1f3-128df8587be9_1600x872.png)
 
 
 

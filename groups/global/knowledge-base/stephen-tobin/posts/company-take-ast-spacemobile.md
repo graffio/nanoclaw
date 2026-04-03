@@ -19,7 +19,7 @@ Since we closed LUNR, I have not had exposure to this industry and would like to
 
 [
 
-![Image 1](../images/company-take-ast-spacemobile-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1389a246-8eaf-4de4-8267-fa311738edcd_1600x577.png)
 
 
 

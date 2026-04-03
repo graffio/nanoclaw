@@ -25,7 +25,7 @@ The closed positions generated a net profit of $1,494 on a total investment of $
 
 [
 
-![Image 1](../images/q1-2025-results-and-plans-for-q2-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/82914898-2560-448e-9abe-e1d7c5c614bc_1167x525.png)
 
 
 
@@ -47,7 +47,7 @@ We currently have 12 open positions, and 50% of the account is in cash. Hopefull
 
 [
 
-![Image 2](../images/q1-2025-results-and-plans-for-q2-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/f506ed26-646d-4ea5-9ae0-f66189aeef36_571x494.png)
 
 
 
@@ -67,7 +67,7 @@ US stocks have been hit badly. We remain exposed to US small caps, and that inde
 
 [
 
-![Image 3](../images/q1-2025-results-and-plans-for-q2-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/eae7bb44-21a9-4e79-a576-de7db4652bdc_444x180.png)
 
 
 
@@ -83,7 +83,7 @@ Europe was the standout performer in the quarter. I only managed to buy a single
 
 [
 
-![Image 4](../images/q1-2025-results-and-plans-for-q2-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/16a64817-b431-46cc-b7fc-9e4d2544f888_397x146.png)
 
 
 
@@ -97,7 +97,7 @@ Asia returned a mixed performance, with only the large caps making any ground. D
 
 [
 
-![Image 5](../images/q1-2025-results-and-plans-for-q2-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/d31ce948-d71c-4897-a61d-f4a2e99d455c_394x165.png)
 
 
 

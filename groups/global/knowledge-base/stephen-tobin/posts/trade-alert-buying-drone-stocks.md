@@ -21,7 +21,7 @@ The complete list of trades we have closed in this sector is shown below.
 
 ![A table with numbers and words
 
-AI-generated content may be incorrect.](../images/trade-alert-buying-drone-stocks-1.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/2a5797ca-1695-4879-9d49-03991de51320_1053x359.png)
 
 
 
@@ -51,7 +51,7 @@ In June, I considered investing in both DroneShield and EOS, two Australian dron
 
 ![A graph with numbers and lines
 
-AI-generated content may be incorrect.](../images/trade-alert-buying-drone-stocks-2.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/2ba06867-bbbd-481e-a15e-f5704574e7bb_702x420.png)
 
 
 
@@ -95,7 +95,7 @@ Management has provided the following graphic illustrating their plans
 
 ![A diagram of a diagram of a military vehicle
 
-AI-generated content may be incorrect.](../images/trade-alert-buying-drone-stocks-3.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/72302e13-9f54-405f-bf1d-a8a7b165f146_1053x697.png)
 
 
 
@@ -109,7 +109,7 @@ The division represents the majority of current income and the focus of the comp
 
 [
 
-![Image 4](../images/trade-alert-buying-drone-stocks-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/229bb441-ed79-4a16-b100-affb4a7f1259_675x428.png)
 
 
 
@@ -177,7 +177,7 @@ This is the first version of my mathematical model I will use to track the perfo
 
 ![A screenshot of a calendar
 
-AI-generated content may be incorrect.](../images/trade-alert-buying-drone-stocks-5.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/dfeef423-382b-4cc1-83bb-58158c35e7ae_1053x387.png)
 
 
 

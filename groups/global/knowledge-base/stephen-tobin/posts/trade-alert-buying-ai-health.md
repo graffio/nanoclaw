@@ -17,7 +17,7 @@ We have generated a lot of cash in July:
 
 [
 
-![Image 1](../images/trade-alert-buying-ai-health-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1305c753-a64a-40d5-9925-67fd63d6c4ed_643x340.png)
 
 
 
@@ -94,7 +94,7 @@ Quantum-Si is the first company to commercialise next-generation protein sequenc
 > 
 > [
 > 
-> ![Image 2](../images/trade-alert-buying-ai-health-2.png)
+> ![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/c04913e5-369b-46c6-8332-810e4aa11741_1052x893.png)
 > 
 > 
 > 
@@ -112,7 +112,7 @@ Quantum-Si is the first company to commercialise next-generation protein sequenc
 > 
 > ![A white sheet with black text
 > 
-> AI-generated content may be incorrect.](../images/trade-alert-buying-ai-health-3.png)
+> AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/34605c19-f38b-4add-8300-474c82ad839c_1053x1513.png)
 > 
 > 
 > 
@@ -144,7 +144,7 @@ This is the financial forecast I presented in my third article on QSI in Decembe
 
 ![A screenshot of a computer
 
-AI-generated content may be incorrect.](../images/trade-alert-buying-ai-health-4.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/731e5618-e3c6-4be5-ab0f-28692e2f0c5c_1052x336.png)
 
 
 
@@ -158,7 +158,7 @@ I have updated the model using all the information received since then and built
 
 ![A screenshot of a computer
 
-AI-generated content may be incorrect.](../images/trade-alert-buying-ai-health-5.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/1ed62829-0591-43a6-8cce-b5389bbbdc41_1054x420.png)
 
 
 
@@ -172,7 +172,7 @@ Using a 1% terminal growth rate and running the model for various discounting fa
 
 [
 
-![Image 6](../images/trade-alert-buying-ai-health-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/c5bde91c-bb05-4443-a532-41c6cde2bb61_466x206.png)
 
 
 
@@ -188,7 +188,7 @@ The chart suggests it is a good time to buy. As you know, it is a key part of th
 
 ![A graph with numbers and letters
 
-AI-generated content may be incorrect.](../images/trade-alert-buying-ai-health-7.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/f27b18b4-aa74-449b-92a0-054c6f5d3230_786x481.png)
 
 
 
@@ -202,7 +202,7 @@ After JOBY closed yesterday, the open trades list is
 
 [
 
-![Image 8](../images/trade-alert-buying-ai-health-8.png)
+![Image 8](https://substack-post-media.s3.amazonaws.com/public/images/b84e623f-f1ca-4049-bb33-452d1b2b178a_1054x603.png)
 
 
 

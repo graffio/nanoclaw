@@ -97,7 +97,7 @@ Quest faces competition from two customer types. The Integrated Majors who opera
 
 ![A table of informational text
 
-AI-generated content may be incorrect.](../images/trade-alert-88-buying-another-recycling-1.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/83e56f5c-f67c-4114-82ed-f8ff824e8935_1052x777.png)
 
 
 

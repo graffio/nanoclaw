@@ -15,7 +15,7 @@ I have updated my mathematical model for EHang after the blowout Q2 earnings rep
 
 [
 
-![Image 1](../images/trade-alert-buying-ehang-0d9-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/9e1f4fd7-0345-4ddb-b88e-100cacb062a1_340x220.png)
 
 
 
@@ -29,7 +29,7 @@ The biggest surprise is the reappearance of the VT30, EHang's other aircraft tha
 
 [
 
-![Image 2](../images/trade-alert-buying-ehang-0d9-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/422990c7-18ce-455b-bac2-f40b4b6101be_338x199.png)
 
 
 

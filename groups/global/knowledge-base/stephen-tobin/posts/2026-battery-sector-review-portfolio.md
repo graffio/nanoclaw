@@ -19,7 +19,7 @@ Battery stocks have been winners for us since we began this project. I have inve
 
 [
 
-![Image 1](../images/2026-battery-sector-review-portfolio-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/bddba942-c6fb-4281-ade9-417cdfdc4206_1032x422.png)
 
 
 

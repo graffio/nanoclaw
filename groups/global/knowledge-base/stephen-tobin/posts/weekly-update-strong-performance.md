@@ -21,7 +21,7 @@ Our portfolio not only outperformed the S&P 500 but also more than doubled the g
 
 [
 
-![Image 1](../images/weekly-update-strong-performance-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/7a55f3b4-d681-47df-b60c-8065d8206e52_1462x569.png)
 
 
 
@@ -65,7 +65,7 @@ I have been showcasing my trading with a standard share trading account held at 
 
 [
 
-![Image 2](../images/weekly-update-strong-performance-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/7ade1e34-7213-4c28-8a50-4857a96b5877_1072x331.png)
 
 
 
@@ -149,7 +149,7 @@ Using the information from the PUMP earnings, I have reworked my model and the n
 
 [
 
-![Image 3](../images/weekly-update-strong-performance-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/cb48ecff-df20-4182-8d8f-32403e0887b0_1412x878.png)
 
 
 
@@ -163,7 +163,7 @@ I will be sending a trade alert on Monday for a new high-risk Drone play and wil
 
 [
 
-![Image 4](../images/weekly-update-strong-performance-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/d192bbda-cc36-4291-889a-d7142f3015d2_1038x692.png)
 
 
 
@@ -173,7 +173,7 @@ Account Performance (including cash)
 
 [
 
-![Image 5](../images/weekly-update-strong-performance-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/cb10ad2f-4572-4659-aaa7-79b7b2f138ff_1012x694.png)
 
 
 
@@ -185,7 +185,7 @@ I was able to buy Aurora last week and invested £35 of margin in the stock. The
 
 [
 
-![Image 6](../images/weekly-update-strong-performance-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/98432f9e-df17-42ba-9639-141c387f2e95_520x336.png)
 
 
 
@@ -199,7 +199,7 @@ It means I can use the open profit to buy additional shares, which will add anot
 
 [
 
-![Image 7](../images/weekly-update-strong-performance-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/e9ac0447-6a11-43d3-af9d-b23431c72e91_1515x645.png)
 
 
 

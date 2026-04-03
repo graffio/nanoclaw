@@ -29,7 +29,7 @@ Most people would stay well clear in this situation, but I am going to buy.
 
 [
 
-![Image 1](../images/trade-alert-buying-proof-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/7d0e6e83-8a56-4498-9205-8f83382519d1_1612x997.png)
 
 
 

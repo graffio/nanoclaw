@@ -21,7 +21,7 @@ The technical chart is very promising. A low may have just been recorded, and a 
 
 [
 
-![Image 1](../images/trade-alert-buying-cdre-before-earnings-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/4409e531-0f2e-4fce-8ab1-eaf4ef6ad104_1366x640.png)
 
 
 

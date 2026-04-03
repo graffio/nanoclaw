@@ -29,7 +29,7 @@ There is no doubt that the indices have moved lower. The S&P 500 hit an all-time
 
 [
 
-![Image 1](../images/swt-sentiment-issue-1-april-2026-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/2d59eeb1-0126-4ca0-bee4-22e451943107_1989x1014.png)
 
 
 
@@ -47,7 +47,7 @@ I might be described as a “Perma-Bull”, believing the market by design is al
 
 [
 
-![Image 2](../images/swt-sentiment-issue-1-april-2026-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/e949b147-7a7f-4f40-8df0-46ef89699255_1777x812.png)
 
 
 
@@ -73,7 +73,7 @@ They circumvent the uptrend's permanence by valuing the DJIA in ounces of gold o
 
 [
 
-![Image 3](../images/swt-sentiment-issue-1-april-2026-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/e1ff1fc0-b2b3-4adb-a723-4e2e2c324828_998x912.png)
 
 
 

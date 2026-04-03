@@ -19,7 +19,7 @@ September was the second-best month of 2025. It is incredible how such a good mo
 
 [
 
-![Image 1](../images/montly-review-16-gain-and-i-feel-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/8227d2bb-ae0c-48e9-8d74-2c396d6fdb59_1071x437.png)
 
 
 
@@ -31,7 +31,7 @@ Notably, the main Asia 50 indices was the standout performer amongst world marke
 
 [
 
-![Image 2](../images/montly-review-16-gain-and-i-feel-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/6859b0e2-0e5d-4ccc-b150-bf64471b77b7_1215x956.png)
 
 
 
@@ -45,7 +45,7 @@ All reported figures relate to my live Interactive Brokers trading account, wher
 
 [
 
-![Image 3](../images/montly-review-16-gain-and-i-feel-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/6a399e89-71f8-490e-bd30-99a7d673a59b_1970x691.png)
 
 
 
@@ -55,7 +55,7 @@ The closing balance of $17,288 was ahead of target, and the gap between actual p
 
 [
 
-![Image 4](../images/montly-review-16-gain-and-i-feel-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/1ebbaf0b-568a-42fe-a0e5-104648054492_1053x695.png)
 
 
 
@@ -67,7 +67,7 @@ This experiment mirrors the main project. I invest £250 every month through my 
 
 [
 
-![Image 5](../images/montly-review-16-gain-and-i-feel-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/073c7131-ec9e-423b-8aaf-0e2dea2e4475_873x326.png)
 
 
 
@@ -85,7 +85,7 @@ Unusually, we only closed one trade, which was probably a mistake. I should have
 
 [
 
-![Image 6](../images/montly-review-16-gain-and-i-feel-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/bcfc7908-1679-4d13-a186-4ce3f98be5b6_794x687.png)
 
 
 
@@ -97,7 +97,7 @@ The opening of trades continues in line with expectations
 
 [
 
-![Image 7](../images/montly-review-16-gain-and-i-feel-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/0a37d6f3-6a3b-4776-b3d3-246616d13121_878x304.png)
 
 
 

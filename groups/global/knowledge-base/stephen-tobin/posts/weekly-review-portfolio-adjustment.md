@@ -37,7 +37,7 @@ It was a good result, but buy-and-hold investors would refer to the chart below 
 
 [
 
-![Image 1](../images/weekly-review-portfolio-adjustment-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/0911c5c1-d315-41bd-9fb4-f57d2c1ec980_1600x824.png)
 
 
 
@@ -53,7 +53,7 @@ Of course, this only works if you have a high success rate; otherwise, you would
 
 [
 
-![Image 2](../images/weekly-review-portfolio-adjustment-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/720ffab9-74f8-4213-a3b2-b87f2c32cf64_1474x708.png)
 
 
 
@@ -81,7 +81,7 @@ Here is a list of all open battery trades.
 
 [
 
-![Image 3](../images/weekly-review-portfolio-adjustment-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/995cfd43-1bf2-46b5-9eb5-0255578b1f6c_1507x703.png)
 
 
 
@@ -99,7 +99,7 @@ Quantum trades closed
 
 [
 
-![Image 4](../images/weekly-review-portfolio-adjustment-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/177372d2-470a-4a2d-accb-1443108c3a11_691x273.png)
 
 
 
@@ -117,7 +117,7 @@ Paid below this line
 
 [
 
-![Image 5](../images/weekly-review-portfolio-adjustment-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/6339bad8-0276-4ded-a32c-130c07ec5721_1168x876.png)
 
 
 

@@ -76,7 +76,7 @@ I took these screenshots during the call, so the quality is low
 
 [
 
-![Image 1](../images/trade-alert-trade-101-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/c4d35efe-fe66-4583-a49b-fd2cde9f15f2_1122x536.png)
 
 ](https://substackcdn.com/image/fetch/$s_!rv2a!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4d35efe-fe66-4583-a49b-fd2cde9f15f2_1122x536.png)
 This first slide shows the number of people in each cohort and the severity of their conditions. This is a very difficult-to-treat cohort of people with severe depression and multiple treatments previously tried.
@@ -87,7 +87,7 @@ Firstly COMP005 at 26 weeks
 
 [
 
-![Image 2](../images/trade-alert-trade-101-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/8dad8243-046a-4fee-8ea0-4a0319423194_1111x621.png)
 
 ](https://substackcdn.com/image/fetch/$s_!4tXE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8dad8243-046a-4fee-8ea0-4a0319423194_1111x621.png)
 Note that at week 10, the confidence intervals overlapped, but they remained separate through week 26. This is a big deal; a single dose showed improvement for nearly 6 months. Spravato requires 2 doses per week for 8 weeks, then 1 dose per week or every 2 weeks, depending on the patient.
@@ -98,7 +98,7 @@ In this graph the cohort is split into responders and remitters. Remiters, the d
 
 [
 
-![Image 3](../images/trade-alert-trade-101-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/45d03500-f62d-41f1-a224-38cd4d639e6e_1136x631.png)
 
 ](https://substackcdn.com/image/fetch/$s_!YCEM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45d03500-f62d-41f1-a224-38cd4d639e6e_1136x631.png)
 The issue here is when you carve up the cohort you end up with small numbers, they had 31 partial responders and 40% of those went into remission after a second dose but that is only 12 patients. In the call, management said that 3 of the initial 11 remitters received a second dose. These numbers are very small to take too much from.
@@ -107,7 +107,7 @@ COMP006 the second phase III confirmed these differences at the 6 week point
 
 [
 
-![Image 4](../images/trade-alert-trade-101-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/90d086f4-8ca4-49f7-b6fb-cde2ceb49903_1140x631.png)
 
 ](https://substackcdn.com/image/fetch/$s_!TopQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90d086f4-8ca4-49f7-b6fb-cde2ceb49903_1140x631.png)
 This is something Spravato was never able to do, show improved response from larger doses, with noting how the 10mg and 25 mg are very similar but the 25mg is always better plus they are both better than the 1mg.
@@ -116,14 +116,14 @@ The absolute change in MADRS in COMP006 is considerably higher than in COMP005.
 
 [
 
-![Image 5](../images/trade-alert-trade-101-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/b0755f15-570c-494c-8c1e-5ec8e17f678d_1063x225.png)
 
 ](https://substackcdn.com/image/fetch/$s_!Zns8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0755f15-570c-494c-8c1e-5ec8e17f678d_1063x225.png)
 The last thing that came out of the call was the improvement of the second dose, the data here has not been analysed yet so we must take as indicative rather than proven.
 
 [
 
-![Image 6](../images/trade-alert-trade-101-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/cd6e7c1e-8ac5-4d76-8337-e93803fdfabe_1082x617.png)
 
 ](https://substackcdn.com/image/fetch/$s_!tgDi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd6e7c1e-8ac5-4d76-8337-e93803fdfabe_1082x617.png)
 The big dip lower after the second treatment is noticeable in the active cohorts but does not appear in the placebo cohorts.
@@ -148,7 +148,7 @@ I will take a position in Compass today with a $40 price target. Assuming the dr
 
 [
 
-![Image 7](../images/trade-alert-trade-101-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/8fac8200-a860-4ebf-b322-85dd1a36f841_1045x248.png)
 
 ](https://substackcdn.com/image/fetch/$s_!2ABG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fac8200-a860-4ebf-b322-85dd1a36f841_1045x248.png)
 Still a long way to go to profits but now is probably the time to invest.

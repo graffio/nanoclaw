@@ -27,7 +27,7 @@ Knightscope is a leader in AI security. It has Autonomous Security Robots \[ASRs
 
 [
 
-![Image 1](../images/company-take-knightscope-kscp-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/3495d2f6-9edd-4eba-9cfe-ac09319c5be4_198x327.png)
 
 
 
@@ -37,7 +37,7 @@ In 2022, Knightscope acquired CASE, a manufacturer of blue light emergency phone
 
 [
 
-![Image 2](../images/company-take-knightscope-kscp-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/771f0534-3316-4d13-9878-8855500183af_180x669.png)
 
 
 
@@ -49,7 +49,7 @@ This image, taken from the KSCP website, shows their best-selling K5 robot. It i
 
 [
 
-![Image 3](../images/company-take-knightscope-kscp-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/1ae87e7c-583d-4e14-9530-2288261c3dab_1600x898.png)
 
 
 
@@ -71,7 +71,7 @@ KSCP reports that existing clients have extended their contracts for periods ran
 
 [
 
-![Image 4](../images/company-take-knightscope-kscp-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/fbd75a1a-cdbb-4861-9b31-49782e916a37_1600x871.png)
 
 
 
@@ -103,7 +103,7 @@ Taking into account the information from management, the orders announced this y
 
 [
 
-![Image 5](../images/company-take-knightscope-kscp-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/2f0d8115-0279-4519-9826-67a96f9b7890_1600x501.png)
 
 
 
@@ -125,7 +125,7 @@ This weekly price chart shows the price collapse since launch, they have turned 
 
 [
 
-![Image 6](../images/company-take-knightscope-kscp-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/8e014b22-8ce6-4a5e-b7b4-7192ae331750_1600x848.png)
 
 
 

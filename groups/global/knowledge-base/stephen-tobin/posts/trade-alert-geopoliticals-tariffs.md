@@ -88,7 +88,7 @@ Bluebird is likely to be hit quite hard with the new aluminium and steel tariffs
 
 [
 
-![Image 1](../images/trade-alert-geopoliticals-tariffs-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/29006dbc-28bd-47b8-bf9a-d6b580d49714_870x625.png)
 
 
 
@@ -146,7 +146,7 @@ Only 5 of the 21 regional hubs are positioned away from the highway network.
 
 [
 
-![Image 2](../images/trade-alert-geopoliticals-tariffs-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/a93d7b88-903e-434f-a79b-5048ea9eda28_837x944.png)
 
 
 
@@ -158,7 +158,7 @@ The distance from the Highway to the hub is minimal and easily mapped by the Aur
 
 [
 
-![Image 3](../images/trade-alert-geopoliticals-tariffs-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/e52b6c02-da89-4c35-ab06-96e82c09e42f_1141x427.png)
 
 
 

@@ -14,7 +14,7 @@ The final week of February saw small gains, similar to last week.
 
 [
 
-![Image 1](../images/weekly-update-q1-still-flat-and-long-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/d81fccaf-40ad-4a54-9c18-8bdc892bbdfd_1088x635.png)
 
 - ](https://substackcdn.com/image/fetch/$s_!2o8z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd81fccaf-40ad-4a54-9c18-8bdc892bbdfd_1088x635.png)
 The portfolio now has a record stock holding but has a relatively low cash balance of $3,428
@@ -27,7 +27,7 @@ The volatility we have seen so far this year is substantial, but the overall res
 
 [
 
-![Image 2](../images/weekly-update-q1-still-flat-and-long-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/08f1bb85-ce7b-4a2b-906d-6edc2f55d009_1129x673.png)
 
 ](https://substackcdn.com/image/fetch/$s_!5F-e!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08f1bb85-ce7b-4a2b-906d-6edc2f55d009_1129x673.png)
 The portfolio has ended up almost unchanged for the first two months, this is in line with previous years, with the average change for Q1 being -0.4%
@@ -40,7 +40,7 @@ Holding on a market where stocks are generally higher helps our stock holdings.
 
 [
 
-![Image 3](../images/weekly-update-q1-still-flat-and-long-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/c1cd44cf-a288-4998-9a71-97719adaa58b_1215x391.png)
 
 ](https://substackcdn.com/image/fetch/$s_!kZsQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1cd44cf-a288-4998-9a71-97719adaa58b_1215x391.png)
 Obviously, a 2% loss for the year is not dramatic, but I don’t want to ignore a fairly clear signal that Europe is performing well.
@@ -49,7 +49,7 @@ We do own three Australian stocks, and putting their performance against the Aus
 
 [
 
-![Image 4](../images/weekly-update-q1-still-flat-and-long-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/58e42912-33ad-4c19-93e5-392252fb7638_1219x270.png)
 
 ](https://substackcdn.com/image/fetch/$s_!Twl6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58e42912-33ad-4c19-93e5-392252fb7638_1219x270.png)
 ## Trading
@@ -74,21 +74,21 @@ I also intend to increase exposure to Europe and expect a couple of purchases th
 
 [
 
-![Image 5](../images/weekly-update-q1-still-flat-and-long-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/ffc9a72e-b768-400b-9e69-d87f5a4a7e21_1026x741.png)
 
 ](https://substackcdn.com/image/fetch/$s_!bPEH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fffc9a72e-b768-400b-9e69-d87f5a4a7e21_1026x741.png)
 The Account
 
 [
 
-![Image 6](../images/weekly-update-q1-still-flat-and-long-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/c1385b68-ada2-497c-b084-f36b75b4f239_602x530.png)
 
 ](https://substackcdn.com/image/fetch/$s_!EwIN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1385b68-ada2-497c-b084-f36b75b4f239_602x530.png)
 The cash position is low after a small overspend in February and a lack of closed trades, it is not a problem yet and I expect to generate cash in March as I enact a small rotation.
 
 [
 
-![Image 7](../images/weekly-update-q1-still-flat-and-long-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/f1254d18-beb3-4c2c-9f14-fc2bcacfec26_686x502.png)
 
 ](https://substackcdn.com/image/fetch/$s_!OyXT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1254d18-beb3-4c2c-9f14-fc2bcacfec26_686x502.png)
 ## **Weekly Digest: Technology and Defense Companies (February 21-28, 2026)**

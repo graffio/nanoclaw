@@ -20,7 +20,7 @@ Volatility continued; what looked to be an excellent week was pulled back by the
 
 [
 
-![Image 1](../images/weekly-update-a-credit-crisis-in-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/d6dc5381-e051-4d91-854b-ca2b88dc712f_1108x429.png)
 
 - ](https://substackcdn.com/image/fetch/$s_!wz2k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6dc5381-e051-4d91-854b-ca2b88dc712f_1108x429.png)
 
@@ -32,7 +32,7 @@ We made one purchase this week and had no sales. The single investment has falle
 
 [
 
-![Image 2](../images/weekly-update-a-credit-crisis-in-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/bdf27dcf-694f-4e0b-b1b7-d62c2c80467a_785x333.png)
 
 ](https://substackcdn.com/image/fetch/$s_!BS7t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdf27dcf-694f-4e0b-b1b7-d62c2c80467a_785x333.png)
 (actual usage is money invested in shares- money received from selling shares)
@@ -75,7 +75,7 @@ The Non-Accrual rate gives us an idea of the quality of company OWL is lending t
 
 [
 
-![Image 3](../images/weekly-update-a-credit-crisis-in-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/b4d778bc-a4e9-411e-b9e3-b1f0a573ed17_609x311.png)
 
 - ](https://substackcdn.com/image/fetch/$s_!h3z0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d778bc-a4e9-411e-b9e3-b1f0a573ed17_609x311.png)
 The table tells us that 2.30% of OWL loans are in default at cost but that management have been writing these loans down quickly as they only represent 1.10% of the fund’s current value. The interest coverage ratio indicates that OWL customers have twice the EBITDA required to repay their loans.
@@ -130,7 +130,7 @@ A mixed Week but my confidence in the portfolio increased when TEM jumped follow
 
 [
 
-![Image 4](../images/weekly-update-a-credit-crisis-in-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/17bdf934-a18a-498e-bf7e-b6350d5972a0_1036x719.png)
 
 - ](https://substackcdn.com/image/fetch/$s_!jVEo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17bdf934-a18a-498e-bf7e-b6350d5972a0_1036x719.png)
 Next week I will be buying another psychedelic drug company, whilst doing the due diligence on Compass a second company caught my eye and I have now completed the work on it. I hope to get the alert out mid-week.
@@ -141,7 +141,7 @@ We made a small profit during the week, but the account remains relatively flat 
 
 [
 
-![Image 5](../images/weekly-update-a-credit-crisis-in-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/617915af-5630-4d88-ab2f-f58586af927c_807x694.png)
 
 ](https://substackcdn.com/image/fetch/$s_!PU8K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F617915af-5630-4d88-ab2f-f58586af927c_807x694.png)
 ## Weekly Digest

@@ -25,7 +25,7 @@ The Table below lists the earnings dates for the companies in the portfolio. For
 
 [
 
-![Image 1](../images/added-uncertainty-for-the-portfolio-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/835f74a2-a205-455f-89be-ff2bffec7033_1276x475.png)
 
 
 
@@ -41,7 +41,7 @@ Performance by month of the portfolio
 
 [
 
-![Image 2](../images/added-uncertainty-for-the-portfolio-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/bf74eed9-c917-43cc-80e4-34b095875155_871x235.png)
 
 
 
@@ -51,7 +51,7 @@ Performance since inception
 
 [
 
-![Image 3](../images/added-uncertainty-for-the-portfolio-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/b9b9a59a-7c0f-4706-8e38-b5eefc025760_1014x446.png)
 
 
 
@@ -61,7 +61,7 @@ Performance of trades opened in January
 
 [
 
-![Image 4](../images/added-uncertainty-for-the-portfolio-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/51c13d34-8243-45a8-b849-cfe510f9223d_504x242.png)
 
 
 
@@ -71,7 +71,7 @@ Closed Trades
 
 [
 
-![Image 5](../images/added-uncertainty-for-the-portfolio-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/2a978a31-effe-4fe6-93b5-89073272850e_664x324.png)
 
 
 

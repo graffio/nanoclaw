@@ -17,7 +17,7 @@ It was the first loss-making week for some time, but we did outperform the marke
 
 [
 
-![Image 1](../images/weekly-update-a-big-drop-on-friday-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/fd818689-7fee-49ff-b762-47a652ec1315_1072x431.png)
 
 
 
@@ -33,7 +33,7 @@ The one trade closed last week was a big winner. I would love to see SES pull ba
 
 [
 
-![Image 2](../images/weekly-update-a-big-drop-on-friday-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/efe7848f-64a7-42aa-b796-35716419a82d_1066x141.png)
 
 
 
@@ -67,7 +67,7 @@ I have looked at the last 12 months of trading to calculate the average number o
 
 [
 
-![Image 3](../images/weekly-update-a-big-drop-on-friday-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/64439bb5-8724-4f4d-a0d1-55b55e2b0d3d_1046x124.png)
 
 
 
@@ -102,7 +102,7 @@ This table lists the 10 tickers that have increased the most after I exited them
 
 [
 
-![Image 4](../images/weekly-update-a-big-drop-on-friday-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/63d23f09-9057-4e81-82a7-3400171646e0_1327x657.png)
 
 
 
@@ -193,7 +193,7 @@ Early on Friday, the account was at an all-time high, but it fell back sharply d
 
 [
 
-![Image 5](../images/weekly-update-a-big-drop-on-friday-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/dc7cf439-00e9-4ae6-bdb6-9b288dccbdd7_861x605.png)
 
 
 
@@ -225,7 +225,7 @@ It is this kind of day that helps me develop robust trading plans. Unlike the US
 
 [
 
-![Image 6](../images/weekly-update-a-big-drop-on-friday-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/37a5125a-abda-44bd-944c-f5745b333ada_514x352.png)
 
 
 
@@ -233,7 +233,7 @@ It is this kind of day that helps me develop robust trading plans. Unlike the US
 
 [
 
-![Image 7](../images/weekly-update-a-big-drop-on-friday-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/89cde62c-f5e3-4fd9-9ffa-66fbea497ca4_1505x766.png)
 
 
 

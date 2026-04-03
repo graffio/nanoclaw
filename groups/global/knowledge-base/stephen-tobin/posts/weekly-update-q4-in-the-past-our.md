@@ -15,7 +15,7 @@ The last full week of Q3 is behind us, and Q4 will begin on Wednesday. This proj
 
 [
 
-![Image 1](../images/weekly-update-q4-in-the-past-our-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/cf59fc88-fb6c-4b34-8d71-bf25dca86999_721x272.png)
 
 
 
@@ -31,7 +31,7 @@ We closed one trade last week, the first in September
 
 [
 
-![Image 2](../images/weekly-update-q4-in-the-past-our-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/3c143d2c-1b67-4101-a072-a7b3002b3db1_928x123.png)
 
 
 
@@ -45,7 +45,7 @@ The result in QBTS has further solidified its position as our best-performing as
 
 [
 
-![Image 3](../images/weekly-update-q4-in-the-past-our-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/383ff2e1-3ebe-458f-bddb-2977a43305f6_786x522.png)
 
 
 
@@ -57,7 +57,7 @@ We opened our fifth trade for September last week. I think all of these trades h
 
 [
 
-![Image 4](../images/weekly-update-q4-in-the-past-our-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/bff9fb48-0fbc-47e3-b323-f9dc1d473caf_1014x347.png)
 
 
 
@@ -73,7 +73,7 @@ I will continue investing $250 each month, aiming to reach the medium-term goal 
 
 [
 
-![Image 5](../images/weekly-update-q4-in-the-past-our-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/bb66af70-f3ab-4f48-a08d-5535226b3b71_1127x692.png)
 
 
 
@@ -95,7 +95,7 @@ We have invested in this thesis before with mixed results, as subscribers know t
 
 [
 
-![Image 6](../images/weekly-update-q4-in-the-past-our-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/68dd4c98-2bfe-4b18-877d-de5d9350b923_1121x351.png)
 
 
 
@@ -175,7 +175,7 @@ Very little change overall but individual stocks continue to show volatility. Th
 
 [
 
-![Image 7](../images/weekly-update-q4-in-the-past-our-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/b66a26e7-8dbe-4893-97e7-b254a4b26102_1395x870.png)
 
 
 
@@ -193,7 +193,7 @@ Q3 results so far
 
 [
 
-![Image 8](../images/weekly-update-q4-in-the-past-our-8.png)
+![Image 8](https://substack-post-media.s3.amazonaws.com/public/images/7723e07a-ddcd-4c1f-a2bc-1df0db94a603_798x691.png)
 
 
 
@@ -201,7 +201,7 @@ Q3 results so far
 
 [
 
-![Image 9](../images/weekly-update-q4-in-the-past-our-9.png)
+![Image 9](https://substack-post-media.s3.amazonaws.com/public/images/0a436e43-b8d4-4364-a76d-301161673ede_796x688.png)
 
 
 
@@ -219,7 +219,7 @@ Key Balances
 
 [
 
-![Image 10](../images/weekly-update-q4-in-the-past-our-10.png)
+![Image 10](https://substack-post-media.s3.amazonaws.com/public/images/efb9c661-6505-442e-b068-4dd9714b6334_523x346.png)
 
 
 
@@ -229,7 +229,7 @@ Open Positions
 
 [
 
-![Image 11](../images/weekly-update-q4-in-the-past-our-11.png)
+![Image 11](https://substack-post-media.s3.amazonaws.com/public/images/39aafdbc-0c55-436a-99a6-6ae93c5c9a67_1496x653.png)
 
 
 

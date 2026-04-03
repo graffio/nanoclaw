@@ -81,7 +81,7 @@ The various companies are targeting different conditions and the approximate siz
 
 [
 
-![Image 1](../images/psychedelic-drug-therapy-competitive-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/540d90d7-f4d6-4218-9470-294a2ed275db_785x458.png)
 
 
 
@@ -130,7 +130,7 @@ Spravato set the benchmarks requiring three hours per clinic visit; however, pat
 
 [
 
-![Image 2](../images/psychedelic-drug-therapy-competitive-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/35cbb74f-d179-45e1-84d7-fd3bb59d3449_866x155.png)
 
 
 
@@ -158,7 +158,7 @@ The major drawback for patients is the 8-hour clinic visit rather than the 2-hou
 
 [
 
-![Image 3](../images/psychedelic-drug-therapy-competitive-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/6a34e0d1-d0e4-4c02-b047-8b615983e095_1600x615.png)
 
 
 
@@ -172,7 +172,7 @@ Compass Pathways will have a significant first-mover advantage and is the only c
 
 [
 
-![Image 4](../images/psychedelic-drug-therapy-competitive-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/46fde389-a993-4d44-963b-4caa8b39f3c2_910x956.png)
 
 
 

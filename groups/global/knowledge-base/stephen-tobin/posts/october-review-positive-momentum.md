@@ -17,7 +17,7 @@ Once again, we outperformed all the major indices by a considerable margin.
 
 [
 
-![Image 1](../images/october-review-positive-momentum-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/69c1de78-8076-4a8b-85db-ce98440310c1_1043x335.png)
 
 
 
@@ -35,7 +35,7 @@ Our small caps portfolio continues to power ahead of the indices delivering its 
 
 [
 
-![Image 2](../images/october-review-positive-momentum-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/08f4b45a-5a35-4253-8c76-190c80bc8d9e_1397x448.png)
 
 
 
@@ -45,7 +45,7 @@ The number of trades opened and closed was about average for 2025, and the two c
 
 [
 
-![Image 3](../images/october-review-positive-momentum-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/b8b79594-43a7-4b58-aa98-6e086fe427bf_782x152.png)
 
 
 
@@ -55,7 +55,7 @@ The five trades opened have had mixed results so far, but it is still early days
 
 [
 
-![Image 4](../images/october-review-positive-momentum-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/c8d400a0-5ee3-4282-bec8-e733086c3950_628x261.png)
 
 
 
@@ -67,7 +67,7 @@ The cash balance has increased again, and since we closed our two trades before 
 
 [
 
-![Image 5](../images/october-review-positive-momentum-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/c9735e38-12db-4917-8d85-df4d140255d6_1397x449.png)
 
 
 
@@ -77,7 +77,7 @@ The portfolio remains well ahead of the target to reach $100,000 by August 2028
 
 [
 
-![Image 6](../images/october-review-positive-momentum-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/f031e67d-4eca-45a2-9293-cdc0e8d8b472_883x404.png)
 
 
 
@@ -89,7 +89,7 @@ Historically, November has been a positive month.
 
 [
 
-![Image 7](../images/october-review-positive-momentum-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/4cf26dba-248f-4c44-af72-95326632d3fd_463x219.png)
 
 
 
@@ -107,7 +107,7 @@ An investment in Quantum remains elusive, but I continue to watch new entrants. 
 
 [
 
-![Image 8](../images/october-review-positive-momentum-8.png)
+![Image 8](https://substack-post-media.s3.amazonaws.com/public/images/bc1b3162-54b2-47b5-9595-6919cee8c639_663x385.png)
 
 
 
@@ -135,7 +135,7 @@ A small gain over the week added to the portfolio’s performance for the month.
 
 [
 
-![Image 9](../images/october-review-positive-momentum-9.png)
+![Image 9](https://substack-post-media.s3.amazonaws.com/public/images/adcab0dd-8dee-4ec5-abf8-b5aea4fb1f5a_1203x463.png)
 
 
 
@@ -240,7 +240,7 @@ Current Holdings are:
 
 [
 
-![Image 10](../images/october-review-positive-momentum-10.png)
+![Image 10](https://substack-post-media.s3.amazonaws.com/public/images/df706885-2eb9-4bb3-8899-d5cdb9a26a5a_1006x638.png)
 
 
 
@@ -258,7 +258,7 @@ The final statement for the month showed some progress from last week but the mo
 
 [
 
-![Image 11](../images/october-review-positive-momentum-11.png)
+![Image 11](https://substack-post-media.s3.amazonaws.com/public/images/3e7d7c8b-ea4f-4ae8-95ca-feace7739b36_828x428.png)
 
 
 
@@ -270,7 +270,7 @@ The account ended the month above both of its targets, and I will be depositing 
 
 [
 
-![Image 12](../images/october-review-positive-momentum-12.png)
+![Image 12](https://substack-post-media.s3.amazonaws.com/public/images/cf9a3cdf-4b41-4c95-a585-ab75d2ee4039_633x183.png)
 
 
 

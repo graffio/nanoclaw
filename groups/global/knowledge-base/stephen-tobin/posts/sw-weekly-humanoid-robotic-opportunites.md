@@ -32,7 +32,7 @@ The companies leading the development of Humanoid robots are in this chart with 
 
 [
 
-![Image 1](../images/sw-weekly-humanoid-robotic-opportunites-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/977f7f4f-00ed-48c0-a523-6766a4417a86_1622x688.png)
 
 - ](https://substackcdn.com/image/fetch/$s_!Z3TC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F977f7f4f-00ed-48c0-a523-6766a4417a86_1622x688.png)
 I have been unable to identify a company in the list that represents a good investment; they are either too big or private.
@@ -57,7 +57,7 @@ In 2026, the cost of a humanoid is no longer dominated by software, R&D or silic
 
 [
 
-![Image 2](../images/sw-weekly-humanoid-robotic-opportunites-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/2c29d110-6320-4f3a-9a85-d4376cb6b434_978x503.png)
 
 ](https://substackcdn.com/image/fetch/$s_!Jd6f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c29d110-6320-4f3a-9a85-d4376cb6b434_978x503.png)
 The area with the greatest potential is the first one, Actuators and Motion. These are the mechanical components that replace the muscles in the human body; they bend arms and legs and allow fingers to pick up objects. They are marvels of engineering; they need the strength to pick up heavy objects but be able to move fragile ones without breaking them. Few companies have the technical ability to build these things, if we can choose the right one to invest in we will have the strong likelihood of a multibagger return in fairly short order.
@@ -66,7 +66,7 @@ The table lists companies leading the way in actuators, some are well-known engi
 
 [
 
-![Image 3](../images/sw-weekly-humanoid-robotic-opportunites-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/d3333a93-e76a-4931-bac0-6a4f0c0c3cb9_1182x778.png)
 
 ](https://substackcdn.com/image/fetch/$s_!fyFj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3333a93-e76a-4931-bac0-6a4f0c0c3cb9_1182x778.png)
 ### **Looking Ahead: The “Modular” Revolution**
@@ -87,14 +87,14 @@ Considering what happened this week and how volatile our portfolio has been, I f
 
 [
 
-![Image 4](../images/sw-weekly-humanoid-robotic-opportunites-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/d5ac0871-d6cb-4f15-8abb-948e963d7721_805x701.png)
 
 ](https://substackcdn.com/image/fetch/$s_!Epwc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5ac0871-d6cb-4f15-8abb-948e963d7721_805x701.png)
 Q1 has been marginally negative on average, and 2026 appears to be following history. It is worth noting that Q1 has also had unique geopolitical tailwinds. Last year, it was the Trump tariffs, and this year, the Trump wars.
 
 [
 
-![Image 5](../images/sw-weekly-humanoid-robotic-opportunites-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/ad5fcba5-f55a-4654-8e8b-cc73e42bb45d_954x743.png)
 
 ](https://substackcdn.com/image/fetch/$s_!24Wx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad5fcba5-f55a-4654-8e8b-cc73e42bb45d_954x743.png)
 I will post a  review of all of the autonomous vehicle companies next week, it is almost complete, and then move on to reviewing other companies by sector. Likely space and eVTOL next. The reviews will be similar to the one posted last week, but focused more on rotating in a sector.

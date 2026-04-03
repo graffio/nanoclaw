@@ -41,7 +41,7 @@ I currently have two open positions in ASPI,
 
 [
 
-![Image 1](../images/trade-alert-rotating-into-high-potential-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/23280662-4125-41c5-b3e0-541e89d0a9fd_1530x245.png)
 
 
 
@@ -86,7 +86,7 @@ ASP Isotopes (ASPI) is building a dual-technology enrichment architecture—Aero
 
 [
 
-![Image 2](../images/trade-alert-rotating-into-high-potential-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/202213ba-11fa-410c-8bb2-63d2a1ff538e_1582x445.png)
 
 
 
@@ -94,7 +94,7 @@ ASP Isotopes (ASPI) is building a dual-technology enrichment architecture—Aero
 
 [
 
-![Image 3](../images/trade-alert-rotating-into-high-potential-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/a90a37d4-5268-4b29-a681-df9c07c11fd8_670x178.png)
 
 
 

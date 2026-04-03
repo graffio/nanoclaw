@@ -114,7 +114,7 @@ Following the recent pullback, the technical target has increased to $50. The tw
 
 [
 
-![Image 1](../images/trade-alert-65-lidar-review-complete-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/71f19735-1ee6-4bc0-9249-15526480a240_1600x875.png)
 
 
 

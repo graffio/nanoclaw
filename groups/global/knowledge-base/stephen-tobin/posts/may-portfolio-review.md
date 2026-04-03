@@ -21,7 +21,7 @@ International indices also gained momentum; the S&P Japan 500 surged 5%, Austral
 
 [
 
-![Image 1](../images/may-portfolio-review-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/205ecb0a-e4f1-4650-bdb4-1c83386d1fd3_923x389.png)
 
 
 
@@ -33,7 +33,7 @@ During May, we closed two trades in QBTS for a significant gain.
 
 [
 
-![Image 2](../images/may-portfolio-review-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/ac488756-f775-4c49-8db9-10b95f466088_1338x238.png)
 
 
 
@@ -49,7 +49,7 @@ We are due a dividend from ARIS and CADRE, but they have not arrived yet.
 
 [
 
-![Image 3](../images/may-portfolio-review-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/de9932da-b9ec-4d81-8660-3f1dc0d0f9d7_1194x701.png)
 
 
 
@@ -61,7 +61,7 @@ The performance of the demonstration account since inception is shown below.
 
 [
 
-![Image 4](../images/may-portfolio-review-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/68d915be-6f88-408c-896f-832428e98890_1511x800.png)
 
 
 
@@ -85,7 +85,7 @@ In total, I have taken 49 trades in 22 months, and I expect to return to that pa
 
 [
 
-![Image 5](../images/may-portfolio-review-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/05918cde-7cf2-488d-b4c0-0655051a7944_1484x489.png)
 
 
 
@@ -97,7 +97,7 @@ The complete list of holdings is shown below. I have increased the position size
 
 [
 
-![Image 6](../images/may-portfolio-review-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/7e32691f-e84c-4495-8cf1-28fe0a98588c_1416x871.png)
 
 
 
@@ -125,7 +125,7 @@ The prospect list is the engine of my trading plan; it is a list of all the comp
 
 [
 
-![Image 7](../images/may-portfolio-review-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/6faefc16-67ef-4178-a102-4dcf56a6589d_1259x920.png)
 
 
 

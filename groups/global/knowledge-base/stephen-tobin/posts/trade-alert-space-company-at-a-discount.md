@@ -19,7 +19,7 @@ These are the companies I track:
 
 [
 
-![Image 1](../images/trade-alert-space-company-at-a-discount-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/b59b4f09-4f61-4f5d-a769-207970e6fbdd_1600x240.png)
 
 
 
@@ -31,7 +31,7 @@ Our other Space stock is doing well.
 
 [
 
-![Image 2](../images/trade-alert-space-company-at-a-discount-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/c7c2791e-c67c-49c9-97d7-5384048124b3_1150x169.png)
 
 
 
@@ -53,7 +53,7 @@ MDA is a $3 billion satellite manufacturing company. They have been on my watchl
 
 [
 
-![Image 3](../images/trade-alert-space-company-at-a-discount-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/17287986-5c77-4c99-ac07-14dbb8858744_1569x669.png)
 
 
 
@@ -108,7 +108,7 @@ I have started a mathematical model, but we need to see the pace of new satellit
 
 [
 
-![Image 4](../images/trade-alert-space-company-at-a-discount-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/90646503-076c-4cf5-adcb-47e87cf94e09_1457x289.png)
 
 
 

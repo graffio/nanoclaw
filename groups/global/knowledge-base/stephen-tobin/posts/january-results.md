@@ -17,7 +17,7 @@ In January, I had quite a large drawdown that pushed my performance below that o
 
 [
 
-![Image 1](../images/january-results-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/27590be6-538f-4d79-b897-09b98a1561a4_557x337.png)
 
 
 
@@ -29,7 +29,7 @@ During January, I closed several trades for a small loss and now have quite a lo
 
 [
 
-![Image 2](../images/january-results-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/fe3d8083-29ed-4a44-917a-26f77d070900_433x437.png)
 
 
 
@@ -41,7 +41,7 @@ I have decided to take profits on BlueBird; it looks like a top might be in, and
 
 [
 
-![Image 3](../images/january-results-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/f1060260-9db3-447b-ba98-0a789a0f79a5_1512x560.png)
 
 
 
@@ -51,7 +51,7 @@ GENI looks well set and should develop into medium-term profitable positions. Th
 
 [
 
-![Image 4](../images/january-results-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/4198f4a9-d2c6-4299-b985-05c23819a967_1342x650.png)
 
 
 
@@ -61,7 +61,7 @@ AMPX and ELVA are battery companies, an area performing poorly. ELVA has some so
 
 [
 
-![Image 5](../images/january-results-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/797c38d0-557c-4291-9b56-3fe43b94c573_1202x566.png)
 
 
 
@@ -71,7 +71,7 @@ INVZ and ARBE are entering a crucial time period; we must see confirmed large-sc
 
 [
 
-![Image 6](../images/january-results-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/4566b0db-c3c9-4542-8009-3ad1db9dd083_1158x305.png)
 
 
 
@@ -87,7 +87,7 @@ BITF No change to the Bitfarms plan, it is Crypto we accept the super volatile n
 
 [
 
-![Image 7](../images/january-results-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/862553c3-a3c0-4d5f-8ce2-941c0ac31f81_1488x713.png)
 
 
 
@@ -111,7 +111,7 @@ Two sectors stand out now, and I will try to find suitable trades in the coming 
     
     [
     
-    ![Image 8](../images/january-results-8.png)
+    ![Image 8](https://substack-post-media.s3.amazonaws.com/public/images/c2a32591-97b3-43f8-ac6c-02af0aee0fe0_1292x165.png)
     
     
     
@@ -124,7 +124,7 @@ This sector is part of Defence and Aerospace but is outperforming significantly.
     
     [
     
-    ![Image 9](../images/january-results-9.png)
+    ![Image 9](https://substack-post-media.s3.amazonaws.com/public/images/785bb022-a501-40b3-a043-f87ed025ef5c_1296x487.png)
     
     
     

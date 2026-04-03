@@ -41,7 +41,7 @@ Think of Spin Glasses as tiny magnets. They have a magnetic field similar to the
 
 [
 
-![Image 1](../images/d-waves-quantum-leap-understanding-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/bfb46a98-7b66-4d0e-8612-2901a28fbfbb_184x276.png)
 
 
 
@@ -53,7 +53,7 @@ The Ising model is a fundamental model in mechanical mathematics that helps unde
 
 [
 
-![Image 2](../images/d-waves-quantum-leap-understanding-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/04774dc3-0b22-4d41-afd2-53a16bf6d126_621x173.png)
 
 
 

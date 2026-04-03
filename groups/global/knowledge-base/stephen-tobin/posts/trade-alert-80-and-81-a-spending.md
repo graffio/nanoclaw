@@ -35,7 +35,7 @@ Previous trades in SES can be seen on the chart, with green indicating entry and
 
 ![A graph with numbers and lines
 
-AI-generated content may be incorrect.](../images/trade-alert-80-and-81-a-spending-1.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/ea02340c-6541-4403-8135-b367e0c22e99_1052x480.png)
 
 
 
@@ -64,7 +64,7 @@ We did moderately well our past trades in BYRN but it was by no means a big winn
 
 ![A screenshot of a spreadsheet
 
-AI-generated content may be incorrect.](../images/trade-alert-80-and-81-a-spending-2.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/588f3733-13e5-4346-a30e-27675a0bc4c8_618x218.png)
 
 
 
@@ -126,7 +126,7 @@ This is a still from the latest ad campaign
 
 ![A person holding a banana
 
-AI-generated content may be incorrect.](../images/trade-alert-80-and-81-a-spending-3.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/4f6afd5b-be5c-47eb-90cc-5f27d6698dba_769x434.png)
 
 
 
@@ -179,7 +179,7 @@ Management’s commentary regarding demand was encouraging, as Byrna has seen su
 
 [
 
-![Image 4](../images/trade-alert-80-and-81-a-spending-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/ca3ea271-a8d9-45a3-9f84-1cdc8a9a606b_1194x627.png)
 
 
 

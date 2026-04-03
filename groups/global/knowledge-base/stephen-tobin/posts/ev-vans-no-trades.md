@@ -19,7 +19,7 @@ The large returns we generate come partly from the companies we buy but mainly f
 
 [
 
-![Image 1](../images/ev-vans-no-trades-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/61c1031e-4c8e-4ac0-8df8-4660417691d2_1673x882.png)
 
 
 
@@ -83,7 +83,7 @@ Management is guiding to 370 unit deliveries (Mid Point) in 2025 up from 297 in 
 
 [
 
-![Image 2](../images/ev-vans-no-trades-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/68fcdfe3-f46f-4b23-99ca-0b617923a47b_1230x189.png)
 
 
 

@@ -19,7 +19,7 @@ I closed one trade in PONY, results shown below
 
 [
 
-![Image 1](../images/weekly-review-and-trade-alert-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/3a375caa-43e2-46dd-948a-b842e79c23ce_1600x157.png)
 
 
 
@@ -33,7 +33,7 @@ The account is once again cash-heavy, despite my best efforts to invest the exce
 
 [
 
-![Image 2](../images/weekly-review-and-trade-alert-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/ef310168-f919-4f02-856b-8495e56d0d97_1397x698.png)
 
 
 
@@ -61,7 +61,7 @@ The vast majority of stocks in the portfolio did exceptionally well last week.
 
 [
 
-![Image 3](../images/weekly-review-and-trade-alert-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/550511d9-79ec-4b08-8d1b-fc46482bb3d8_1415x857.png)
 
 
 
@@ -77,7 +77,7 @@ Notes
 
 [
 
-![Image 4](../images/weekly-review-and-trade-alert-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/9ae7f0e9-3294-4440-a743-5567a6b24a77_1600x330.png)
 
 
 
@@ -89,7 +89,7 @@ They expanded their influencer campaign by adding Tucker Carlson to the roster; 
 
 [
 
-![Image 5](../images/weekly-review-and-trade-alert-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/9fff2560-26b6-46ff-894c-13af2d440c73_866x524.png)
 
 
 
@@ -151,7 +151,7 @@ PONY WRD
 
 [
 
-![Image 6](../images/weekly-review-and-trade-alert-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/6240ec9e-4407-4204-ad36-fa5be0fb56b3_1218x488.png)
 
 
 

@@ -17,7 +17,7 @@ It was a busy and profitable week. The US Stock Trading Account outperformed the
 
 [
 
-![Image 1](../images/weekly-review-profits-booked-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/b26bce77-809f-4ab9-b80f-67a8114f4765_1456x563.png)
 
 
 
@@ -33,7 +33,7 @@ Closed Trades were
 
 [
 
-![Image 2](../images/weekly-review-profits-booked-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/1412b7b5-f20a-47d4-81dc-5495c9bfdb6f_1068x280.png)
 
 
 
@@ -53,7 +53,7 @@ I will continue to deposit $250 each month and target a $100K balance after 5 ye
 
 [
 
-![Image 3](../images/weekly-review-profits-booked-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/a0619e68-4346-4613-aade-4cfdc5ee23e4_1052x542.png)
 
 
 
@@ -141,7 +141,7 @@ Quite a lot of change to the US Stock Trading portfolio; total equity is £13,97
 
 [
 
-![Image 4](../images/weekly-review-profits-booked-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/a5b105d8-bd26-44ee-83a2-1be3cbfea2be_1322x801.png)
 
 
 
@@ -165,7 +165,7 @@ The Open Trades are
 
 [
 
-![Image 5](../images/weekly-review-profits-booked-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/16fc5351-8ef1-4c4e-855c-198f4e8aa1e6_1600x411.png)
 
 
 
@@ -175,7 +175,7 @@ The Open account breakdown
 
 [
 
-![Image 6](../images/weekly-review-profits-booked-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/2f6caf4b-14a6-4306-b5b1-9743ac5a70a7_523x347.png)
 
 
 
@@ -187,7 +187,7 @@ The following performance figures encompass all the data collected to date. The 
 
 [
 
-![Image 7](../images/weekly-review-profits-booked-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/ecdd7c21-5526-4712-9d8f-8792af19730e_528x185.png)
 
 
 

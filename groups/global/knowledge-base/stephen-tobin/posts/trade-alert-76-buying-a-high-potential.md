@@ -15,7 +15,7 @@ The Drone sector has been very profitable for us. We managed to catch some signi
 
 [
 
-![Image 1](../images/trade-alert-76-buying-a-high-potential-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/ed8f071b-7d0f-403a-8dd4-d95f5041d8ae_1082x194.png)
 
 
 
@@ -47,7 +47,7 @@ This is my Drone Sector
 
 [
 
-![Image 2](../images/trade-alert-76-buying-a-high-potential-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/36c163e6-64de-4137-babd-445c98fe62e3_1600x491.png)
 
 
 
@@ -57,7 +57,7 @@ This investment came down to a decision between ZenaTech and Volatus. Volatus lo
 
 [
 
-![Image 3](../images/trade-alert-76-buying-a-high-potential-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/9607fe16-cc81-4d28-92db-798a8e21b00c_1072x568.png)
 
 
 
@@ -69,7 +69,7 @@ Volatus manufactures the drones listed below, but is primarily focused on provid
 
 [
 
-![Image 4](../images/trade-alert-76-buying-a-high-potential-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/fd15a866-872b-489d-8c49-0cd1668ad68e_1182x393.png)
 
 
 
@@ -198,7 +198,7 @@ I have produced the first version of a mathematical model for Volatus
 
 [
 
-![Image 5](../images/trade-alert-76-buying-a-high-potential-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/624d497d-55fb-4bf2-87d3-accab8f7e516_1600x334.png)
 
 
 
@@ -214,7 +214,7 @@ The chart suggests that this is not a perfect entry point, as the stochastics ar
 
 [
 
-![Image 6](../images/trade-alert-76-buying-a-high-potential-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/4aa7526a-26d0-4fd6-a733-d7291de15ff1_1556x792.png)
 
 
 

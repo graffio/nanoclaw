@@ -17,7 +17,7 @@ The Portfolio returned +8.6%, against the US market's return of +1.2%. Five of o
 
 [
 
-![Image 1](../images/trade-alert-and-week-review-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/7d622037-9153-40f1-b841-8590037ac792_962x521.png)
 
 
 
@@ -33,7 +33,7 @@ If you want to receive the new nuclear trade write-up or read the trade updates 
 
 [
 
-![Image 2](../images/trade-alert-and-week-review-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/221409e0-b589-44c5-b028-1f5285890045_410x422.png)
 
 
 
@@ -47,7 +47,7 @@ PONY and QBTS have jumped higher, Robotaxis and Quantum are on trend at the mome
 
 [
 
-![Image 3](../images/trade-alert-and-week-review-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/e5aee768-0262-455e-a0dd-7e85af63de35_1517x676.png)
 
 
 
@@ -57,7 +57,7 @@ PONY and QBTS have jumped higher, Robotaxis and Quantum are on trend at the mome
 
 [
 
-![Image 4](../images/trade-alert-and-week-review-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/05450bab-4a8e-45a9-96ab-1cab295ee600_1367x709.png)
 
 
 
@@ -75,7 +75,7 @@ I will issue a midmarket order for six shares, taking the total investment to ar
 
 [
 
-![Image 5](../images/trade-alert-and-week-review-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/2ceabb8b-e952-40c3-8004-a4c1bd74dd81_1532x749.png)
 
 
 

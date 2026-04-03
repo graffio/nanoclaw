@@ -39,7 +39,7 @@ The strong Buy portfolio continues to make excellent progress. Before ELVA and N
 
 [
 
-![Image 1](../images/portfolio-adjustment-exiting-elva-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/10b2d26e-0558-4a56-b244-b5796c89819e_792x295.png)
 
 
 

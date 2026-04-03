@@ -21,7 +21,7 @@ Now is the perfect time to reassess the sector, choose likely winners, and get i
 
 [
 
-![Image 1](../images/evtol-inflection-point-approaching-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/5e7e2876-c037-4440-aaeb-3df25405dd40_1503x845.png)
 
 
 
@@ -104,7 +104,7 @@ In the past, I have invested repeatedly in JOBY, and it remains the frontrunner.
 
 [
 
-![Image 2](../images/evtol-inflection-point-approaching-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/b32fe3d9-1d3e-4291-ae59-d2347e41c5b6_922x171.png)
 
 
 

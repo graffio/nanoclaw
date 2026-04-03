@@ -33,7 +33,7 @@ The three investments made so far in this sector are as follows
 
 [
 
-![Image 1](../images/sw-weekly-airtaxi-review-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/ff3dad4b-cdaf-4e35-bb67-c386b248abcd_1342x318.png)
 
 
 
@@ -45,7 +45,7 @@ My Air Taxi Sector consists of the following companies
 
 [
 
-![Image 2](../images/sw-weekly-airtaxi-review-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/4831079e-3511-4754-89ad-bc2a0fe6bda7_1600x549.png)
 
 
 
@@ -65,7 +65,7 @@ The Hype Cycle is a representation of investor sentiment as a technology moves f
 
 [
 
-![Image 3](../images/sw-weekly-airtaxi-review-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/9edb3432-050f-4848-b2da-28c370d4ad8f_533x348.png)
 
 
 
@@ -113,7 +113,7 @@ I believe we are now firmly in the trough. The battery issues are leading to a d
 
 [
 
-![Image 4](../images/sw-weekly-airtaxi-review-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/57b9ceaf-ad03-462a-a692-ef4e80f3fa75_1277x397.png)
 
 
 
@@ -173,7 +173,7 @@ I try to use the three elements of fundamentals, sentiment, and technicals. I on
 
 [
 
-![Image 5](../images/sw-weekly-airtaxi-review-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/388cef34-9b63-461c-b6d7-1f721596071c_702x609.png)
 
 
 
@@ -185,7 +185,7 @@ The S&P 500 has fallen 7.4%. The size of the index fall is a real concern; oil's
 
 [
 
-![Image 6](../images/sw-weekly-airtaxi-review-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/59fb43a4-545c-4d3b-9a3a-8f7a59db5b37_402x354.png)
 
 
 

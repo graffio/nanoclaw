@@ -25,7 +25,7 @@ I expect to see this company develop into a large operation, with multiple sites
 
 [
 
-![Image 1](../images/trade-alert-74-buying-a-nano-cap-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/053943ff-0007-4fa8-9d43-0a709fc5a636_1262x395.png)
 
 
 
@@ -103,7 +103,7 @@ ROOT plans to build its own facilities but is prepared to license its technology
 
 [
 
-![Image 2](../images/trade-alert-74-buying-a-nano-cap-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/d0f5b3ed-cfad-42c2-894b-098a3a853fcc_1027x167.png)
 
 
 
@@ -205,7 +205,7 @@ The balance sheet is complicated, lots of warrants, convertibles and different a
 
 [
 
-![Image 3](../images/trade-alert-74-buying-a-nano-cap-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/aa19ce05-3556-4d47-870c-570622c243a0_694x727.png)
 
 
 
@@ -223,7 +223,7 @@ I have begun to develop a model of the business but it is at a very early stage.
 
 [
 
-![Image 4](../images/trade-alert-74-buying-a-nano-cap-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/bfb38b2a-f23d-41d8-9145-92665972675f_1043x154.png)
 
 
 

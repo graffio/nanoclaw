@@ -21,7 +21,7 @@ As part of my revised strategy, companies that I rate as a buy will now be place
 
 [
 
-![Image 1](../images/trade-alert-buying-aris-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/d2a80e71-1080-4948-93f8-24acbf06e529_244x180.png)
 
 
 
@@ -37,7 +37,7 @@ I built a spreadsheet using my Strong Buy ratings from seeking alpha articles wr
 
 [
 
-![Image 2](../images/trade-alert-buying-aris-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/e7ad56a0-55ce-40a1-a28e-1e4cd9370e9c_634x239.png)
 
 
 

@@ -37,7 +37,7 @@ A turnaround may have occurred in the previously identified area, and if that's 
 
 [
 
-![Image 1](../images/ses-ai-changing-tack-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/13864068-9505-4076-acd2-e13c25318adc_880x746.png)
 
 
 

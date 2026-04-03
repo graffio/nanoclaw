@@ -25,7 +25,7 @@ Although I have been writing about this sector for several years, I made my firs
 
 [
 
-![Image 1](../images/trade-alert-83-more-recycling-exposure-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1ed31797-2ad0-44de-9c6f-c31b178fefa1_731x121.png)
 
 
 
@@ -49,7 +49,7 @@ ABAT may have bottomed after falling from its recent high. [The bullish thesis f
 
 [
 
-![Image 2](../images/trade-alert-83-more-recycling-exposure-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/85bd018b-6f4e-496b-80eb-b41d44b83203_2048x1071.png)
 
 
 
@@ -65,7 +65,7 @@ The facility is already operating 24/7 and will scale to nameplate capacity by l
 
 [
 
-![Image 3](../images/trade-alert-83-more-recycling-exposure-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/ad08b2f1-665f-4d08-bd75-2941428addd4_1199x282.png)
 
 
 
@@ -114,7 +114,7 @@ I tried to forecast the base case revenue for each company and came up with the 
 
 [
 
-![Image 4](../images/trade-alert-83-more-recycling-exposure-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/0c2c4a80-ce71-4a38-a207-665a04c9e4d8_552x178.png)
 
 
 

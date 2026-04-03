@@ -23,7 +23,7 @@ Year 3 of the five-year plan got off to a great start with this first month retu
 
 [
 
-![Image 1](../images/august-review-surging-returns-new-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/b08fdbf9-a29a-40c4-bc2e-a2620dc1f1d6_1046x332.png)
 
 
 
@@ -39,7 +39,7 @@ The **annualized return is now 133.2%** and continues to increase as the benefit
 
 [
 
-![Image 2](../images/august-review-surging-returns-new-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/ddbd98a2-016a-4ece-aaa4-9de24a8db6f7_1069x650.png)
 
 
 
@@ -57,7 +57,7 @@ QSI remains on the watch list; PUMP and the other oil and gas companies have bee
 
 [
 
-![Image 3](../images/august-review-surging-returns-new-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/6957b8f0-982e-4baf-a98e-dda98f1ad6d0_1070x665.png)
 
 
 
@@ -69,7 +69,7 @@ We invested in three new companies, acquired one company we had previously owned
 
 [
 
-![Image 4](../images/august-review-surging-returns-new-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/fab04dcb-518b-4bc8-8bad-b5faa84ba96d_945x508.png)
 
 
 
@@ -83,7 +83,7 @@ Once again we bought less than we sold and with the usual $250 investment the ca
 
 [
 
-![Image 5](../images/august-review-surging-returns-new-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/0702ecdf-71d9-4754-8e6a-7b863542c9b6_1600x535.png)
 
 
 
@@ -143,7 +143,7 @@ The final week of the month continues the volatile price action we have seen rec
 
 [
 
-![Image 6](../images/august-review-surging-returns-new-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/9416edcc-afb0-4b9d-b69c-a3d1b2b49e0b_1093x409.png)
 
 
 
@@ -153,7 +153,7 @@ Ondas made it onto the top five list but QSI and PUMP made it on to the bottom f
 
 [
 
-![Image 7](../images/august-review-surging-returns-new-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/287bad64-02b6-4643-9582-0760a124e09f_809x528.png)
 
 
 
@@ -192,7 +192,7 @@ Despite delivering another excellent month of returns and a record cash balance.
 
 [
 
-![Image 8](../images/august-review-surging-returns-new-8.png)
+![Image 8](https://substack-post-media.s3.amazonaws.com/public/images/b560ae52-7769-4614-a254-92f2129918ca_1389x761.png)
 
 
 
@@ -204,7 +204,7 @@ Electrovaya is now the largest holding by a significant margin, and its performa
 
 [
 
-![Image 9](../images/august-review-surging-returns-new-9.png)
+![Image 9](https://substack-post-media.s3.amazonaws.com/public/images/5d0792d0-f0df-4427-8935-68473754fc0f_713x748.png)
 
 
 
@@ -224,7 +224,7 @@ Despite the poor performance in August, the account remains above its two target
 
 [
 
-![Image 10](../images/august-review-surging-returns-new-10.png)
+![Image 10](https://substack-post-media.s3.amazonaws.com/public/images/763b3336-af8f-42ed-ba18-c071605d9b37_472x146.png)
 
 
 
@@ -234,7 +234,7 @@ Despite the poor performance in August, the account remains above its two target
 
 [
 
-![Image 11](../images/august-review-surging-returns-new-11.png)
+![Image 11](https://substack-post-media.s3.amazonaws.com/public/images/ed230da3-8e1e-408f-80ec-8fc878c4e38d_1508x604.png)
 
 
 

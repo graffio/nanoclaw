@@ -54,7 +54,7 @@ Coursera had a good 2023; the recent pullback offers a good low-risk entry point
 
 [
 
-![Image 1](../images/trade-alert-buying-cour-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/3b65bac7-db17-4750-b15f-da674a8c2d27_838x640.png)
 
 
 
@@ -70,7 +70,7 @@ The rest of the portfolio is moving well, I am up 2.7% in February. I added to t
 
 [
 
-![Image 2](../images/trade-alert-buying-cour-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/3f2f0cea-bd6b-40b8-9537-79989b69f426_1472x726.png)
 
 
 

@@ -19,7 +19,7 @@ This is me
 
 [
 
-![Image 1](../images/impersonator-whatsapp-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/54722d33-4e74-417a-92e2-350018d6f471_1202x534.png)
 
 
 
@@ -29,7 +29,7 @@ This is not, note the misspelling @stephen…..
 
 [
 
-![Image 2](../images/impersonator-whatsapp-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/b22e54d0-fbad-4060-b36e-c3f6bb62a89a_867x446.png)
 
 
 
@@ -39,7 +39,7 @@ These are also not me
 
 [
 
-![Image 3](../images/impersonator-whatsapp-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/caee5fb7-d936-40e9-9340-a9da987a54b5_909x224.png)
 
 
 
@@ -47,7 +47,7 @@ These are also not me
 
 [
 
-![Image 4](../images/impersonator-whatsapp-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/516b9f25-6f47-4370-9548-b5c98e0f2f12_416x134.png)
 
 
 

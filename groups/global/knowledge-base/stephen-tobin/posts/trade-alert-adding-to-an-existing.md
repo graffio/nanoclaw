@@ -26,7 +26,7 @@ Current Portfolio Position
 
 [
 
-![Image 1](../images/trade-alert-adding-to-an-existing-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/59a047d3-92e2-40f2-a736-f5dd89ccc8b2_804x704.png)
 
 - ](https://substackcdn.com/image/fetch/$s_!lN8R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59a047d3-92e2-40f2-a736-f5dd89ccc8b2_804x704.png)
 ## Headlines from earnings
@@ -76,7 +76,7 @@ Both EH investments are quite old and relatively small compared to today's stand
 
 [
 
-![Image 2](../images/trade-alert-adding-to-an-existing-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/ceab3ee8-4cb1-47af-a68a-c9352db1c3cc_1522x250.png)
 
 ](https://substackcdn.com/image/fetch/$s_!6H8j!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fceab3ee8-4cb1-47af-a68a-c9352db1c3cc_1522x250.png)
 

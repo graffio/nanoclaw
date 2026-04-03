@@ -27,7 +27,7 @@ The closed trades in the Strong Buy portfolio since inception are:
 
 [
 
-![Image 1](../images/trade-alert-buying-d-wave-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/cbb216d6-252e-44f3-a100-fb93849e3519_860x249.png)
 
 
 
@@ -51,7 +51,7 @@ Likely we will record a small drop this month, JOBY announced some dilution and 
 
 [
 
-![Image 2](../images/trade-alert-buying-d-wave-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/ea0efda1-61a5-4dea-bd33-648e405c9bba_865x525.png)
 
 
 
@@ -63,7 +63,7 @@ Current Open Trades are:
 
 [
 
-![Image 3](../images/trade-alert-buying-d-wave-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/a7034b8f-141e-4259-9302-c31e1671d76b_577x529.png)
 
 
 

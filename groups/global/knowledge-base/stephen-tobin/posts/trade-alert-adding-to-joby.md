@@ -51,7 +51,7 @@ The image below shows the pattern we are trading and fits into the trading plan.
 
 [
 
-![Image 1](../images/trade-alert-adding-to-joby-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/be8bdc97-0f98-4a29-85f2-6c755cfc81ff_1502x682.png)
 
 
 
@@ -67,7 +67,7 @@ We are up slightly this month but have a lot of cash in the account. The account
 
 [
 
-![Image 2](../images/trade-alert-adding-to-joby-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/59017963-1e26-42cd-b691-9104f8bcc145_564x462.png)
 
 
 

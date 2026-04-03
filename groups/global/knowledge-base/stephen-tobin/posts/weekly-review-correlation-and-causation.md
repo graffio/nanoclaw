@@ -20,7 +20,7 @@ The portfolio has continued to pullback, it is now showing a loss of 5.3% in Feb
 
 [
 
-![Image 1](../images/weekly-review-correlation-and-causation-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/a7992125-c019-47f9-98fe-3cfff58126a8_222x181.png)
 
 ](https://substackcdn.com/image/fetch/$s_!0uGb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa7992125-c019-47f9-98fe-3cfff58126a8_222x181.png)
 I have no explanation for this seasonality, but it exists and appears to persist into 2026. A return of 4.6% in March would leave the portfolio at an average of -0.4% in Q1, exactly as it has been in the past. The Q1 average return in 2025 was -3% and the full year return was over 88%.
@@ -33,7 +33,7 @@ Visa (V) and Mastercard (MA) are two stocks that show high correlation. Over the
 
 [
 
-![Image 2](../images/weekly-review-correlation-and-causation-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/904dabdf-72b1-4941-b1dd-295906677500_1193x742.png)
 
 - ](https://substackcdn.com/image/fetch/$s_!aV8W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F904dabdf-72b1-4941-b1dd-295906677500_1193x742.png)
 You can see the correlation just by looking at the chart; the two stocks are moving together with near-identical peaks and troughs. It is a real correlation with causation; they have a near duopoly on payment processing, and they take a fee every time someone pays with a card, so their incomes rise and fall with the number of payments made.
@@ -104,7 +104,7 @@ What we are seeing is a natural rebalancing as large investors move money from m
 
 [
 
-![Image 3](../images/weekly-review-correlation-and-causation-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/dd0ccb0e-9a5a-481f-bf11-0231ec761114_872x265.png)
 
 ](https://substackcdn.com/image/fetch/$s_!QfoS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd0ccb0e-9a5a-481f-bf11-0231ec761114_872x265.png)
 ## Plans
@@ -133,14 +133,14 @@ A bounce yesterday was nice, but we are still underwater. The battery stocks I w
 
 [
 
-![Image 4](../images/weekly-review-correlation-and-causation-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/2cb1842d-fefd-4dfa-b54d-b46f0e62d4a8_1029x688.png)
 
 ](https://substackcdn.com/image/fetch/$s_!iFpO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2cb1842d-fefd-4dfa-b54d-b46f0e62d4a8_1029x688.png)
 ## Cash Position
 
 [
 
-![Image 5](../images/weekly-review-correlation-and-causation-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/386aabb2-0569-46a3-8c64-8338ce142f59_405x353.png)
 
 ](https://substackcdn.com/image/fetch/$s_!5ORw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F386aabb2-0569-46a3-8c64-8338ce142f59_405x353.png)
 ## Monthly Returns
@@ -149,14 +149,14 @@ I did mention the average monthly returns in Q1, so I thought I would show all m
 
 [
 
-![Image 6](../images/weekly-review-correlation-and-causation-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/aa0bb145-58f6-431f-b0d1-1b6edcfa5a8b_1337x176.png)
 
 ](https://substackcdn.com/image/fetch/$s_!sBvB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa0bb145-58f6-431f-b0d1-1b6edcfa5a8b_1337x176.png)
 It leads to the following averages, remember the target is an average of 5.2% as that is what is needed to get to $100K in five years
 
 [
 
-![Image 7](../images/weekly-review-correlation-and-causation-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/da0056a8-4616-43c3-a483-1f50227cb7bf_257x249.png)
 
 ](https://substackcdn.com/image/fetch/$s_!irBC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda0056a8-4616-43c3-a483-1f50227cb7bf_257x249.png)
 I know drawdowns are difficult, but the longer-term performance is clear, and the monthly return figures show this one is not unusual.

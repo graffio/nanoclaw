@@ -67,7 +67,7 @@ In Q1, AMPX announced a $15 million order from an unmanned aerial system manufac
 
 [
 
-![Image 1](../images/trade-alert-changing-battery-company-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/f3ee8962-50b0-4a60-b807-89bc537cdf7b_1600x667.png)
 
 
 
@@ -81,7 +81,7 @@ The technical chart is not ideal, SES has been on a positive run and the pullbac
 
 [
 
-![Image 2](../images/trade-alert-changing-battery-company-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/f80a8349-8bc2-46c6-9a5c-f9a66bc22e80_1600x919.png)
 
 
 

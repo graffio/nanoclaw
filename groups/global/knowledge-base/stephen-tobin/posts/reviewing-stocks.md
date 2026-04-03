@@ -18,7 +18,7 @@ Over the three years I have been publishing results, we have had 6 previous occa
 
 [
 
-![Image 1](../images/reviewing-stocks-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/7dae0e46-c95a-40d8-8864-19b9bede79c2_996x656.png)
 
 ](https://substackcdn.com/image/fetch/$s_!nG9U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7dae0e46-c95a-40d8-8864-19b9bede79c2_996x656.png)
 I currently hold positions in 26 companies. In the last 7 days, only 4 have shown a profit; the best performer is up 18%, and the worst is down 13%.
@@ -37,7 +37,7 @@ I have made two investments in Ehang both quite some time ago and the stock has 
 
 [
 
-![Image 2](../images/reviewing-stocks-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/d389f545-d3c7-48d3-9f30-03194c0a757e_1315x216.png)
 
 ](https://substackcdn.com/image/fetch/$s_!HPQA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd389f545-d3c7-48d3-9f30-03194c0a757e_1315x216.png)
 Ehang's stock often trades in hype cycles; the underlying business has rarely been reflected in the stock price, but we have been lacking any catalysts of late. They remain the only certified eVTOL but face ongoing regulatory uncertainty and a very skeptical Western market. Geopolitical tensions always play on ADR stocks as concerns rise about how the US authorities will treat these foreign stocks and the threat of de-listing has been held over Chinese stocks for decades.
@@ -74,7 +74,7 @@ I have made two trades in APTV the holding is currently in the money 14%
 
 [
 
-![Image 3](../images/reviewing-stocks-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/c32b0485-4f0b-4aa6-ab94-a9130151f1f6_1207x252.png)
 
 ](https://substackcdn.com/image/fetch/$s_!BM8H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc32b0485-4f0b-4aa6-ab94-a9130151f1f6_1207x252.png)
 APTV does not fit the general makeup of the portfolio, being a large, well-established company.
@@ -105,7 +105,7 @@ I have taken two positions in AISP
 
 [
 
-![Image 4](../images/reviewing-stocks-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/89d9fd47-770e-49b7-ba86-593a73d5c770_1200x251.png)
 
 ](https://substackcdn.com/image/fetch/$s_!4hjH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89d9fd47-770e-49b7-ba86-593a73d5c770_1200x251.png)
 The technology and the thesis looked very solid but it is clearly not going according to plan.
@@ -136,7 +136,7 @@ I have made three investments in ASPI, all underwater
 
 [
 
-![Image 5](../images/reviewing-stocks-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/4ecdc65e-1dbf-437d-ac3b-cb496219ff93_1208x305.png)
 
 ](https://substackcdn.com/image/fetch/$s_!ddjF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ecdc65e-1dbf-437d-ac3b-cb496219ff93_1208x305.png)
 ASPI is a speculative bet that they can move their enrichment technology from the lab and into commercial production.

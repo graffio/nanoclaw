@@ -29,7 +29,7 @@ The Technicals
 
 [
 
-![Image 1](../images/trade-alert-buying-vertical-aerospace-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/54ea3d11-6329-4532-8562-981174922ddc_671x342.png)
 
 
 

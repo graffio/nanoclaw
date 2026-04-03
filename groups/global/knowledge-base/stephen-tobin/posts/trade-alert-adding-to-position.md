@@ -27,7 +27,7 @@ Ulbi has underperformed since our initial investment, as you can see on this cha
 
 [
 
-![Image 1](../images/trade-alert-adding-to-position-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/da44b387-800d-4a03-b4da-8b1be29d0c64_1600x920.png)
 
 
 
@@ -41,7 +41,7 @@ The company made a significant acquisition when it bought Elechtrochem, and expe
 
 [
 
-![Image 2](../images/trade-alert-adding-to-position-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/4aa95f46-b89f-41ab-b2e8-974b727010fc_555x238.png)
 
 
 
@@ -81,7 +81,7 @@ In advance of my first investmen,t I built a mathematical model with the followi
 
 [
 
-![Image 3](../images/trade-alert-adding-to-position-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/1589cfaa-5e85-47be-815f-627fc71b3838_1108x406.png)
 
 
 
@@ -91,7 +91,7 @@ Updating the model to account for the poor results in 2024 and the new guidance 
 
 [
 
-![Image 4](../images/trade-alert-adding-to-position-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/d147e640-2e5b-4ec8-a78a-b7da0119da02_1512x894.png)
 
 
 
@@ -109,7 +109,7 @@ The full set of open positions is shown below with ULBI highlighted.
 
 [
 
-![Image 5](../images/trade-alert-adding-to-position-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/46891aea-fafc-4bcb-9a26-f757cdffcb79_1273x825.png)
 
 
 

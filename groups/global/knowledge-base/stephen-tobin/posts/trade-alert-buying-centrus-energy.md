@@ -23,7 +23,7 @@ I am following 17 companies in my Nuclear Watchlist, the chart below shows some 
 
 [
 
-![Image 1](../images/trade-alert-buying-centrus-energy-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/99dbfe55-8250-447c-8406-717776899235_624x263.png)
 
 
 
@@ -45,7 +45,7 @@ The Strong Buy portfolio continues to do well and is beating the S and P on a re
 
 [
 
-![Image 2](../images/trade-alert-buying-centrus-energy-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/6cf972be-59a7-4fbf-a4aa-10c613f8aeda_645x474.png)
 
 
 

@@ -17,7 +17,7 @@ The Current Position of the account is.
 
 [
 
-![Image 1](../images/adding-to-arbe-and-eh-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/4f2bbca1-6b46-47a3-a09a-3d8f347e29bb_986x460.png)
 
 
 
@@ -33,7 +33,7 @@ As shown in this four-hour chart, I am strategically planning to buy ARBE in the
 
 [
 
-![Image 2](../images/adding-to-arbe-and-eh-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/193a3997-a503-47d4-aa23-501b365a22e4_325x413.png)
 
 
 
@@ -51,7 +51,7 @@ The chart below is a daily one and shows the high in October. Since then, the pu
 
 [
 
-![Image 3](../images/adding-to-arbe-and-eh-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/c491dd23-ae4f-4fbb-a236-a29fb3f66663_1396x722.png)
 
 
 
@@ -63,7 +63,7 @@ I will make the December wrap-up video in the coming days; it was another excell
 
 [
 
-![Image 4](../images/adding-to-arbe-and-eh-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/a41ef888-66a6-425d-b0ed-995ea7983474_744x171.png)
 
 
 
@@ -73,7 +73,7 @@ The return for 2024 was 116%, and the return since inception in August 2023 is o
 
 [
 
-![Image 5](../images/adding-to-arbe-and-eh-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/1cfb1bae-614a-4564-b329-a87613b9696c_1132x501.png)
 
 
 

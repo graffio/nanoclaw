@@ -15,7 +15,7 @@ The markets were closed on Friday for July 4th celebrations, so we were spared a
 
 [
 
-![Image 1](../images/weekly-review-multiple-prospects-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/f737ec9c-eb56-4fb9-b354-bee6ef5cd07e_688x376.png)
 
 
 
@@ -33,7 +33,7 @@ This account is held with Interactive Brokers in the US and is the primary repor
 
 [
 
-![Image 2](../images/weekly-review-multiple-prospects-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/b8ab7199-e1b5-455b-943e-3089cad466dc_745x466.png)
 
 
 
@@ -77,7 +77,7 @@ I am not loyal to companies and will exit regardless of past wins, the quality o
 
 [
 
-![Image 3](../images/weekly-review-multiple-prospects-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/ef2cdd8a-c98e-402d-8697-23e1644b027b_1236x882.png)
 
 
 
@@ -109,7 +109,7 @@ I didn’t put this chart in the monthly update, not much has changed, and Wall 
 
 [
 
-![Image 4](../images/weekly-review-multiple-prospects-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/817b51d7-a503-4162-9177-6c51a4b99928_676x868.png)
 
 
 
@@ -121,7 +121,7 @@ The US Stock Trading Account cash balance has been decreasing since March, and I
 
 [
 
-![Image 5](../images/weekly-review-multiple-prospects-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/01055846-cff7-4be8-9d73-1b74644747c9_767x452.png)
 
 
 
@@ -133,7 +133,7 @@ Currently, I am working on determining the optimal position size. I was lucky I 
 
 [
 
-![Image 6](../images/weekly-review-multiple-prospects-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/2cf87536-a8ba-4330-aa9c-dec4bebee0cc_522x255.png)
 
 
 
@@ -151,7 +151,7 @@ This is an image of the QBTS trade showing the stop line in red.
 
 [
 
-![Image 7](../images/weekly-review-multiple-prospects-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/1c24b1e6-f835-4a0f-9ce3-116d6060332a_1252x807.png)
 
 
 

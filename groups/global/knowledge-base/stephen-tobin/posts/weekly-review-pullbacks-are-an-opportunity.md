@@ -25,7 +25,7 @@ Suppose we assume the company is real and it actually has products, which seems 
 
 [
 
-![Image 1](../images/weekly-review-pullbacks-are-an-opportunity-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/3dffcdbe-b422-40d7-bb83-c54a343671a5_644x153.png)
 
 
 
@@ -67,7 +67,7 @@ I expect to buy a second recycling micro cap next week, it has not suffered any 
 
 [
 
-![Image 2](../images/weekly-review-pullbacks-are-an-opportunity-2.png)
+![Image 2](https://substack-post-media.s3.amazonaws.com/public/images/080b78a7-7f23-498d-b22f-4b8ac2c6ced8_1514x755.png)
 
 
 
@@ -139,7 +139,7 @@ PONY probably is going to end up under $10 but WRD looks close to the bottom. I 
 
 [
 
-![Image 3](../images/weekly-review-pullbacks-are-an-opportunity-3.png)
+![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/68f32782-6015-47f5-b16f-a50fd6f3b5c0_1566x809.png)
 
 
 
@@ -147,7 +147,7 @@ PONY probably is going to end up under $10 but WRD looks close to the bottom. I 
 
 [
 
-![Image 4](../images/weekly-review-pullbacks-are-an-opportunity-4.png)
+![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/47591fcc-c593-4ffc-bbea-f811c82921cb_1590x850.png)
 
 
 
@@ -161,7 +161,7 @@ Technically we could be near a bottom, the pullback has been large 57% peak to t
 
 [
 
-![Image 5](../images/weekly-review-pullbacks-are-an-opportunity-5.png)
+![Image 5](https://substack-post-media.s3.amazonaws.com/public/images/0282143b-9c66-4c50-a5c6-2b4fb2121ded_1496x853.png)
 
 
 
@@ -191,7 +191,7 @@ I will be looking to add in the medium term but not yet. The pullback from Octob
 
 [
 
-![Image 6](../images/weekly-review-pullbacks-are-an-opportunity-6.png)
+![Image 6](https://substack-post-media.s3.amazonaws.com/public/images/f4863e2d-e0a9-40ad-ae59-c3ff73fc7f2d_756x657.png)
 
 
 
@@ -215,7 +215,7 @@ Everything is on target and progressing well. Drawdown has been 60% peak to trou
 
 [
 
-![Image 7](../images/weekly-review-pullbacks-are-an-opportunity-7.png)
+![Image 7](https://substack-post-media.s3.amazonaws.com/public/images/baa42db3-5cf9-4830-8c50-6fba47be2773_916x561.png)
 
 
 
@@ -227,7 +227,7 @@ The thesis is intact despite the 50% pullback. We have traded SES multiple times
 
 [
 
-![Image 8](../images/weekly-review-pullbacks-are-an-opportunity-8.png)
+![Image 8](https://substack-post-media.s3.amazonaws.com/public/images/0810da17-9127-45c4-8e7a-8332becb16aa_1011x582.png)
 
 
 

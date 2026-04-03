@@ -17,7 +17,7 @@ The profits we have made from investing in the eVTOL/Drone sector have been outs
 
 ![A screenshot of a data sheet
 
-AI-generated content may be incorrect.](../images/trade-alert-70-buying-evtol-1.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/f400168b-0158-4819-bf21-fc1f7757f7ce_839x402.png)
 
 
 
@@ -51,7 +51,7 @@ I first covered Vertical in late 2022 on Seeking Alpha, rating them a sell.
 
 ![A screenshot of a computer
 
-AI-generated content may be incorrect.](../images/trade-alert-70-buying-evtol-2.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/f9d0a531-53e4-4730-8aed-c6653fdd47ef_1054x257.png)
 
 
 
@@ -94,7 +94,7 @@ This photo shows the first piloted flight of the second Vertical Aerospace VX4. 
 
 > [
 > 
-> ![Image 3](../images/trade-alert-70-buying-evtol-3.png)
+> ![Image 3](https://substack-post-media.s3.amazonaws.com/public/images/49106e86-eec1-4da6-8a01-c2632ec58dea_1053x367.png)
 > 
 > 
 > 
@@ -142,7 +142,7 @@ In its last earnings report, Vertical stated that it was preparing to open the o
 
 > [
 > 
-> ![Image 4](../images/trade-alert-70-buying-evtol-4.png)
+> ![Image 4](https://substack-post-media.s3.amazonaws.com/public/images/72b221e3-6579-4dfb-828c-b6958f530f26_580x285.png)
 > 
 > 
 > 
@@ -158,7 +158,7 @@ With 60% of the employees being aerospace engineering talent, that adds up to a 
 > 
 > ![A white and purple rectangular table with numbers
 > 
-> AI-generated content may be incorrect.](../images/trade-alert-70-buying-evtol-5.png)
+> AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/24248134-27e4-4fd2-9b00-666ebd2a697c_1053x200.png)
 > 
 > 
 > 
@@ -222,7 +222,7 @@ I have begun to develop a mathematical model but we don’t have enough informat
 
 ![A white and purple table with numbers and text
 
-AI-generated content may be incorrect.](../images/trade-alert-70-buying-evtol-6.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/8f917ada-19aa-4ae3-8a32-fc87ab0e3eb2_1054x422.png)
 
 
 
@@ -242,7 +242,7 @@ I shared this image in last week's update, and it suggests the market is underva
 > 
 > ![A screenshot of a screen with a graph and a chart of airplanes
 > 
-> AI-generated content may be incorrect.](../images/trade-alert-70-buying-evtol-7.png)
+> AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/ad3a21a0-d350-4bb9-8ac3-8f21c18c3230_674x377.png)
 > 
 > 
 > 

@@ -25,7 +25,7 @@ The technical chart below shows this is a reasonable but not an excellent time t
 
 [
 
-![Image 1](../images/trade-alert-buying-bae-systems-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e6c6fcaf-a239-4386-a1a8-747f6a2a99b2_1222x714.png)
 
 
 

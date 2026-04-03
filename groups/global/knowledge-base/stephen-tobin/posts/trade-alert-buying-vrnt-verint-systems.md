@@ -61,7 +61,7 @@ The legacy on-site business has now been transferred to the new SaaS offering, a
 
 [
 
-![Image 1](../images/trade-alert-buying-vrnt-verint-systems-1.png)
+![Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1a4a5dab-2516-44ed-8631-7990d39ed20c_1012x549.png)
 
 
 
