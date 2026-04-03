@@ -328,7 +328,7 @@ function forwardRequest(
   upstream.end();
 }
 
-export function startHomeExchangeProxy(
+export function startOutboundProxy(
   port: number,
   host = '127.0.0.1',
 ): Promise<Server> {

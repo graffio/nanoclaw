@@ -12,7 +12,7 @@ import {
   TRIGGER_PATTERN,
 } from './config.js';
 import { startCredentialProxy } from './credential-proxy.js';
-import { startHomeExchangeProxy } from './homeexchange-proxy.js';
+import { startOutboundProxy } from './outbound-proxy.js';
 import './channels/index.js';
 import {
   getChannelFactory,
@@ -559,7 +559,7 @@ async function main(): Promise<void> {
   );
 
   // Start outbound API proxy (blocks unapproved endpoints, injects credentials)
-  const outboundProxyServer = await startHomeExchangeProxy(
+  const outboundProxyServer = await startOutboundProxy(
     HOMEEXCHANGE_PROXY_PORT,
     PROXY_BIND_HOST,
   );

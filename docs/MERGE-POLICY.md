@@ -41,9 +41,9 @@ cherry-pick. If a commit touches these areas, it needs manual review.
   we handle it by simply not merging those commits.
 - `package.json`: do NOT add `@onecli-sh/sdk`, do NOT remove credential proxy deps
 
-### HomeExchange proxy
+### Outbound proxy
 
-- `src/homeexchange-proxy.ts` and its import in `src/index.ts` — our addition
+- `src/outbound-proxy.ts` and its import in `src/index.ts` — our addition
 - `src/container-runner.ts`: injects `HOMEEXCHANGE_PROXY_PORT` env var into containers
 - Not upstream; will never conflict with upstream changes, but cherry-picks that
   rewrite `buildContainerArgs()` or container env setup need our additions preserved
