@@ -117,6 +117,8 @@ All four positions remain open. Position underwater as of March 2026. Total inve
 | Feb 22 | Hold         | 27     | \$15.12 | \$12.20| \$408    | -\$78.88   | -19%   |
 | Mar 01 | Under review | 27     | \$15.12 | \$12.27| \$408    | -\$76.99   | -19%   |
 | Mar 08 | Hold         | 27     | \$15.12 | \$11.51| \$408    | -\$97.51   | -24%   |
+| Mar 22 | Hold         | 47     | \$14.35 | \$9.95 | \$674    | -\$206.63  | -31%   |
+| Mar 29 | Hold         | 47     | \$14.35 | \$9.39 | \$674    | -\$232.95  | -35%   |
 
 **Trade #104 (Mar 12):** Added half-size position (\$280, 1.5% of portfolio) after Q4 earnings.
 
@@ -272,3 +274,9 @@ EH shares rose 5.3% premarket post-Q4. Revenue and EPS beat but 2026 guidance of
 
 EH assessment: "EH is targeting tourism, and although they should see a bounce when flights begin, they may find it more difficult to generate tourist business later on." eVTOL sector overall: "problematic" in oil crisis — EVTL needs cash, ACHR and JOBY may see Middle East operations delayed. Short-term risk: Medium. Medium-term risk: High.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: Management met with high-level Thai government officials in Bangkok on March 19 to discuss the commercialization of pilotless eVTOL aircraft for urban air mobility in Thailand. EHang also announced that its sites in Guangzhou and Hefei are expected to begin public ticketing for low-altitude sightseeing flights in late March 2026. Portfolio context: EH is one of the four positions that changed share count — position grew from 27 to 47 shares (avg buy adjusted from \$15.12 to \$14.35) following Trade #104 add on March 12.
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*

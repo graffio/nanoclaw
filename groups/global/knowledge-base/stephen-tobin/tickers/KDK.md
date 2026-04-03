@@ -65,6 +65,8 @@ Single position. Half-size (\$300). Will increase if KDK raises the capital it n
 | Feb 22 | Pre-Buy      | 33     | \$9.49  | \$8.61 | \$313    | -\$29.04  | -9%    |
 | Mar 01 | Pre-Buy      | 33     | \$9.49  | \$8.40 | \$313    | -\$35.97  | -11%   |
 | Mar 08 | Under review | 33     | \$9.49  | \$8.92 | \$313    | -\$18.81  | -6%    |
+| Mar 22 | Hold         | 33     | \$9.49  | \$7.47 | \$313    | -\$66.66  | -21%   |
+| Mar 29 | Hold         | 33     | \$9.49  | \$6.91 | \$313    | -\$85.14  | -27%   |
 
 ## Complete Timeline
 
@@ -112,3 +114,9 @@ KDK discussed in broader portfolio context.
 
 Short-term risk: Medium. Medium-term risk: Medium. "Defence business may counteract commercial problems." Not flagged for exit.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: Filed a prospectus on March 17, 2025, detailing financial liability movements through 2025, including the settlement of SAFE instruments and second lien loans. Retrospective of its 2025 net loss of \$585,525. No new quarterly earnings release for the current period. Broader market context: Stephen mentioned in sector analysis that in the autonomous driving space, "AUR, KDK and WRD are not quite as solid I think" compared to PONY and EOS.
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*

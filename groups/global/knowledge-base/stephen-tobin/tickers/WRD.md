@@ -89,6 +89,8 @@ Notes on trades:
 | Feb 22 | Hold         | 76     | \$8.51  | \$7.09 | \$647    | -\$108.13  | -17%   |
 | Mar 01 | Under review | 76     | \$8.51  | \$6.99 | \$647    | -\$115.73  | -18%   |
 | Mar 08 | Under review | 76     | \$8.51  | \$6.37 | \$647    | -\$162.85  | -25%   |
+| Mar 22 | Hold         | 76     | \$8.51  | \$6.35 | \$647    | -\$164.37  | -25%   |
+| Mar 29 | Hold         | 76     | \$8.51  | \$6.96 | \$647    | -\$118.01  | -18%   |
 
 ## Complete Timeline
 
@@ -221,3 +223,20 @@ Stephen: "I like all of the autonomous driving stocks and we did book a nice pro
 
 Autonomous driving companies rated with very little concern. "They will all reduce costs for adopters, allowing some margin capture for trucking companies and lower costs for taxi users." Short-term oil risk: Medium. Medium-term oil risk: Low. Prolonged oil crisis makes autonomous EVs more competitive. WRD's Middle East operations curtailed by conflict but deemed a temporary setback.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: Showcased Robotaxi GXR at NVIDIA GTC 2026, powered by the NVIDIA DRIVE Hyperion platform and DRIVE AGX Thor system-on-chip. Targeting Southeast Asia expansion through partnership with Grab, aiming for over 2,600 active robotaxis globally by end of 2026. Manufacturing analysis: Pony and WeRide "appear to have gotten very close to the Cybercab price level by reducing manufacturing costs and hardware costs. The fact that WeRide is producing a cab every 10 minutes shows how they are scaling."
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-23 — Chat: Q? Results — Market Unmoved, Stephen Views as B-Plan
+
+Subscriber AN123: "It looks like the market was not too impressed with WRD's results. I took the opportunity to add a little." Stephen: "Yes, I thought the results quite good but they are my B plan with Pony being the A plan." Stock showed unusual intraday price action but recovered to finish up over 8%. Stephen: "Yes some unusual price action during the day but looking quite good now."
+
+*Source: [chat/chat-2026-03-23.md](chat/chat-2026-03-23.md)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Earnings + Portfolio snapshot
+
+FY2025 results: Record full-year revenue RMB 684.60M (\$97.90M), +89.60% YoY. Product revenue surged 310.30% to RMB 359.80M (\$51.50M). Fleet surpassed 1,000 robotaxis. Autonomous permits in 8 global markets. March 13 share plan adopted. Active in share repurchases. Portfolio snapshot: 76 shares, open P&L -\$118.01 (-18%), 7-day return +1%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

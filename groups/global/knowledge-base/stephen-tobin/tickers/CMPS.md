@@ -82,6 +82,8 @@ Single position. Full-size (\$602 invested, 3% of equity). Midpoint order placed
 | Feb 22 | Hold   | 70     | \$8.60  | \$8.05 | \$602    | -\$38.50   | -6%    |
 | Mar 01 | Hold   | 70     | \$8.60  | \$6.90 | \$602    | -\$119.00  | -20%   |
 | Mar 08 | Hold   | 70     | \$8.60  | \$6.58 | \$602    | -\$141.40  | -23%   |
+| Mar 22 | Hold   | 70     | \$8.60  | \$5.41 | \$602    | -\$223.30  | -37%   |
+| Mar 29 | Hold   | 70     | \$8.60  | \$5.37 | \$602    | -\$226.10  | -38%   |
 
 ## Complete Timeline
 
@@ -146,3 +148,14 @@ Portfolio snapshot: CMPS 70 shares, avg buy \$8.60, latest \$6.58, invested \$60
 ### 2026-03-10 — Chat: Subscriber comment
 
 Roland ROJAS: "I like CMPS." No Stephen reply.
+
+### 2026-03-24 — Chat: Meta-Study Selloff — Stephen Defends Thesis
+
+CMPS and NRX dropped following publication of a large meta-study (compilation of all previous studies) claiming psychedelics have similar efficacy to standard existing drugs. Stephen's rebuttal: "The study failed to address the issue that most psychedelics are targeting conditions where there are no existing drug treatments. The study also glossed over the key issue of treatment resistant patients. 30% of patients with depression taking standard drugs show an improvement but of those that the standard drug fails to help 30% of them are helped by psychedelics. To say they both have a 30% response rate is very misleading." Thesis intact — the meta-study does not address the treatment-resistant depression market that CMPS targets.
+
+*Source: [chat/chat-2026-03-24.md](chat/chat-2026-03-24.md)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Financials + Portfolio snapshot
+
+FY2025 results (reported March 24): UK net operating loss carryforwards $577.90M. February 2026 capital raise: ~$140.50M net proceeds via 17.50M ADS underwritten offering. Regulatory: preparing for rolling NDA submissions for COMP360 psilocybin in treatment-resistant depression. Portfolio snapshot: 70 shares, open P&L -$226.10 (-38%), 7-day return +1%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

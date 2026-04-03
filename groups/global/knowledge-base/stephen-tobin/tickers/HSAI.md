@@ -95,6 +95,8 @@ Three separate positions over 17 months. Two closed profitably (+278%, +74%). Cu
 | Feb 22 | Hold         | 53     | \$20.14 | \$27.76 | \$1,068 | +\$403.69 | +38%   |
 | Mar 01 | Under review | 53     | \$20.14 | \$26.95 | \$1,068 | +\$360.76 | +34%   |
 | Mar 08 | Under review | 53     | \$20.14 | \$23.86 | \$1,068 | +\$196.99 | +18%   |
+| Mar 22 | Concern      | 53     | \$20.14 | \$22.85 | \$1,068 | +\$143.46 | +13%   |
+| Mar 29 | Concern      | 53     | \$20.14 | \$18.44 | \$1,068 | -\$90.27  | -8%    |
 
 ## Complete Timeline
 
@@ -272,3 +274,20 @@ Launched JT64P LiDAR — 360-degree x 189-degree FoV, 1.15M points/sec, minimum 
 
 Short-term risk: Medium. Medium-term risk: Medium. "Dependent on EV sales in China." Position under review in context of oil price spike and risk-off environment.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: Hesai announced it has joined the NVIDIA Halos AI Systems Inspection Lab, an accredited lab focused on validating lidar platforms for functional safety, cybersecurity, and AI compliance. Portfolio context: "Hesai is the only one of the large holdings that I have concerns about; however, we have not seen their earnings report yet, so their immediate future is clouded." Hesai is one of the four largest positions (alongside EOS, DRO, MDA), accounting for 39% of total holdings.
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-24 — Chat: Q4 2025 Earnings — Revenue Miss, Hold Thesis
+
+Q4 2025 earnings released. Revenue missed top-line consensus by a significant margin: \$93M actual vs \$108M expected. Stephen: "I don't like the miss but think it is sensible to hold for the medium term, Hesai is developing into the de facto leader. Notable that Ouster had to pay them \$6 million at the conclusion of an IP battle and the payment was received." All other metrics described as excellent: first full year of profitability, improved margins, growing customer base, multiple large wins for 2026 and 2027. Subscriber AN123 shared Morgan Stanley note maintaining Overweight rating with \$35 price target. Full-year GAAP net profit Rmb436M (first ever). Total lidar shipments 1.6M units in FY2025 (met guidance, tripled YoY). Q1 2026 guidance: Rmb650-700M revenue (down 30-35% QoQ due to subdued domestic auto demand). FY26 shipment target raised to 3-3.5M units (vs 2-3M previously). Multi-lidar design wins with Li Auto, Xiaomi, and Changan (3-6 lidars per car, production starting 2026-27). JT128 selected by Unitree robotics. 4Q gross margin 41% (held north of 40% mark).
+
+*Source: [chat/chat-2026-03-24.md](chat/chat-2026-03-24.md)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Portfolio snapshot
+
+FY2025 milestone: First full-year GAAP net income — RMB 436M (\$62M); non-GAAP net income RMB 551M (\$79M). FY2026 shipment outlook raised to 3-3.5M LiDAR units. March 25: Framework agreement to supply LiDAR and robotic actuators to Sharpa (new revenue diversification). Portfolio snapshot: 53 shares, open P&L -\$90.27 (-8%), 7-day return -22%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

@@ -83,6 +83,8 @@ Two separate positions. First closed at -30% loss during risk-off move. Second p
 | Feb 22 | Pre-Buy      | 110    | \$4.50  | \$4.77 | \$495    | +\$29.70  | +6%    |
 | Mar 01 | Pre-Buy      | 110    | \$4.50  | \$4.68 | \$495    | +\$19.80  | +4%    |
 | Mar 08 | Under review | 110    | \$4.50  | \$4.49 | \$495    | -\$1.10   | 0%     |
+| Mar 22 | Hold         | 110    | \$4.50  | \$4.13 | \$495    | -\$40.70  | -8%    |
+| Mar 29 | Hold         | 110    | \$4.50  | \$4.12 | \$495    | -\$41.80  | -8%    |
 
 ## Complete Timeline
 
@@ -150,3 +152,9 @@ Presenting at Raymond James and Morgan Stanley conferences. JP Morgan noted: tri
 
 Short-term risk: Medium. Medium-term risk: Medium. "Uses ICE vehicles, long term growth linked to economic growth." Autonomous driving companies viewed as having "very little concern."
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: Aurora released an economic analysis projecting that autonomous trucking could contribute \$70B to US GDP by 2035. Committed \$1M to its Aurora Works initiative for workforce training and educational partnerships. Safety comparison: Waymo's any-injury data is 0.71 per million miles vs human drivers 3.9 per million miles. Aurora discussed in context of autonomous trucking as "more immediately profitable market than robotaxis." Portfolio conviction: Named as one of four "potential 10 baggers in the portfolio with a very realistic probability of delivering big gains over the next 18 months."
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*

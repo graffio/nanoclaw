@@ -64,6 +64,8 @@ Single position. Half-size (\$300, ~1.5% of equity). Will add on pullback.
 | Feb 22 | Pre-Buy  | 75     | \$4.36  | \$3.02 | \$327    | -\$100.50  | -31%   |
 | Mar 01 | Hold     | 75     | \$4.36  | \$3.00 | \$327    | -\$102.00  | -31%   |
 | Mar 08 | Hold     | 75     | \$4.36  | \$3.14 | \$327    | -\$91.50   | -28%   |
+| Mar 22 | Hold     | 75     | \$4.36  | \$2.59 | \$327    | -\$132.75  | -41%   |
+| Mar 29 | Hold     | 75     | \$4.36  | \$2.28 | \$327    | -\$156.00  | -48%   |
 
 ## Complete Timeline
 
@@ -121,3 +123,14 @@ Electrified Materials subsidiary announced significant operational capacity expa
 
 Short-term risk: Medium. Medium-term risk: Low. "Still developing, spin-off may be an issue." Recycling stocks (MTM, AREC, ROOF) described as "still developing the first sites and will need ongoing capital. They may be just too risky in this environment." Not flagged for immediate exit.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: American Resources Corp announced its participation in the 11th Annual Powering Africa Summit through its affiliate ReElement Technologies, focusing on critical mineral refining. Portfolio context: market turbulence — portfolio down ~9% in March. Recycling/critical minerals positions (AREC, MTM, ROOF) remained in portfolio despite broader market sell-off.
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Operational update + Portfolio snapshot
+
+Marion Rare Earth and Critical Mineral refinery buildout on track and under budget. Transitioning from product validation to scaled deployment. Focus on decoupling defence and commercial supply chains from global refining concentrations. Portfolio snapshot: 75 shares, open P&L -$156.00 (-48%), 7-day return -16%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

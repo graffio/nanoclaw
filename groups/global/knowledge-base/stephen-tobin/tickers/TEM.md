@@ -89,6 +89,8 @@ Single position, no adds or exits. Simultaneously closed CDRE (~40% gain after 6
 | Feb 22 | Hold   | 9      | \$68.14  | \$58.37 | \$613    | -\$87.93    | -14%   |
 | Mar 01 | Hold   | 9      | \$68.14  | \$53.25 | \$613    | -\$134.01   | -22%   |
 | Mar 08 | Hold   | 9      | \$68.14  | \$52.26 | \$613    | -\$142.92   | -23%   |
+| Mar 22 | Hold   | 9      | \$68.14  | \$46.96 | \$613    | -\$190.62   | -31%   |
+| Mar 29 | Hold   | 9      | \$68.14  | \$42.62 | \$613    | -\$229.68   | -37%   |
 
 Highest fair value target in portfolio (\$177 vs \$68 buy = 2.6x upside).
 
@@ -175,3 +177,14 @@ Asked which positions to prioritise, Stephen: "If you don't mind a bit of volati
 
 Short-term risk: Low. Medium-term risk: Low. Healthcare/precision medicine demand unaffected by oil prices — "No impact on cancer/heart care." TEM retained in portfolio while several other positions (BYRN, QRHC, AISP, SPCE) flagged for exit.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Portfolio conviction: Stephen explicitly names TEM as one of the four "potential 10 baggers in the portfolio with a very realistic probability of delivering big gains over the next 18 months," alongside AUR, NRXP, and PONY. Despite market turbulence (portfolio -9% in March), TEM is one of the positions Stephen would "rather not exit" — he wants to hold through the volatility. Oil crisis and Iran attack context: healthcare demand unaffected.
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Partnership + Portfolio snapshot
+
+March 25: Strategic collaboration with Daiichi Sankyo to use AI-driven biomarkers for oncology clinical trials (antibody-drug conjugates). Portfolio snapshot: 9 shares, open P&L -$229.68 (-37%), 7-day return -13%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

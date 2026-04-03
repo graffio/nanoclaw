@@ -1,0 +1,33 @@
+{
+  "date": "2026-03-29",
+  "source": "sw-weekly-airtaxi-review",
+  "total_value": 16125,
+  "cash": 5255,
+  "shares_value": 10869,
+  "monthly_return_pct": -14.08,
+  "monthly_profit_usd": -2642,
+  "note": "Portfolio down 14.08% in March (worst monthly performance to date). Stephen exited EVTL (Vertical Aerospace) and announced withdrawal from the eVTOL sector. Market context: S&P 500 down 7.4%, US/Israel attack on Iran ongoing. 21 positions remaining. Cash at 33% (up from 29% in Jan). Annualised return dropped to 92%.",
+  "holdings": [
+    {"ticker": "EH", "name": "EHang Holdings Ltd - ADR", "total_pos_usd": 441.33, "invested_local": 674.28, "invested_usd": 674.28, "open_profit_local": -232.95, "total_return_pct": -35, "7d_return_pct": -8, "shares": 47, "avg_buy": 14.35, "latest": 9.39},
+    {"ticker": "ASPI", "name": "ASP Isotopes Inc", "total_pos_usd": 546.25, "invested_local": 980.975, "invested_usd": 980.98, "open_profit_local": -434.725, "total_return_pct": -44, "7d_return_pct": -10, "shares": 125, "avg_buy": 7.85, "latest": 4.37},
+    {"ticker": "WRD", "name": "WeRide Inc - ADR", "total_pos_usd": 528.96, "invested_local": 646.97, "invested_usd": 646.97, "open_profit_local": -118.01, "total_return_pct": -18, "7d_return_pct": 1, "shares": 76, "avg_buy": 8.51, "latest": 6.96},
+    {"ticker": "PONY", "name": "Pony AI Inc - ADR", "total_pos_usd": 457.00, "invested_local": 682.01, "invested_usd": 682.01, "open_profit_local": -225.01, "total_return_pct": -33, "7d_return_pct": -17, "shares": 50, "avg_buy": 13.64, "latest": 9.14},
+    {"ticker": "TSE:GRA", "name": "NanoXplore Inc", "total_pos_usd": 317.53, "invested_local": 696.60, "invested_usd": 501.13, "open_profit_local": -183.60, "total_return_pct": -26, "7d_return_pct": 7, "shares": 270, "avg_buy": 2.58, "currency": "CAD"},
+    {"ticker": "HSAI", "name": "Hesai Group - ADR", "total_pos_usd": 977.32, "invested_local": 1067.59, "invested_usd": 1067.59, "open_profit_local": -90.27, "total_return_pct": -8, "7d_return_pct": -22, "shares": 53, "avg_buy": 20.14, "latest": 18.44},
+    {"ticker": "CVE:ROOF", "name": "Northstar Clean Technologies Inc", "total_pos_usd": 131.00, "invested_local": 425.00, "invested_usd": 306.00, "open_profit_local": -175.00, "total_return_pct": -41, "7d_return_pct": 5, "shares": 1250, "currency": "CAD"},
+    {"ticker": "ASX:EOS", "name": "Electro Optic Systems Holdings Ltd", "total_pos_usd": 1108.82, "invested_local": 1033.15, "invested_usd": 711.32, "open_profit_local": 616.55, "total_return_pct": 60, "7d_return_pct": -5, "shares": 195, "avg_buy": 5.30, "currency": "AUD"},
+    {"ticker": "ABAT", "name": "American Battery Technology Co", "total_pos_usd": 319.20, "invested_local": 501.60, "invested_usd": 345.35, "open_profit_local": -182.40, "total_return_pct": -36, "7d_return_pct": -8, "shares": 120, "avg_buy": 4.18, "latest": 2.66},
+    {"ticker": "AUR", "name": "Aurora Innovation Inc", "total_pos_usd": 453.20, "invested_local": 495.00, "invested_usd": 495.00, "open_profit_local": -41.80, "total_return_pct": -8, "7d_return_pct": -6, "shares": 110, "avg_buy": 4.50, "latest": 4.12},
+    {"ticker": "TSE:MDA", "name": "MDA Space Ltd", "total_pos_usd": 695.80, "invested_local": 710.08, "invested_usd": 511.00, "open_profit_local": 256.48, "total_return_pct": 36, "7d_return_pct": -23, "shares": 28, "avg_buy": 25.36, "latest": 34.52, "currency": "CAD"},
+    {"ticker": "ASX:DRO", "name": "DroneShield Ltd", "total_pos_usd": 1016.18, "invested_local": 1275.50, "invested_usd": 878.18, "open_profit_local": 373.50, "total_return_pct": 29, "7d_return_pct": 1, "shares": 425, "avg_buy": 3.00, "currency": "AUD"},
+    {"ticker": "ASX:MTM", "name": "Metallium Ltd", "total_pos_usd": 321.26, "invested_local": 760.00, "invested_usd": 523.26, "open_profit_local": -312.00, "total_return_pct": -41, "7d_return_pct": 6, "shares": 800, "avg_buy": 0.95, "currency": "AUD"},
+    {"ticker": "SOUN", "name": "SoundHound AI Inc", "total_pos_usd": 318.60, "invested_local": 599.94, "invested_usd": 599.94, "open_profit_local": -281.34, "total_return_pct": -47, "7d_return_pct": -14, "shares": 54, "avg_buy": 11.11, "latest": 5.90},
+    {"ticker": "KDK", "name": "Kodiak AI Inc", "total_pos_usd": 228.03, "invested_local": 313.17, "invested_usd": 313.17, "open_profit_local": -85.14, "total_return_pct": -27, "7d_return_pct": -8, "shares": 33, "avg_buy": 9.49, "latest": 6.91},
+    {"ticker": "AREC", "name": "American Resources Corp", "total_pos_usd": 171.00, "invested_local": 327.00, "invested_usd": 327.00, "open_profit_local": -156.00, "total_return_pct": -48, "7d_return_pct": -16, "shares": 75, "avg_buy": 4.36, "latest": 2.28},
+    {"ticker": "TEM", "name": "Tempus AI Inc", "total_pos_usd": 383.58, "invested_local": 613.26, "invested_usd": 613.26, "open_profit_local": -229.68, "total_return_pct": -37, "7d_return_pct": -13, "shares": 9, "avg_buy": 68.14, "latest": 42.62},
+    {"ticker": "QBTS", "name": "D-Wave Quantum Inc", "total_pos_usd": 417.00, "invested_local": 628.50, "invested_usd": 628.50, "open_profit_local": -211.50, "total_return_pct": -34, "7d_return_pct": -15, "shares": 30, "avg_buy": 20.95, "latest": 13.90},
+    {"ticker": "CMPS", "name": "Compass Pathways PLC", "total_pos_usd": 375.90, "invested_local": 602.00, "invested_usd": 602.00, "open_profit_local": -226.10, "total_return_pct": -38, "7d_return_pct": 1, "shares": 70, "avg_buy": 8.60, "latest": 5.37},
+    {"ticker": "NRXP", "name": "NRx Pharmaceuticals Inc", "total_pos_usd": 722.70, "invested_local": 594.00, "invested_usd": 594.00, "open_profit_local": 128.70, "total_return_pct": 22, "7d_return_pct": 24, "shares": 330, "avg_buy": 1.80, "latest": 2.19},
+    {"ticker": "HKG:0425", "name": "Minth Group Ltd", "total_pos_usd": 466.00, "invested_local": 3880.00, "invested_usd": 496.00, "open_profit_local": -430.00, "total_return_pct": -11, "7d_return_pct": 3, "shares": 100, "avg_buy": 38.80, "currency": "HKD"}
+  ]
+}

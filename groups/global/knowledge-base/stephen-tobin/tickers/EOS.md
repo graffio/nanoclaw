@@ -82,6 +82,8 @@ Two positions totalling 195 shares, average price AUD \$5.30 (total invested AUD
 | Feb 22 | Hold    | 195    | AUD \$5.30 | AUD \$7.32 | AUD \$1033 | +\$394.25  | +38%   |
 | Mar 01 | Hold    | 195    | AUD \$5.30 | AUD \$8.98 | AUD \$1033 | +\$717.95  | +69%   |
 | Mar 08 | Hold    | 195    | AUD \$5.30 | AUD \$9.91 | AUD \$1033 | +\$899.30  | +87%   |
+| Mar 22 | Hold    | 195    | AUD \$5.30 | AUD \$9.90 | AUD \$1033 | +\$897.35  | +87%   |
+| Mar 29 | Hold    | 195    | AUD \$5.30 | AUD \$8.46 | AUD \$1033 | +\$616.55  | +60%   |
 
 Best performing stock in portfolio as of Mar 08 2026. All prices in AUD.
 
@@ -226,3 +228,23 @@ German broker Montega initiated coverage with a price target of AUD \$16.
 
 Alexandre Porchet: "EOS has probably reached its bottom. (DRO didn't deliver badly either. +10.45% overnight.)" Stephen: "It was a decent recovery for EOS, my only concern is the \$10 ceiling — can it break out?" Alexandre: "EOS has done it three times. I think it takes one or two larger laser orders, then we'll crack the AUD 15."
 *Source: [chat/chat-2026-03-18.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Portfolio context: EOS (Electro Optic Systems) is one of the four largest holdings (alongside Hesai, DroneShield, and MDA), accounting for 39% of total portfolio. In a potential rush to cash, these are the four positions Stephen would target for liquidation. "EOS, DRO, and MDA are the three defence stocks that should stand up best." Portfolio showing \+\$897.35 open profit on \$1,033 invested (AUD) = +87% return — the best performing position in the portfolio. Market context: "My only concern is the \$10 ceiling — can it break out?"
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-22 — Chat: Black Monday thread
+
+Weekend fears of a "Black Monday" as markets opened in Australia and Hong Kong. Stephen monitored live: "DRO and EOS down 7% pre market" and "not looking so good for the individual holdings." After Australian open: "Market in Aus now open and things looking better." Final US session comment: "Looking moderate, I guess the Trump deadline will be another pressure point."
+
+Subscriber Alexandre Porchet: "I'll be watching EOS and DRO. I don't think it will take much for either of them to continue rising. Of course, if the broader market goes down, they'll drop too (without catalysts). I've been in the oil (and natural gas) market for three months now and I think the ideal time to get back into PMs is coming soon." By end of session VIX was down 15% and Brent oil fell 10%, easing broader market fear. The defence pair held up relatively well vs broader market concerns.
+
+*Source: [chat/chat-2026-03-22.md](https://stephentobin.substack.com/)*
+
+### 2026-03-24 — Chat: Notable Drop — Considering Exit
+
+Stephen: "A very mixed start to the week. Notable drops in DRO and EOS suffering from both the geopolitical issues on Monday and the prospect of peace on Tuesday. Still considering exiting to preserve cash on those two." EOS dropping on conflicting geopolitical signals — hurt both by war escalation fears and by peace-prospect relief rallies undercutting the defence premium.
+
+*Source: [chat/chat-2026-03-24.md](chat/chat-2026-03-24.md)*

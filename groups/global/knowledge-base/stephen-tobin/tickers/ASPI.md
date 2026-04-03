@@ -86,6 +86,8 @@ Three positions totalling 125 shares, \$981 invested, average buy \$7.85. All cu
 | Feb 22 | Hold         | 125    | \$7.85  | \$5.20 | \$981    | -\$330.98  | -34%   |
 | Mar 01 | Under review | 125    | \$7.85  | \$5.34 | \$981    | -\$313.48  | -32%   |
 | Mar 08 | Hold         | 125    | \$7.85  | \$5.55 | \$981    | -\$287.23  | -29%   |
+| Mar 22 | Hold         | 125    | \$7.85  | \$4.22 | \$981    | -\$453.48  | -46%   |
+| Mar 29 | Hold         | 125    | \$7.85  | \$4.37 | \$981    | -\$434.73  | -44%   |
 
 ## Complete Timeline
 
@@ -233,3 +235,8 @@ Short-term risk: Medium. Medium-term risk: Low. "ASPI was intending to float a s
 
 Jacob Templeman: "Just wanted to confirm, are we still holding onto ASPI?" Stephen: "Yes, it was AISP I exited not ASPI, those two tickers are too similar for comfort." Alexander Sterling MD: "I did a big extended analysis on all my tickers today and despite concerns for ASPI the thesis remains valid."
 *Source: [chat/2026-03-19-aspi-vs-aisp.md], [chat/chat-2026-03-19.md]*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Project milestone + Portfolio snapshot
+
+March 23: Completed well drilling for Phase 1 of the Renergen Helium Project ~4 months ahead of schedule. Recent SEC filings provided pro forma financial info on Renergen acquisition (combined balance sheets as of Sept 30, 2025). Portfolio snapshot: 125 shares, open P&L -\$434.73 (-44%), 7-day return -10%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

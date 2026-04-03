@@ -4,7 +4,7 @@
 |-----------------------|--------------------------------------------------------------------------------------|
 | **Exchange**          | NYSE                                                                                 |
 | **Sector**            | Advanced Air Mobility / eVTOL                                                        |
-| **Status**            | ACTIVE HOLD (on review, "pressing concern")                                          |
+| **Status**            | EXITED — loss booked 2026-03-25                                                      |
 | **Fair Value Target** | USD 17                                                                               |
 | **First covered**     | 2024-03-20                                                                           |
 | **First bought**      | 2024-03-20 (Trade Alert)                                                             |
@@ -52,6 +52,7 @@ Stephen holds three eVTOL companies in the portfolio. EVTL is the UK-based play 
 |---|------------|--------|--------|--------|--------|------------------------------------------------------------------------------------|
 | 1 | 2024-03-20 | BUY    | ?      | \$0.80 | —      | [Trade Alert: Buying Vertical Aerospace](posts/trade-alert-buying-vertical-aerospace.md) |
 | 2 | ~2025      | ADD    | ?      | ?      | —      | Position grew to 125 shares at \$4.84 average                                     |
+| 3 | 2026-03-25 | SELL   | 125    | ?      | Loss   | [Trade Alert: EVTL exit](posts/trade-alert-dd9.md)                                |
 
 Current position is 125 shares at \$4.84 average cost, invested \$605.
 
@@ -64,6 +65,7 @@ Current position is 125 shares at \$4.84 average cost, invested \$605.
 | Feb 22 | Hold   | 125    | \$4.84  | \$4.40 | \$605    | -\$55.00  | -9%    |
 | Mar 01 | Hold   | 125    | \$4.84  | \$4.24 | \$605    | -\$75.00  | -12%   |
 | Mar 08 | Hold   | 125    | \$4.84  | \$4.01 | \$605    | -\$103.75 | -17%   |
+| Mar 22 | Hold   | 125    | \$4.84  | \$3.59 | \$605    | -\$156.25 | -26%   |
 
 ## Complete Timeline
 
@@ -178,3 +180,13 @@ EVTL responding to Archer Aviation patent infringement lawsuit (filed in E.D. Te
 
 Short-term risk: High. Medium-term risk: Medium. "EVTL is two years from operations, so it is a high-risk and needs cash. The two leaders, ACHR and JOBY, might see planned operations in the Middle East delayed to next year due to the war, which will hit the sector." Not flagged for immediate exit but under close review.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-25 — Trade Alert: Loss Booked (SELL)
+
+Stephen booked a loss on Vertical Aerospace after a full review of Q earnings: "After a full review I have decided to book a loss on EVTL Vertical Aerospace. Yesterday's earnings make difficult reading and likely push the timeline out beyond 2028." Key issues: failed to raise enough cash, decided not to sign a manufacturing partner (unlike Joby and Archer), battery cycle life concerns, and the stock fell below Stephen's 40% cut-off rule. "Quite likely this is going lower." Stephen acknowledged he could be selling at a low and urged independent decisions. Position of 125 shares at \$4.84 average (invested \$605) was closed at a loss.
+*Source: [Trade Alert](https://stephentobin.substack.com/p/trade-alert-dd9)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review (Exit confirmed + sector analysis)
+
+Full eVTOL sector review published. Stephen confirmed exit of EVTL and departure from the eVTOL sector entirely for now. Battery issues: cycle life (10,000 cycles max vs. ~80,000 needed for 35 flights/day), overweighting (batteries too heavy for payload targets), and Deutsche Bank's view that payload specs cannot be met. Timeline drift: EVTL slipped from certification 2024 → 2026 → 2028 → commercialization 2030. Gartner Hype Cycle: eVTOL now in "trough of disillusionment" (2026-2027). "I am going to withdraw from this industry for the time being." Three eVTOL trades total: cash return 52% (ROI 100% hit on two but third position much larger). Stephen will look to buy back into leaders when a business is on the short-term horizon.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
