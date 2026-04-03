@@ -23,7 +23,7 @@ The last 12 trades all show a profit, with an **average gain of 47%**, and they 
 
 [
 
-![Image 1](../images/weekly-review-targets-and-stop-loss-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e3aaa6f8-08b0-4627-8503-2dea4ad11a7e_1511x806.png)
 
 
 
@@ -45,7 +45,7 @@ Several people have asked for average buy prices and targets: here is a complete
 
 [
 
-![Image 2](../images/weekly-review-targets-and-stop-loss-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/b93cde27-f80d-462f-ad55-30c9c1fa566a_1018x870.png)
 
 
 

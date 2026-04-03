@@ -13,7 +13,7 @@ summary: "Buying Chinese LiDAR maker"
 
 [
 
-![Image 1](../images/trade-alert-buying-hesai-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/3171aa70-8472-412e-b2d1-53090397e51a_196x62.png)
 
 
 

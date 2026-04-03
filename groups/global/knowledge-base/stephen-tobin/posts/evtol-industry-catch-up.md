@@ -17,7 +17,7 @@ Airbus withdrew from the industry, ending its ten-year development of the CityAi
 
 [
 
-![Image 1](../images/evtol-industry-catch-up-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/bfaa27bc-288e-4bda-b76a-3450dbe1d281_1600x643.png)
 
 
 
@@ -29,7 +29,7 @@ As with all these markets, choosing the right companies to invest in is crucial 
 
 [
 
-![Image 2](../images/evtol-industry-catch-up-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/4c2c8ed3-be82-40ad-8f8c-b29cc03e4ca4_1225x453.png)
 
 
 

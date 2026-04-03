@@ -19,7 +19,7 @@ Year 2 results by month are shown here; all figures are end-of-month.
 
 [
 
-![Image 1](../images/monthly-review-july-2025-two-years-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/782922a7-33db-4efa-b35f-d68a5740767a_1600x441.png)
 
 
 
@@ -33,7 +33,7 @@ The chart below shows the performance against the target in these first two year
 
 [
 
-![Image 2](../images/monthly-review-july-2025-two-years-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/71b402ae-110c-48bd-944d-ecd7a03f00db_1386x734.png)
 
 
 
@@ -43,7 +43,7 @@ December 2025 will see the midpoint, and the target is $16,941 at that point. I 
 
 [
 
-![Image 3](../images/monthly-review-july-2025-two-years-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/417233e7-7298-4338-8387-4633050d9173_1138x708.png)
 
 
 
@@ -67,7 +67,7 @@ Selecting the right stocks and avoiding the wrong ones is the key to success, th
 
 [
 
-![Image 4](../images/monthly-review-july-2025-two-years-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/84ce73ca-cf79-488e-bb92-3765f65fe707_1220x386.png)
 
 
 
@@ -77,7 +77,7 @@ The month was very active with five positions closed (8 trades). We generated a 
 
 [
 
-![Image 5](../images/monthly-review-july-2025-two-years-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/7463a8cb-3289-4165-a91b-b896780655b1_1290x716.png)
 
 
 
@@ -89,7 +89,7 @@ In total, we placed eight new trades, and by the end of the month, five of them 
 
 [
 
-![Image 6](../images/monthly-review-july-2025-two-years-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/5edb1121-52a1-48ac-9572-624a76e92af7_291x153.png)
 
 
 
@@ -109,7 +109,7 @@ The effect is noticeable on Imports and exports as they jumped then collapsed ar
 
 [
 
-![Image 7](../images/monthly-review-july-2025-two-years-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/3ad7b30c-ca8a-414b-b775-272b34ad043f_1054x614.png)
 
 
 
@@ -121,7 +121,7 @@ GDP growth looks quite resilient
 
 [
 
-![Image 8](../images/monthly-review-july-2025-two-years-8.png)
+[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/c96ae269-f707-41fd-8b91-5541af5c1e7e_1053x586.png)
 
 
 
@@ -233,7 +233,7 @@ A busy stretch of late-July headlines featured new contracts, product milestones
 
 [
 
-![Image 9](../images/monthly-review-july-2025-two-years-9.png)
+[Image 9: Image 9](https://substack-post-media.s3.amazonaws.com/public/images/7bdc2d79-1483-4b84-9d8c-0b6be93198d6_1110x867.png)
 
 
 
@@ -254,7 +254,7 @@ The US Stock Trading Account had a poor week at the end of a positive month, thi
 
 [
 
-![Image 10](../images/monthly-review-july-2025-two-years-10.png)
+[Image 10: Image 10](https://substack-post-media.s3.amazonaws.com/public/images/581345a1-7250-4f29-8901-54c570f20f2e_1592x550.png)
 
 
 
@@ -266,7 +266,7 @@ The Full List of holdings with targets and initial entry points is below.
 
 [
 
-![Image 11](../images/monthly-review-july-2025-two-years-11.png)
+[Image 11: Image 11](https://substack-post-media.s3.amazonaws.com/public/images/e3f64627-4e29-4419-a95f-63dadcda63cf_1412x840.png)
 
 
 
@@ -282,7 +282,7 @@ At the end of July, the account was showing a great return
 
 [
 
-![Image 12](../images/monthly-review-july-2025-two-years-12.png)
+[Image 12: Image 12](https://substack-post-media.s3.amazonaws.com/public/images/88cd83e3-cd6d-4b53-a02a-c8cab6344771_522x401.png)
 
 
 
@@ -294,7 +294,7 @@ Below are screenshots from the account taken after the markets closed on Friday.
 
 [
 
-![Image 13](../images/monthly-review-july-2025-two-years-13.png)
+[Image 13: Image 13](https://substack-post-media.s3.amazonaws.com/public/images/075e65fc-3cf9-4de7-bb7d-d13f47d5d442_523x341.png)
 
 
 
@@ -304,7 +304,7 @@ Full list of positions
 
 [
 
-![Image 14](../images/monthly-review-july-2025-two-years-14.png)
+[Image 14: Image 14](https://substack-post-media.s3.amazonaws.com/public/images/7dc8b461-b582-46ee-964c-5df33107908c_1489x456.png)
 
 
 

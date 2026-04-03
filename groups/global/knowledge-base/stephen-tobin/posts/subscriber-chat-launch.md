@@ -33,7 +33,7 @@ This is a conversation space exclusively for subscribers—kind of like a group 
 
 [
 
-![Image 1](../images/subscriber-chat-launch-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e0f63c9a-2296-4c96-a2f9-52648999bb00_2000x1000.jpeg)
 
 
 

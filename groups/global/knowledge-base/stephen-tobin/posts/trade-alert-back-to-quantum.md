@@ -41,7 +41,7 @@ The other reason for why now is the chart
 
 [
 
-![Image 1](../images/trade-alert-back-to-quantum-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/385b84c3-52d4-476e-90ab-fb171514c8c6_893x450.png)
 
 
 

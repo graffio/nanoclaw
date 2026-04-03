@@ -17,7 +17,7 @@ The technical chart looks promising, with price oversold on both the 4-hour and 
 
 [
 
-![Image 1](../images/trade-alert-adding-to-lunr-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/0bc80341-610a-4314-aa57-7c397f3f9e65_1594x645.png)
 
 
 
@@ -41,7 +41,7 @@ The Portfolio continues to perform well, showing an increase of 6.7% in December
 
 [
 
-![Image 2](../images/trade-alert-adding-to-lunr-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/fbbbe172-126a-48ad-8473-621c30bd5510_737x503.png)
 
 
 
@@ -51,7 +51,7 @@ The complete list of open trades is
 
 [
 
-![Image 3](../images/trade-alert-adding-to-lunr-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/0e4ad127-fd47-4161-9e73-6be3e3b32074_545x478.png)
 
 
 

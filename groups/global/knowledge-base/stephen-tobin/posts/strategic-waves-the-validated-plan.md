@@ -15,7 +15,7 @@ January marks exactly halfway through the project to turn $250 a month into $100
 
 [
 
-![Image 1](../images/strategic-waves-the-validated-plan-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/b7583aac-aa44-49b3-a371-1d27afe4505d_901x559.png)
 
 
 
@@ -50,7 +50,7 @@ January was a volatile month. In the end, I just scraped a $100 profit, after be
 
 [
 
-![Image 2](../images/strategic-waves-the-validated-plan-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/873aa248-61ee-48f9-87bb-7f5d2cb4b597_1095x597.png)
 
 
 
@@ -80,7 +80,7 @@ One example is Bitfarms (BITF). It was trade number 3 taken in October 2023, del
 
 [
 
-![Image 3](../images/strategic-waves-the-validated-plan-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/fdc59a59-595c-4918-8740-bb19c20cafd3_957x664.png)
 
 
 
@@ -110,7 +110,7 @@ D-Wave (QBTS) is a near-perfect example of the in-and-out strategy. Multiple ent
 
 [
 
-![Image 4](../images/strategic-waves-the-validated-plan-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/718cf0f9-d1a6-44f3-a166-8cc8c62b3fc3_1600x418.png)
 
 
 
@@ -120,7 +120,7 @@ When we view these trades on the chart (green for buy red for sell) things look 
 
 [
 
-![Image 5](../images/strategic-waves-the-validated-plan-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/be53790d-744a-4bfa-b1f7-86745515ea34_1600x929.png)
 
 
 
@@ -132,7 +132,7 @@ ACM Research is a good example, a stock I closed this month close to the target 
 
 [
 
-![Image 6](../images/strategic-waves-the-validated-plan-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/47ddf103-d365-4c7e-a809-486e0279acdb_695x553.png)
 
 
 
@@ -146,7 +146,7 @@ What would have been the result if I had used this “hold and add” on QBTS? T
 
 [
 
-![Image 7](../images/strategic-waves-the-validated-plan-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/5d654604-5fe1-4bb2-b668-0cdc483bf079_1600x388.png)
 
 
 
@@ -168,7 +168,7 @@ This remains a key part of the plan and has helped me make some big profits. Mar
 
 [
 
-![Image 8](../images/strategic-waves-the-validated-plan-8.png)
+[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/106c7ff9-4ff8-49e2-939d-60ddc21d51e8_1046x890.png)
 
 
 
@@ -190,7 +190,7 @@ A pretty awful week to end the month. I will likely exit a few positions early n
 
 [
 
-![Image 9](../images/strategic-waves-the-validated-plan-9.png)
+[Image 9: Image 9](https://substack-post-media.s3.amazonaws.com/public/images/5de8aa5c-1914-41b3-a057-6c4099082524_1163x669.png)
 
 
 
@@ -200,7 +200,7 @@ Volatility hit the account, but it is not the first time, and as you can se,e it
 
 [
 
-![Image 10](../images/strategic-waves-the-validated-plan-10.png)
+[Image 10: Image 10](https://substack-post-media.s3.amazonaws.com/public/images/8fc07f71-da90-4676-a98e-2cbcf87a83c3_1379x366.png)
 
 
 

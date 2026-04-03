@@ -63,7 +63,7 @@ The strong buy portfolio is having a big month, up 18% at the moment. Perfomance
 
 [
 
-![Image 1](../images/trade-alert-buying-electrovaya-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/9d35bb6d-f083-4d36-8a94-2c90a2497a18_1082x553.png)
 
 
 
@@ -73,7 +73,7 @@ The demonstration account ($250 investment per month is doing very well)
 
 [
 
-![Image 2](../images/trade-alert-buying-electrovaya-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/2f7672b6-7ced-48b6-872a-9a1c372420c8_724x452.png)
 
 
 

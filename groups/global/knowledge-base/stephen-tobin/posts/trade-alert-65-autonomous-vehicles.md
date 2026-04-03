@@ -27,7 +27,7 @@ So far, we have been very successful in this sector, with the following trades c
 
 [
 
-![Image 1](../images/trade-alert-65-autonomous-vehicles-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/5e4a45bc-49cc-48d8-b697-7d32a6c53842_1122x401.png)
 
 
 
@@ -121,7 +121,7 @@ The US market for Class 8 trucks is concentrated. The figures below are from 202
 
 [
 
-![Image 2](../images/trade-alert-65-autonomous-vehicles-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/7c2c5bda-f143-417f-b5dd-00b39289e43d_618x536.png)
 
 
 
@@ -143,7 +143,7 @@ If we look at the parent organisation, the market becomes
 
 [
 
-![Image 3](../images/trade-alert-65-autonomous-vehicles-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/77036be9-d571-4360-8950-2528c8dd18de_444x324.png)
 
 
 
@@ -229,7 +229,7 @@ Below is the second version of my mathematical model using all of the data I cur
 
 [
 
-![Image 4](../images/trade-alert-65-autonomous-vehicles-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/89d633ce-21e4-4e4e-b73c-30129ffd875e_1600x674.png)
 
 
 

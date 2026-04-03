@@ -143,7 +143,7 @@ I am using the following mathematical model to forecast the future.
 
 [
 
-![Image 1](../images/trade-alert-buying-graphene-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/676035bf-7592-41a2-b3dd-cd5572ce1a3f_1600x477.png)
 
 
 

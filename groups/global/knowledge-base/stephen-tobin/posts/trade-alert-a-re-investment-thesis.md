@@ -25,7 +25,7 @@ We have had some great examples of this recently, with multiple trades returning
 
 [
 
-![Image 1](../images/trade-alert-a-re-investment-thesis-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/ba01e6f2-765f-4375-a7ba-fd0d8670736a_813x1002.png)
 
 
 
@@ -53,7 +53,7 @@ Active management is not to everyone’s taste, but it does preserve capital and
 
 [
 
-![Image 2](../images/trade-alert-a-re-investment-thesis-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/e16aeb70-76db-46d8-be2f-ae438afd536f_1019x523.png)
 
 
 
@@ -69,7 +69,7 @@ This write-up will consider the news since my last report, which covered the com
 
 [
 
-![Image 3](../images/trade-alert-a-re-investment-thesis-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/64ff77fd-de88-471f-8d30-1dc2fa5a3f8e_1600x163.png)
 
 
 
@@ -85,7 +85,7 @@ Aurora are meeting targets ahead of schedule, both night driving and the El Paso
 
 [
 
-![Image 4](../images/trade-alert-a-re-investment-thesis-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/358e52dc-1793-4ff8-8ce5-215ab895a302_1330x589.png)
 
 
 
@@ -130,7 +130,7 @@ AUR gave a case study of a single truck for a single week on its Fort Worth to P
 
 [
 
-![Image 5](../images/trade-alert-a-re-investment-thesis-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/5bab090f-a5c2-4d69-86c4-bec2b2db4758_1608x679.png)
 
 
 
@@ -155,7 +155,7 @@ AUR published its road map for 2026 and 2027
 
 [
 
-![Image 6](../images/trade-alert-a-re-investment-thesis-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/3af36f45-c14e-4925-960b-f123e6994ff2_1600x766.png)
 
 
 

@@ -23,7 +23,7 @@ The account gained 3.2% in the week, compared to the US markets’ gain of 2.4%.
 
 [
 
-![Image 1](../images/weekly-update-profits-booked-trades-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e4274119-0243-48f4-9e63-39d0c71c045d_1435x585.png)
 
 
 
@@ -33,7 +33,7 @@ The account gained 3.2% in the week, compared to the US markets’ gain of 2.4%.
 
 [
 
-![Image 2](../images/weekly-update-profits-booked-trades-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/927a987a-9af5-44fb-a744-20c7b643f090_1112x202.png)
 
 
 
@@ -216,7 +216,7 @@ Here is the link to the [Telegram channel](https://t.me/+Bc6MXkXeZqdjMzRk), but 
 
 [
 
-![Image 3](../images/weekly-update-profits-booked-trades-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/7e6a1976-858b-4f30-ab01-a992a20cd6cd_878x1039.png)
 
 
 
@@ -240,7 +240,7 @@ The US Stock trading Account showed some wild swings as companies released earni
 
 [
 
-![Image 4](../images/weekly-update-profits-booked-trades-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/39c2dfd1-6c9a-4bfc-b34a-31f9044327f5_1409x881.png)
 
 
 
@@ -252,7 +252,7 @@ Ondas is showing the kind of price action that often makes me exit. I don’t li
 
 [
 
-![Image 5](../images/weekly-update-profits-booked-trades-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/a7380a19-0650-41fd-9def-ac614b3fdd5b_1985x991.png)
 
 
 
@@ -272,7 +272,7 @@ Current Holdings
 
 [
 
-![Image 6](../images/weekly-update-profits-booked-trades-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/613da7c5-e715-41f9-b7b4-605da26864f2_1600x616.png)
 
 
 
@@ -284,7 +284,7 @@ Total investment is £750
 
 [
 
-![Image 7](../images/weekly-update-profits-booked-trades-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/e8ca5134-8b42-4281-8236-7648e0a517b5_505x338.png)
 
 
 

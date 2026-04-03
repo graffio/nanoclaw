@@ -75,7 +75,7 @@ Here is a summary of the review
 
 [
 
-![Image 1](../images/portfolio-review-higher-for-longer-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/848cca84-7eed-4b05-a422-f1ebd6c54b3b_838x724.png)
 
 
 
@@ -83,7 +83,7 @@ Here is a summary of the review
 
 [
 
-![Image 2](../images/portfolio-review-higher-for-longer-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/449fb2f9-3262-473f-9ef6-951f54215ea3_839x788.png)
 
 
 
@@ -91,7 +91,7 @@ Here is a summary of the review
 
 [
 
-![Image 3](../images/portfolio-review-higher-for-longer-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/71be2306-3b07-4b62-a5f4-451a2870563d_832x274.png)
 
 
 

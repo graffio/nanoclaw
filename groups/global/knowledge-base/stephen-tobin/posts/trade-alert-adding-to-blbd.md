@@ -17,7 +17,7 @@ The strong buy portfolio was not designed for a Trump presidency. It has two Chi
 
 [
 
-![Image 1](../images/trade-alert-adding-to-blbd-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/570f2cc6-1619-4335-8caa-923e649c77bd_227x279.png)
 
 
 
@@ -41,7 +41,7 @@ Despite not being positioned for a new Trump presidency good selection of stocks
 
 [
 
-![Image 2](../images/trade-alert-adding-to-blbd-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/478a948c-32ab-46e7-9f44-8a8cadd65bde_610x384.png)
 
 
 
@@ -51,7 +51,7 @@ D-Wave is up 16% in just a few days and the entire list of open trades is
 
 [
 
-![Image 3](../images/trade-alert-adding-to-blbd-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/58b59063-2d3b-4379-96fd-b2f8e907eddf_589x551.png)
 
 
 

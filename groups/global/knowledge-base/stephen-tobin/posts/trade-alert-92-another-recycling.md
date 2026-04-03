@@ -29,7 +29,7 @@ Current account position shown below
 
 [
 
-![Image 1](../images/trade-alert-92-another-recycling-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/25be7ec6-be30-4b3a-ac72-2b931d0940e9_1185x664.png)
 
 
 
@@ -45,7 +45,7 @@ At the time of writing, MTM shares are trading around AUD$0.94, having been as l
 
 [
 
-![Image 2](../images/trade-alert-92-another-recycling-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/8231356f-807c-4dc7-9099-53855dd0b823_1330x736.png)
 
 
 
@@ -116,7 +116,7 @@ I said at the beginning that MTM was a junior miner transitioning into a US tech
 
 [
 
-![Image 3](../images/trade-alert-92-another-recycling-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/c2289193-6dc8-4dc2-89b8-6c660d001b9e_791x408.png)
 
 
 
@@ -144,7 +144,7 @@ I have to start with an indicative model, too early to really forecast every lin
 
 [
 
-![Image 4](../images/trade-alert-92-another-recycling-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/f2522863-8651-4571-a205-d4da21164f39_607x213.png)
 
 
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Substack scraper for Stephen Tobin / Strategic Wave Trading
-// Usage: node scripts/scrape-substack.js [--posts] [--notes] [--chat] [--since YYYY-MM-DD] [--dry-run] [--proxy]
+// Usage: node scripts/scrape-substack.js [--posts] [--notes] [--chat] [--since YYYY-MM-DD] [--dry-run] [--proxy] [--rescrape]
 // No flags = posts only (notes/chat require explicit opt-in until endpoints are confirmed)
 
 import fs from 'fs';
@@ -39,6 +39,7 @@ const flags = {
   chat: args.includes('--chat'),
   dryRun: args.includes('--dry-run'),
   proxy: args.includes('--proxy'),
+  rescrape: args.includes('--rescrape'),
   since: null,
 };
 const sinceIdx = args.indexOf('--since');
@@ -276,11 +277,11 @@ async function scrapePosts(cookieHeader, sinceDate) {
       }
 
       const yearIndex = loadYearIndex(year);
-      if (isPostIndexed(yearIndex, post.slug)) {
+      if (isPostIndexed(yearIndex, post.slug) && !flags.rescrape) {
         continue;
       }
 
-      console.log(`  NEW: ${date} ${post.slug}`);
+      console.log(`  ${flags.rescrape ? 'RESCRAPE' : 'NEW'}: ${date} ${post.slug}`);
 
       if (flags.dryRun) {
         totalNew++;
@@ -346,7 +347,13 @@ async function scrapePosts(cookieHeader, sinceDate) {
         has_images: imageUrls.length > 0,
       };
 
-      yearIndex.items.push(indexEntry);
+      // Replace existing entry on rescrape, otherwise append
+      const existingIdx = yearIndex.items.findIndex(i => i.type === 'post' && i.slug === post.slug);
+      if (existingIdx !== -1) {
+        yearIndex.items[existingIdx] = indexEntry;
+      } else {
+        yearIndex.items.push(indexEntry);
+      }
       if (!rootIndex.years.includes(year)) rootIndex.years.push(year);
       saveYearIndex(year, yearIndex);
       manifest.posts.push({ ...indexEntry, file: `posts/${post.slug}.md`, imageCount: imageUrls.length });

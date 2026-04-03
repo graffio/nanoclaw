@@ -43,7 +43,7 @@ The table below is taken from the press release and shows the transformation fro
 
 [
 
-![Image 1](../images/company-take-ses-and-tbla-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e5bab757-beac-4b14-b1fd-5d37594b5afd_783x456.png)
 
 
 
@@ -67,7 +67,7 @@ Full list of positions in the portfolio. I am going to have to change the name o
 
 [
 
-![Image 2](../images/company-take-ses-and-tbla-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/926b747b-f8ff-45c7-985e-d3cf8f3d44ed_463x541.png)
 
 
 

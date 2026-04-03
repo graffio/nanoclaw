@@ -27,7 +27,7 @@ Here is the portfolio performance so far. As you can see, the cash balance is ve
 
 [
 
-![Image 1](../images/trade-alert-adding-to-elva-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/9f575e1a-8cea-4d7f-8246-83e0c25cf4b4_1231x396.png)
 
 
 

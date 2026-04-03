@@ -21,7 +21,7 @@ PONY is a good example of this. It is a Chinese stock, so it pulled back sharply
 
 [
 
-![Image 1](../images/trade-alert-taking-advantage-of-the-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/5ff80070-ea1c-4462-81f5-14651c8a7bf8_1796x964.png)
 
 
 
@@ -45,7 +45,7 @@ This is the chart for Hesai; it has pulled back hard. However, the Friday pullba
 
 [
 
-![Image 2](../images/trade-alert-taking-advantage-of-the-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/bf4dd6bb-8efd-4138-ae05-9d9269474198_1823x930.png)
 
 
 
@@ -63,7 +63,7 @@ The Chinese market is highly concentrated, with the top three players accounting
 
 [
 
-![Image 3](../images/trade-alert-taking-advantage-of-the-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/61e89310-d093-45f4-9a61-91f025ebb0cd_726x273.png)
 
 
 
@@ -85,7 +85,7 @@ In the 8 months to August, market shares in sales of Auto LiDAR of all types was
 
 [
 
-![Image 4](../images/trade-alert-taking-advantage-of-the-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/987568ee-7687-479b-8d8d-118fa10eb601_721x272.png)
 
 
 

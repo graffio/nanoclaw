@@ -45,7 +45,7 @@ We made a significant profit on our last D-Wave trade, buying at $1.10 and selli
 
 [
 
-![Image 1](../images/event-interview-with-d-wave-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/cf9734c7-f318-490b-9154-c1c3abe08ece_907x555.png)
 
 
 
@@ -55,7 +55,7 @@ I think the other quantum stocks are virtually worthless, I do not beleive they 
 
 [
 
-![Image 2](../images/event-interview-with-d-wave-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/bc25a673-128c-43aa-8548-40a24c97e90f_403x291.png)
 
 
 

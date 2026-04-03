@@ -51,7 +51,7 @@ The difference between the operating parameters is what makes me bullish SPCE.
 
 [
 
-![Image 1](../images/trade-alert-69-space-investment-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/c4e749db-4882-4033-b55e-d12c1a9f83f8_1546x642.png)
 
 
 
@@ -128,9 +128,9 @@ We cannot put too much trust in this first iteration of the model, far too many 
 
 [
 
-![A screenshot of a computer
+[Image 2: A screenshot of a computer
 
-AI-generated content may be incorrect.](../images/trade-alert-69-space-investment-2.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/a963242b-2bfc-43bf-b348-54250f38837b_1052x221.png)
 
 
 
@@ -154,9 +154,9 @@ This short-term daily chart shows the $6 target and the volatility we have seen 
 
 [
 
-![A graph with numbers and lines
+[Image 3: A graph with numbers and lines
 
-AI-generated content may be incorrect.](../images/trade-alert-69-space-investment-3.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/9087420a-d862-4fda-9086-08ba6c094915_860x417.png)
 
 
 
@@ -166,9 +166,9 @@ This longer-term weekly chart shows the real hype cycle in action
 
 [
 
-![A graph of stock prices
+[Image 4: A graph of stock prices
 
-AI-generated content may be incorrect.](../images/trade-alert-69-space-investment-4.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/bcc4dd69-caa3-4749-8ffa-b35e476be8a8_796x431.png)
 
 
 

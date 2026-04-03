@@ -17,7 +17,7 @@ The table below shows the two open trades and their performance to date.
 
 [
 
-![Image 1](../images/trade-alert-intuitive-machines-ready-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/5f6f140b-a534-4377-a6cc-d628730f6f8a_990x143.png)
 
 
 
@@ -27,7 +27,7 @@ LUNR is currently our largest holding; the pattern we are following is shown on 
 
 [
 
-![Image 2](../images/trade-alert-intuitive-machines-ready-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/18e35ba4-3a15-44e4-82fc-3ffa00650d3d_1166x723.png)
 
 
 
@@ -55,7 +55,7 @@ The performance against the two chosen benchmarks is shown below. You can see Al
 
 [
 
-![Image 3](../images/trade-alert-intuitive-machines-ready-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/3dd0a155-c45b-4195-96ff-53c1fe1c9240_1019x453.png)
 
 
 

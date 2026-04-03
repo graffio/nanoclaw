@@ -51,7 +51,7 @@ The market outlook, as perceived by Wall Street, is generally optimistic but is 
 
 [
 
-![Image 1](../images/psychedelics-market-and-regulatory-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/7c7021a9-dc03-466d-9ae7-5fa052466bad_910x975.png)
 
 
 
@@ -98,7 +98,7 @@ Momentum behind psychedelic medicine is moving from niche clinics to the mainstr
 
 [
 
-![Image 2](../images/psychedelics-market-and-regulatory-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/b49bf283-2151-4428-b04a-20eb0186f532_787x588.png)
 
 
 
@@ -121,7 +121,7 @@ The global framework for psychedelic medicines is shifting rapidly, yet remains 
 
 [
 
-![Image 3](../images/psychedelics-market-and-regulatory-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/153cc12a-1de1-403b-b85a-c69b6a719ef0_607x1107.png)
 
 
 
@@ -146,7 +146,7 @@ Over the past twelve months, late-stage data across multiple psychedelic modalit
 
 [
 
-![Image 4](../images/psychedelics-market-and-regulatory-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/1a4bc405-66c6-40e5-b211-441e150cb627_913x863.png)
 
 
 
@@ -154,7 +154,7 @@ Over the past twelve months, late-stage data across multiple psychedelic modalit
 
 [
 
-![Image 5](../images/psychedelics-market-and-regulatory-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/710e3fa8-049a-40d4-9b4d-c2b721ba58ce_909x1099.png)
 
 
 
@@ -179,7 +179,7 @@ The five publicly listed psychedelic therapeutics remain pre-revenue, yet their 
 
 [
 
-![Image 6](../images/psychedelics-market-and-regulatory-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/ad7583ca-48dc-4516-b052-586aba66899c_913x1026.png)
 
 
 

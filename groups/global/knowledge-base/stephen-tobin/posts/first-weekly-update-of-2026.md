@@ -15,7 +15,7 @@ summary: "Big profits to start the new year"
 
 [
 
-![Image 1](../images/first-weekly-update-of-2026-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/6393a4be-28c5-40e9-b10a-6d1ee2fa1ca8_1090x606.png)
 
 
 
@@ -31,7 +31,7 @@ The portfolio ended the week above $20k, we are now in month 30, the halfway sta
 
 [
 
-![Image 2](../images/first-weekly-update-of-2026-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/3e41c42f-7f65-4a84-9344-7007dcc6cbec_1376x663.png)
 
 
 
@@ -51,7 +51,7 @@ I spent much of 2025 ranked as the number 1 analyst, I am currently ranked numbe
 
 [
 
-![Image 3](../images/first-weekly-update-of-2026-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/ddac5e7b-3475-46c0-b70a-ee8de8222062_1552x506.jpeg)
 
 
 
@@ -67,7 +67,7 @@ In the UK, brokers are legally required to disclose the percentage of retail inv
 
 [
 
-![Image 4](../images/first-weekly-update-of-2026-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/bea64ce3-8470-4fd0-a335-a45f37b6575e_624x46.png)
 
 
 
@@ -103,7 +103,7 @@ The Portfolio
 
 [
 
-![Image 5](../images/first-weekly-update-of-2026-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/9a761344-4ba5-49a7-94eb-6b6918410ba6_1175x639.png)
 
 
 

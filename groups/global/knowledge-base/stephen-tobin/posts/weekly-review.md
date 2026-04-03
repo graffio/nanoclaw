@@ -19,7 +19,7 @@ The portfolio returned 3.6% this week, outperforming the S&P 500, which fell by 
 
 [
 
-![Image 1](../images/weekly-review-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/ac999f12-b65e-4185-b702-350e88bb2a07_564x525.png)
 
 
 
@@ -45,7 +45,7 @@ XMTR and WAVE are previous winning investments. ABAT has been a big loser so far
 
 [
 
-![Image 2](../images/weekly-review-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/cd93c173-ad56-4760-b2e8-05b2b755a374_756x230.png)
 
 
 
@@ -57,7 +57,7 @@ The forecasts for the growth in the robotaxi industry are extraordinary; all for
 
 [
 
-![Image 3](../images/weekly-review-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/eb5af626-759b-4880-9697-b4390b9837ce_789x391.png)
 
 
 
@@ -69,7 +69,7 @@ Apart from DIDY, the other companies are not performing well at the moment. Of c
 
 [
 
-![Image 4](../images/weekly-review-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/65fc8813-1103-4019-a013-6e9f533818b9_752x179.png)
 
 
 
@@ -85,7 +85,7 @@ The prospect list is quite long at the moment; these are companies that have eit
 
 [
 
-![Image 5](../images/weekly-review-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/1cbf2d97-9ab8-4b61-8fc3-68a30ef5d591_627x500.png)
 
 
 
@@ -97,7 +97,7 @@ The cash balance has reduced to 42% of the portfolio this month after this month
 
 [
 
-![Image 6](../images/weekly-review-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/f3164c8a-620f-475b-8204-119703b2ddd7_988x214.png)
 
 
 
@@ -109,7 +109,7 @@ The portfolio's performance since inception has remained solid and continues to 
 
 [
 
-![Image 7](../images/weekly-review-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/94fc3a69-efc7-415a-9408-d305cd491c52_987x455.png)
 
 
 

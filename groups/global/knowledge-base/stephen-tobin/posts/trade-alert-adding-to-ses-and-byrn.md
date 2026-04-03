@@ -25,7 +25,7 @@ This is the current situation with Byrna.
 
 [
 
-![Image 1](../images/trade-alert-adding-to-ses-and-byrn-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/3536bfcc-9574-48a6-97c2-2de1876858af_981x198.png)
 
 
 
@@ -35,7 +35,7 @@ As a result, I will purchase 5 shares on the demonstration account. The two open
 
 [
 
-![Image 2](../images/trade-alert-adding-to-ses-and-byrn-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/dce244f8-058d-428d-a8a5-ba4d6c15d74e_1211x651.png)
 
 
 
@@ -45,7 +45,7 @@ The SES situation is
 
 [
 
-![Image 3](../images/trade-alert-adding-to-ses-and-byrn-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/2e8c3750-42ce-41d7-9846-32a5bcd583a6_979x125.png)
 
 
 
@@ -55,7 +55,7 @@ It is a tiny position, and I will purchase another 300 Shares at market open tod
 
 [
 
-![Image 4](../images/trade-alert-adding-to-ses-and-byrn-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/279a6af8-f9e9-4464-b33c-45bebd5354ba_1152x694.png)
 
 
 
@@ -95,7 +95,7 @@ Hesai has dropped significantly since we sold it, hit by a short seller report a
 
 [
 
-![Image 5](../images/trade-alert-adding-to-ses-and-byrn-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/8aaabc64-3c95-4217-bc99-4d5f28dd2c9c_1137x701.png)
 
 
 

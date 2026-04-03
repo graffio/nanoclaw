@@ -35,7 +35,7 @@ The current account position is
 
 [
 
-![Image 1](../images/trade-alert-increasing-ai-security-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/de727df8-d761-4a8e-b415-40cf507dd2f7_1381x703.png)
 
 
 
@@ -47,7 +47,7 @@ The trade has not gone well so far and is currently underwater by 29%. Yesterday
 
 [
 
-![Image 2](../images/trade-alert-increasing-ai-security-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/fb4957b8-178b-4a9c-b4bd-301d9a3c8edf_1682x1050.png)
 
 
 
@@ -79,9 +79,9 @@ Management has been big buyers of late
 
 [
 
-![A screenshot of a table
+[Image 3: A screenshot of a table
 
-AI-generated content may be incorrect.](../images/trade-alert-increasing-ai-security-3.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/a51c22b7-79aa-4108-a893-ccca573fd917_1053x344.png)
 
 
 

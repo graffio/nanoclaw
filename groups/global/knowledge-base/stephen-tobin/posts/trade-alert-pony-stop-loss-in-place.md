@@ -19,7 +19,7 @@ Image below shows the stop in place and price hvering above it.
 
 [
 
-![Image 1](../images/trade-alert-pony-stop-loss-in-place-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/1ed11338-3db1-4dad-9298-188688644192_1205x803.png)
 
 
 

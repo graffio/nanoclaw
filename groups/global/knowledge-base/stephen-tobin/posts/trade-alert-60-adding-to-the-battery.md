@@ -65,7 +65,7 @@ The three existing ELVA trades are
 
 [
 
-![Image 1](../images/trade-alert-60-adding-to-the-battery-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/2e3c223c-f3d6-4227-9aed-34fcf82bd548_1313x296.png)
 
 
 
@@ -75,7 +75,7 @@ The technical position is not ideal. **A pullback is quite likely** as the stock
 
 [
 
-![Image 2](../images/trade-alert-60-adding-to-the-battery-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/eb3577e6-009b-4273-830d-922a7de59d52_1835x815.png)
 
 
 
@@ -87,7 +87,7 @@ There has been quite a lot of trading this week with an investment in Quantum Si
 
 [
 
-![Image 3](../images/trade-alert-60-adding-to-the-battery-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/dbe965d2-bcae-40e7-af5e-fc4741c33e52_1179x799.png)
 
 
 

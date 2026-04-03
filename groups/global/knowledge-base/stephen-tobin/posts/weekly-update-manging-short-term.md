@@ -19,7 +19,7 @@ It turned out to be an active week with 4 trades closed and 2 opened, resulting 
 
 [
 
-![Image 1](../images/weekly-update-manging-short-term-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/4a293cb4-0379-4a45-8598-350a4e6beaa9_904x492.png)
 
 
 
@@ -55,7 +55,7 @@ Here are the key statistics needed.
 
 [
 
-![Image 2](../images/weekly-update-manging-short-term-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/dc54c22b-8c7e-4fe6-8b91-7d47098bbd2f_682x239.png)
 
 
 
@@ -83,7 +83,7 @@ The next crucial factor is how long it takes to get those returns.
 
 [
 
-![Image 3](../images/weekly-update-manging-short-term-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/bc32639f-9af6-4cc5-94f4-e9b0452d8ca7_399x167.png)
 
 
 
@@ -105,7 +105,7 @@ Here are the monthly account figures for 2025 YTD
 
 [
 
-![Image 4](../images/weekly-update-manging-short-term-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/46ae6b92-aecb-40d5-8edc-6ccaedca6046_1600x517.png)
 
 
 
@@ -119,7 +119,7 @@ The expectation of the account remains in line with those I had before starting 
 
 [
 
-![Image 5](../images/weekly-update-manging-short-term-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/a18bf8e7-c917-4663-bdcb-139e23118ccc_1122x730.png)
 
 
 
@@ -168,7 +168,7 @@ ACMR took a hit to its share price following results, the loss was explained by 
 
 [
 
-![Image 6](../images/weekly-update-manging-short-term-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/345daaf7-db6e-4ebb-a492-19cf0cc06a4d_446x352.png)
 
 
 
@@ -190,7 +190,7 @@ Aptiv is growing into a dominant force as it increases its revenue while its cus
 
 [
 
-![Image 7](../images/weekly-update-manging-short-term-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/62d21a9d-4d3c-4a19-abac-d432fca9aa21_511x287.png)
 
 
 
@@ -238,7 +238,7 @@ The portfolio recovered some ground on Friday, with ASPI and SES showing double-
 
 [
 
-![Image 8](../images/weekly-update-manging-short-term-8.png)
+[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/28a57a3a-f18c-41a2-9acb-3baa9de3b8fc_1012x584.png)
 
 
 

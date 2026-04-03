@@ -17,7 +17,7 @@ I have taken positions in MULN and PCT today, I am writing an article on PCT tha
 
 [
 
-![Image 1](../images/trade-alert-buying-pct-and-muln-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/30e5095a-9bf0-4e4a-9497-a07cb984b7b6_712x329.png)
 
 
 
@@ -33,7 +33,7 @@ The company has made some strides in recent months, and its balance sheet is muc
 
 [
 
-![Image 2](../images/trade-alert-buying-pct-and-muln-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/48d28f29-21e6-4283-882d-a986ca27f591_812x347.png)
 
 
 
@@ -125,7 +125,7 @@ The portfolio is performing well up 5% in February. Open trades are as follows
 
 [
 
-![Image 3](../images/trade-alert-buying-pct-and-muln-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/24baed52-76a6-4899-a298-e749101a2877_733x469.png)
 
 
 

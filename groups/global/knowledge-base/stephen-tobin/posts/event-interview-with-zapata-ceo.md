@@ -17,7 +17,7 @@ I had the pleasure of interviewing Christopher Savoie on Friday afternoon May 17
 
 [
 
-![Image 1](../images/event-interview-with-zapata-ceo-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e78f2b0a-e4f4-454b-9cb2-5053e640e320_299x79.png)
 
 
 
@@ -55,7 +55,7 @@ Christopher noted that this work could have been performed on a classical comput
 
 [
 
-![Image 2](../images/event-interview-with-zapata-ceo-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/50eede0e-1458-4113-840b-3a79290c85e7_535x67.png)
 
 
 

@@ -17,7 +17,7 @@ The two trades closed last week are detailed below:
 
 [
 
-![Image 1](../images/weekly-review-ce2-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/dce118f4-da41-400f-88ac-42b399920ae1_1160x232.png)
 
 
 
@@ -33,7 +33,7 @@ The trade taken in April is up 185%, showing a 3% increase over the week, but is
 
 [
 
-![Image 2](../images/weekly-review-ce2-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/9f1db967-a233-4487-a1d5-aa171d0bea4c_1183x1006.png)
 
 
 
@@ -43,7 +43,7 @@ My strategy is all about comparing the different companies in each emerging tech
 
 [
 
-![Image 3](../images/weekly-review-ce2-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/d6d33f91-2cac-4636-8ac4-df54bcc743a5_1122x744.png)
 
 
 
@@ -82,7 +82,7 @@ The number of companies under consideration is large and spread across the techn
 
 [
 
-![Image 4](../images/weekly-review-ce2-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/b9dbbde6-f2ce-4d73-a5ce-b324e85cf2a6_1225x461.png)
 
 
 

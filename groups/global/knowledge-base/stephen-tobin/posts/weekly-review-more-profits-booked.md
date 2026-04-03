@@ -17,7 +17,7 @@ The US Stock Portfolio outpaced the markets again, delivering a 4.5% increase.
 
 [
 
-![Image 1](../images/weekly-review-more-profits-booked-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e24af7c1-186d-4fc9-a7fc-eb696ec0f6f8_1582x597.png)
 
 
 
@@ -27,7 +27,7 @@ We had another busy week, closing one position for large profits. We are no long
 
 [
 
-![Image 2](../images/weekly-review-more-profits-booked-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/34bbd4ae-e71a-4935-9a98-e64f98c62332_1600x183.png)
 
 
 
@@ -39,7 +39,7 @@ The cash balance remains at an all-time high, despite opening one new position a
 
 [
 
-![Image 3](../images/weekly-review-more-profits-booked-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/e102dd28-5602-47f6-a5d8-272da9973ce7_654x343.png)
 
 
 
@@ -51,7 +51,7 @@ The project to reach $100,000 by investing $250 a month will complete its second
 
 [
 
-![Image 4](../images/weekly-review-more-profits-booked-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/f8f45ede-1fd3-4625-a69f-3233a5b4636e_1129x697.png)
 
 
 
@@ -85,7 +85,7 @@ You can see the share price performance difference in this chart.
 
 [
 
-![Image 5](../images/weekly-review-more-profits-booked-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/24596250-2312-4b15-ab3e-b31c95619609_1154x793.png)
 
 
 
@@ -95,7 +95,7 @@ Comparing SES to AMPX, my other preferred battery stock, tells a similar story, 
 
 [
 
-![Image 6](../images/weekly-review-more-profits-booked-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/e77458dc-50d1-4fda-aaa7-c9b56f0d317d_1196x764.png)
 
 
 
@@ -115,7 +115,7 @@ I will place the order pre market. When I open SES to place an order it shows th
 
 [
 
-![Image 7](../images/weekly-review-more-profits-booked-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/852dc855-6dac-4eca-b638-1ffaaf41e620_349x409.png)
 
 
 
@@ -125,7 +125,7 @@ I adjust the quantity to get the amount close to the $200 I want to buy, this is
 
 [
 
-![Image 8](../images/weekly-review-more-profits-booked-8.png)
+[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/9bfa29d1-c530-487d-ac58-e6b0c9b875b0_776x440.png)
 
 
 
@@ -228,7 +228,7 @@ You will see I have made alterations to the target prices for SES and QBTS on th
 
 [
 
-![Image 9](../images/weekly-review-more-profits-booked-9.png)
+[Image 9: Image 9](https://substack-post-media.s3.amazonaws.com/public/images/9e584552-8153-45c9-85eb-55ac506c34f5_1178x796.png)
 
 
 
@@ -240,7 +240,7 @@ Total equity increased from £722 to £796 in the week so 10%
 
 [
 
-![Image 10](../images/weekly-review-more-profits-booked-10.png)
+[Image 10: Image 10](https://substack-post-media.s3.amazonaws.com/public/images/3b559ada-8b8c-4483-a5e9-f9289236e523_504x331.png)
 
 
 
@@ -250,7 +250,7 @@ By Position
 
 [
 
-![Image 11](../images/weekly-review-more-profits-booked-11.png)
+[Image 11: Image 11](https://substack-post-media.s3.amazonaws.com/public/images/0bbfa4ad-e4e1-4821-8c02-b5dd3fae6cb6_1600x393.png)
 
 
 

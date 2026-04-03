@@ -27,7 +27,7 @@ The ARBE balance sheet remains rock solid with zero debt. Image care of (Simplyw
 
 [
 
-![Image 1](../images/4-trades-on-the-buy-list-for-this-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/db22c24f-1b42-4333-99cf-bcc5c3d64fcb_785x331.png)
 
 
 
@@ -39,7 +39,7 @@ On a technical note, Arbe may have reached a bottom in November last year, the d
 
 [
 
-![Image 2](../images/4-trades-on-the-buy-list-for-this-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/04d0221a-a43a-4c30-bdea-22eea51ff6ef_1135x527.png)
 
 
 
@@ -51,7 +51,7 @@ Bitfarms has returned to an area where I could consider buying again. The fundam
 
 [
 
-![Image 3](../images/4-trades-on-the-buy-list-for-this-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/6cc9b8a5-67bc-4545-9174-6ed62756d2b0_1429x727.png)
 
 
 
@@ -65,7 +65,7 @@ I am looking for a suitable time to buy this company, as always, trying to decid
 
 [
 
-![Image 4](../images/4-trades-on-the-buy-list-for-this-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/97e76e53-5a21-401d-a9a8-348afeb4a5ce_981x523.png)
 
 
 

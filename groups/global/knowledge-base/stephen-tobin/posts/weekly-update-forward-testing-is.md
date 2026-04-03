@@ -17,7 +17,7 @@ This chart of last week's performance shows the market crazes that affected us; 
 
 [
 
-![Image 1](../images/weekly-update-forward-testing-is-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/8cba30ce-b440-4c15-8d95-b6d19135ca4c_1114x443.png)
 
 
 
@@ -27,7 +27,7 @@ We must look past short-term market gyrations and focus on the plan and the targ
 
 [
 
-![Image 2](../images/weekly-update-forward-testing-is-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/06305771-b1e4-4242-8a44-e9778227add7_804x689.png)
 
 
 
@@ -39,7 +39,7 @@ You can see from the following chart that we have a long way to go in dollars, b
 
 [
 
-![Image 3](../images/weekly-update-forward-testing-is-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/82924522-5402-49e8-99c3-72267340ac64_1131x736.png)
 
 
 
@@ -66,7 +66,7 @@ Despite an 8% loss in October, the compound returns over time are good. The acco
 
 [
 
-![Image 4](../images/weekly-update-forward-testing-is-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/1efbcdc9-f170-45da-b3a1-1213ff2de702_654x184.png)
 
 
 
@@ -110,7 +110,7 @@ I have backtested the new rule on the US stock account, and it significantly red
 
 [
 
-![Image 5](../images/weekly-update-forward-testing-is-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/074f0752-cbac-404a-9b2f-719416a4c594_773x526.png)
 
 
 
@@ -211,7 +211,7 @@ Full List of holdings
 
 [
 
-![Image 6](../images/weekly-update-forward-testing-is-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/95f20b4c-04f7-4607-8427-073069e361b6_868x610.png)
 
 
 
@@ -223,7 +223,7 @@ Screenshots of the account
 
 [
 
-![Image 7](../images/weekly-update-forward-testing-is-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/98d7f860-4d31-447e-835c-6394e76bd119_515x342.png)
 
 
 
@@ -231,7 +231,7 @@ Screenshots of the account
 
 [
 
-![Image 8](../images/weekly-update-forward-testing-is-8.png)
+[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/ca6fea4e-01a6-4d39-a0f6-0949fc5b0828_1500x564.png)
 
 
 

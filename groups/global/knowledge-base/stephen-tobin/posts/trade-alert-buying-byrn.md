@@ -15,7 +15,7 @@ I will add BYRN when today's market opens. Byrna, along with CDRE (which I alrea
 
 [
 
-![Image 1](../images/trade-alert-buying-byrn-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/807db580-ae5b-41fc-a3fb-140640d37fef_1084x174.png)
 
 
 
@@ -33,7 +33,7 @@ The portfolio performs well and has completed its first 12 months with excellent
 
 [
 
-![Image 2](../images/trade-alert-buying-byrn-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/37640838-2ea0-48ee-a4f5-7cdc52fe6d25_508x432.png)
 
 
 

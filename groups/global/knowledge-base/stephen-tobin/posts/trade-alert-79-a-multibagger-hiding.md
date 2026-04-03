@@ -54,7 +54,7 @@ I have produced three versions of my Mathematical model to calculate fair values
 
 [
 
-![Image 1](../images/trade-alert-79-a-multibagger-hiding-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/4fba157e-2bb0-48e5-9b20-88f251fe5354_1600x534.png)
 
 
 
@@ -72,7 +72,7 @@ Another critical point from Oleg is that NATO currently has no incumbent anti-dr
 
 [
 
-![Image 2](../images/trade-alert-79-a-multibagger-hiding-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/baa23439-3d18-4852-a05e-7274b8face8b_1600x539.png)
 
 
 

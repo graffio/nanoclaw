@@ -53,7 +53,7 @@ I will add $250 worth of stocks, the same half size as with PONY today and WRD y
 
 [
 
-![Image 1](../images/trade-alert-adding-more-today-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/046f7f28-588c-4b69-98b8-cc5580f5762e_1507x926.png)
 
 
 

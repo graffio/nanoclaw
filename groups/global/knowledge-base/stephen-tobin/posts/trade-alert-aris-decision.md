@@ -15,7 +15,7 @@ I have two open positions in Aris Water (ARIS)
 
 [
 
-![Image 1](../images/trade-alert-aris-decision-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/01550f93-c659-48e4-b6f4-626df1a414e8_1229x250.png)
 
 
 
@@ -54,7 +54,7 @@ This is the results from the $250 a month Interactive Brokers US trading account
 
 [
 
-![Image 2](../images/trade-alert-aris-decision-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/d4533594-167a-4986-88f0-e5d0bc9590a0_1296x689.png)
 
 
 
@@ -74,7 +74,7 @@ Current Holdings at close of business before the ARIS announcement.
 
 [
 
-![Image 3](../images/trade-alert-aris-decision-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/f6c8fb14-9c34-4d1b-a328-95e7a5da6839_1301x882.png)
 
 
 

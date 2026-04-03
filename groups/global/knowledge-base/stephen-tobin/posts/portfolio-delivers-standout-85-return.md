@@ -29,7 +29,7 @@ Although slightly below the 2024 results, when we delivered +100%, it was still 
 
 [
 
-![Image 1](../images/portfolio-delivers-standout-85-return-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/dc175cbf-436f-4beb-a8ac-f9cb8b7fee3c_1600x448.png)
 
 
 
@@ -47,7 +47,7 @@ The project to make $100,000 from an investment of $250 a month seemed implausib
 
 [
 
-![Image 2](../images/portfolio-delivers-standout-85-return-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/6595f326-f160-4eda-94c5-73fac8f1f9bc_383x218.png)
 
 
 
@@ -71,7 +71,7 @@ Quantum was our biggest winner last year. In late 2024, I chose D-Wave (QBTS) as
 
 [
 
-![Image 3](../images/portfolio-delivers-standout-85-return-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/2e80db43-eaba-4891-bd6d-f5aeadb4fc01_1600x193.png)
 
 
 
@@ -81,7 +81,7 @@ I traded QBTS multiple times and did not trade any of the other names on the lis
 
 [
 
-![Image 4](../images/portfolio-delivers-standout-85-return-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/93ff7c4c-3c1c-46fc-9006-c474e413a7c9_781x337.png)
 
 
 
@@ -93,7 +93,7 @@ Battery stocks were another big winner for us, with trades taken in three compan
 
 [
 
-![Image 5](../images/portfolio-delivers-standout-85-return-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/ea4e518c-20fd-46dc-bcc8-1f36fe942951_934x651.png)
 
 
 
@@ -115,7 +115,7 @@ Complete List of positions below
 
 [
 
-![Image 6](../images/portfolio-delivers-standout-85-return-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/3319498b-52f2-48e1-b75b-00d636d71080_1884x912.png)
 
 
 
@@ -125,7 +125,7 @@ The account still has a large cash balance and I deposited another $250 on the s
 
 [
 
-![Image 7](../images/portfolio-delivers-standout-85-return-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/b3db1ac8-0917-444f-bb83-059b7279a516_1035x364.png)
 
 
 

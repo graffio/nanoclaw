@@ -17,7 +17,7 @@ The portfolio underperformed the markets last week, registering a small loss, wh
 
 [
 
-![Image 1](../images/weekly-update-emerging-company-volatility-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/e60b1b8e-fa23-4cbc-9a59-5e3987f57e19_1117x435.png)
 
 
 
@@ -31,7 +31,7 @@ In total, we have had 8 losing months and 17 winning ones on our way to a total 
 
 [
 
-![Image 2](../images/weekly-update-emerging-company-volatility-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/467c12f4-7c18-4f9c-a70b-8c5016623652_1385x691.png)
 
 
 
@@ -41,7 +41,7 @@ The project to trade $250 into $100K remains above target and is now in month 26
 
 [
 
-![Image 3](../images/weekly-update-emerging-company-volatility-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/0698879c-8cb0-4b3a-a230-074002c405db_1053x637.png)
 
 
 
@@ -51,7 +51,7 @@ The spread of our investments among the emerging technologies we follow is shown
 
 [
 
-![Image 4](../images/weekly-update-emerging-company-volatility-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/3d0622f5-bf12-4268-bbf0-c5e9c2065e87_436x498.png)
 
 
 
@@ -183,7 +183,7 @@ The gains made by Hesai have moved it up to number 2 on our list of best assets;
 
 [
 
-![Image 5](../images/weekly-update-emerging-company-volatility-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/a0a81bd6-fccd-48c9-b65a-fd216e32a73c_806x545.png)
 
 
 
@@ -193,7 +193,7 @@ The full list of open positions is
 
 [
 
-![Image 6](../images/weekly-update-emerging-company-volatility-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/b33838d3-4003-4f52-9bb5-67083b243bd7_1277x841.png)
 
 
 
@@ -203,7 +203,7 @@ And recently taken trades (yellow highlight not in US$)
 
 [
 
-![Image 7](../images/weekly-update-emerging-company-volatility-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/6286a31c-d132-415c-9f19-fee770b1170a_1600x785.png)
 
 
 
@@ -215,7 +215,7 @@ A small drop in the Stock account leads to a large drop in the margin account. I
 
 [
 
-![Image 8](../images/weekly-update-emerging-company-volatility-8.png)
+[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/ff4b805b-4d1c-4afc-92bd-ad6bcb697634_558x187.png)
 
 
 
@@ -227,7 +227,7 @@ During the week, I was able to add SMR, which accounted for half of the loss due
 
 [
 
-![Image 9](../images/weekly-update-emerging-company-volatility-9.png)
+[Image 9: Image 9](https://substack-post-media.s3.amazonaws.com/public/images/5030710f-91f0-4d83-9446-27393c758c39_1504x641.png)
 
 
 
@@ -235,7 +235,7 @@ During the week, I was able to add SMR, which accounted for half of the loss due
 
 [
 
-![Image 10](../images/weekly-update-emerging-company-volatility-10.png)
+[Image 10: Image 10](https://substack-post-media.s3.amazonaws.com/public/images/3407b1ed-3de0-4815-91bb-a6689e2f9364_509x337.png)
 
 
 
@@ -249,7 +249,7 @@ I am currently ranked number three.
 
 [
 
-![Image 11](../images/weekly-update-emerging-company-volatility-11.png)
+[Image 11: Image 11](https://substack-post-media.s3.amazonaws.com/public/images/cb96fc60-b8ac-4166-adde-8ec8427d4a11_1422x404.png)
 
 
 
@@ -277,7 +277,7 @@ I have gone with the gaudy pink and purple colour scheme I use for my spreadshee
 
 [
 
-![Image 12](../images/weekly-update-emerging-company-volatility-12.png)
+[Image 12: Image 12](https://substack-post-media.s3.amazonaws.com/public/images/13192f2a-3173-404c-abc8-4e587f9b78b8_1221x587.png)
 
 
 

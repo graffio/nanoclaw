@@ -93,7 +93,7 @@ My forecast for 2026 revenue has increased by almost $10 million due to the expa
 
 [
 
-![Image 1](../images/trade-alert-buying-robot-security-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/49bd0b83-d191-4d1c-ac2f-9af7121e4c11_896x725.png)
 
 
 

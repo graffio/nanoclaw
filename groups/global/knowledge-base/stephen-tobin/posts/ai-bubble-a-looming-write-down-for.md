@@ -2,6 +2,8 @@
 title: "AI Bubble? A Looming Write-Down for the Ages"
 date: 2026-03-14
 url: https://stephentobin.substack.com/p/ai-bubble-a-looming-write-down-for
+audience: everyone
+post_type: thematic
 summary: "The chips are becoming obsolete to quickly for these investments to make sense."
 ---
 
@@ -9,7 +11,7 @@ summary: "The chips are becoming obsolete to quickly for these investments to ma
 
 *The chips are becoming obsolete to quickly for these investments to make sense.*
 
-I recently covered  in a weekly review, noting its “Iron Clad” contracts, giving it some immunity from the private credit problems surrounding AI infrastructure.
+I recently covered in a weekly review, noting its “Iron Clad” contracts, giving it some immunity from the private credit problems surrounding AI infrastructure.
 
 In this article, I expand my thoughts looking at recent deal collapses and honing in on the “chip” problem that may develop into a serious problem for the hyperscalers. They will still be on the hook to Owl, but they may not be able to use the facilities as expected.
 
@@ -31,31 +33,23 @@ While Microsoft and Google continue to spend as if capital is free, **Meta** has
 
 When a company begins firing the very engineers needed to build the software because the “hardware tax” is too high, you are witnessing a business model in conflict with its own balance sheet. Meta’s abandonment of its “Behemoth” model last summer was the first sign that even the deep-pocketed hyperscalers are hitting a wall of diminishing returns.
 
+[Subscribe now](https://stephentobin.substack.com/subscribe?)
+
 ### The Terminal Velocity of Depreciation
 
 The most overlooked risk in this entire cycle is the **economic half-life of a GPU.** In traditional infrastructure, a gas turbine or a server rack is depreciated over five to seven years. In the AI arms race, the “useful life” of a chip for frontier training is now roughly **18 to 24 months.**
 
 When a new architecture (like Rubin) arrives, the previous generation (Blackwell or H100) doesn’t just become “slower”—it becomes economically unviable for the highest-value workloads.
 
-- 
-**The Power Trap:** Newer chips offer more “tokens per watt.” As energy becomes the scarcest resource, running “old” silicon is essentially burning money.
-
-- 
-**The Collateral Crisis:** This is where the banks get burned. Many of the “Compute SPVs” (Special Purpose Vehicles) used to fund these data centers use the GPUs themselves as collateral.
+-   **The Power Trap:** Newer chips offer more “tokens per watt.” As energy becomes the scarcest resource, running “old” silicon is essentially burning money.
+    
+-   **The Collateral Crisis:** This is where the banks get burned. Many of the “Compute SPVs” (Special Purpose Vehicles) used to fund these data centers use the GPUs themselves as collateral.
+    
 
 [
 
-![Chart](images/ai-bubble-a-looming-write-down-for-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/bbb749c7-2f7f-408e-90db-6bd8b0f4b196_2816x1536.png)
 
-*Chart: AI Training GPU Depreciation vs Standard Server Hardware*
-
-| Metric | AI Training GPUs | Standard Server Hardware |
-|--------|-----------------|--------------------------|
-| Useful lifespan for frontier training | 18–24 months | 5–7 years |
-| Economic value at Year 2 | ~10–15% of purchase price | ~75% of purchase price |
-| Obsolescence driver | New GPU architectures (e.g., Rubin replacing Blackwell) | General performance improvements |
-| Collateral risk | High (banks holding old chips face major write-downs) | Low |
-| Residual value after obsolescence | Small inference & secondary market value only | Gradual decline to ~0% over full lifespan |
 
 
 ](https://substackcdn.com/image/fetch/$s_!9hz1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbb749c7-2f7f-408e-90db-6bd8b0f4b196_2816x1536.png)
@@ -67,6 +61,8 @@ When a new architecture (like Rubin) arrives, the previous generation (Blackwell
 We are currently seeing a record number of data center cancellations—26 in the last quarter alone by some counts. Between grassroots opposition, grid instability, and the realization that the revenue from AI “agents” isn’t yet covering the interest on the debt, the “Mega-Deal” era is ending.
 
 The winners of the next three years won’t be the companies with the most H100s in the ground; they will be the ones who didn’t sign the 10-year lease on a facility designed for yesterday’s technology. For the rest? Expect a decade of painful write-downs.
+
+[Subscribe now](https://stephentobin.substack.com/subscribe?)
 
 ---
 

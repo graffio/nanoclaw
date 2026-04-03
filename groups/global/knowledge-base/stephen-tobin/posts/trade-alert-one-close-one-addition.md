@@ -23,7 +23,7 @@ The account remains above target, and next month will be the halfway point.
 
 [
 
-![Image 1](../images/trade-alert-one-close-one-addition-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/043eaf41-fce8-4e4f-b94e-8449ccba1b78_1111x694.png)
 
 
 
@@ -56,7 +56,7 @@ SES has been a good company for us indeed; it is a top performer, so I am sorry 
 
 [
 
-![Image 2](../images/trade-alert-one-close-one-addition-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/29079687-1a38-41f0-8408-16aab44c93c5_781x534.png)
 
 
 
@@ -76,7 +76,7 @@ I am slightly reducing my target price to $9.60 due to the MARRS acquisition's c
 
 [
 
-![Image 3](../images/trade-alert-one-close-one-addition-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/ca2b950c-3e14-4794-b2ae-b2a05f8c529f_914x249.png)
 
 
 
@@ -113,7 +113,7 @@ EOS is a market leader in Counter-Unmanned Aerial Systems (C-UAS) and is leverag
 
 [
 
-![Image 4](../images/trade-alert-one-close-one-addition-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/cf6fccd5-0c01-4923-9331-c82d972f82fe_1600x975.png)
 
 
 

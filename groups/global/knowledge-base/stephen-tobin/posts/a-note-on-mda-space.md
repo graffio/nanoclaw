@@ -15,7 +15,7 @@ I have an open position in MDA Space shown on this chart (I have TSX: MDA, not t
 
 [
 
-![Image 1](../images/a-note-on-mda-space-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/b5b5cd55-b346-4b7a-95df-84ba7f668430_1600x773.png)
 
 
 

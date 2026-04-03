@@ -56,7 +56,7 @@ Technicals suggest a target of $50, we can expect some pullback as the price loo
 
 [
 
-![Image 1](../images/trade-alert-buying-ehang-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/65c57812-c34c-44c1-94f4-b7e18ba0531c_1505x752.png)
 
 
 

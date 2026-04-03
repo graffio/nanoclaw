@@ -17,7 +17,7 @@ We took one new trade on October 2nd, and it had jumped 22% before the end of th
 
 [
 
-![Image 1](../images/weekly-update-65-gains-and-a-strategy-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/7a05940f-30b2-41e6-beb2-6441b730b87d_1181x436.png)
 
 
 
@@ -29,7 +29,7 @@ Full returns YTD are shown below. Annualized Rate of Return stands at 149%
 
 [
 
-![Image 2](../images/weekly-update-65-gains-and-a-strategy-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/0ae5026c-f51e-4278-82a8-6ac2ed239a56_1600x513.png)
 
 
 
@@ -39,7 +39,7 @@ We did not close any trades, but did deposit another $250 on October 1st. I expe
 
 [
 
-![Image 3](../images/weekly-update-65-gains-and-a-strategy-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/ca909d8d-d90e-4efb-9b55-c658d96a32e1_1600x512.png)
 
 
 
@@ -49,7 +49,7 @@ The $250 a month to $100,000 project remains above target
 
 [
 
-![Image 4](../images/weekly-update-65-gains-and-a-strategy-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/fe072ef6-0d73-4f23-b5cc-4382be70c1b0_1046x689.png)
 
 
 
@@ -69,7 +69,7 @@ DRSHF is the US ticker for the company DroneShield. Here is the chart showing my
 
 [
 
-![Image 5](../images/weekly-update-65-gains-and-a-strategy-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/48c83de6-c92a-4392-b098-a66bccd5a11b_979x762.png)
 
 
 
@@ -126,7 +126,7 @@ The table shows the results of all three strategies. (I did the research on Thur
 
 [
 
-![Image 6](../images/weekly-update-65-gains-and-a-strategy-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/cf1aaf27-5d11-4d1c-8974-39705d537686_1052x224.png)
 
 
 
@@ -203,7 +203,7 @@ It was a good week, but results for individual trades remain volatile. ASPI was 
 
 [
 
-![Image 7](../images/weekly-update-65-gains-and-a-strategy-7.png)
+[Image 7: Image 7](https://substack-post-media.s3.amazonaws.com/public/images/2a1cbebc-03b0-4535-b833-f47125734d89_1412x912.png)
 
 
 
@@ -231,7 +231,7 @@ The percentages were chosen on months to £100,000. 7.2% = 48 months, 11% = 36 m
 
 [
 
-![Image 8](../images/weekly-update-65-gains-and-a-strategy-8.png)
+[Image 8: Image 8](https://substack-post-media.s3.amazonaws.com/public/images/457a01d8-394f-4ba4-be84-dd0110e2844f_644x182.png)
 
 
 
@@ -241,7 +241,7 @@ Screenshots of the account (I still have no way of building a spreadsheet, and h
 
 [
 
-![Image 9](../images/weekly-update-65-gains-and-a-strategy-9.png)
+[Image 9: Image 9](https://substack-post-media.s3.amazonaws.com/public/images/b50fac30-b625-4532-9a32-123b496b1464_430x278.png)
 
 
 
@@ -251,7 +251,7 @@ Open Positions
 
 [
 
-![Image 10](../images/weekly-update-65-gains-and-a-strategy-10.png)
+[Image 10: Image 10](https://substack-post-media.s3.amazonaws.com/public/images/1c2bd8e4-3630-4460-ba03-6ef8ab316c69_1292x598.png)
 
 
 

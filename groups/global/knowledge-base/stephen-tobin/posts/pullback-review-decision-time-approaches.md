@@ -29,9 +29,9 @@ So far, the total moves lower do not indicate a major sell-off, but of course, t
 
 [
 
-![A table with numbers and percentages
+[Image 1: A table with numbers and percentages
 
-AI-generated content may be incorrect.](../images/pullback-review-decision-time-approaches-1.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/1412c0cf-2dff-4b68-89a5-1da4b43dab6b_1054x322.png)
 
 
 
@@ -47,9 +47,9 @@ The account balances are as follows (European markets are open, US and Asia clos
 
 [
 
-![A table with numbers and a few dollar bills
+[Image 2: A table with numbers and a few dollar bills
 
-AI-generated content may be incorrect.](../images/pullback-review-decision-time-approaches-2.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/259d9a0c-dccd-4f36-be38-b2a0c2b62e8c_660x462.png)
 
 
 
@@ -75,7 +75,7 @@ I have highlighted the figures that give me concern in red. The top blue line gi
 
 [
 
-![Image 3](../images/pullback-review-decision-time-approaches-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/45dff5d9-3a55-4403-86a1-1762caf3dfc9_1053x540.png)
 
 
 
@@ -87,9 +87,9 @@ ELVA and CWR are the biggest holdings and I will look to close them quickly if t
 
 [
 
-![A screenshot of a white table with blue text
+[Image 4: A screenshot of a white table with blue text
 
-AI-generated content may be incorrect.](../images/pullback-review-decision-time-approaches-4.png)
+AI-generated content may be incorrect.](https://substack-post-media.s3.amazonaws.com/public/images/5e1235cf-5f78-4b5b-87af-c0b47b9bda3d_304x356.png)
 
 
 

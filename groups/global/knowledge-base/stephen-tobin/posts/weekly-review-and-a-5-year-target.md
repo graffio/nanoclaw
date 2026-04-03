@@ -17,7 +17,7 @@ Geopolitical events, even wars, are generally not as bad for business as most pe
 
 [
 
-![Image 1](../images/weekly-review-and-a-5-year-target-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/c0d0868e-d3c4-421b-b5ff-728b92f6c962_1093x1225.png)
 
 
 
@@ -37,7 +37,7 @@ Year-to-date, the portfolio is up 32%, and up 321% since its inception on August
 
 [
 
-![Image 2](../images/weekly-review-and-a-5-year-target-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/aa6a5e34-ad5b-4ecd-83a7-be9c1ea1163e_1164x724.png)
 
 
 
@@ -57,7 +57,7 @@ The portfolio dived lower on Friday, most stocks had been showing a profit for t
 
 [
 
-![Image 3](../images/weekly-review-and-a-5-year-target-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/234f2e34-ae2e-497f-9be7-6560940c6182_1175x841.png)
 
 
 
@@ -93,7 +93,7 @@ The sharp sell-off on Thursday and Friday has broken the pattern in several of t
 
 [
 
-![Image 4](../images/weekly-review-and-a-5-year-target-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/b5a99470-d2a5-41fd-b403-f50473c4ff97_1600x838.png)
 
 
 

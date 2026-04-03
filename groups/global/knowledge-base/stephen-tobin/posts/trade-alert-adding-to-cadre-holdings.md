@@ -37,7 +37,7 @@ I had been expecting Cadre to continue tracking lower until the next earnings ca
 
 [
 
-![Image 1](../images/trade-alert-adding-to-cadre-holdings-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/aa2d58de-c80b-4ab1-8d49-9281591877f4_1600x689.png)
 
 
 

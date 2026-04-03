@@ -54,13 +54,13 @@ Coursera had a good 2023; the recent pullback offers a good low-risk entry point
 
 [
 
-![Image 1](../images/trade-alert-buying-cour-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/3b65bac7-db17-4750-b15f-da674a8c2d27_838x640.png)
 
 
 
 ](https://substackcdn.com/image/fetch/$s_!JyMu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b65bac7-db17-4750-b15f-da674a8c2d27_838x640.png)
 
-[Share](https://stephentobin.substack.com/p/trade-alert-buying-cour?utm_source=substack&utm_medium=email&utm_content=share&action=share&token=eyJ1c2VyX2lkIjoxMDQ0NjksInBvc3RfaWQiOjE0MjA3NzQ0NSwiaWF0IjoxNzczODYzNTczLCJleHAiOjE3NzY0NTU1NzMsImlzcyI6InB1Yi0xNTkyODM1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.GZfnR9vYs-SNRSqTGcj1oVnLgmdfQMorkCinRDFHS54)
+[Share](https://stephentobin.substack.com/p/trade-alert-buying-cour?utm_source=substack&utm_medium=email&utm_content=share&action=share&token=eyJ1c2VyX2lkIjoxMDQ0NjksInBvc3RfaWQiOjE0MjA3NzQ0NSwiaWF0IjoxNzc1MjM2OTY5LCJleHAiOjE3Nzc4Mjg5NjksImlzcyI6InB1Yi0xNTkyODM1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.R2yNQ0gTZ0cDKuvN4bKfYRMbA3n25RvD39LwT44LN-0)
 
 A clear 5 wave move-up from April last year ended in December, and since then, a pullback shows an equally clear 3-wave retraction that could be expected to end in the box shown (Just using fib extensions). If all of this plays out, we can expect a significant wave ((III)) to take the stock to new all-time highs well above $40. I am currently writing an article on Coursera that should be published on the SeekingAlpha platform early next month.
 
@@ -70,7 +70,7 @@ The rest of the portfolio is moving well, I am up 2.7% in February. I added to t
 
 [
 
-![Image 2](../images/trade-alert-buying-cour-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/3f2f0cea-bd6b-40b8-9537-79989b69f426_1472x726.png)
 
 
 

@@ -66,7 +66,7 @@ D-Wave reports in 4 sectors, actual revenue figures are
 
 [
 
-![Image 1](../images/trade-alert-quantum-target-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/fcad8006-bdf7-40a7-a764-e717e8e8b247_1041x277.png)
 
 
 
@@ -138,7 +138,7 @@ The mileage figures for each potential route will be normally distributed, meani
 
 [
 
-![Image 2](../images/trade-alert-quantum-target-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/eb973172-51da-4903-9145-9d978f1ae862_592x295.png)
 
 
 
@@ -194,7 +194,7 @@ If the interview with the CEO at CodeBugged has unearthed more insights into the
 
 [
 
-![Image 3](../images/trade-alert-quantum-target-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/58f1eb81-81f3-497e-8b31-10c0297df68c_1269x177.png)
 
 
 
@@ -208,7 +208,7 @@ I have extrapolated these quarterly figures and produced the following:
 
 [
 
-![Image 4](../images/trade-alert-quantum-target-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/03c97c66-8e8f-41fb-a824-1807f494d74d_1600x881.png)
 
 
 
@@ -256,7 +256,7 @@ No Changes so far in July
 
 [
 
-![Image 5](../images/trade-alert-quantum-target-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/2693684e-1a44-45fb-a926-5acd1e099e0b_1202x837.png)
 
 
 

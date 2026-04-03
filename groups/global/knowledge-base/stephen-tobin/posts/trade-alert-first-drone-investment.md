@@ -92,7 +92,7 @@ The company's **product portfolio** encompasses integrated hardware and software
 
 [
 
-![Image 1](../images/trade-alert-first-drone-investment-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/87b2b7de-6d47-478a-a62c-f8c3b93acf6b_1281x768.png)
 
 
 
@@ -104,7 +104,7 @@ With new products being released next year and the ongoing AI quarterly updates,
 
 [
 
-![Image 2](../images/trade-alert-first-drone-investment-2.png)
+[Image 2: Image 2](https://substack-post-media.s3.amazonaws.com/public/images/6c5b73f9-f18e-437d-9243-0e79d89a3d80_1315x696.png)
 
 
 
@@ -116,7 +116,7 @@ The global reach shows in this image of the company’s pipeline
 
 [
 
-![Image 3](../images/trade-alert-first-drone-investment-3.png)
+[Image 3: Image 3](https://substack-post-media.s3.amazonaws.com/public/images/47684cf4-3151-46fd-8fba-1876a66e8a9d_1282x690.png)
 
 
 
@@ -136,7 +136,7 @@ Large defence primes are integrating DroneShields technology, particularly its d
 
 [
 
-![Image 4](../images/trade-alert-first-drone-investment-4.png)
+[Image 4: Image 4](https://substack-post-media.s3.amazonaws.com/public/images/148e2319-b711-4484-8982-1dd2207e32f6_820x173.png)
 
 
 
@@ -175,7 +175,7 @@ Management has guided that significant commercial revenue is expected to begin a
 
 [
 
-![Image 5](../images/trade-alert-first-drone-investment-5.png)
+[Image 5: Image 5](https://substack-post-media.s3.amazonaws.com/public/images/1f7408f0-6afe-44b4-9fbf-f97f15e57931_1465x797.png)
 
 
 
@@ -203,7 +203,7 @@ The chart shows the strong run DroneShield shares have had in recent months.
 
 [
 
-![Image 6](../images/trade-alert-first-drone-investment-6.png)
+[Image 6: Image 6](https://substack-post-media.s3.amazonaws.com/public/images/3ec19562-d4f1-425c-9d1a-91ffcdca9751_1600x844.png)
 
 
 

@@ -104,7 +104,7 @@ ACM Research's strategic positioning within this dynamic landscape makes it a co
 
 [
 
-![Image 1](../images/trade-alert-buying-acm-research-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/9717be95-45c4-46c4-8336-cf6012297565_1118x594.png)
 
 
 

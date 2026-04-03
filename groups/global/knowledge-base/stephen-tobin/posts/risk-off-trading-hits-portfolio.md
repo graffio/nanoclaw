@@ -27,7 +27,7 @@ The January stock market is often a prelude to what will come that year. We are 
 
 [
 
-![Image 1](../images/risk-off-trading-hits-portfolio-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/f5c5a114-9ab6-4e20-af7e-0f81ef661202_1095x707.png)
 
 
 

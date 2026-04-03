@@ -37,7 +37,7 @@ The user base remains academic for now, but that should become more varied with 
 
 [
 
-![Image 1](../images/trade-alert-buying-qsi-1.png)
+[Image 1: Image 1](https://substack-post-media.s3.amazonaws.com/public/images/2d2ce385-4ea5-45a6-b289-86aea4bfa70a_1543x739.png)
 
 
 
