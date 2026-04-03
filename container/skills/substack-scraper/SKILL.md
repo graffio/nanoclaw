@@ -21,9 +21,7 @@ Credentials location: `/workspace/global/knowledge-base/stephen-tobin/credential
 /workspace/global/knowledge-base/stephen-tobin/
 ├── index.json              # Root manifest: source URL, last_scraped, list of year files
 ├── index-2026.json         # All items for 2026 (posts, notes, chat) sorted by date desc
-├── images/                 # Downloaded images from posts
-│   └── {slug}-{n}.png
-├── posts/                  # Full post content as markdown
+├── posts/                  # Full post content as markdown (images referenced by CDN URL)
 │   └── {slug}.md
 ├── notes/                  # Notes as markdown
 │   └── {entity_key}.md
@@ -124,7 +122,7 @@ Added half-size position ($280, 1.5% of portfolio) following earnings.
 Record Q4 revenue up 48.4% YoY. First GAAP profitable quarter.
 ```
 
-The Position Data table is MANDATORY. Extract it from the portfolio spreadsheet screenshots in `images/`. Each weekly update has a holdings spreadsheet image — read it with vision and extract every row. When updating ticker files after a new weekly scrape, append a new row to the Position Data table.
+The Position Data table is MANDATORY. Extract it from the portfolio spreadsheet screenshots (CDN image links in weekly update posts). Each weekly update has a holdings spreadsheet image — download it temporarily, read it with vision, extract every row, then delete the temp file. When updating ticker files after a new weekly scrape, append a new row to the Position Data table.
 
 Key Events entries must include hard numbers: share counts, entry prices, position sizes, dollar amounts, P&L percentages. Qualitative summaries without numbers are not sufficient.
 
@@ -258,9 +256,8 @@ IMPORTANT: Use these curl endpoints directly. Do NOT use agent-browser for scrap
 4. For each new post:
    a. Fetch the full post JSON
    b. Convert `body_html` to clean markdown (strip tags, preserve structure)
-   c. Download images from `<img>` tags to `images/{slug}-{n}.png`
-   d. For images containing data (tables, spreadsheets, charts): read the image, extract data as markdown table
-   e. Save as `posts/{slug}.md` with frontmatter (title, date, URL, type)
+   c. Images are embedded as CDN links by the scraper script — no local download at this step
+   d. Save as `posts/{slug}.md` with frontmatter (title, date, URL, type)
    f. Classify post type from title pattern (see Post Types table)
    g. Extract tickers mentioned
    h. Fetch Stephen's comments on the post (ONLY Stephen's), append as "Author follow-up" section
@@ -283,12 +280,15 @@ IMPORTANT: Use these curl endpoints directly. Do NOT use agent-browser for scrap
 
 ### Handling Images with Data
 
-When you encounter an image that appears to contain tabular data (spreadsheet screenshot, table, chart):
-- Download the image to `images/`
-- Read the image file (you have vision capabilities)
-- Extract the data into a markdown table
-- Include both a reference to the image and the extracted table in the post markdown
-- If it's a holdings spreadsheet from a weekly update, also extract to `derived/holdings/{date}.json`
+Posts contain CDN image links like `[Image N: alt](https://substack-post-media.s3.amazonaws.com/...)`. When processing a post with data images (spreadsheet screenshots, tables, charts):
+
+1. Download the image from the CDN URL to a temp file
+2. Read it with vision to extract the data
+3. Replace the CDN image link in the post markdown with the extracted text (markdown table, description, etc.) followed by a source reference: `*Source image: [CDN link]*`
+4. Delete the temp image file
+5. If it's a holdings spreadsheet from a weekly update, also extract to `derived/holdings/{date}.json`
+
+Do NOT keep local copies of images. The CDN URL is preserved as a source reference so the original can be re-fetched if needed.
 
 ### Rate Limiting
 

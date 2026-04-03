@@ -16,9 +16,10 @@ groups/*
 !groups/telegram_main/
 groups/main/*
 !groups/main/CLAUDE.md
-# Global - track knowledge base, ignore CLAUDE.md (runtime)
+# Global - track knowledge base, ignore CLAUDE.md (runtime) and temp images
 !groups/global/knowledge-base/
 groups/global/CLAUDE.md
+groups/global/knowledge-base/**/images/
 # Telegram main - track everything except credentials, logs, and conversations
 groups/telegram_main/credentials/
 groups/telegram_main/logs/

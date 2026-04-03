@@ -116,27 +116,8 @@ async function fetchAPI(url, cookieHeader) {
   return res.json();
 }
 
-async function downloadFile(url, destPath, cookieHeader) {
-  if (fs.existsSync(destPath)) return false;
-  const now = Date.now();
-  const elapsed = now - lastRequestTime;
-  if (elapsed < RATE_LIMIT_MS) {
-    await new Promise(r => setTimeout(r, RATE_LIMIT_MS - elapsed));
-  }
-  lastRequestTime = Date.now();
-
-  const res = await fetch(url, {
-    headers: { 'Cookie': cookieHeader },
-  });
-  if (!res.ok) {
-    console.warn(`  Failed to download image: HTTP ${res.status}`);
-    return false;
-  }
-  const buf = Buffer.from(await res.arrayBuffer());
-  fs.mkdirSync(path.dirname(destPath), { recursive: true });
-  fs.writeFileSync(destPath, buf);
-  return true;
-}
+// Image downloads removed: posts now reference CDN URLs directly.
+// The agent downloads images temporarily for vision extraction during processing.
 
 // --- HTML to Markdown ---
 
@@ -164,7 +145,7 @@ function htmlToMarkdown(html, slug) {
   const td = createTurndown();
   const imageUrls = [];
 
-  // Collect image URLs and replace with local paths
+  // Replace images with CDN URLs (no local download needed)
   td.addRule('images', {
     filter: 'img',
     replacement: (content, node) => {
@@ -179,7 +160,7 @@ function htmlToMarkdown(html, slug) {
       const n = imageUrls.length + 1;
       imageUrls.push(imageUrl);
       const alt = node.getAttribute('alt') || `Image ${n}`;
-      return `![${alt}](../images/${slug}-${n}.png)`;
+      return `\n[Image ${n}: ${alt}](${imageUrl})\n`;
     },
   });
 
@@ -325,16 +306,9 @@ async function scrapePosts(cookieHeader, sinceDate) {
       // Convert HTML to markdown
       const { markdown, imageUrls } = bodyHtml ? htmlToMarkdown(bodyHtml, post.slug) : { markdown: '', imageUrls: [] };
 
-      // Download images
-      for (let i = 0; i < imageUrls.length; i++) {
-        const imgDest = path.join(KB_DIR, 'images', `${post.slug}-${i + 1}.png`);
-        try {
-          const downloaded = await downloadFile(imageUrls[i], imgDest, cookieHeader);
-          if (downloaded) console.log(`    Downloaded image ${i + 1}/${imageUrls.length}`);
-        } catch (err) {
-          console.warn(`    Failed to download image ${i + 1}: ${err.message}`);
-        }
-      }
+      // Images are referenced by CDN URL in the markdown; the agent
+      // downloads them temporarily during processing for vision extraction,
+      // then deletes the local copy. No bulk download needed here.
 
       // Build markdown file
       const postType = classifyPost(post.title);
@@ -455,7 +429,7 @@ async function scrapeNotes(cookieHeader, sinceDate) {
         attachedPost = `\nAttached post: [${item.post.title}](${BASE_URL}/p/${item.post.slug})\n`;
       }
 
-      // Check for images in attachments
+      // Include CDN URLs for note image attachments (no local download)
       const attachments = comment.attachments || [];
       let imageRefs = '';
       if (Array.isArray(attachments)) {
@@ -463,13 +437,7 @@ async function scrapeNotes(cookieHeader, sinceDate) {
           const att = attachments[i];
           if (att?.imageUrl || att?.url) {
             const imgUrl = att.imageUrl || att.url;
-            const imgDest = path.join(KB_DIR, 'images', `note-${entityKey}-${i + 1}.png`);
-            try {
-              await downloadFile(imgUrl, imgDest, cookieHeader);
-              imageRefs += `\n![Image](../images/note-${entityKey}-${i + 1}.png)\n`;
-            } catch (err) {
-              console.warn(`    Failed to download note image: ${err.message}`);
-            }
+            imageRefs += `\n[Image ${i + 1}](${imgUrl})\n`;
           }
         }
       }
