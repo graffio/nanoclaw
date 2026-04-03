@@ -59,6 +59,8 @@ All prices in AUD.
 | Feb 22 | Hold   | 800    | AUD 0.95 | AUD 0.78 | AUD 760  | -AUD 136.00 | -18%   |
 | Mar 01 | Hold   | 800    | AUD 0.95 | AUD 0.76 | AUD 760  | -AUD 152.00 | -20%   |
 | Mar 08 | Hold   | 800    | AUD 0.95 | AUD 0.73 | AUD 760  | -AUD 176.00 | -23%   |
+| Mar 22 | Hold   | 800    | AUD 0.95 | AUD 0.53 | AUD 760  | -AUD 336.00 | -44%   |
+| Mar 29 | Hold   | 800    | AUD 0.95 | AUD 0.56 | AUD 760  | -AUD 312.00 | -41%   |
 
 ## Complete Timeline
 
@@ -131,3 +133,9 @@ MTM discussed in chat. Context alongside NRXP discussion.
 
 Short-term risk: High. Medium-term risk: Medium. "No current operations, will require funding." Recycling stocks (MTM, AREC, ROOF) described as "still developing the first sites and will need ongoing capital. They may be just too risky in this environment."
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — Chat: Black Monday thread — subscriber sells MTM
+
+During the "Black Monday" weekend scare, subscriber Alexandre Porchet announced exiting MTM: "I have placed a sales order for MTM, and do not see any short-term catalysts that could help turn the bad momentum around. I am +213%, so I can't complain, but I will come back later at a hopefully lower level." He cited bad momentum with no near-term catalysts and noted he would be watching EOS and DRO and considering a return to precious metals instead. Stephen did not comment on MTM directly in this thread. MTM was down significantly (position shows -44% return by Mar 22 snapshot).
+
+*Source: [chat/chat-2026-03-22.md](https://stephentobin.substack.com/)*

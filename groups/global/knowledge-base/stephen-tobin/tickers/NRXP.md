@@ -68,6 +68,8 @@ Single position. Full-size (\$600). Unusual for a nano-cap — Stephen broke his
 |--------|--------|--------|---------|--------|----------|-----------|--------|
 | Mar 01 | Hold   | 330    | \$1.80  | \$1.86 | \$594    | +\$19.80  | +3%    |
 | Mar 08 | Hold   | 330    | \$1.80  | \$1.70 | \$594    | -\$33.00  | -6%    |
+| Mar 22 | Hold   | 330    | \$1.80  | \$1.85 | \$594    | +\$16.50  | +3%    |
+| Mar 29 | Hold   | 330    | \$1.80  | \$2.19 | \$594    | +\$128.70 | +22%   |
 
 ## Complete Timeline
 
@@ -102,3 +104,20 @@ Subscriber Miguel: "Big news today for NRXP. Keen to get your views." Stephen: "
 
 Short-term risk: Low. Medium-term risk: Low. "No immediate impact." One of the few holdings with no oil-related concerns. Not flagged for exit.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: Received confirmatory FDA minutes from a Type C meeting, validating a path to a New Drug Application (NDA) for NRX-100 (ketamine) to treat depression with suicidality, with planned NDA submission by June 2026. Separately, the FDA's Office of Generic Drugs identified no bioequivalence deficiencies in the preservative-free ketamine application. Full-year 2025 results due March 24, 2026. Portfolio conviction: Named as one of four "potential 10 baggers in the portfolio with a very realistic probability of delivering big gains over the next 18 months."
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-24 — Chat: Meta-Study Selloff; Full-Year 2025 Results Due
+
+CMPS and NRX dropped on the day following a large meta-study publication claiming psychedelics have similar efficacy to standard existing drugs. Stephen argued the study was misleading — it failed to account for the treatment-resistant patient population that psychedelic therapies specifically target. Also note: NRXP's full-year 2025 results were due on this date (flagged in prior week's update).
+
+*Source: [chat/chat-2026-03-24.md](chat/chat-2026-03-24.md)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Financial update + Portfolio snapshot
+
+Full-year 2025: Operating expenses reduced. Cash on hand $7.80M plus ATM trends support operations through 2026. FDA approval for preservative-free Ketamine (NRX-100) anticipated Q3 2026. Expanded clinical footprint in Florida via strategic investment in HOPE Network. Portfolio snapshot: 330 shares, open P&L +$128.70 (+22%), 7-day return +24%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

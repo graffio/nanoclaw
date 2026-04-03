@@ -96,3 +96,14 @@ Short-term risk: High. Medium-term risk: High. "Fully dependent on consumer spen
 
 Closed as part of 6-position exit during Middle East escalation. Stephen: "A poor day but I want to get the money recovered into stocks more likely to appreciate in the coming economic situation which will be quite different to the one in existence when I took these positions."
 *Source: [chat/2026-03-19-portfolio-exits.md]*
+
+### 2026-03-20 — Chat: CEO stock purchase drives +17% move
+
+Subscriber noted QRHC up +17% on the day. Stephen confirmed the move was driven by a CEO/insider purchase: "Ya big purchase from the CEO." (Subsequent community discussion identified director Robert Lipstein buying 11,000 shares and CEO Perry Moss buying 45,000 shares, filed 03/16.)
+*Source: [chat/chat-2026-03-20.md]*
+
+### 2026-03-24 — Chat: Sold at the Bottom — Not Keen to Re-Buy
+
+Stephen: "QRHC appears to be the stock I sold at the bottom, I will review them soon but am not keen to re buy after their poor earnings brought the growth story into doubt. One of the problems of these nano caps is they respond to small events and management buying and selling moves the stock price beyond what the business progress dictate. I try to see through it but it remains an ongoing issue."
+
+*Source: [chat/chat-2026-03-24.md](chat/chat-2026-03-24.md)*

@@ -86,6 +86,8 @@ One closed trade at +100%. Current position consists of multiple buys with \$13.
 | Feb 22 | Hold         | 50     | \$13.64 | \$13.61| \$682    | -\$1.51  | 0%     |
 | Mar 01 | Hold         | 50     | \$13.64 | \$14.34| \$682    | +\$34.99 | +5%    |
 | Mar 08 | Under review | 50     | \$13.64 | \$12.48| \$682    | -\$58.01 | -9%    |
+| Mar 22 | Hold         | 50     | \$13.64 | \$10.53| \$682    | -\$155.51| -23%   |
+| Mar 29 | Hold         | 50     | \$13.64 | \$9.14 | \$682    | -\$225.01| -33%   |
 
 ## Complete Timeline
 
@@ -250,3 +252,14 @@ Achieved unit economics breakeven for Gen-7 Robotaxi in Shenzhen, following simi
 
 Short-term risk: Medium. Medium-term risk: Low. Operations gearing up; prolonged oil crisis actually makes the product more competitive by accelerating EV adoption and reducing the payback period for autonomous electric vehicles.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: Pony.ai upgraded its strategic partnership with OnTime Mobility, launching a joint fleet with delivery of over 100 Gen-7 autonomous vehicles. The company remains on track to exceed its target of 3,000 robotaxis by the end of 2026. Competitive analysis: "Pony and WeRide appear to have a cost advantage." Both now approaching Tesla Cybercab's \$30,000 price point. Portfolio conviction: Named as one of four "potential 10 baggers in the portfolio with a very realistic probability of delivering big gains over the next 18 months." Stephen would "rather not exit" this position despite market turbulence.
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Earnings + Portfolio snapshot
+
+FY2025 results: Total revenues \$90.00M (up from \$75.03M in 2024). Full-year net loss narrowed to \$76.76M from \$275.01M. Robotaxi revenues grew 128.60% YoY to \$16.60M; Q4 fare-charging revenues surged 500%+ YoY. Company targeting deployment in 20+ cities by end of 2026. Total assets \$1.81B (boosted by Nov 2025 Hong Kong IPO). Portfolio snapshot: 50 shares, open P&L -\$225.01 (-33%), 7-day return -17%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

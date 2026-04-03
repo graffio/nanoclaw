@@ -91,6 +91,8 @@ Three separate positions. First was a quick +84% winner. Second was the "biggest
 | Feb 22     | Hold   | 425    | A\$3.00    | A\$3.22    | A\$1276  | +\$93.00    | +7%    |
 | Mar 01     | Hold   | 425    | A\$3.00    | A\$3.62    | A\$1276  | +\$263.00   | +21%   |
 | Mar 08     | Hold   | 425    | A\$3.00    | A\$4.07    | A\$1276  | +\$454.25   | +36%   |
+| Mar 22     | Hold   | 425    | A\$3.00    | A\$4.15    | A\$1276  | +\$488.25   | +38%   |
+| Mar 29     | Hold   | 425    | A\$3.00    | A\$3.88    | A\$1276  | +\$373.50   | +29%   |
 
 ## Complete Timeline
 
@@ -261,3 +263,23 @@ Subscriber: "DRO didn't deliver badly either. +10.45% overnight." Stephen replie
 Short-term risk: Low. Medium-term risk: Low. No immediate oil impact; geopolitical tensions boost counter-drone demand.
 
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: DroneShield partnered with Robin Radar Systems to integrate 3D radar technology into its DroneSentry-C2 sensor ecosystem for enhanced counter-drone defense. Portfolio context: DRO is one of the four largest holdings (Hesai, Electro Optic, DroneShield, and MDA), accounting for 39% of total holdings at \$1,242 total position (US\$ equivalent). "EOS, DRO, and MDA are the three defence stocks that should stand up best" in event of significant market drop.
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-22 — Chat: Black Monday thread
+
+Weekend fears of a "Black Monday" as markets opened in Australia and Hong Kong, amid ongoing Iran war escalation and approaching Trump tariff deadline. Stephen monitored live: "DRO and EOS down 7% pre market" and "not looking so good for the individual holdings." After Australian open: "Market in Aus now open and things looking better." Later in the US session: "Looking moderate, I guess the Trump deadline will be another pressure point."
+
+Market context discussed: MOVE index at 108 driving forced hedge fund deleveraging. Stephen: "Most of my portfolio has very little hedge fund ownership and the impact would not be as direct more of a contagion as fear builds up in the market." Subscriber Alexandre Porchet: "I'll be watching EOS and DRO. I don't think it will take much for either of them to continue rising. Of course, if the broader market goes down, they'll drop too (without catalysts)." By end of day VIX was down 15% and Brent oil fell 10% — not the feared Black Monday.
+
+*Source: [chat/chat-2026-03-22.md](https://stephentobin.substack.com/)*
+
+### 2026-03-24 — Chat: Notable Drop — Considering Exit
+
+Stephen: "A very mixed start to the week. Notable drops in DRO and EOS suffering from both the geopolitical issues on Monday and the prospect of peace on Tuesday. Still considering exiting to preserve cash on those two." DRO dropping on conflicting geopolitical signals — hurt both by war escalation fears and by peace-prospect relief rallies undercutting the defence premium.
+
+*Source: [chat/chat-2026-03-24.md](chat/chat-2026-03-24.md)*

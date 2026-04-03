@@ -65,11 +65,8 @@
     }
   },
   "search_defaults": {
-    "min_beds": 5,
-    "filters": ["response-rate-above-threshold", "home-with-picture"],
-    "delay_between_requests_ms": 2000,
-    "page_size": 20,
-    "max_pages": 20
+    "delay_between_requests_ms": 200,
+    "page_size": 200
   },
   "my_home_id": 1632849,
   "preferred_locations": ["San Francisco", "California", "CA", "Bay Area"]

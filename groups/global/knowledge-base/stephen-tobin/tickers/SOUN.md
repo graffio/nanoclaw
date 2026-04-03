@@ -47,6 +47,8 @@ SoundHound AI develops voice AI and conversational intelligence technology for b
 | Feb 22 | Hold   | 54     | \$11.11 | \$7.82 | \$600    | -\$177.66 | -30%   |
 | Mar 01 | Hold   | 54     | \$11.11 | \$8.60 | \$600    | -\$135.54 | -23%   |
 | Mar 08 | Hold   | 54     | \$11.11 | \$8.07 | \$600    | -\$164.16 | -27%   |
+| Mar 22 | Hold   | 54     | \$11.11 | \$6.55 | \$600    | -\$246.24 | -41%   |
+| Mar 29 | Hold   | 54     | \$11.11 | \$5.90 | \$600    | -\$281.34 | -47%   |
 
 ## Complete Timeline
 
@@ -84,3 +86,14 @@ Jason (subscriber): "When will SOUN and QBTS bounce back? QBTS is moving similar
 
 Short-term risk: Medium. Medium-term risk: High. "SoundHound is exposed, as some of its biggest customers are in leisure and retail, both verticals that are likely to be hit hard." Not flagged for exit, but noted as concerning.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: CFO Nitesh Sharan will depart on April 3, 2026, to join a quantum computing firm; co-founder James Hom will serve as interim CFO. SoundHound unveiled a multimodal Agentic+ AI platform running entirely on the edge at NVIDIA GTC 2026. New strategic partnerships formed with ManpowerGroup's Experis for enterprise AI adoption and Peet's Coffee to deploy "BaristAI" voice assistants for in-store employee support.
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Updates + Portfolio snapshot
+
+New partnerships: co-selling agentic AI platform with Experis (ManpowerGroup) and nationwide deal with Peet's Coffee to deploy "BaristAI" for employee support. Named Leader in 2026 Aragon Research Globe for Agent Platforms. Zacks holds "Hold" rank (#3) — revenue growth strong (~100% in 2025) but consensus EPS 2026 widened to -$0.09/share loss. Portfolio snapshot: 54 shares, open P&L -$281.34 (-47%), 7-day return -14%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

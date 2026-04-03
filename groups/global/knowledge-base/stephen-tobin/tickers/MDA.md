@@ -77,6 +77,8 @@ Single position held since purchase. Bought on the Canadian TSX exchange rather 
 | Feb 22 | Hold   | 28     | CAD \$25.36  | CAD \$39.58  | \$710    | +\$398.16 | +56%   |
 | Mar 01 | Hold   | 28     | CAD \$25.36  | CAD \$39.55  | \$710    | +\$397.32 | +56%   |
 | Mar 08 | Hold   | 28     | CAD \$25.36  | CAD \$40.43  | \$710    | +\$421.96 | +59%   |
+| Mar 22 | Hold   | 28     | CAD \$25.36  | CAD \$42.98  | \$710    | +\$493.36 | +69%   |
+| Mar 29 | Hold   | 28     | CAD \$25.36  | CAD \$34.52  | \$710    | +\$256.48 | +36%   |
 
 All prices in CAD. One of the best performing positions in the portfolio.
 
@@ -130,3 +132,29 @@ Oil risk assessment: No concerns. "MDA Space is partly a defence company, and it
 
 Note: "\$MDA pushing up against former resistance and pressuring an all time high. I am not a great market timer but got this one right. Bought the last pull back at \$25 which is turning out to be a nice move. It should be said it is one of only a few bright spots in the portfolio with the majority of stocks in the red this month."
 *Source: [posts/portfolio-review-higher-for-longer.md], [notes/note-c-229761730.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Weekly Digest: MDA Space closed its US IPO on March 16, 2026, issuing 9,836,065 shares at \$30.50/share for gross proceeds of approximately \$300M. Underwriters exercised their over-allotment option for an additional \$41M, bringing total gross proceeds to roughly \$341M. Additionally, MDA was awarded a \$32M contract by Canada's Defence Investment Agency to deliver three ground-based optical observatories for space surveillance. Portfolio context: MDA is one of the four largest positions (Hesai, Electro Optic, DroneShield, MDA), accounting for 39% of total holdings. "EOS, DRO, and MDA are the three defence stocks that should stand up best."
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-03-27 — Note: MDA Space deep analysis (Globalstar / Apple / SpaceX)
+
+Dedicated analytical post in response to MDA's ~20% pullback (CAD \$46.11 → \$36.93) over 6 trading days. Stephen still holds 28 shares (TSX:MDA). Key analysis:
+
+**Globalstar/Apple structure:** Apple invested US \$1.5B+ — \$400M for 20% stake in GlobalStar SPE (hardware), plus \$1.1B loan for satellite construction and ground stations paid in quarterly milestones. Apple controls 85% of network capacity. Any new acquirer would need to run Apple's network or pay massive damages to both Apple and MDA.
+
+**SpaceX thesis rejected:** FCC filings show SpaceX and Globalstar are "fighting like bitter enemies." SpaceX petitioned to dismiss Globalstar's FCC applications. Stephen thinks SpaceX won't spend another \$10B on Globalstar after already spending \$17B on Echostar.
+
+**Amazon thesis:** Could buy Globalstar but would most likely continue the MDA contract (50% of work complete, cancellation clauses in place, Amazon rocket bottleneck means they need MDA's flight-ready satellites).
+
+**Best case — Apple buys remaining 80%:** "For MDA investors, this would be the best outcome: the satellites would be built and MDA would become a key partner to Apple."
+
+**Conclusion:** "This is not a trade alert, but is preparing the way for a possible addition to MDA. I will be monitoring SEC filings and press releases over the weekend and early next week, but if nothing comes, I will take the opportunity to increase my exposure to MDA."
+*Source: [A Note on MDA Space](https://stephentobin.substack.com/p/a-note-on-mda-space)*
+
+### 2026-03-29 — SW Weekly: AirTaxi Review — Portfolio snapshot
+
+MDA mentioned in Weekly Digest as covered in the separate note from 2026-03-27. Portfolio snapshot: 28 shares, local \$710.08 invested, open P&L +\$256.48 (+36%), 7-day return -23%.
+*Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*

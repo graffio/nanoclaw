@@ -42,17 +42,113 @@ if (!fs.existsSync(cityFile)) {
 }
 
 const cityData = JSON.parse(fs.readFileSync(cityFile, 'utf-8'));
-const cityConfig = CITIES.cities[values.city] || {};
+const cityKey = values.city;
+const cityConfig = CITIES.cities[cityKey] || {};
 
 const listings = values.all
   ? cityData.listings
   : cityData.listings.filter(l => l.suitable);
 
-listings.sort((a, b) =>
-  (b.enriched ? 1 : 0) - (a.enriched ? 1 : 0) ||
-  b.response_rate - a.response_rate ||
-  b.reviews - a.reviews
-);
+// --- Availability: compute free days in summer window ---
+
+const SUMMER_START = '2026-06-15';
+const SUMMER_END = '2026-08-21';
+
+function computeAvailability(l) {
+  if (!l.enriched || !l.calendar) return { freeDays: -1, status: 'unknown' };
+  const cal = l.calendar;
+  if (!cal.calendar_set) return { freeDays: -1, status: 'no calendar' };
+
+  const entries = cal.summer_entries || [];
+
+  // No summer entries at all = they haven't indicated summer availability
+  if (entries.length === 0) return { freeDays: -1, status: 'no summer dates' };
+
+  // Check if there are any availability entries (GP ok, reciprocal, or explicit available) vs just booked
+  const hasAvailability = entries.some(e => e.type !== 'BOOKED');
+  const bookedRanges = entries
+    .filter(e => e.type === 'BOOKED')
+    .map(e => ({
+      from: Math.max(new Date(e.from).getTime(), new Date(SUMMER_START).getTime()),
+      to: Math.min(new Date(e.to).getTime(), new Date(SUMMER_END).getTime()),
+    }))
+    .filter(r => r.to > r.from);
+
+  const totalDays = Math.round((new Date(SUMMER_END) - new Date(SUMMER_START)) / 86400000);
+  let bookedDays = 0;
+  for (const r of bookedRanges) {
+    bookedDays += Math.round((r.to - r.from) / 86400000);
+  }
+  const freeDays = totalDays - bookedDays;
+  const status = freeDays <= 0 ? 'fully booked' : hasAvailability ? 'available' : 'partial';
+  return { freeDays, totalDays, status, hasAvailability };
+}
+
+// --- Accessibility: can we actually book this? ---
+// London = reciprocal target (Jul 29 - Aug 9 window). All other cities = GP only.
+
+function accessScore(l, cityKey) {
+  const prefRecip = l.details?.prefers_reciprocal || false;
+  const wantsSF = l.reciprocal?.match && l.reciprocal.match !== 'none';
+
+  if (cityKey === 'london') {
+    // London: reciprocal is the goal
+    if (!prefRecip) return 20;                // GP ok = fallback, still works
+    if (prefRecip && wantsSF) return 25;      // reciprocal + wants SF = ideal match
+    if (prefRecip && !wantsSF) return 3;      // reciprocal but no SF interest = long shot
+    return 10;
+  }
+
+  // All other cities: GP only, reciprocal preference is a negative
+  if (!prefRecip) return 25;              // GP ok = easy
+  if (prefRecip && !wantsSF) return 3;    // reciprocal-preferred, no SF = long shot
+  if (prefRecip && wantsSF) return 5;     // reciprocal + wants SF = unlikely this late
+  return 10;
+}
+
+// --- Rank score heuristic (0-100) ---
+
+function rankScore(l, cityKey) {
+  // Availability is dominant: if fully booked, nothing else matters
+  const avail = computeAvailability(l);
+
+  if (avail.status === 'fully booked') return 0;
+
+  const access = accessScore(l, cityKey);
+
+  let score = 0;
+
+  // Availability (0-40 pts): most important factor
+  if (avail.status === 'no summer dates') {
+    score += 5; // haven't set summer calendar = probably not interested
+  } else if (avail.status === 'no calendar') {
+    score += 10; // no calendar at all = unknown
+  } else if (avail.hasAvailability) {
+    // They explicitly marked summer availability (GP ok or reciprocal entries)
+    score += Math.min(40, Math.round((avail.freeDays / (avail.totalDays || 1)) * 40));
+  } else {
+    // Only booked entries, gaps are ambiguous
+    score += Math.min(25, Math.round((avail.freeDays / (avail.totalDays || 1)) * 25));
+  }
+
+  // Accessibility (0-25 pts)
+  score += access;
+
+  // Reviews (0-20 pts): trust signal, more important than response rate
+  score += Math.min(20, Math.sqrt(l.reviews || 0) * 3);
+
+  // Response rate (0-10 pts): will they reply?
+  score += Math.min(10, (l.response_rate || 0) * 0.1);
+
+  // Beds (0-5 pts): minor, already filtered to 4+
+  const totalBeds = l.adult_beds?.total || 0;
+  score += Math.min(5, (totalBeds - 3) * 2);
+
+  return Math.round(Math.max(0, Math.min(100, score)));
+}
+
+listings.forEach(l => { l._rank = rankScore(l, cityKey); });
+listings.sort((a, b) => b._rank - a._rank);
 
 // --- Calendar summary ---
 
@@ -62,20 +158,28 @@ function calendarSummary(listing) {
   if (!cal.calendar_set) return 'no calendar';
 
   const entries = cal.summer_entries || [];
-  if (entries.length === 0) return 'likely available all summer';
+  if (entries.length === 0) return 'no summer dates set';
 
-  const booked = entries.filter(e => e.type === 'BOOKED');
-  const gp = entries.filter(e => e.type === 'NON_RECIPROCAL');
-  const recip = entries.filter(e => e.type === 'RECIPROCAL');
-
-  const parts = [];
-  for (const e of entries.sort((a, b) => a.from.localeCompare(b.from))) {
-    const from = e.from.slice(5);
-    const to = e.to.slice(5);
-    const label = { BOOKED: 'booked', NON_RECIPROCAL: 'GP', RECIPROCAL: 'recip only' }[e.type] || e.type;
-    parts.push(`${from}→${to} ${label}`);
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  function fmtRange(e) {
+    const from = new Date(e.from);
+    const to = new Date(e.to);
+    const days = Math.round((to - from) / 86400000);
+    return `${months[from.getMonth()]} ${from.getDate()} - ${days}d`;
   }
-  return parts.join(', ');
+
+  // Group by condition, show start date + duration for each
+  const groups = {};
+  const labels = { BOOKED: 'booked', NON_RECIPROCAL: 'GP ok', RECIPROCAL: 'recip only', AVAILABLE: 'available' };
+  for (const e of entries) {
+    const label = labels[e.type] || e.type;
+    if (!groups[label]) groups[label] = [];
+    groups[label].push(fmtRange(e));
+  }
+
+  return Object.entries(groups)
+    .map(([label, ranges]) => `${label}: ${ranges.join(', ')}`)
+    .join('\n');
 }
 
 // --- Build HTML ---
@@ -90,6 +194,8 @@ const listingsJson = JSON.stringify(listings.map((l, i) => ({
   lat: l.lat,
   lon: l.lon,
   hood: l.neighborhood || 'other',
+  hoodLabel: (neighborhoods[l.neighborhood] || {}).label || l.neighborhood || 'other',
+  rank: l._rank,
   br: l.bedrooms,
   perm: l.adult_beds?.permanent ?? '?',
   putup: l.adult_beds?.putup ?? '?',
@@ -153,10 +259,11 @@ const html = `<!DOCTYPE html>
   .title-cell .hood { color: #888; font-size: 11px; }
   .beds-perm { font-weight: 600; }
   .beds-putup { color: #888; }
-  .cal-cell { font-size: 11px; max-width: 180px; }
+  .cal-cell { font-size: 11px; max-width: 220px; white-space: pre-line; }
   .cal-booked { color: #e53935; }
   .cal-gp { color: #1e88e5; }
   .cal-recip { color: #f9a825; }
+  .cal-avail { color: #2e7d32; }
   .cal-unknown { color: #999; }
   .notes-cell { font-size: 11px; color: #666; max-width: 150px; overflow: hidden; text-overflow: ellipsis; }
   .wishlist { font-size: 11px; color: #888; }
@@ -168,6 +275,12 @@ const html = `<!DOCTYPE html>
   .pref-tag { font-size: 10px; padding: 1px 4px; border-radius: 3px; white-space: nowrap; }
   .pref-recip { background: #fff3e0; color: #e65100; }
   .pref-gp { background: #e8f5e9; color: #2e7d32; }
+  .rank-high { color: #2e7d32; font-weight: 700; }
+  .rank-med { color: #f57f17; font-weight: 600; }
+  .rank-low { color: #999; }
+  .hood-cell { font-size: 11px; white-space: nowrap; }
+  th.sort-asc::after { content: ' \\25B2'; font-size: 9px; }
+  th.sort-desc::after { content: ' \\25BC'; font-size: 9px; }
 
   .neighborhood-label { background: none !important; border: none !important; box-shadow: none !important; font-size: 10px; font-weight: 600; color: #666; white-space: nowrap; }
 
@@ -188,16 +301,19 @@ const html = `<!DOCTYPE html>
 <div id="table-container">
 <table id="listings-table">
 <thead><tr>
-  <th>#</th>
+  <th data-col="idx">#</th>
+  <th data-col="id">ID</th>
   <th></th>
-  <th>Listing</th>
-  <th>Beds</th>
-  <th>Resp</th>
-  <th>Rev</th>
-  <th>GP/n</th>
-  <th>Type</th>
-  <th>Summer calendar</th>
-  <th>Notes</th>
+  <th data-col="title">Listing</th>
+  <th data-col="hood">Hood</th>
+  <th data-col="rank">Rank</th>
+  <th data-col="beds">Beds</th>
+  <th data-col="resp">Resp</th>
+  <th data-col="rev">Rev</th>
+  <th data-col="gp">GP/n</th>
+  <th data-col="type">Type</th>
+  <th data-col="cal">Summer calendar</th>
+  <th data-col="notes">Notes</th>
 </tr></thead>
 <tbody id="listings-body"></tbody>
 </table>
@@ -207,6 +323,7 @@ const html = `<!DOCTYPE html>
 const LISTINGS = ${listingsJson};
 const HOODS = ${hoodsJson};
 const CENTER = [${center[0]}, ${center[1]}];
+const CITY_LABEL = ${JSON.stringify(cityData.label)};
 
 // --- Map ---
 const map = L.map('map').setView(CENTER, 13);
@@ -257,7 +374,7 @@ LISTINGS.forEach((l, i) => {
     \${l.br}BR, \${l.perm}+\${l.putup} beds · \${l.resp}% · \${l.rev} rev<br>
     \${l.gp} GP/night · \${l.hood}<br>
     <a href="\${l.url}" target="_blank">View listing</a> ·
-    <a href="https://www.google.com/maps/@\${l.lat},\${l.lon},3a,75y,0h,90t/data=!3m6!1e1!3m4!1s!2e0!7i16384!8i8192" target="_blank">Street View</a>
+    <a href="https://www.google.com/maps/dir/\${l.lat},\${l.lon}/\${CITY_LABEL}/data=!4m2!4m1!3e2" target="_blank">Walking directions</a>
   \`);
 
   marker.on('click', () => highlightRow(i));
@@ -275,6 +392,7 @@ if (LISTINGS.length > 0) {
 const tbody = document.getElementById('listings-body');
 
 function respClass(r) { return r >= 80 ? 'resp-high' : r >= 50 ? 'resp-med' : 'resp-low'; }
+function rankClass(r) { return r >= 60 ? 'rank-high' : r >= 40 ? 'rank-med' : 'rank-low'; }
 
 function formatCal(cal) {
   if (!cal || cal === 'not enriched' || cal === 'no calendar') {
@@ -283,42 +401,49 @@ function formatCal(cal) {
   return cal
     .replace(/booked/g, '<span class="cal-booked">booked</span>')
     .replace(/\\bGP\\b/g, '<span class="cal-gp">GP</span>')
-    .replace(/recip only/g, '<span class="cal-recip">recip only</span>');
+    .replace(/recip only/g, '<span class="cal-recip">recip only</span>')
+    .replace(/\bavailable\b/g, '<span class="cal-avail">available</span>');
 }
 
-LISTINGS.forEach((l, i) => {
-  const tr = document.createElement('tr');
-  tr.dataset.idx = i;
-  tr.onclick = () => highlightRow(i);
+function renderTable() {
+  tbody.innerHTML = '';
+  LISTINGS.forEach((l, i) => {
+    const tr = document.createElement('tr');
+    tr.dataset.idx = i;
+    tr.onclick = () => highlightRow(i);
 
-  const prefTag = l.prefRecip
-    ? '<span class="pref-tag pref-recip">reciprocal</span>'
-    : '<span class="pref-tag pref-gp">GP ok</span>';
+    const prefTag = l.prefRecip
+      ? '<span class="pref-tag pref-recip">reciprocal</span>'
+      : '<span class="pref-tag pref-gp">GP ok</span>';
 
-  const notes = [];
-  if (l.minNights > 0) notes.push(\`min \${l.minNights}n\`);
-  if (l.gp === 0) notes.push('no GP');
-  if (l.wishlist) notes.push(\`wants: \${l.wishlist.slice(0, 60)}\`);
-  if (l.notes) notes.push(l.notes.split(/[.\\n]/)[0].slice(0, 80));
+    const notes = [];
+    if (l.minNights > 0) notes.push(\`min \${l.minNights}n\`);
+    if (l.gp === 0) notes.push('no GP');
+    if (l.wishlist) notes.push(\`wants: \${l.wishlist.slice(0, 60)}\`);
+    if (l.notes) notes.push(l.notes.split(/[.\\n]/)[0].slice(0, 80));
 
-  tr.innerHTML = \`
-    <td>\${i + 1}</td>
-    <td>\${l.thumb ? \`<img class="thumb" src="\${l.thumb}" loading="lazy">\` : ''}</td>
-    <td class="title-cell">
-      <a href="\${l.url}" target="_blank">\${l.title.slice(0, 45)}</a><br>
-      <span class="hood">\${l.hood}</span>
-      <a class="street-view-link" href="https://www.google.com/maps/@\${l.lat},\${l.lon},3a,75y,0h,90t/data=!3m6!1e1!3m4!1s!2e0!7i16384!8i8192" target="_blank">📍 street view</a>
-    </td>
-    <td><span class="beds-perm">\${l.br}BR \${l.perm}</span><span class="beds-putup">+\${l.putup}</span></td>
-    <td class="\${respClass(l.resp)}">\${l.resp}%</td>
-    <td>\${l.rev}</td>
-    <td>\${l.gp}</td>
-    <td>\${prefTag}</td>
-    <td class="cal-cell">\${formatCal(l.cal)}</td>
-    <td class="notes-cell">\${notes.join(' · ')}</td>
-  \`;
-  tbody.appendChild(tr);
-});
+    tr.innerHTML = \`
+      <td>\${i + 1}</td>
+      <td><a href="\${l.url}" target="_blank" style="font-size:11px;color:#888">\${l.id}</a></td>
+      <td>\${l.thumb ? \`<img class="thumb" src="\${l.thumb}" loading="lazy">\` : ''}</td>
+      <td class="title-cell">
+        <a href="\${l.url}" target="_blank">\${l.title.slice(0, 45)}</a><br>
+        <a class="street-view-link" href="https://www.google.com/maps/dir/\${l.lat},\${l.lon}/\${CITY_LABEL}/data=!4m2!4m1!3e2" target="_blank">walk to center</a>
+      </td>
+      <td class="hood-cell">\${l.hoodLabel}</td>
+      <td class="\${rankClass(l.rank)}">\${l.rank}</td>
+      <td><span class="beds-perm">\${l.br}BR \${l.perm}</span><span class="beds-putup">+\${l.putup}</span></td>
+      <td class="\${respClass(l.resp)}">\${l.resp}%</td>
+      <td>\${l.rev}</td>
+      <td>\${l.gp}</td>
+      <td>\${prefTag}</td>
+      <td class="cal-cell">\${formatCal(l.cal)}</td>
+      <td class="notes-cell">\${notes.join(' · ')}</td>
+    \`;
+    tbody.appendChild(tr);
+  });
+}
+renderTable();
 
 // --- Interaction ---
 let highlightedIdx = null;
@@ -349,10 +474,43 @@ function highlightRow(idx) {
 }
 
 // --- Sort ---
-document.querySelectorAll('thead th').forEach((th, colIdx) => {
+let sortCol = null;
+let sortDir = 'desc';
+
+const sortKeys = {
+  idx: l => l.idx,
+  id: l => l.id,
+  title: l => l.title.toLowerCase(),
+  hood: l => l.hoodLabel.toLowerCase(),
+  rank: l => l.rank,
+  beds: l => l.perm + l.putup,
+  resp: l => l.resp,
+  rev: l => l.rev,
+  gp: l => l.gp,
+  type: l => l.prefRecip ? 1 : 0,
+  cal: l => l.cal,
+  notes: l => '',
+};
+
+document.querySelectorAll('thead th[data-col]').forEach(th => {
   th.addEventListener('click', () => {
-    // Simple sort — re-sort LISTINGS array and rebuild table
-    // For now just visual highlight, full sort TBD
+    const col = th.dataset.col;
+    if (sortCol === col) {
+      sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+    } else {
+      sortCol = col;
+      sortDir = col === 'title' || col === 'hood' || col === 'cal' ? 'asc' : 'desc';
+    }
+    const fn = sortKeys[col];
+    if (!fn) return;
+    LISTINGS.sort((a, b) => {
+      const va = fn(a), vb = fn(b);
+      const cmp = typeof va === 'string' ? va.localeCompare(vb) : va - vb;
+      return sortDir === 'asc' ? cmp : -cmp;
+    });
+    document.querySelectorAll('thead th').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+    th.classList.add(sortDir === 'asc' ? 'sort-asc' : 'sort-desc');
+    renderTable();
   });
 });
 </script>

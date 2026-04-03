@@ -76,3 +76,9 @@ Full analysis of the Blue Owl situation published as the lead story. Subtitle: "
 
 Subscriber Fries asked about a good entry point for long-term investment. Stephen: "I keep watching OWL, seems to be a 'bank run' style drop at the moment. I don't know of a right price but I am going to buy some when I see clear evidence that the selling pressure has eased."
 *Source: [chat/2026-03-13-owl-entry.md]*
+
+### 2026-03-22 — SW Weekly: Robotaxi Review, Market Meltdown?
+
+Private credit contagion update: "The problems started last summer with the failure of First Brands and Tricolor, after a quiet period OWL halted redemptions in February, this week Cliffwater limited redemptions followed by Morgan Stanley and Black Rock. The potential for contagion became clear when Deutsche Bank revealed a 26 billion euro exposure." Used as evidence for current market turbulence and potential "Black Monday." Stephen compares current situation to credit crunch of 2007-2009 (US markets dropped 50%).
+
+*Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*

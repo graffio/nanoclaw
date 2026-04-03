@@ -115,6 +115,8 @@ Four separate positions over 16 months. Three closed profitably (+100%, +147%, u
 | Feb 22 | Hold   | 30             | \$20.95 | \$18.06 | \$629    | -\$86.70 | -14%   |
 | Mar 01 | Hold   | 30             | \$20.95 | \$18.78 | \$629    | -\$65.10 | -10%   |
 | Mar 08 | Hold   | 30             | \$20.95 | \$18.59 | \$629    | -\$70.80 | -11%   |
+| Mar 22 | Hold   | 30             | \$20.95 | \$15.73 | \$629    | -\$156.60| -25%   |
+| Mar 29 | Hold   | 30             | \$20.95 | \$13.90 | \$629    | -\$211.50| -34%   |
 
 ## Complete Timeline
 
@@ -277,3 +279,14 @@ into live systems. Probably not in the golden dome defence system."
 Short-term risk: Medium. Medium-term risk: Medium. "Still a long way from profitability so will show high beta in a
 downturn."
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-03-19 — Chat: Iran escalation; leveraged QBTS holder in distress; price action constructive
+
+Subscriber Jason flagged QBTS weakness. Stephen's three replies in the thread:
+
+1. On portfolio positioning: "The Iran situation seems to be sliding out of control. It may be necessary to cut more positions and reduce some holdings, when things finally settle I will want some cash on the account."
+
+2. On a subscriber holding 70% of their portfolio in QBTX (3× leveraged QBTS ETF), down 35%: "I don't know, I would never concentrate in that way so it is difficult to advise. Leverage is a double edged sword, I tried and failed last year to develop a system for leverage and did put all the results in the weekly reviews… I guess my plan would be to scale out slowly to get the position size down a bit, but I really don't have the knowledge to say what is best."
+
+3. Later in the day, on QBTS price action: "QBTS price action looks quite constructive today, no comfort if it is heavily underwater but if I didn't own it I would probably buy today."
+*Source: [chat/chat-2026-03-19.md]*

@@ -1,0 +1,50 @@
+{
+  "description": "People wanting to stay at our SF place. Generates GP we can spend elsewhere.",
+  "our_home_id": 1632849,
+  "last_updated": "2026-03-21",
+  "requests": [
+    {
+      "who": "Alice & Laurent",
+      "party_size": 2,
+      "from": "London",
+      "dates": "2026-07-29 to 2026-08-09",
+      "type": "partly GP",
+      "notes": "Reciprocal candidate for London window"
+    },
+    {
+      "who": "Flore and Robin",
+      "party_size": 2,
+      "from": "Paris/Lisbon",
+      "dates": "2026-07-07 to 2026-07-31",
+      "type": "GP"
+    },
+    {
+      "who": "Annick & Benjamin",
+      "party_size": 7,
+      "from": "Barcelona",
+      "dates": "2026-07-28 to 2026-08-01, 2026-08-15 to 2026-08-18",
+      "type": "GP"
+    },
+    {
+      "who": "Mana",
+      "party_size": 4,
+      "from": "San Diego",
+      "dates": "2026-07-05 to 2026-07-19",
+      "type": "GP"
+    },
+    {
+      "who": "Bogdan",
+      "party_size": 4,
+      "from": "Barcelona",
+      "dates": "2026-07-10 to 2026-07-17",
+      "type": "GP"
+    }
+    {
+      "who": "Rodolphe",
+      "party_size": 4,
+      "from": "France",
+      "dates": "2026-08-02 to 2026-08-06",
+      "type": "GP"
+    }
+  ]
+}

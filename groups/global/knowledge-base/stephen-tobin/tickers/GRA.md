@@ -62,6 +62,8 @@ All prices in CAD.
 | Feb 22 | Pre-Buy  | 270    | CAD 2.58 | CAD 2.16 | CAD 697  | -CAD 113.40| -16%   |
 | Mar 01 | Pre-Buy  | 270    | CAD 2.58 | CAD 2.10 | CAD 697  | -CAD 129.60| -19%   |
 | Mar 08 | Pre-Buy  | 270    | CAD 2.58 | CAD 1.86 | CAD 697  | -CAD 194.40| -28%   |
+| Mar 22 | Hold     | 270    | CAD 2.58 | CAD 1.79 | CAD 697  | -CAD 213.30| -31%   |
+| Mar 29 | Hold     | 270    | CAD 2.58 | CAD 1.90 | CAD 697  | -CAD 183.60| -26%   |
 
 ## Complete Timeline
 
