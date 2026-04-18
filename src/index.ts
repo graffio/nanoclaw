@@ -59,6 +59,7 @@ import {
 } from './sender-allowlist.js';
 import { startSchedulerLoop } from './task-scheduler.js';
 import { Channel, NewMessage, RegisteredGroup } from './types.js';
+import { startUpstreamWatcherCron } from './upstream-watcher.js';
 import { logger } from './logger.js';
 
 // Re-export for backwards compatibility during refactor
@@ -674,6 +675,18 @@ async function main(): Promise<void> {
     getAvailableGroups,
     writeGroupsSnapshot: (gf, im, ag, rj) =>
       writeGroupsSnapshot(gf, im, ag, rj),
+  });
+  startUpstreamWatcherCron({
+    registeredGroups: () => registeredGroups,
+    sendMessage: async (jid, rawText) => {
+      const channel = findChannel(channels, jid);
+      if (!channel) {
+        logger.warn({ jid }, 'No channel owns JID, cannot send watcher digest');
+        return;
+      }
+      const text = formatOutbound(rawText);
+      if (text) await channel.sendMessage(jid, text);
+    },
   });
   queue.setProcessMessagesFn(processGroupMessages);
   queue.setHeartbeatFn((groupJid, silentSeconds) => {
