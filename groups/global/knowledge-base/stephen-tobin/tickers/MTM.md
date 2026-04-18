@@ -61,6 +61,9 @@ All prices in AUD.
 | Mar 08 | Hold   | 800    | AUD 0.95 | AUD 0.73 | AUD 760  | -AUD 176.00 | -23%   |
 | Mar 22 | Hold   | 800    | AUD 0.95 | AUD 0.53 | AUD 760  | -AUD 336.00 | -44%   |
 | Mar 29 | Hold   | 800    | AUD 0.95 | AUD 0.56 | AUD 760  | -AUD 312.00 | -41%   |
+| Apr 01 | Hold   | —      | —       | AUD\$0.61 | —        | -\$272.00 | -36%   |
+| Apr 05 | Hold   | —      | —       | AUD\$0.62 | —        | -\$264.00 | -35%   |
+| Apr 12 | Hold   | 800 | AUD\$0.95 | AUD\$0.64 | AUD\$760 / US\$537 | -AUD\$248.00 | -33% |
 
 ## Complete Timeline
 
@@ -139,3 +142,8 @@ Short-term risk: High. Medium-term risk: Medium. "No current operations, will re
 During the "Black Monday" weekend scare, subscriber Alexandre Porchet announced exiting MTM: "I have placed a sales order for MTM, and do not see any short-term catalysts that could help turn the bad momentum around. I am +213%, so I can't complain, but I will come back later at a hopefully lower level." He cited bad momentum with no near-term catalysts and noted he would be watching EOS and DRO and considering a return to precious metals instead. Stephen did not comment on MTM directly in this thread. MTM was down significantly (position shows -44% return by Mar 22 snapshot).
 
 *Source: [chat/chat-2026-03-22.md](https://stephentobin.substack.com/)*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$0.62, open P&L: \$-264.00 (-35%).
+*Source: [posts/sw-weekly-quantum-progress.md]*

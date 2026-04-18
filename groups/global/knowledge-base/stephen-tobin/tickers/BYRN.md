@@ -4,7 +4,7 @@
 |-----------------------|--------------------------------------------------------------------------------------|
 | **Exchange**          | NASDAQ                                                                               |
 | **Sector**            | Non-Lethal Weapons / Consumer Safety                                                 |
-| **Status**            | CLOSED — sold 2026-03-19 at a loss                                                   |
+| **Status**            | CLOSED — sold 2026-03-19 at a loss. Will not buy again (confirmed 2026-04-09).        |
 | **Fair Value Target** | USD 45 (at time of last holding)                                                     |
 | **First covered**     | 2024-08-09                                                                           |
 | **First bought**      | 2024-08-09 (Trade Alert)                                                             |
@@ -145,6 +145,16 @@ Stephen: "Poor results this morning with revenue below consensus. Next earnings 
 
 Short-term risk: High. Medium-term risk: High. "Major concerns with Byrna — the soft earnings report this quarter may be a sign that consumer spending is already slowing and their high-priced devices depend solely on discretionary retail spending."
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-04-09 — Chat: Final verdict on BYRN
+
+Replying to member noting "Byrn under water": "Yes, poor results across the board. Lack of new products and loss of the CEO who was the company really. I can't see me buying again and I am glad I exited earlier." Confirms permanent exit — thesis fully closed.
+*Source: [chat/chat-2026-04-09.md]*
+
+### 2026-04-13 — Chat: BYRN 16% bounce — no change to view
+
+BYRN jumped 16% on a broader risk-on rally. Stephen: "The price has collapsed to \$6, it was over \$30 last year so I guess a bit of a bounce was likely. After the last earnings call I can't imagine buying anytime soon." Discussed the "TACO trade" — Trump threats now so well-established they're buying signals. Also noted UK new tax year (Apr 6) as possible driver: UK investors can deposit up to £20k/year into tax-free ISA accounts. On the Iran naval blockade threat: "I don't think the market believes this will happen. Iran exports oil to China, will the US Navy attack a Chinese tanker — I really hope not and I don't think the market believes they will." Position: CLOSED — no change, not considering re-entry.
+*Source: [chat/chat-2026-04-13.md]*
 
 ### 2026-03-19 — Close Alert: SOLD (all positions)
 

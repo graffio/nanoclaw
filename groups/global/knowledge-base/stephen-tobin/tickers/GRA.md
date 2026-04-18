@@ -64,6 +64,9 @@ All prices in CAD.
 | Mar 08 | Pre-Buy  | 270    | CAD 2.58 | CAD 1.86 | CAD 697  | -CAD 194.40| -28%   |
 | Mar 22 | Hold     | 270    | CAD 2.58 | CAD 1.79 | CAD 697  | -CAD 213.30| -31%   |
 | Mar 29 | Hold     | 270    | CAD 2.58 | CAD 1.90 | CAD 697  | -CAD 183.60| -26%   |
+| Apr 01 | Hold   | —      | —       | CAD\$2.07 | —        | -\$137.70 | -20%   |
+| Apr 05 | Hold   | —      | —       | CAD\$2.07 | —        | -\$137.70 | -20%   |
+| Apr 12 | Hold   | 270 | CAD\$2.58 | CAD\$2.23 | CAD\$697 / US\$503 | -CAD\$94.50 | -14% |
 
 ## Complete Timeline
 
@@ -116,3 +119,8 @@ Key updates: Narrowed FY2026 guidance to CAD 115-120M. Cancelled CAD 100M active
 
 Short-term risk: Medium. Medium-term risk: High. "NanoXplore is dependent on a pickup in auto manufacturing, which might not arrive for some time." Not flagged for immediate exit but noted as exposed to auto sector weakness.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$2.07, open P&L: \$-137.70 (-20%).
+*Source: [posts/sw-weekly-quantum-progress.md]*

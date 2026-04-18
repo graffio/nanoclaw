@@ -190,3 +190,8 @@ Stephen booked a loss on Vertical Aerospace after a full review of Q earnings: "
 
 Full eVTOL sector review published. Stephen confirmed exit of EVTL and departure from the eVTOL sector entirely for now. Battery issues: cycle life (10,000 cycles max vs. ~80,000 needed for 35 flights/day), overweighting (batteries too heavy for payload targets), and Deutsche Bank's view that payload specs cannot be met. Timeline drift: EVTL slipped from certification 2024 → 2026 → 2028 → commercialization 2030. Gartner Hype Cycle: eVTOL now in "trough of disillusionment" (2026-2027). "I am going to withdraw from this industry for the time being." Three eVTOL trades total: cash return 52% (ROI 100% hit on two but third position much larger). Stephen will look to buy back into leaders when a business is on the short-term horizon.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-04-16 — Chat: Milestone achieved but Stephen not re-entering
+
+Member asked about EVTL's milestone (first flight of certifiable aircraft) and whether the -40% pullback was over. Stephen: "It is a milestone, was expected Q4 2025 and missing that deadline intensified the pullback. I am not getting back in, the certifiable aircraft is so different from the one in testing today you have to worry about the relevance of these results. I had always assumed the plan would be similar to JOBY where the certifiable plane is a small modification of the prototype, in EVTLs case they look completely different."
+*Source: [chat/chat-2026-04-16.md]*

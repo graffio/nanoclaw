@@ -84,11 +84,20 @@ Two positions totalling 195 shares, average price AUD \$5.30 (total invested AUD
 | Mar 08 | Hold    | 195    | AUD \$5.30 | AUD \$9.91 | AUD \$1033 | +\$899.30  | +87%   |
 | Mar 22 | Hold    | 195    | AUD \$5.30 | AUD \$9.90 | AUD \$1033 | +\$897.35  | +87%   |
 | Mar 29 | Hold    | 195    | AUD \$5.30 | AUD \$8.46 | AUD \$1033 | +\$616.55  | +60%   |
+| Apr 01 | Hold   | —      | —       | AUD\$9.03 | —        | +\$727.70 | +70%   |
+| Apr 05 | Hold   | —      | —       | AUD\$9.00 | —        | +\$721.85 | +70%   |
+| Apr 12 | Hold   | 195 | AUD\$5.30 | AUD\$9.28 | AUD\$1,033 / US\$730 | +AUD\$776.45 | +75% |
 
 Best performing stock in portfolio as of Mar 08 2026. All prices in AUD.
 
 ## Complete Timeline
 
+
+### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
+
+Portfolio snapshot week ending Apr 11. Electro Optic Systems: 195 shares at AUD\$5.30 avg, latest AUD\$9.28, +AUD\$776.45 (+75%). Best absolute return in portfolio. 7-day return: -2%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.
+
+*Source: [posts/sw-weekly-companies-driving-next.md]*
 ### 2025-10-31 — Chat: Drone sector concerns (first mention)
 
 Stephen mentioned EOS for the first time alongside AIRO, TAKOF, and DRO: "I am a little worried about my drone sector, it is a little on the large size with AIRO, TAKOF, DRO, EOS. I will be looking to trim a bit next week." Alexandre Porchet replied: "DRO and EOS will do fine! I am not sure about the other two."
@@ -248,3 +257,22 @@ Subscriber Alexandre Porchet: "I'll be watching EOS and DRO. I don't think it wi
 Stephen: "A very mixed start to the week. Notable drops in DRO and EOS suffering from both the geopolitical issues on Monday and the prospect of peace on Tuesday. Still considering exiting to preserve cash on those two." EOS dropping on conflicting geopolitical signals — hurt both by war escalation fears and by peace-prospect relief rallies undercutting the defence premium.
 
 *Source: [chat/chat-2026-03-24.md](chat/chat-2026-03-24.md)*
+
+### 2026-03-31 — Chat: Korea deal is delay not cancellation, US orders picking up
+
+In response to an announcement about EOS Korea deal: "The Korea deal was the basis of the recent short report. I interpret this as a delay but not a cancellation and like the fact EOS is sticking to the 'money first' approach. The orders in the US appear to be picking up at the moment."
+
+### 2026-04-01 — Chat: EOS could land \$billion order — wouldn't add more Aussie stocks
+
+When asked about April investment plans, Stephen mentioned EOS: "I think it could land a \$billion order which would transform it (it's only 8 HELW systems I can imagine countries buying double figures of them)." However, he added caution about adding to Aussie positions: "The Aussie stocks have been incredibly volatile so I probably wouldn't add any more of those despite the potential of EOS."
+*Source: [chat/chat-2026-03-31.md], [chat/chat-2026-04-01.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$9.00, open P&L: +\$721.85 (+70%).
+*Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-14 — Chat: EOS Space Systems UK geo-tracking milestone
+
+Member shared news that EOS Space Systems delivered initial geo-tracking data into a UK programme. Stephen: "The Space industry generally is moving quickly at the moment, EOS has a lot of tech in that area and this looks like another step towards commercialising it."
+*Source: [chat/chat-2026-04-14.md]*

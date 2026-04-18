@@ -84,9 +84,18 @@ Single position. Full-size (\$602 invested, 3% of equity). Midpoint order placed
 | Mar 08 | Hold   | 70     | \$8.60  | \$6.58 | \$602    | -\$141.40  | -23%   |
 | Mar 22 | Hold   | 70     | \$8.60  | \$5.41 | \$602    | -\$223.30  | -37%   |
 | Mar 29 | Hold   | 70     | \$8.60  | \$5.37 | \$602    | -\$226.10  | -38%   |
+| Apr 01 | Hold   | —      | —       | \$5.51 | —        | -\$216.30 | -36%   |
+| Apr 05 | Hold   | —      | —       | \$5.79 | —        | -\$196.70 | -33%   |
+| Apr 12 | Hold   | 70 | \$8.60 | \$5.53 | \$602 | -\$214.90 | -36% |
 
 ## Complete Timeline
 
+
+### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
+
+Portfolio snapshot week ending Apr 11. Compass Pathways: 70 shares at \$8.60 avg, latest \$5.53, -\$214.90 (-36%). Needham Virtual Healthcare Conference fireside chat Apr 14. 7-day return: -4%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.
+
+*Source: [posts/sw-weekly-companies-driving-next.md]*
 ### 2021–2024 — Seeking Alpha coverage (pre-Substack)
 
 Stephen writes multiple articles on the psychedelic therapeutics sector including CMPS on Seeking Alpha. Specific content not available but referenced repeatedly in later Substack posts. He had "more than 60 companies" on his spreadsheet when he started following the sector.
@@ -159,3 +168,18 @@ CMPS and NRX dropped following publication of a large meta-study (compilation of
 
 FY2025 results (reported March 24): UK net operating loss carryforwards $577.90M. February 2026 capital raise: ~$140.50M net proceeds via 17.50M ADS underwritten offering. Regulatory: preparing for rolling NDA submissions for COMP360 psilocybin in treatment-resistant depression. Portfolio snapshot: 70 shares, open P&L -$226.10 (-38%), 7-day return +1%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$5.79, open P&L: \$-196.70 (-33%).
+*Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-14 — Note: Up 40% — "ten bagger in the making"
+
+Stephen posted: "It's all about timing I followed Psychedelic drugs for 5 years before making my investment and today it is looking good up 40% and a ten bagger in the making." (Entry price ~\$8.60; up 40% implies current price ~\$12.04.)
+*Source: [notes/note-c-243396194.md]*
+
+### 2026-04-16 — Note: Psychedelic stocks up on executive order rumours — taking the gain
+
+Stephen posted: "All the Psychedelic stocks up today. Rumours of an executive order funding research in PTSD. Now markets move on a rumour that a Trump Post might be coming, a crazy time for investors. I have CMPS and am happily taking the gain but doubt it's longevity." No position change indicated — holding.
+*Source: [notes/note-c-244445184.md]*

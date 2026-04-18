@@ -93,6 +93,10 @@ Three separate positions. First was a quick +84% winner. Second was the "biggest
 | Mar 08     | Hold   | 425    | A\$3.00    | A\$4.07    | A\$1276  | +\$454.25   | +36%   |
 | Mar 22     | Hold   | 425    | A\$3.00    | A\$4.15    | A\$1276  | +\$488.25   | +38%   |
 | Mar 29     | Hold   | 425    | A\$3.00    | A\$3.88    | A\$1276  | +\$373.50   | +29%   |
+| Apr 01 | Hold   | —      | —       | AUD\$3.98 | —        | +\$416.00 | +33%   |
+| Apr 05 | Hold   | —      | —       | AUD\$3.93 | —        | +\$394.75 | +31%   |
+| Apr 08 | Hold   | 425    | A\$3.00 | A\$3.45  | A\$1275  | +\$190.75 | +15%   |
+| Apr 12 | Hold   | 425    | A\$3.00 | A\$3.47  | A\$1276  | +\$199.25 | +16%   |
 
 ## Complete Timeline
 
@@ -283,3 +287,20 @@ Market context discussed: MOVE index at 108 driving forced hedge fund deleveragi
 Stephen: "A very mixed start to the week. Notable drops in DRO and EOS suffering from both the geopolitical issues on Monday and the prospect of peace on Tuesday. Still considering exiting to preserve cash on those two." DRO dropping on conflicting geopolitical signals — hurt both by war escalation fears and by peace-prospect relief rallies undercutting the defence premium.
 
 *Source: [chat/chat-2026-03-24.md](chat/chat-2026-03-24.md)*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$3.93, open P&L: +\$394.75 (+31%).
+*Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
+
+Weekly digest entry covering DRO. Stock fell 13% this week after management restructuring announcement (Vornik departure). New CEO Angus Bean, a long-term employee, replacing Vornik. New US President appointed: Ray Fitzgerald (former US Navy pilot). Q1 2026 momentum strong: revenue +88%, cash receipts record A\$77M, A\$140M in new orders secured in 2026 to date. Sales pipeline A\$2.2B with A\$133M committed revenues for 2026. Software release: Q2 2026 update includes ATAK-CIV plugin and enhanced RfAI emitter libraries. Position: 425 shares at A\$3.00, latest A\$3.47, +16% return (7-day return: -13%).
+
+*Source: [posts/sw-weekly-companies-driving-next.md]*
+
+### 2026-04-08 — Chat: Vornik stepping down, record Q1 results
+
+CEO Oleg Vornik and Chairman simultaneously stepped down. Stock dropped ~20% on the news. New CEO messaging focused on "strengthening governance, discipline and operational maturity." Stephen's reaction: "Clearly a planned transition, CEO and Chairman dismissed and new people, as well as new head of US position put in place. I think it's probably the board dealing with last year's incompetence. Press release also reports a record Q1 with revenue up 87% and cash receipts up more than 300%. With \$33m in profit this could be a time to add." On ownership question: "He had zero shares, he was a hired CEO, the first person the two founders hired in fact." Stephen's tone: constructive, views the drop as a potential buying opportunity given the business fundamentals.
+
+*Source: [chat/chat-2026-04-08.md]*

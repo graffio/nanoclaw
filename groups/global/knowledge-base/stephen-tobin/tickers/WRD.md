@@ -91,6 +91,9 @@ Notes on trades:
 | Mar 08 | Under review | 76     | \$8.51  | \$6.37 | \$647    | -\$162.85  | -25%   |
 | Mar 22 | Hold         | 76     | \$8.51  | \$6.35 | \$647    | -\$164.37  | -25%   |
 | Mar 29 | Hold         | 76     | \$8.51  | \$6.96 | \$647    | -\$118.01  | -18%   |
+| Apr 01 | Hold   | —      | —       | \$8.09 | —        | -\$32.13 | -5%   |
+| Apr 05 | Hold   | —      | —       | \$7.81 | —        | -\$53.41 | -8%   |
+| Apr 12 | Hold   | 76 | \$8.51 | \$7.50 | \$647 | -\$76.97 | -12% |
 
 ## Complete Timeline
 
@@ -240,3 +243,25 @@ Subscriber AN123: "It looks like the market was not too impressed with WRD's res
 
 FY2025 results: Record full-year revenue RMB 684.60M (\$97.90M), +89.60% YoY. Product revenue surged 310.30% to RMB 359.80M (\$51.50M). Fleet surpassed 1,000 robotaxis. Autonomous permits in 8 global markets. March 13 share plan adopted. Active in share repurchases. Portfolio snapshot: 76 shares, open P&L -\$118.01 (-18%), 7-day return +1%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-03-31 — Note + Chat: Big earnings day, Stephen's favourite of the day
+
+Note: Stephen flagged WRD as the stock he liked the look of most on a big up day: "Having a big day today with 5 of my 18 US stocks up more than 10%. Important not to get carried away, it's just one day and could easily unwind tomorrow. I am a perma-bull but I am not rushing to spend the cash balance at the moment. \$WRD is the stock I like the look of most today."
+
+In chat, Stephen commented: "Yes good earnings from them but odd PONY is not joining in the rally"
+*Source: [notes/note-c-236139083.md], [chat/chat-2026-03-31.md]*
+
+### 2026-04-02 — Chat: Baidu ApolloGo incident — potential knock-on for WRD
+
+Stephen warned about potential contagion from an ApolloGo (Baidu) incident: "Expecting a hit to the robotaxi stocks today. The FT is reporting an incident with ApolloGo (Baidu) on Tuesday night where multiple cars just stopped on highways with people stuck inside. Apparently an outage and Baidu did not have staff on to deal with it, follows an incident in December when a Baidu taxi ran two people over causing serious injuries. No link to WRD or PONY but these stocks tend to move together."
+*Source: [chat/chat-2026-04-02.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$7.81, open P&L: \$-53.41 (-8%).
+*Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-17 — Chat: First mass-produced car launched — unexpected upside
+
+Stephen posted: "WeRide launched its first mass produced car today. The press releases is worth a read, I had not built this into my forecasts (to be honest I wasnt convinced it would ever happen) but it represents quite an upside." Refers to the Aion N60, co-developed with GAC, powered by WeRide Driving (WRD 3.0) — WeRide's one-stage end-to-end ADAS solution. Pre-sales launched April 16, 2026.
+*Source: [chat/chat-2026-04-17.md]*

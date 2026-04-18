@@ -66,6 +66,9 @@ Single position. Half-size (\$300, ~1.5% of equity). Will add on pullback.
 | Mar 08 | Hold     | 75     | \$4.36  | \$3.14 | \$327    | -\$91.50   | -28%   |
 | Mar 22 | Hold     | 75     | \$4.36  | \$2.59 | \$327    | -\$132.75  | -41%   |
 | Mar 29 | Hold     | 75     | \$4.36  | \$2.28 | \$327    | -\$156.00  | -48%   |
+| Apr 01 | Hold   | —      | —       | \$2.42 | —        | -\$145.50 | -44%   |
+| Apr 05 | Hold   | —      | —       | \$2.45 | —        | -\$143.25 | -44%   |
+| Apr 12 | Hold   | 75 | \$4.36 | \$2.19 | \$327 | -\$162.75 | -50% |
 
 ## Complete Timeline
 
@@ -134,3 +137,8 @@ Weekly Digest: American Resources Corp announced its participation in the 11th A
 
 Marion Rare Earth and Critical Mineral refinery buildout on track and under budget. Transitioning from product validation to scaled deployment. Focus on decoupling defence and commercial supply chains from global refining concentrations. Portfolio snapshot: 75 shares, open P&L -$156.00 (-48%), 7-day return -16%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$2.45, open P&L: \$-143.25 (-44%).
+*Source: [posts/sw-weekly-quantum-progress.md]*

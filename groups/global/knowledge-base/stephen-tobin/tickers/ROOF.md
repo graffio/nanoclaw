@@ -52,6 +52,9 @@ All prices in CAD.
 | Mar 08 | Pre-Buy  | 1,250  | CAD 0.34 | CAD 0.20 | CAD 425  | -CAD 175.00 | -41%   |
 | Mar 22 | Hold     | 1,250  | CAD 0.34 | CAD 0.19 | CAD 425  | -CAD 187.50 | -44%   |
 | Mar 29 | Hold     | 1,250  | CAD 0.34 | CAD 0.20 | CAD 425  | -CAD 175.00 | -41%   |
+| Apr 01 | Hold   | —      | —       | CAD\$0.21 | —        | -\$162.50 | -38%   |
+| Apr 05 | Hold   | —      | —       | CAD\$0.21 | —        | -\$162.50 | -38%   |
+| Apr 12 | Hold   | 1250 | CAD\$0.34 | CAD\$0.21 | CAD\$425 / US\$307 | -CAD\$162.50 | -38% |
 
 ## Complete Timeline
 
@@ -147,3 +150,8 @@ Operational update: technical problems at first site preventing nameplate capaci
 
 Short-term risk: High. Medium-term risk: Medium. "MTM, AREC, and ROOF are still developing the first sites and will need ongoing capital. They may be just too risky in this environment." Not flagged for immediate exit but noted as exposed to capital needs.
 *Source: [posts/portfolio-review-higher-for-longer.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$0.21, open P&L: \$-162.50 (-38%).
+*Source: [posts/sw-weekly-quantum-progress.md]*

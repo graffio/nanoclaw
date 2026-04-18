@@ -117,6 +117,9 @@ Four separate positions over 16 months. Three closed profitably (+100%, +147%, u
 | Mar 08 | Hold   | 30             | \$20.95 | \$18.59 | \$629    | -\$70.80 | -11%   |
 | Mar 22 | Hold   | 30             | \$20.95 | \$15.73 | \$629    | -\$156.60| -25%   |
 | Mar 29 | Hold   | 30             | \$20.95 | \$13.90 | \$629    | -\$211.50| -34%   |
+| Apr 01 | Hold   | 30             | \$20.95 | \$14.43 | \$629    | -\$195.60| -31%   |
+| Apr 05 | Hold   | 30             | \$20.95 | \$14.32 | \$629    | -\$198.90| -32%   |
+| Apr 12 | Hold   | 30 | \$20.95 | \$14.25 | \$629 | -\$201.00 | -32% |
 
 ## Complete Timeline
 
@@ -290,3 +293,24 @@ Subscriber Jason flagged QBTS weakness. Stephen's three replies in the thread:
 
 3. Later in the day, on QBTS price action: "QBTS price action looks quite constructive today, no comfort if it is heavily underwater but if I didn't own it I would probably buy today."
 *Source: [chat/chat-2026-03-19.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Deep dive on qubit architectures
+
+D-Wave featured extensively in the quantum architecture deep dive. Context:
+- **Market pressure:** Stock fell 6.62% on Mar 30 to \$12.96, high volume \$310M
+- **Earnings:** EPS shortfall of -\$0.09/share; global helium shortage flagged as operational risk (helium critical for cooling superconducting qubits)
+- **Insider activity:** CEO and CFO reduced stakes by 1.33% and 0.73% respectively; contrasted by AQR increasing institutional position
+- **Architecture context:** D-Wave uses superconducting annealing. In the 6-architecture comparison, superconducting qubits are "1000x faster at gate operations" but require extreme cooling (≈15mK). D-Wave's annealing approach differs from gate-based superconducting but shares the cooling requirement.
+- **Portfolio snapshot:** 30 shares, \$20.95 avg buy, \$14.32 latest, -32% open P&L, +10% on week
+
+*Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-14 — Chat: NVIDIA Ising announcement drives quantum sector rally
+
+Member shared news that NVIDIA launched Ising, the world's first open AI models to accelerate the path to useful quantum computers. Stephen replied: "QBTS jumping with all quantum stocks today, IONQ got a good contract from DARPA which has added a bit of momentum."
+*Source: [chat/chat-2026-04-14.md]*
+
+### 2026-04-15 — Chat: DWave up 40%+ on the week
+
+Stephen commented on the portfolio rally: "Yes DWave going great guns, over 40% this week and hopefully in profit soon."
+*Source: [chat/chat-2026-04-15.md]*

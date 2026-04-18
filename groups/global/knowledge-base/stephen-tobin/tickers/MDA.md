@@ -79,11 +79,20 @@ Single position held since purchase. Bought on the Canadian TSX exchange rather 
 | Mar 08 | Hold   | 28     | CAD \$25.36  | CAD \$40.43  | \$710    | +\$421.96 | +59%   |
 | Mar 22 | Hold   | 28     | CAD \$25.36  | CAD \$42.98  | \$710    | +\$493.36 | +69%   |
 | Mar 29 | Hold   | 28     | CAD \$25.36  | CAD \$34.52  | \$710    | +\$256.48 | +36%   |
+| Apr 01 | Hold   | 28     | CAD \$25.36  | CAD \$35.24  | \$710    | +\$276.64 | +39%   |
+| Apr 05 | Hold   | 28     | CAD \$25.36  | CAD \$37.85  | \$510    | +\$349.72 | +49%   |
+| Apr 12 | Hold   | 28 | CAD\$25.36 | CAD\$42.37 | CAD\$710 / US\$513 | +CAD\$476.28 | +67% |
 
 All prices in CAD. One of the best performing positions in the portfolio.
 
 ## Complete Timeline
 
+
+### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
+
+Portfolio snapshot week ending Apr 11. MDA Space: 28 shares at CAD\$25.36 avg, latest CAD\$42.37, +CAD\$476.28 (+67%). One of the best performers in portfolio. 7-day return: +5%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.
+
+*Source: [posts/sw-weekly-companies-driving-next.md]*
 ### 2025-12-09 — Trade Alert #89: Space Company at a Discount (1st BUY)
 
 First purchase. Full-size position of \$500 (3% of equity), 28 shares at CAD \$25.36 on the Canadian TSX exchange. Stephen had been watching MDA for over a year, waiting for a pullback. The stock had fallen nearly 50% from its high due to two SpaceX-related contract scares (EchoStar cancellation and Globalstar acquisition rumours). Investment thesis: vertically integrated leader with world-beating technology at a discounted price. \$4B backlog, 48% YoY revenue growth, and unique satellite manufacturing capacity. Target \$50 initially.
@@ -158,3 +167,38 @@ Dedicated analytical post in response to MDA's ~20% pullback (CAD \$46.11 → \$
 
 MDA mentioned in Weekly Digest as covered in the separate note from 2026-03-27. Portfolio snapshot: 28 shares, local \$710.08 invested, open P&L +\$256.48 (+36%), 7-day return -23%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-03-27 — Note: MDA Space caught in "first satellite war"
+
+Stephen posted a brief note: "One of my holdings MDA Space appears to be caught in the first satelite war, I am sure it will be the first space grab of many." Context: Amazon rumours around GlobalStar acquisition creating volatility in satellite stocks.
+*Source: [notes/note-c-234126299.md]*
+
+### 2026-04-02 — Chat + Note: Amazon confirmed in talks to buy GlobalStar — MDA up 7%
+
+Stephen posted in chat: "News reports today that Amazon is in talks to buy GlobalStar, big relevance to MDA. Hopefully we will hear about the satellite contract." Separately, Stephen posted a note celebrating his earlier analysis: "It is good when analysis works out. I looked at GlobalStar last month suggesting Amazon might be the frontrunner to buy it and that MDA would benefit. Seems to be playing out nicely with reports today saying an Amazon takeover is close, MDA up 7% as a result."
+*Source: [chat/chat-2026-04-02.md], [notes/note-c-237147818.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+MDA portfolio snapshot: 28 shares, TSE:MDA, invested US\$509, open profit +\$349.72 (+49%), 7-day return +15%. One of only 3 profitable positions (alongside EOS and NRXP) in the current portfolio. Amazon/Globalstar acquisition news drove the recent gain. Weekly performance: all 21 stocks in green, MDA among best performers (+15% on the week).
+*Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-06 — Note: JP Morgan buy rating — MDA up +7.19%
+
+Stephen noted MDA Space moving higher on JP Morgan initiating with a Buy rating, giving a 25% upside target with thesis centred on becoming a prime contractor for Defense satellites. Intraday price: CAD 40.57, +2.72 (+7.19%). Today's range: 38.27–40.87.
+*Source: [notes/note-c-239080806.md]*
+
+### 2026-04-14 — Note: Portfolio up 8.5% — MDA at resistance, target raised pending Amazon/GlobalStar deal
+
+Broad-based rally day, all stocks in green. "\$MDA is the stock I like the look of most. Bought at \$25 targeting \$55, approaching resistance at the same time as major corporate news arriving. Once the GlobalStar deal with Amazon is concluded I will look at the target again, thinking it will go much higher."
+*Source: [notes/note-c-243278892.md]*
+
+### 2026-04-14 — Chat: Amazon/GlobalStar deal confirmed — target price to be raised significantly
+
+Member asked about Amazon buying GlobalStar and implications for MDA. Stephen: "I think the Amazon deal is a reasonable outcome for MDA, much better than Starlink buying. I did cover the potential in a note recently. I will review the target price when we get confirmation of the deal and how Apple are affected, at the moment I am thinking a significant raise in the target price."
+*Source: [chat/chat-2026-04-14.md]*
+
+### 2026-04-15 — Chat: Amazon acquires GlobalStar for \$11B — direct MDA catalyst confirmed
+
+Stephen started the thread: "Amazon have acquired GlobalStar for \$11 billion and have agreed to partner with Apple to provide direct to device services. It looks good for MDA here is the quote from the Amazon presser: 'Globalstar's existing satellite fleet and its new satellites with expanded capabilities will operate alongside the Amazon Leo broadband system and Amazon's planned direct-to-device satellite system.' Likely a big win for MDA as the expanded capabilities and new satellites are MDA tech."
+*Source: [chat/chat-2026-04-15.md]*

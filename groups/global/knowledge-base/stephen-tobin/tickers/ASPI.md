@@ -88,9 +88,18 @@ Three positions totalling 125 shares, \$981 invested, average buy \$7.85. All cu
 | Mar 08 | Hold         | 125    | \$7.85  | \$5.55 | \$981    | -\$287.23  | -29%   |
 | Mar 22 | Hold         | 125    | \$7.85  | \$4.22 | \$981    | -\$453.48  | -46%   |
 | Mar 29 | Hold         | 125    | \$7.85  | \$4.37 | \$981    | -\$434.73  | -44%   |
+| Apr 01 | Hold   | —      | —       | \$4.42 | —        | -\$428.48 | -44%   |
+| Apr 05 | Hold   | —      | —       | \$4.29 | —        | -\$444.73 | -45%   |
+| Apr 12 | Hold   | 125 | \$7.85 | \$4.48 | \$981 | -\$420.98 | -43% |
 
 ## Complete Timeline
 
+
+### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
+
+Portfolio snapshot week ending Apr 11. ASP Isotopes: 125 shares at \$7.85 avg, latest \$4.48, -\$420.98 (-43%). Business update call scheduled Apr 13. Cash \$285.60M. 7-day return: +6%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.
+
+*Source: [posts/sw-weekly-companies-driving-next.md]*
 ### 2025-05-13 — Trade Alert #47: Buying Nuclear (1st BUY)
 
 First purchase. "This South African-based isotope enrichment company has developed a real and sustainable competitive advantage in the enrichment of isotopes needed in the medical and industrial fields." Bought 60 shares at ~\$6.75, approximately 3.5% of equity (\$404.70). Detailed short seller rebuttal (Fuzzy Panda). Covered Yb-176 (\$20,000/gram order), C-14 (\$2.5M/yr deal with Canadian company), Si-28 (two purchase orders). Technology based on older proven ASP from Klydon acquisition; plants cost ~\$3M vs \$1B+ centrifuge. TerraPower co-funding HALEU facility. Chart target above \$25.
@@ -240,3 +249,28 @@ Jacob Templeman: "Just wanted to confirm, are we still holding onto ASPI?" Steph
 
 March 23: Completed well drilling for Phase 1 of the Renergen Helium Project ~4 months ahead of schedule. Recent SEC filings provided pro forma financial info on Renergen acquisition (combined balance sheets as of Sept 30, 2025). Portfolio snapshot: 125 shares, open P&L -\$434.73 (-44%), 7-day return -10%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-03-27 — Chat: ASPI down 15% on misleading news — Stephen's detailed analysis
+
+Stephen posted a detailed thread on ASPI being hit hard (down 15%) following two seemingly negative news items:
+
+1. **Vanguard zero holding**: Vanguard announced zero holding but this is NOT a mass sell-off — it's due to indiviso subsidiaries now reporting separately following a January reorganisation. AI scraping tools (like Stock Titans) misinterpreted this and published multiple misleading AI-generated news items.
+
+2. **Class action lawsuits**: Law firms issued press releases saying the class action "survived a motion to dismiss." Stephen notes: the dismissal was actually denied in part back in December. Law firms are soliciting more claimants (eligible if held before Sep 2024). The lawsuit alleges management claimed uranium enrichment capability before proving it.
+
+Stephen's view on class actions: "These class action law suits are very common... I found that 97% are settled out of court for a figure between \$3 and \$5 million all of which goes to cover the lawyers fees... In all cases the payment is covered by corporate insurance, which is why the companies are forced to settle 'without admitting guilt'."
+
+Context on portfolio: "The portfolio is now down more than 10% after the Australia trading session with DRO and EOS giving up this weeks gains. The problems in the Middle East get worse... the probability of a recession grows which would necessitate further rotation in the portfolio and closing another four or five positions."
+
+In replies, Stephen compared ASPI to Silex (competitor): "I did look at Silex as a competitor to ASPI, at the time I thought ASPI would be the first to market with enriched isotopes and that thesis still looks to be correct. Silex hoped to finish their first Silicon enrichment facility in 2026 but that now appears more likely in 2027. ASPI have successfully enriched multiple isotopes but have yet to ship commercial orders which is a worry. As for enriching uranium I don't think it is a near term outcome for either. They both have US approval and have JVs building test sites, ASPI intends to spin out the uranium enrichment whereas Silex wants to license the tech. I don't think I want an additional small nuclear co at the moment."
+*Source: [chat/chat-2026-03-27.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$4.29, open P&L: \$-444.73 (-45%).
+*Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-13 — Chat: Business update — ARBE comparison, 75%+ milestone probability
+
+Member shared ASPI's Apr 13 investor relations business update. Stephen's reaction: "On the one hand all is going well but it is beginning to have an ARBE promise vibe." On milestone probability: "Confident is a strong word, I think they have a probability greater than 75% of hitting some of this years milestones which would be good enough. Any commercial shipment of enriched isotopes this year would make me pleased with the progress, if they can bring Helium on line as well that would be a positive surprise." On execution risk: "As we know these timelines slip, Arbe don't seem to be able to land the big deal. ASPI have the big deal but are clearly having trouble producing. A couple of worrying sentences in the update about outside technical problems, power surges and working with customers to improve safety and production." On market reaction: "The market seems to like the update, 8% gain and nice looking price action. If I didn't have a full position now would likely be a good time to add." Position: full (3 positions, max allowed 5% of equity). Not adding.
+*Source: [chat/chat-2026-04-13.md]*
