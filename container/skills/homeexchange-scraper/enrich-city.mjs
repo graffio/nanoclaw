@@ -178,7 +178,7 @@ function assessReciprocal(alerts, myLat, myLon) {
       specificity = 'exact';
     } else if (placeLower.includes('bay area')) {
       specificity = 'region';
-    } else if (placeLower.includes('california') || placeLower.includes('ca')) {
+    } else if (placeLower.includes('california') || /\bca\b/.test(placeLower)) {
       specificity = 'state';
     } else if (placeLower.includes('united states') || placeLower.includes('usa')) {
       specificity = 'country';
