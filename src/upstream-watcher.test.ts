@@ -158,8 +158,14 @@ describe('upstream-watcher.run', () => {
     writeSeedState({ v2_landed: false });
     mockGit({
       commits: [
-        { sha: 'aaaaaaa1111111111111111111111111111111', subject: 'chore: bump version' },
-        { sha: 'bbbbbbb2222222222222222222222222222222', subject: 'docs: readme typo' },
+        {
+          sha: 'aaaaaaa1111111111111111111111111111111',
+          subject: 'chore: bump version',
+        },
+        {
+          sha: 'bbbbbbb2222222222222222222222222222222',
+          subject: 'docs: readme typo',
+        },
       ],
     });
     mockHaiku([
@@ -305,9 +311,7 @@ describe('upstream-watcher.run', () => {
         },
       ],
     });
-    mockHaiku([
-      { security_relevant: true, reason: 'closes auth bypass' },
-    ]);
+    mockHaiku([{ security_relevant: true, reason: 'closes auth bypass' }]);
 
     await run(
       {

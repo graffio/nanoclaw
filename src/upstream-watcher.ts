@@ -4,9 +4,11 @@
  * only when something matters. Replaces the retired /update-nanoclaw skill.
  */
 import { execSync } from 'child_process';
+import { CronExpressionParser } from 'cron-parser';
 import fs from 'fs';
 import path from 'path';
 
+import { TIMEZONE } from './config.js';
 import { readEnvFile } from './env.js';
 import { logger } from './logger.js';
 import { RegisteredGroup } from './types.js';
@@ -323,4 +325,44 @@ export async function run(
     },
     'Upstream watcher: run complete',
   );
+}
+
+// Monday 9am in TIMEZONE — the brainstorm's chosen cadence. Not registered
+// through the SQLite tasks table so it stays out of /task listings and
+// per-group container contexts.
+const WATCH_CRON = '0 9 * * 1';
+
+let watcherCronRunning = false;
+
+export function startUpstreamWatcherCron(deps: WatcherDependencies): void {
+  if (watcherCronRunning) {
+    logger.debug(
+      'Upstream watcher cron already running, skipping duplicate start',
+    );
+    return;
+  }
+  watcherCronRunning = true;
+
+  const schedule = () => {
+    const iter = CronExpressionParser.parse(WATCH_CRON, { tz: TIMEZONE });
+    const delayMs = Math.max(0, iter.next().getTime() - Date.now());
+    setTimeout(() => {
+      run(deps)
+        .catch((err) => {
+          // run() already logs fetch failure; this only catches a programmer
+          // bug that breaks out of run()'s own try/catch. Never let a cron
+          // fire rip the orchestrator down.
+          logger.error({ err }, 'Upstream watcher: unexpected crash in run');
+        })
+        .finally(schedule);
+    }, delayMs);
+  };
+
+  logger.info({ cron: WATCH_CRON, tz: TIMEZONE }, 'Upstream watcher scheduled');
+  schedule();
+}
+
+/** @internal - for tests only. */
+export function _resetUpstreamWatcherCronForTests(): void {
+  watcherCronRunning = false;
 }
