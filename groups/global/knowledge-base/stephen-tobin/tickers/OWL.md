@@ -82,3 +82,8 @@ Subscriber Fries asked about a good entry point for long-term investment. Stephe
 Private credit contagion update: "The problems started last summer with the failure of First Brands and Tricolor, after a quiet period OWL halted redemptions in February, this week Cliffwater limited redemptions followed by Morgan Stanley and Black Rock. The potential for contagion became clear when Deutsche Bank revealed a 26 billion euro exposure." Used as evidence for current market turbulence and potential "Black Monday." Stephen compares current situation to credit crunch of 2007-2009 (US markets dropped 50%).
 
 *Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-04-17 — Chat: Still considering for family fund — awaiting earnings report
+
+Subscriber asked if now is the right time to invest in OWL for a family portfolio. Stephen: "I am still considering this for my family fund. I tend to move slowly because I intend to hold for ever in the family account and don't want to rush it. My only concern is about the debt they sold, they got a great price but was it the Crown Jewels and they held on to more toxic stuff? I am going to look at the next earnings report to make a clear assessment but I agree with you about the price it is very attractive."
+*Source: [chat/chat-2026-04-17.md]*

@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-12",
+  "source": "sw-weekly-companies-driving-next",
+  "weekly_change_usd": 239,
+  "weekly_change_pct": 2.0,
+  "holdings_count": 22,
+  "holdings": [
+    {"ticker": "EH", "company": "EHang Holdings Ltd", "shares": 47, "entry_price": 14.35, "current_price": 10.72, "pnl_pct": -25, "invested_usd": 674.28, "open_pnl": -170.44},
+    {"ticker": "ASPI", "company": "ASP Isotopes Inc", "shares": 125, "entry_price": 7.85, "current_price": 4.48, "pnl_pct": -43, "invested_usd": 980.98, "open_pnl": -420.975},
+    {"ticker": "WRD", "company": "WeRide Inc ADR", "shares": 76, "entry_price": 8.51, "current_price": 7.50, "pnl_pct": -12, "invested_usd": 646.97, "open_pnl": -76.97},
+    {"ticker": "PONY", "company": "Pony AI Inc ADR", "shares": 50, "entry_price": 13.64, "current_price": 9.56, "pnl_pct": -30, "invested_usd": 682.01, "open_pnl": -204.01},
+    {"ticker": "TSE:GRA", "company": "NanoXplore Inc", "shares": 270, "entry_price": 2.58, "current_price": 2.23, "pnl_pct": -14, "invested_usd": 503.20, "open_pnl": -94.5},
+    {"ticker": "HSAI", "company": "Hesai Group ADR", "shares": 53, "entry_price": 20.14, "current_price": 22.66, "pnl_pct": 12, "invested_usd": 1067.59, "open_pnl": 133.39},
+    {"ticker": "CVE:ROOF", "company": "Northstar Clean Technologies Inc", "shares": 1250, "entry_price": 0.34, "current_price": 0.21, "pnl_pct": -38, "invested_usd": 307, "open_pnl": -162.5},
+    {"ticker": "ASX:EOS", "company": "Electro Optic Systems Holdings Ltd", "shares": 195, "entry_price": 5.30, "current_price": 9.28, "pnl_pct": 75, "invested_usd": 729.92, "open_pnl": 776.45},
+    {"ticker": "ABAT", "company": "American Battery Technology Co", "shares": 120, "entry_price": 4.18, "current_price": 2.85, "pnl_pct": -32, "invested_usd": 354.38, "open_pnl": -159.6},
+    {"ticker": "AUR", "company": "Aurora Innovation Inc", "shares": 110, "entry_price": 4.50, "current_price": 4.15, "pnl_pct": -8, "invested_usd": 495, "open_pnl": -38.5},
+    {"ticker": "TSE:MDA", "company": "MDA Space Ltd", "shares": 28, "entry_price": 25.36, "current_price": 42.37, "pnl_pct": 67, "invested_usd": 513, "open_pnl": 476.28},
+    {"ticker": "ASX:DRO", "company": "DroneShield Ltd", "shares": 425, "entry_price": 3.00, "current_price": 3.47, "pnl_pct": 16, "invested_usd": 901.14, "open_pnl": 199.25},
+    {"ticker": "ASX:MTM", "company": "Metallium Inc", "shares": 800, "entry_price": 0.95, "current_price": 0.64, "pnl_pct": -33, "invested_usd": 536.94, "open_pnl": -248},
+    {"ticker": "SOUN", "company": "SoundHound AI Inc", "shares": 54, "entry_price": 11.11, "current_price": 6.43, "pnl_pct": -42, "invested_usd": 599.94, "open_pnl": -252.72},
+    {"ticker": "KDK", "company": "Kodiak AI Inc", "shares": 33, "entry_price": 9.49, "current_price": 7.64, "pnl_pct": -19, "invested_usd": 313.17, "open_pnl": -61.05},
+    {"ticker": "AREC", "company": "American Resources Corp", "shares": 75, "entry_price": 4.36, "current_price": 2.19, "pnl_pct": -50, "invested_usd": 327, "open_pnl": -162.75},
+    {"ticker": "TEM", "company": "Tempus AI Inc", "shares": 9, "entry_price": 68.14, "current_price": 42.94, "pnl_pct": -37, "invested_usd": 613.26, "open_pnl": -226.8},
+    {"ticker": "QBTS", "company": "D-Wave Quantum Inc", "shares": 30, "entry_price": 20.95, "current_price": 14.25, "pnl_pct": -32, "invested_usd": 628.50, "open_pnl": -201},
+    {"ticker": "CMPS", "company": "Compass Pathways PLC", "shares": 70, "entry_price": 8.60, "current_price": 5.53, "pnl_pct": -36, "invested_usd": 602, "open_pnl": -214.9},
+    {"ticker": "NRXP", "company": "NRx Pharmaceuticals Inc", "shares": 330, "entry_price": 1.80, "current_price": 2.22, "pnl_pct": 23, "invested_usd": 594, "open_pnl": 138.6},
+    {"ticker": "HKG:0425", "company": "Minth Group Ltd", "shares": 100, "entry_price": 38.80, "current_price": 38.80, "pnl_pct": 0, "invested_usd": 496, "open_pnl": 0},
+    {"ticker": "VOYG", "company": "Voyager Technologies Inc", "shares": 19, "entry_price": 29.43, "current_price": 29.78, "pnl_pct": 1, "invested_usd": 559.17, "open_pnl": 6.65}
+  ]
+}

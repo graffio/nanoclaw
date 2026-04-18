@@ -49,9 +49,18 @@ SoundHound AI develops voice AI and conversational intelligence technology for b
 | Mar 08 | Hold   | 54     | \$11.11 | \$8.07 | \$600    | -\$164.16 | -27%   |
 | Mar 22 | Hold   | 54     | \$11.11 | \$6.55 | \$600    | -\$246.24 | -41%   |
 | Mar 29 | Hold   | 54     | \$11.11 | \$5.90 | \$600    | -\$281.34 | -47%   |
+| Apr 01 | Hold   | —      | —       | \$6.87 | —        | -\$228.96 | -38%   |
+| Apr 05 | Hold   | —      | —       | \$6.78 | —        | -\$233.82 | -39%   |
+| Apr 12 | Hold   | 54 | \$11.11 | \$6.43 | \$600 | -\$252.72 | -42% |
 
 ## Complete Timeline
 
+
+### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
+
+Portfolio snapshot week ending Apr 11. SoundHound: 54 shares at \$11.11 avg, latest \$6.43, -\$252.72 (-42%). Partnership with Quálitas (Mexican insurer) expanding agentic AI for claims resolution. 7-day return: -4%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.
+
+*Source: [posts/sw-weekly-companies-driving-next.md]*
 ### 2026-02-08 — Weekly: History Pointing Higher
 
 SOUN included in portfolio snapshot. Position of 54 shares at \$11.11 average, down 23%.
@@ -97,3 +106,19 @@ Weekly Digest: CFO Nitesh Sharan will depart on April 3, 2026, to join a quantum
 
 New partnerships: co-selling agentic AI platform with Experis (ManpowerGroup) and nationwide deal with Peet's Coffee to deploy "BaristAI" for employee support. Named Leader in 2026 Aragon Research Globe for Agent Platforms. Zacks holds "Hold" rank (#3) — revenue growth strong (~100% in 2025) but consensus EPS 2026 widened to -$0.09/share loss. Portfolio snapshot: 54 shares, open P&L -$281.34 (-47%), 7-day return -14%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-03-28 — Chat: "Exceptional business progress and collapsing price"
+
+Multiple chat interactions about SOUN:
+
+**Thread 1 (Jason — still holding?):**  
+Stephen confirmed still holding, never trades without announcing. "SOUN is a good example, it continues to make good business progress with new contracts but the price is dropping in a precipitous manner. I think all of the investment thesis remain in tact but the market has changed for the time being. Performance is still around 2x the S&P on down months and 4x on up months."
+
+**Thread 2 (Jack Nesje — Tempus and Hesai cheap now?):**
+Stephen: "SOUN is the odd one, exceptional business progress and collapsing price, more big deals reported this week and price moves lower with every announcement." On SOUN revenue model clarity: "It is tied to the number of 'seats' so in the case of the recent coffee house deal the contract is to cover a certain number of barristas hence a link to the discretionary spending."
+*Source: [chat/chat-2026-03-28.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$6.78, open P&L: \$-233.82 (-39%).
+*Source: [posts/sw-weekly-quantum-progress.md]*

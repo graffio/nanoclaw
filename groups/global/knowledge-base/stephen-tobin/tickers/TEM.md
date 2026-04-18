@@ -91,6 +91,9 @@ Single position, no adds or exits. Simultaneously closed CDRE (~40% gain after 6
 | Mar 08 | Hold   | 9      | \$68.14  | \$52.26 | \$613    | -\$142.92   | -23%   |
 | Mar 22 | Hold   | 9      | \$68.14  | \$46.96 | \$613    | -\$190.62   | -31%   |
 | Mar 29 | Hold   | 9      | \$68.14  | \$42.62 | \$613    | -\$229.68   | -37%   |
+| Apr 01 | Hold   | —      | —       | \$45.22 | —        | -\$206.28 | -34%   |
+| Apr 05 | Hold   | —      | —       | \$47.39 | —        | -\$186.75 | -30%   |
+| Apr 12 | Hold   | 9 | \$68.14 | \$42.94 | \$613 | -\$226.80 | -37% |
 
 Highest fair value target in portfolio (\$177 vs \$68 buy = 2.6x upside).
 
@@ -188,3 +191,8 @@ Portfolio conviction: Stephen explicitly names TEM as one of the four "potential
 
 March 25: Strategic collaboration with Daiichi Sankyo to use AI-driven biomarkers for oncology clinical trials (antibody-drug conjugates). Portfolio snapshot: 9 shares, open P&L -$229.68 (-37%), 7-day return -13%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$47.39, open P&L: \$-186.75 (-30%).
+*Source: [posts/sw-weekly-quantum-progress.md]*

@@ -105,3 +105,17 @@ Short-term risk: High. Medium-term risk: High. "Requires funding, dependent on d
 
 Exited SPCE along with BYRN, QRHC, AISP. Trigger: Middle East escalation — Israeli attacks on Iran's gas infrastructure, Iran reprisals on Qatar/Kuwait gas, 25% jump in European gas prices. "The risk is that I exit at or near the bottom, which is never good, and did happen in November."
 *Source: [posts/close-alert.md], [chat/2026-03-19-portfolio-exits.md]*
+
+### 2026-03-31 — Chat: Excellent earnings — strongly considering reopening position
+
+"Excellent earnings report from Virgin Galactic. Strongly considering re opening that position. Likely going to pop higher today but we have seen a lot of those pops unravel so I am going to wait. Caution is the word at the moment."
+
+In follow-up reply re: dilution: "Dilution is a sure thing, they have about \$130 m left I think on the current ATM. The difference between them and EVTL is they are guiding to first flights this year (might drift into Q1 next) and they don't have to worry about certification. Plus they are charging \$750,000 per ticket! They don't have to sell that many tickets to generate cash and have guided to positive cash flow next year. Also worth noting the only competitor Blue Origin has withdrawn to concentrate on the space station project."
+
+Note: Position was previously closed 2026-03-19 at a loss. Stephen is now considering reopening based on Q1 2026 earnings beat.
+*Source: [chat/chat-2026-03-31.md]*
+
+### 2026-04-06 — Chat: Big move — solid thesis in less volatile world
+
+Stephen replied to a member noting SPCE's big move: "Yes, big move today. High risk but in a less volatile world it is a solid business thesis." Position remains closed (sold 2026-03-19). Stephen was considering reopening as of 2026-03-31 after earnings; continues to monitor.
+*Source: [chat/chat-2026-04-06.md]*

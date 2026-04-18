@@ -97,9 +97,19 @@ Three separate positions over 17 months. Two closed profitably (+278%, +74%). Cu
 | Mar 08 | Under review | 53     | \$20.14 | \$23.86 | \$1,068 | +\$196.99 | +18%   |
 | Mar 22 | Concern      | 53     | \$20.14 | \$22.85 | \$1,068 | +\$143.46 | +13%   |
 | Mar 29 | Concern      | 53     | \$20.14 | \$18.44 | \$1,068 | -\$90.27  | -8%    |
+| Apr 01 | Hold   | —      | —       | \$19.12 | —        | -\$54.23 | -5%   |
+| Apr 05 | Hold   | —      | —       | \$20.63 | —        | +\$25.80 | +2%   |
+| Apr 08 | Hold   | 53     | \$20.14 | \$21.87 | \$1,068  | +\$91.52 | +9%   |
+| Apr 12 | Hold   | 53 | \$20.14 | \$22.66 | \$1,068 | +\$133.39 | +12% |
 
 ## Complete Timeline
 
+
+### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
+
+Portfolio snapshot week ending Apr 11. Hesai: 53 shares at \$20.14 avg, latest \$22.66, +\$133.39 (+12%). Only holding with meaningful positive return this week. 7-day return: +9%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.
+
+*Source: [posts/sw-weekly-companies-driving-next.md]*
 ### 2024-10-03 — Trade Alert: Buying Hesai (1st BUY)
 
 First purchase. "Investing in Hesai: Leading the LiDAR Revolution for RoboTaxis." Hesai emerged as the clear leader in LiDAR systems for robotaxis. Compelling factors: successfully transitioned to large-scale production, secured partnerships with high-profile OEMs in China and Europe, dominant market share through low-cost devices. Described as a "second dimension" play — exposure to Chinese EV sales without buying an overpriced EV maker.
@@ -291,3 +301,20 @@ Q4 2025 earnings released. Revenue missed top-line consensus by a significant ma
 
 FY2025 milestone: First full-year GAAP net income — RMB 436M (\$62M); non-GAAP net income RMB 551M (\$79M). FY2026 shipment outlook raised to 3-3.5M LiDAR units. March 25: Framework agreement to supply LiDAR and robotic actuators to Sharpa (new revenue diversification). Portfolio snapshot: 53 shares, open P&L -\$90.27 (-8%), 7-day return -22%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-03-28 — Chat: Looking cheap but Stephen doesn't trade EMA crosses
+
+Jack Nesje flagged Hesai as looking "very cheap." Stephen's view on technical entries: "I don't like to trade these crosses, I think they are generally false signals. The famed death crosses and golden crosses lead to losses more than 75% of the time. In deed if you bought every death cross in the S&P since inception you would have shown a big profit. These crosses generally imply a short term top or bottom is close so a golden cross appears just before a top and a death cross just before a bottom."
+
+Broader market caution applied: not rushing to add positions before seeing clearer bottom signal.
+*Source: [chat/chat-2026-03-28.md], [chat/chat-2026-04-01.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$20.63, open P&L: +\$25.80 (+2%).
+*Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-08 — Note: Green day but unconvincing rally
+
+"All stocks in the green today but a decidedly unconvincing rally. Price action looks more like a fake than the start of a rally. Hesai, below, is typical, a 7% pop in one of my biggest positions is welcome but that price action is not great." Portfolio data confirms: HSAI 1-day +8%, latest price \$21.87, open P&L +\$91.52 (+9%), 53 shares, avg buy \$20.14, invested \$1,067.59.
+*Source: [notes/note-c-240213190.md], [chat/chat-2026-04-08.md]*

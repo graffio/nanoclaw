@@ -67,6 +67,9 @@ Single position. Half-size (\$300). Will increase if KDK raises the capital it n
 | Mar 08 | Under review | 33     | \$9.49  | \$8.92 | \$313    | -\$18.81  | -6%    |
 | Mar 22 | Hold         | 33     | \$9.49  | \$7.47 | \$313    | -\$66.66  | -21%   |
 | Mar 29 | Hold         | 33     | \$9.49  | \$6.91 | \$313    | -\$85.14  | -27%   |
+| Apr 01 | Hold   | —      | —       | \$6.94 | —        | -\$84.15 | -27%   |
+| Apr 05 | Hold   | —      | —       | \$7.42 | —        | -\$68.31 | -22%   |
+| Apr 12 | Hold   | 33 | \$9.49 | \$7.64 | \$313 | -\$61.05 | -19% |
 
 ## Complete Timeline
 
@@ -120,3 +123,8 @@ Short-term risk: Medium. Medium-term risk: Medium. "Defence business may counter
 Weekly Digest: Filed a prospectus on March 17, 2025, detailing financial liability movements through 2025, including the settlement of SAFE instruments and second lien loans. Retrospective of its 2025 net loss of \$585,525. No new quarterly earnings release for the current period. Broader market context: Stephen mentioned in sector analysis that in the autonomous driving space, "AUR, KDK and WRD are not quite as solid I think" compared to PONY and EOS.
 
 *Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$7.42, open P&L: \$-68.31 (-22%).
+*Source: [posts/sw-weekly-quantum-progress.md]*

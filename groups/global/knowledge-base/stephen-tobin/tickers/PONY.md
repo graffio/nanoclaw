@@ -88,9 +88,18 @@ One closed trade at +100%. Current position consists of multiple buys with \$13.
 | Mar 08 | Under review | 50     | \$13.64 | \$12.48| \$682    | -\$58.01 | -9%    |
 | Mar 22 | Hold         | 50     | \$13.64 | \$10.53| \$682    | -\$155.51| -23%   |
 | Mar 29 | Hold         | 50     | \$13.64 | \$9.14 | \$682    | -\$225.01| -33%   |
+| Apr 01 | Hold   | —      | —       | \$9.44 | —        | -\$210.01 | -31%   |
+| Apr 05 | Hold   | —      | —       | \$9.22 | —        | -\$221.01 | -32%   |
+| Apr 12 | Hold   | 50 | \$13.64 | \$9.56 | \$682 | -\$204.01 | -30% |
 
 ## Complete Timeline
 
+
+### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
+
+Portfolio snapshot week ending Apr 11. Pony AI: 50 shares at \$13.64 avg, latest \$9.56, -\$204.01 (-30%). Stephen was invited to meet with Pony's CFO (Apr 10 chat). 7-day return: +7%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.
+
+*Source: [posts/sw-weekly-companies-driving-next.md]*
 ### 2025-04-20 — Weekly Review: Companies of Interest
 
 PONY appears on the prospect list alongside other robotaxi companies. Stephen has been investigating robotaxi firms for the previous month.
@@ -263,3 +272,23 @@ Weekly Digest: Pony.ai upgraded its strategic partnership with OnTime Mobility, 
 
 FY2025 results: Total revenues \$90.00M (up from \$75.03M in 2024). Full-year net loss narrowed to \$76.76M from \$275.01M. Robotaxi revenues grew 128.60% YoY to \$16.60M; Q4 fare-charging revenues surged 500%+ YoY. Company targeting deployment in 20+ cities by end of 2026. Total assets \$1.81B (boosted by Nov 2025 Hong Kong IPO). Portfolio snapshot: 50 shares, open P&L -\$225.01 (-33%), 7-day return -17%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-03-31 — Chat: WRD up on earnings but PONY not joining rally
+
+"Yes good earnings from them [WRD] but odd PONY is not joining in the rally"
+*Source: [chat/chat-2026-03-31.md]*
+
+### 2026-04-02 — Chat: Baidu ApolloGo incident — potential contagion risk
+
+"Expecting a hit to the robotaxi stocks today. The FT is reporting an incident with ApolloGo (Baidu) on Tuesday night where multiple cars just stopped on highways with people stuck inside. Apparently an outage and Baidu did not have staff on to deal with it, follows an incident in December when a Baidu taxi ran two people over causing serious injuries. No link to WRD or PONY but these stocks tend to move together."
+*Source: [chat/chat-2026-04-02.md]*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$9.22, open P&L: \$-221.01 (-32%).
+*Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-10 — Chat: Invited to meeting with Pony's CFO
+
+Stephen was invited to meet with Pony's CFO to discuss profitability metrics and revenue projections. He opened the thread to collect questions from subscribers. On the unusualness of the invite: "No it's not so unusual, they will want me to keep covering them on SeekingAlpha. They will know that a lot of my articles there have been quoted by Wall Street analysts and it is a good way for companies with limited coverage to gain exposure." Plans to focus on unit economics and joint ventures: "Because it's the CFO I doubt he will talk about the roll out but I want to press him on unit economics especially with the joint ventures."
+*Source: [chat/chat-2026-04-10.md]*

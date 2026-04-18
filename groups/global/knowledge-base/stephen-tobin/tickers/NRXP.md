@@ -70,9 +70,18 @@ Single position. Full-size (\$600). Unusual for a nano-cap — Stephen broke his
 | Mar 08 | Hold   | 330    | \$1.80  | \$1.70 | \$594    | -\$33.00  | -6%    |
 | Mar 22 | Hold   | 330    | \$1.80  | \$1.85 | \$594    | +\$16.50  | +3%    |
 | Mar 29 | Hold   | 330    | \$1.80  | \$2.19 | \$594    | +\$128.70 | +22%   |
+| Apr 01 | Hold   | —      | —       | \$2.13 | —        | +\$108.90 | +18%   |
+| Apr 05 | Hold   | —      | —       | \$2.20 | —        | +\$132.00 | +22%   |
+| Apr 12 | Hold   | 330 | \$1.80 | \$2.22 | \$594 | +\$138.60 | +23% |
 
 ## Complete Timeline
 
+
+### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
+
+Portfolio snapshot week ending Apr 11. NRx Pharmaceuticals: 330 shares at \$1.80 avg, latest \$2.22, +\$138.60 (+23%). FDA labeling alignment received Apr 6 — final approval anticipated summer 2026. 7-day return: -1%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.
+
+*Source: [posts/sw-weekly-companies-driving-next.md]*
 ### 2025-11-12 — Psychedelic Drug Therapy Competitive Landscape
 
 Stephen published comprehensive analysis of the psychedelic therapeutics market. NRXP not specifically mentioned but the sector analysis (CMPS, CYBN, ATAI, MNMD, GHRS) established the framework. "2026 will be a pivotal year in the space." Spravato generating over \$1.5B quarterly revenue proves the commercial case. AbbVie paid \$1.2B for psychedelic drug assets.
@@ -121,3 +130,8 @@ CMPS and NRX dropped on the day following a large meta-study publication claimin
 
 Full-year 2025: Operating expenses reduced. Cash on hand $7.80M plus ATM trends support operations through 2026. FDA approval for preservative-free Ketamine (NRX-100) anticipated Q3 2026. Expanded clinical footprint in Florida via strategic investment in HOPE Network. Portfolio snapshot: 330 shares, open P&L +$128.70 (+22%), 7-day return +24%.
 *Source: [SW Weekly: AirTaxi Review](https://stephentobin.substack.com/p/sw-weekly-airtaxi-review)*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$2.20, open P&L: +\$132.00 (+22%).
+*Source: [posts/sw-weekly-quantum-progress.md]*

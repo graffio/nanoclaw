@@ -1,0 +1,32 @@
+{
+  "date": "2026-04-05",
+  "source": "sw-weekly-quantum-progress",
+  "notes": "Holdings snapshot from portfolio spreadsheet embedded in SW Weekly: Quantum Progress. 7-day return column reflects week ending Apr 4/5.",
+  "total_value": 17012,
+  "cash": 5505,
+  "shares_value": 11506,
+  "holdings_count": 21,
+  "holdings": [
+    {"ticker": "EH", "company": "EHang Holdings Ltd - ADR", "shares": 47, "entry_price": 14.35, "current_price": 10.36, "invested_usd": 674.28, "open_pnl": -187.36, "pnl_pct": -28, "week_return_pct": 13, "positions_taken": 3},
+    {"ticker": "ASPI", "company": "ASP Isotopes Inc", "shares": 125, "entry_price": 7.85, "current_price": 4.29, "invested_usd": 980.98, "open_pnl": -444.73, "pnl_pct": -45, "week_return_pct": 2, "positions_taken": 3},
+    {"ticker": "WRD", "company": "WeRide Inc - ADR", "shares": 76, "entry_price": 8.51, "current_price": 7.81, "invested_usd": 646.97, "open_pnl": -53.41, "pnl_pct": -8, "week_return_pct": 10, "positions_taken": 3},
+    {"ticker": "PONY", "company": "Pony AI Inc - ADR", "shares": 50, "entry_price": 13.64, "current_price": 9.22, "invested_usd": 682.01, "open_pnl": -221.01, "pnl_pct": -32, "week_return_pct": 8, "positions_taken": 3},
+    {"ticker": "TSE:GRA", "company": "NanoXplore Inc", "shares": 270, "entry_price": 2.58, "current_price": 2.07, "invested_local": 696.60, "invested_usd": 499.44, "open_pnl": -137.70, "pnl_pct": -20, "week_return_pct": 7, "positions_taken": 1},
+    {"ticker": "HSAI", "company": "Hesai Group - ADR", "shares": 53, "entry_price": 20.14, "current_price": 20.63, "invested_usd": 1067.59, "open_pnl": 25.80, "pnl_pct": 2, "week_return_pct": 16, "positions_taken": 3},
+    {"ticker": "CVE:ROOF", "company": "Northstar Clean Technologies Inc", "shares": 1250, "entry_price": 0.34, "current_price": 0.21, "invested_local": 425.00, "invested_usd": 305.00, "open_pnl": -162.50, "pnl_pct": -38, "week_return_pct": 5, "positions_taken": 1},
+    {"ticker": "ASX:EOS", "company": "Electro Optic Systems Holdings Ltd", "shares": 195, "entry_price": 5.30, "current_price": 9.00, "invested_local": 1033.15, "invested_usd": 712.25, "open_pnl": 721.85, "pnl_pct": 70, "week_return_pct": 12, "positions_taken": 2},
+    {"ticker": "ABAT", "company": "American Battery Technology Co", "shares": 120, "entry_price": 4.18, "current_price": 2.78, "invested_usd": 345.80, "open_pnl": -168.00, "pnl_pct": -33, "week_return_pct": 11, "positions_taken": 1},
+    {"ticker": "AUR", "company": "Aurora Innovation Inc", "shares": 110, "entry_price": 4.50, "current_price": 4.15, "invested_usd": 495.00, "open_pnl": -38.50, "pnl_pct": -8, "week_return_pct": 7, "positions_taken": 1},
+    {"ticker": "TSE:MDA", "company": "MDA Space Ltd", "shares": 28, "entry_price": 25.36, "current_price": 37.85, "invested_local": 710.08, "invested_usd": 509.00, "open_pnl": 349.72, "pnl_pct": 49, "week_return_pct": 15, "positions_taken": 1},
+    {"ticker": "ASX:DRO", "company": "DroneShield Ltd", "shares": 425, "entry_price": 3.00, "current_price": 3.93, "invested_local": 1275.50, "invested_usd": 879.33, "open_pnl": 394.75, "pnl_pct": 31, "week_return_pct": 1, "positions_taken": 2},
+    {"ticker": "ASX:MTM", "company": "Metallium Ltd", "shares": 800, "entry_price": 0.95, "current_price": 0.62, "invested_local": 760.00, "invested_usd": 523.94, "open_pnl": -264.00, "pnl_pct": -35, "week_return_pct": null, "positions_taken": 1},
+    {"ticker": "SOUN", "company": "SoundHound AI Inc", "shares": 54, "entry_price": 11.11, "current_price": 6.78, "invested_usd": 599.94, "open_pnl": -233.82, "pnl_pct": -39, "week_return_pct": 12, "positions_taken": 1},
+    {"ticker": "KDK", "company": "Kodiak AI Inc", "shares": 33, "entry_price": 9.49, "current_price": 7.42, "invested_usd": 313.17, "open_pnl": -68.31, "pnl_pct": -22, "week_return_pct": 15, "positions_taken": 1},
+    {"ticker": "AREC", "company": "American Resources Corp", "shares": 75, "entry_price": 4.36, "current_price": 2.45, "invested_usd": 327.00, "open_pnl": -143.25, "pnl_pct": -44, "week_return_pct": 9, "positions_taken": 1},
+    {"ticker": "TEM", "company": "Tempus AI Inc", "shares": 9, "entry_price": 68.14, "current_price": 47.39, "invested_usd": 613.26, "open_pnl": -186.75, "pnl_pct": -30, "week_return_pct": 12, "positions_taken": 1},
+    {"ticker": "QBTS", "company": "D-Wave Quantum Inc", "shares": 30, "entry_price": 20.95, "current_price": 14.32, "invested_usd": 628.50, "open_pnl": -198.90, "pnl_pct": -32, "week_return_pct": 10, "positions_taken": 1},
+    {"ticker": "CMPS", "company": "Compass Pathways PLC", "shares": 70, "entry_price": 8.60, "current_price": 5.79, "invested_usd": 602.00, "open_pnl": -196.70, "pnl_pct": -33, "week_return_pct": 10, "positions_taken": 1},
+    {"ticker": "NRXP", "company": "NRX Pharmaceuticals Inc", "shares": 330, "entry_price": 1.80, "current_price": 2.20, "invested_usd": 594.00, "open_pnl": 132.00, "pnl_pct": 22, "week_return_pct": 5, "positions_taken": 1},
+    {"ticker": "HKG:0425", "company": "Minth Group Ltd", "shares": 100, "entry_price": 38.80, "current_price": 34.98, "invested_local": 3880.00, "invested_usd": 496.00, "open_pnl": -382.00, "pnl_pct": -10, "week_return_pct": 3, "positions_taken": 1}
+  ]
+}

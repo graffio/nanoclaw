@@ -85,6 +85,9 @@ Two separate positions. First closed at -30% loss during risk-off move. Second p
 | Mar 08 | Under review | 110    | \$4.50  | \$4.49 | \$495    | -\$1.10   | 0%     |
 | Mar 22 | Hold         | 110    | \$4.50  | \$4.13 | \$495    | -\$40.70  | -8%    |
 | Mar 29 | Hold         | 110    | \$4.50  | \$4.12 | \$495    | -\$41.80  | -8%    |
+| Apr 01 | Hold   | —      | —       | \$4.12 | —        | -\$41.80 | -8%   |
+| Apr 05 | Hold   | —      | —       | \$4.15 | —        | -\$38.50 | -8%   |
+| Apr 12 | Hold   | 110 | \$4.50 | \$4.15 | \$495 | -\$38.50 | -8% |
 
 ## Complete Timeline
 
@@ -158,3 +161,8 @@ Short-term risk: Medium. Medium-term risk: Medium. "Uses ICE vehicles, long term
 Weekly Digest: Aurora released an economic analysis projecting that autonomous trucking could contribute \$70B to US GDP by 2035. Committed \$1M to its Aurora Works initiative for workforce training and educational partnerships. Safety comparison: Waymo's any-injury data is 0.71 per million miles vs human drivers 3.9 per million miles. Aurora discussed in context of autonomous trucking as "more immediately profitable market than robotaxis." Portfolio conviction: Named as one of four "potential 10 baggers in the portfolio with a very realistic probability of delivering big gains over the next 18 months."
 
 *Source: [SW Weekly: Robotaxi Review, Market Meltdown?](https://stephentobin.substack.com/p/sw-weekly-robotaxi-review-market)*
+
+### 2026-04-05 — SW Weekly: Quantum Progress — Portfolio snapshot
+
+Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$4.15, open P&L: \$-38.50 (-8%).
+*Source: [posts/sw-weekly-quantum-progress.md]*
