@@ -3,6 +3,15 @@
 We track `upstream` (https://github.com/qwibitai/nanoclaw.git) but do NOT bulk-merge
 `upstream/main`. Instead we cherry-pick individual commits after reviewing them.
 
+## Status: cherry-pick ritual retired
+
+The weekly review-and-cherry-pick ritual (formerly the `/update-nanoclaw` skill) is
+retired as of 2026-04-18. It is replaced by `src/upstream-watcher.ts`, a silent-on-
+quiet-weeks watcher that posts a concise digest to the main group only when new
+commits on `upstream/main` are classified as security-relevant or when
+`upstream/v2` has landed. The divergences documented below still govern any
+cherry-pick we do by hand in response to a watcher alert.
+
 ## Why not bulk merge?
 
 Upstream's `main` branch bakes in OneCLI Agent Vault as the credential system. We use
