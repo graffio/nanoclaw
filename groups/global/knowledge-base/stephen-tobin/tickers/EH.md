@@ -122,11 +122,17 @@ All four positions remain open. Position underwater as of March 2026. Total inve
 | Apr 01 | Hold   | —      | —       | \$9.71 | —        | -\$217.91 | -32%   |
 | Apr 05 | Hold   | —      | —       | \$10.36 | —        | -\$187.36 | -28%   |
 | Apr 12 | Hold   | 47 | \$14.35 | \$10.72 | \$674 | -\$170.44 | -25% |
+| Apr 19 | Hold | 47 | US\$14.35 | US\$11.55 | \$674 | -\$131 | -19% |
 
 **Trade #104 (Mar 12):** Added half-size position (\$280, 1.5% of portfolio) after Q4 earnings.
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 47 shares at US\$14.35 avg, latest US\$11.55, -\$131 (-19%). 7-day return: +7%.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### Pre-2024 — Historical trades (pre-SW portfolio)
 
 Stephen traded EHang multiple times before the SW Trading portfolio. In 2022, he bought at \$4 after a short seller report caused a 90% collapse on fabricated allegations that EHang was "a complete scam without any facilities and was using toy drone engines in their aircraft. They had photos showing that Ehang was an empty office with two employees, with no products and no technical team. It was completely bogus, and the price collapsed." The stock subsequently rose 400%, and Stephen sold at over \$20, buying the RV he still lives in. He closed all trades last year and "wrote an article explaining the pause."

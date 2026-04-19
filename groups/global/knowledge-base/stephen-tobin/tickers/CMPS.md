@@ -87,10 +87,18 @@ Single position. Full-size (\$602 invested, 3% of equity). Midpoint order placed
 | Apr 01 | Hold   | —      | —       | \$5.51 | —        | -\$216.30 | -36%   |
 | Apr 05 | Hold   | —      | —       | \$5.79 | —        | -\$196.70 | -33%   |
 | Apr 12 | Hold   | 70 | \$8.60 | \$5.53 | \$602 | -\$214.90 | -36% |
+| Apr 19 | Hold | 70 | US\$8.60 | US\$6.66 | \$602 | -\$136 | -23% |
 
 ## Complete Timeline
 
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Grant program + position
+
+Portfolio snapshot: 70 shares at US\$8.60 avg, latest US\$6.66, -\$136 (-23%). 7-day return: +15%.
+
+April 14, 2026: Compass Pathways launched a U.S. grant program to support post-approval training for **COMP360** (investigational psilocybin treatment). Plans to award grants to up to three organizations. Applications accepted through May 14, 2026. Note: Stephen was previously taking profit on the CMPS position (April 16 note: "psychedelic stocks up on rumours of Trump executive order funding PTSD research").
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
 
 Portfolio snapshot week ending Apr 11. Compass Pathways: 70 shares at \$8.60 avg, latest \$5.53, -\$214.90 (-36%). Needham Virtual Healthcare Conference fireside chat Apr 14. 7-day return: -4%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.

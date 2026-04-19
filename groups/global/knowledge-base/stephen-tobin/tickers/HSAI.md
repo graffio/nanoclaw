@@ -101,10 +101,16 @@ Three separate positions over 17 months. Two closed profitably (+278%, +74%). Cu
 | Apr 05 | Hold   | —      | —       | \$20.63 | —        | +\$25.80 | +2%   |
 | Apr 08 | Hold   | 53     | \$20.14 | \$21.87 | \$1,068  | +\$91.52 | +9%   |
 | Apr 12 | Hold   | 53 | \$20.14 | \$22.66 | \$1,068 | +\$133.39 | +12% |
+| Apr 19 | Hold | 53 | US\$20.14 | US\$23.25 | \$1,068 | +\$165 | +15% |
 
 ## Complete Timeline
 
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 53 shares at US\$20.14 avg, latest US\$23.25, +\$165 (+15%). 7-day return: +4%.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
 
 Portfolio snapshot week ending Apr 11. Hesai: 53 shares at \$20.14 avg, latest \$22.66, +\$133.39 (+12%). Only holding with meaningful positive return this week. 7-day return: +9%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.

@@ -91,10 +91,22 @@ Three positions totalling 125 shares, \$981 invested, average buy \$7.85. All cu
 | Apr 01 | Hold   | —      | —       | \$4.42 | —        | -\$428.48 | -44%   |
 | Apr 05 | Hold   | —      | —       | \$4.29 | —        | -\$444.73 | -45%   |
 | Apr 12 | Hold   | 125 | \$7.85 | \$4.48 | \$981 | -\$420.98 | -43% |
+| Apr 19 | Hold | 125 | US\$7.85 | US\$5.37 | \$981 | -\$310 | -32% |
 
 ## Complete Timeline
 
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Major business update
+
+Portfolio snapshot: 125 shares at US\$7.85 avg, latest US\$5.37, -\$310 (-32%). 7-day return: +6%.
+
+**April 13, 2026 business update:** Comprehensive operational update across nuclear medicine, electronics, and nuclear energy platforms.
+- First commercial shipments of **Silicon-28**, **Carbon-14**, and **Ytterbium-176** expected during 2026.
+- Acquired two radiopharmacies in the United States.
+- Phase 1 drilling at **Virginia Gas Project** completed ahead of schedule; nameplate helium capacity expected Q3 2026.
+- FY2025 product revenue: \$5.70 million (+46.15% YoY). Net loss: \$175.10 million. Long-term EBITDA target: >\$300 million by 2031.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
 
 Portfolio snapshot week ending Apr 11. ASP Isotopes: 125 shares at \$7.85 avg, latest \$4.48, -\$420.98 (-43%). Business update call scheduled Apr 13. Cash \$285.60M. 7-day return: +6%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.

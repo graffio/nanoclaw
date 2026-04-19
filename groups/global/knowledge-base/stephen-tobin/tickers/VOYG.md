@@ -64,9 +64,15 @@ Two-pillar thesis: (1) throttleable solid-fuel missile engine, and (2) Starlab J
 |--------|--------|--------|---------|---------|----------|----------|--------|
 | Apr 08 | Hold   | 19     | \$29.43 | \$28.55 | \$559    | -\$16.72 | -3%    |
 | Apr 12 | Hold   | 19     | \$29.43 | \$29.78 | \$559    | +\$6.65  | +1%    |
+| Apr 19 | Hold | 19 | US\$29.43 | US\$31.31 | \$559 | +\$36 | +6% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 19 shares at US\$29.43 avg, latest US\$31.31, +\$36 (+6%). 7-day return: +4%.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2026-04-08 — Trade Alert #105: Buying Voyager Technologies (BUY)
 
 Initiated \$500 position (19 shares at ~\$29.43). Two-part thesis: (1) throttleable solid-fuel missile engine — patent-protected, uniquely enables solid-fuel missile maneuvering (+400% maneuverability, +1,000% range). Contracted with Lockheed Martin for NGI program. Backed by engineer due diligence at Raytheon and Anduril. (2) Starlab JV (61%-owned) — ISS replacement launching 2029 on SpaceX Starship. \$4B revenue and \$1.5B FCF forecast. Commercial payload sold out. Combined thesis implies \$20.5B market cap vs \$1.6B today. "If StarLab gets into orbit, then Voyager is a ten-bagger." Position reduced to \$500 (from usual \$600) due to recent portfolio decline and elevated market risk. Stephen bought at market open Apr 8, 2026.

@@ -73,10 +73,19 @@ Single position. Full-size (\$600). Unusual for a nano-cap — Stephen broke his
 | Apr 01 | Hold   | —      | —       | \$2.13 | —        | +\$108.90 | +18%   |
 | Apr 05 | Hold   | —      | —       | \$2.20 | —        | +\$132.00 | +22%   |
 | Apr 12 | Hold   | 330 | \$1.80 | \$2.22 | \$594 | +\$138.60 | +23% |
+| Apr 19 | Hold | 330 | US\$1.80 | US\$2.55 | \$594 | +\$248 | +42% |
 
 ## Complete Timeline
 
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — CCO + Defense subsidiary + position
+
+Portfolio snapshot: 330 shares at US\$1.80 avg, latest US\$2.55, +\$248 (+42%). 7-day return: +12%.
+
+- **April 13, 2026:** Appointed **Glenn Tyson** as first Chief Commercial Officer to lead anticipated product launches including preservative-free ketamine (**NRX-100**).
+- **April 15, 2026:** Incorporated **NRx Defense Systems, Inc.**, a subsidiary focused on neuroplastic treatments for military and first responder applications. Will combine **D-cycloserine** with robotic-enabled Transcranial Magnetic Stimulation (TMS).
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
 
 Portfolio snapshot week ending Apr 11. NRx Pharmaceuticals: 330 shares at \$1.80 avg, latest \$2.22, +\$138.60 (+23%). FDA labeling alignment received Apr 6 — final approval anticipated summer 2026. 7-day return: -1%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.

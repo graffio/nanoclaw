@@ -82,6 +82,7 @@ Single position held since purchase. Bought on the Canadian TSX exchange rather 
 | Apr 01 | Hold   | 28     | CAD \$25.36  | CAD \$35.24  | \$710    | +\$276.64 | +39%   |
 | Apr 05 | Hold   | 28     | CAD \$25.36  | CAD \$37.85  | \$510    | +\$349.72 | +49%   |
 | Apr 12 | Hold   | 28 | CAD\$25.36 | CAD\$42.37 | CAD\$710 / US\$513 | +CAD\$476.28 | +67% |
+| Apr 19 | Exit Near | 28 | CAD\$25.36 | CAD\$48.15 | CAD\$710 / US\$515 | +CAD\$638 | +90% |
 
 All prices in CAD. One of the best performing positions in the portfolio.
 
@@ -197,6 +198,12 @@ Broad-based rally day, all stocks in green. "\$MDA is the stock I like the look 
 
 Member asked about Amazon buying GlobalStar and implications for MDA. Stephen: "I think the Amazon deal is a reasonable outcome for MDA, much better than Starlink buying. I did cover the potential in a note recently. I will review the target price when we get confirmation of the deal and how Apple are affected, at the moment I am thinking a significant raise in the target price."
 *Source: [chat/chat-2026-04-14.md]*
+
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Exit Near flagged
+
+Portfolio snapshot: 28 shares at CAD\$25.36 avg, latest CAD\$48.15, +CAD\$638 (+90%). Stephen flagged MDA as **"Exit Near"** in the "May Rebound View" column — "Exit Near means I think the likelihood of an exit is increasing. Of course, I will not take any action without first sending a buy alert." 7-day return: +12%. Portfolio context: 20/23 stocks up on the week, total assets \$18,848. Q1 2026 results due May 7.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 
 ### 2026-04-15 — Chat: Amazon acquires GlobalStar for \$11B — direct MDA catalyst confirmed
 

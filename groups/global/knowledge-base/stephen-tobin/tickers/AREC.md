@@ -69,9 +69,15 @@ Single position. Half-size (\$300, ~1.5% of equity). Will add on pullback.
 | Apr 01 | Hold   | —      | —       | \$2.42 | —        | -\$145.50 | -44%   |
 | Apr 05 | Hold   | —      | —       | \$2.45 | —        | -\$143.25 | -44%   |
 | Apr 12 | Hold   | 75 | \$4.36 | \$2.19 | \$327 | -\$162.75 | -50% |
+| Apr 19 | Hold | 75 | US\$4.36 | US\$2.26 | \$327 | -\$158 | -48% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 75 shares at US\$4.36 avg, latest US\$2.26, -\$158 (-48%). 7-day return: +5%.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2025-11-03 — Chat: First discussion
 
 AREC / American Resources discussed by subscribers and Stephen in chat.

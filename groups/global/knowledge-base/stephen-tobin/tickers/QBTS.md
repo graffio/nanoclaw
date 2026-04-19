@@ -120,9 +120,15 @@ Four separate positions over 16 months. Three closed profitably (+100%, +147%, u
 | Apr 01 | Hold   | 30             | \$20.95 | \$14.43 | \$629    | -\$195.60| -31%   |
 | Apr 05 | Hold   | 30             | \$20.95 | \$14.32 | \$629    | -\$198.90| -32%   |
 | Apr 12 | Hold   | 30 | \$20.95 | \$14.25 | \$629 | -\$201.00 | -32% |
+| Apr 19 | Hold | 30 | US\$20.95 | US\$21.69 | \$629 | +\$22 | +4% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 30 shares at US\$20.95 avg, latest US\$21.69, +\$22 (+4%). **7-day return: +48%** — QBTS was cited as one of the best performers this week alongside autonomous trucking. "Quantum and autonomous trucking were the best performers."
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2024-10-25 — Trade Alert: Buying D-Wave (1st BUY)
 
 First purchase. Been covering D-Wave "for some time" but held off due to concerns about commercial traction. Recent news

@@ -63,9 +63,15 @@ Stephen's thesis: "Smart money buying what retail is dumping." Key points:
 | Date   | Status | Shares | Avg Buy | Latest | Invested | Open P&L | Return |
 |--------|--------|--------|---------|--------|----------|----------|--------|
 | Apr 16 | New buy | — | market | — | \$550 | — | — |
+| Apr 19 | Hold | 5 | US\$98.73 | US\$96.66 | \$494 | -\$10 | -2% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 5 shares at US\$98.73 avg, latest US\$96.66, -\$10 (-2%). 7-day return: +9%.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2026-04-15 — Chat: Teaser for large company trade
 
 Stephen hinted at the trade before executing: "Expecting to trade tomorrow, there is blood on the streets for some sectors and I am planning a small investment in a large company with technology of interest. It has been a couple of years since I invested in a big company, some may remember we had both META and MSFT in 2023."

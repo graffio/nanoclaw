@@ -52,10 +52,16 @@ SoundHound AI develops voice AI and conversational intelligence technology for b
 | Apr 01 | Hold   | —      | —       | \$6.87 | —        | -\$228.96 | -38%   |
 | Apr 05 | Hold   | —      | —       | \$6.78 | —        | -\$233.82 | -39%   |
 | Apr 12 | Hold   | 54 | \$11.11 | \$6.43 | \$600 | -\$252.72 | -42% |
+| Apr 19 | Hold | 54 | US\$11.11 | US\$8.08 | \$600 | -\$164 | -27% |
 
 ## Complete Timeline
 
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 54 shares at US\$11.11 avg, latest US\$8.08, -\$164 (-27%). 7-day return: +18%.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
 
 Portfolio snapshot week ending Apr 11. SoundHound: 54 shares at \$11.11 avg, latest \$6.43, -\$252.72 (-42%). Partnership with Quálitas (Mexican insurer) expanding agentic AI for claims resolution. 7-day return: -4%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.

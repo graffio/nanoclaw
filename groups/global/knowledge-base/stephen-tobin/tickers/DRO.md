@@ -97,9 +97,15 @@ Three separate positions. First was a quick +84% winner. Second was the "biggest
 | Apr 05 | Hold   | —      | —       | AUD\$3.93 | —        | +\$394.75 | +31%   |
 | Apr 08 | Hold   | 425    | A\$3.00 | A\$3.45  | A\$1275  | +\$190.75 | +15%   |
 | Apr 12 | Hold   | 425    | A\$3.00 | A\$3.47  | A\$1276  | +\$199.25 | +16%   |
+| Apr 19 | Hold | 425 | AUD\$3.00 | AUD\$3.61 | AUD\$1,276 / US\$915 | +\$259 | +20% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 425 shares at AUD\$3.00 avg, latest AUD\$3.61, +\$259 (+20%). 7-day return: +7%.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2025-06-19 — Trade Alert #55: First Drone Investment (1st BUY)
 
 First purchase. Extensive deep dive covering the counter-drone market (US\$2B to US\$22B by 2033 at 27% CAGR). DroneShield identified as only publicly listed pure-play C-UAS company. Built three-statement model: fair value \$4.96 (174% upside). Also modelled improvement scenarios — with Raytheon-level inventory management, fair value jumps to over \$25. Key highlights: record A\$57.5M FY2024 revenue, A\$95.8M already secured for FY2025, \$1.6B pipeline, 91% offshore revenue, 200+ engineers. Bought 150 shares on ASX at approximately AUD \$1.80, smaller position (2% of equity) because price had run up 300% and pullback likely.

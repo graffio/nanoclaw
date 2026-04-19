@@ -94,11 +94,17 @@ Single position, no adds or exits. Simultaneously closed CDRE (~40% gain after 6
 | Apr 01 | Hold   | —      | —       | \$45.22 | —        | -\$206.28 | -34%   |
 | Apr 05 | Hold   | —      | —       | \$47.39 | —        | -\$186.75 | -30%   |
 | Apr 12 | Hold   | 9 | \$68.14 | \$42.94 | \$613 | -\$226.80 | -37% |
+| Apr 19 | Pre-Buy | 9 | US\$68.14 | US\$55.87 | \$613 | -\$110 | -18% |
 
 Highest fair value target in portfolio (\$177 vs \$68 buy = 2.6x upside).
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Pre-Buy flag
+
+Portfolio snapshot: 9 shares at US\$68.14 avg, latest US\$55.87, -\$110 (-18%). 7-day return: +22%. Stephen flagged TEM as **"Pre-Buy"** in the "May Rebound View" column — "Pre-Buy means I am looking for an opportunity to add."
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2026-01-27 — Trade Alert #97: Buying Tempus AI (1st BUY)
 
 Full \$600 position, 9 shares at \$68.14. "AI Diagnostics: A Strategic Deep Dive into a Trillion-Dollar Market." Stephen had been searching for an AI medical play for over a year. TEM passed the Commercial Validation hurdle with FDA-cleared algos receiving CMS reimbursement. Simultaneously closed CDRE for ~40% gain. Key metrics: \$1.27B FY2025 revenue (+83% YoY), 400PB dataset, 45M+ patient records, TCV over \$1.1B. Conservative target \$177 (DCF), technical target \$300. Risk level: below \$57 requires thesis review.

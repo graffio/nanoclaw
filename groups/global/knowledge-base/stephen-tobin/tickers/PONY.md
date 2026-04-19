@@ -91,10 +91,16 @@ One closed trade at +100%. Current position consists of multiple buys with \$13.
 | Apr 01 | Hold   | —      | —       | \$9.44 | —        | -\$210.01 | -31%   |
 | Apr 05 | Hold   | —      | —       | \$9.22 | —        | -\$221.01 | -32%   |
 | Apr 12 | Hold   | 50 | \$13.64 | \$9.56 | \$682 | -\$204.01 | -30% |
+| Apr 19 | Hold | 50 | US\$13.64 | US\$11.69 | \$682 | -\$98 | -14% |
 
 ## Complete Timeline
 
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 50 shares at US\$13.64 avg, latest US\$11.69, -\$98 (-14%). 7-day return: +16%.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2026-04-12 — SW Weekly: Companies Driving Next-Gen Datacenter Tech
 
 Portfolio snapshot week ending Apr 11. Pony AI: 50 shares at \$13.64 avg, latest \$9.56, -\$204.01 (-30%). Stephen was invited to meet with Pony's CFO (Apr 10 chat). 7-day return: +7%. Full portfolio: +\$239 (+2%) on the week. Stephen planning strategy review and Seeking Alpha service launch.

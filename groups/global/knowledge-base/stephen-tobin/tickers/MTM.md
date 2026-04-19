@@ -64,9 +64,20 @@ All prices in AUD.
 | Apr 01 | Hold   | —      | —       | AUD\$0.61 | —        | -\$272.00 | -36%   |
 | Apr 05 | Hold   | —      | —       | AUD\$0.62 | —        | -\$264.00 | -35%   |
 | Apr 12 | Hold   | 800 | AUD\$0.95 | AUD\$0.64 | AUD\$760 / US\$537 | -AUD\$248.00 | -33% |
+| Apr 19 | Hold | 800 | AUD\$0.95 | AUD\$0.68 | AUD\$760 / US\$545 | -\$216 | -28% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Q1 report + strategic deals
+
+Portfolio snapshot: 800 shares at AUD\$0.95 avg, latest AUD\$0.68, -\$216 (-28%). 7-day return: +10%.
+
+**Q1 2026 Quarterly Activities and Cashflow Report (released April 13, 2026):**
+- Successfully completed Phase I of SBIR program with the **U.S. Department of War**, exceeding milestones for recovering gallium from electronic waste using **Flash Joule Heating (FJH)** technology.
+- Secured a binding feedstock agreement with **Glencore** and long-term offtake agreement with **Indium Corporation**.
+- Cash and cash equivalents: approximately AUD\$82.00 million as of March 31, 2026 (following AUD\$75.00 million capital raise in January 2026). Net cash used in operating activities Q1: AUD\$5.74 million.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2025-10-31 — Chat: First subscriber mention
 
 Alexandre Porchet first brought Metallium to Stephen's attention. Stephen began following the company.

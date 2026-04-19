@@ -87,6 +87,7 @@ Two positions totalling 195 shares, average price AUD \$5.30 (total invested AUD
 | Apr 01 | Hold   | —      | —       | AUD\$9.03 | —        | +\$727.70 | +70%   |
 | Apr 05 | Hold   | —      | —       | AUD\$9.00 | —        | +\$721.85 | +70%   |
 | Apr 12 | Hold   | 195 | AUD\$5.30 | AUD\$9.28 | AUD\$1,033 / US\$730 | +AUD\$776.45 | +75% |
+| Apr 19 | Hold   | 195 | AUD\$5.30 | AUD\$10.31 | AUD\$1,033 / US\$741 | +AUD\$977 | +95% |
 
 Best performing stock in portfolio as of Mar 08 2026. All prices in AUD.
 
@@ -271,6 +272,14 @@ When asked about April investment plans, Stephen mentioned EOS: "I think it coul
 
 Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$9.00, open P&L: +\$721.85 (+70%).
 *Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — 2025 Annual Report + position snapshot
+
+Portfolio snapshot: 195 shares at AUD\$5.30 avg, latest AUD\$10.31, +AUD\$977 (+95%). 7-day return: +14%. EOS broke above AUD\$10 resistance.
+
+**2025 Annual Report (released Apr 17, 2026):** Three-year turnaround complete — company is now **debt-free**. Revenue from continuing operations: \$128.50 million. Net profit attributable to equity holders: \$18.61 million. Unconditional backlog order book: \$459.10 million (as of December 31, 2025). New commitment for a \$100.00 million two-year secured term loan facility to support future growth. Potential acquisition of **MARSS** (command-and-control systems provider). **World's first export order for a 100 kW high-energy laser defense system.**
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 
 ### 2026-04-14 — Chat: EOS Space Systems UK geo-tracking milestone
 

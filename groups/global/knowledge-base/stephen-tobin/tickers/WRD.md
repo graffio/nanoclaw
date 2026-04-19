@@ -94,9 +94,15 @@ Notes on trades:
 | Apr 01 | Hold   | —      | —       | \$8.09 | —        | -\$32.13 | -5%   |
 | Apr 05 | Hold   | —      | —       | \$7.81 | —        | -\$53.41 | -8%   |
 | Apr 12 | Hold   | 76 | \$8.51 | \$7.50 | \$647 | -\$76.97 | -12% |
+| Apr 19 | Hold | 76 | US\$8.51 | US\$8.21 | \$647 | -\$23 | -4% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Portfolio snapshot
+
+Portfolio snapshot: 76 shares at US\$8.51 avg, latest US\$8.21, -\$23 (-4%). 7-day return: +8%.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2025-05-06 — Note: Uber robotaxi deals
 
 "The robotaxi race is ON! Yesterday's news saw UBER ink exciting new deals with PONY.AI and WeRide. Both PONY and WRD are surging pre-market, up +10%! Did you know UBER now has 15 partnerships in the autonomous vehicle space?"

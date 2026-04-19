@@ -88,9 +88,17 @@ Two separate positions. First closed at -30% loss during risk-off move. Second p
 | Apr 01 | Hold   | —      | —       | \$4.12 | —        | -\$41.80 | -8%   |
 | Apr 05 | Hold   | —      | —       | \$4.15 | —        | -\$38.50 | -8%   |
 | Apr 12 | Hold   | 110 | \$4.50 | \$4.15 | \$495 | -\$38.50 | -8% |
+| Apr 19 | Hold | 110 | US\$4.50 | US\$5.27 | \$495 | +\$85 | +17% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Q1 results date + position
+
+Portfolio snapshot: 110 shares at US\$4.50 avg, latest US\$5.27, +\$85 (+17%). 7-day return: +22%.
+
+April 15, 2026: Aurora Innovation announced it will release Q1 2026 financial results after market close on **May 6, 2026**, with a business review conference call at 5:00 p.m. ET.
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2025-08-08 — Trade Alert #66: Autonomous Vehicles (1st BUY)
 
 First purchase. Full-size position of \$500. "I am incredibly optimistic about the future of autonomous vehicles." Detailed analysis covering the US Class 8 truck market, OEM partnerships, crawl-walk-run strategy, and financial model. Fair value \$16.40 vs price ~\$6.20. Key: 3 million+ test miles, zero incidents, commercial operations begun between Dallas and Houston.

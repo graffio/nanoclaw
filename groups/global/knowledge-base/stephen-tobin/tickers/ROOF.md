@@ -55,9 +55,15 @@ All prices in CAD.
 | Apr 01 | Hold   | —      | —       | CAD\$0.21 | —        | -\$162.50 | -38%   |
 | Apr 05 | Hold   | —      | —       | CAD\$0.21 | —        | -\$162.50 | -38%   |
 | Apr 12 | Hold   | 1250 | CAD\$0.34 | CAD\$0.21 | CAD\$425 / US\$307 | -CAD\$162.50 | -38% |
+| Apr 19 | Exit Near | 1250 | CAD\$0.34 | CAD\$0.20 | \$308 | -\$175 | -41% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Exit Near flagged
+
+Portfolio snapshot: 1250 shares at CAD\$0.34 avg, latest CAD\$0.20 (US\$308 invested), -\$175 (-41%). 7-day return: -9%. Stephen flagged ROOF as **"Exit Near"** — "Exit Near means I think the likelihood of an exit is increasing."
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2025-11-23 — Weekly Review: Pullbacks are an Opportunity
 
 ROOF (CVE:ROOF) included in comprehensive portfolio review. Part of the recycling sector alongside ABAT.

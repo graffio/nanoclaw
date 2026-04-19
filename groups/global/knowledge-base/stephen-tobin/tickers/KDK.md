@@ -70,9 +70,15 @@ Single position. Half-size (\$300). Will increase if KDK raises the capital it n
 | Apr 01 | Hold   | —      | —       | \$6.94 | —        | -\$84.15 | -27%   |
 | Apr 05 | Hold   | —      | —       | \$7.42 | —        | -\$68.31 | -22%   |
 | Apr 12 | Hold   | 33 | \$9.49 | \$7.64 | \$313 | -\$61.05 | -19% |
+| Apr 19 | Pre-Buy | 33 | US\$9.49 | US\$10.38 | \$313 | +\$29 | +9% |
 
 ## Complete Timeline
 
+### 2026-04-19 — SW Weekly: Photonics and Data Centers — Pre-Buy flag
+
+Portfolio snapshot: 33 shares at US\$9.49 avg, latest US\$10.38, +\$29 (+9%). **7-day return: +40%** — best 7-day performer in the portfolio this week. Stephen flagged KDK as **"Pre-Buy"** in the "May Rebound View" column — "Pre-Buy means I am looking for an opportunity to add." 
+
+*Source: [posts/sw-weekly-photonics-and-data-centers.md]*
 ### 2025-08-08 — First mention: AUR Trade Alert #66
 
 Kodiak mentioned as competitor in Aurora analysis. "In 2024, Kodiak is developing its autonomous truck for private road use and is currently delivering fracking sand autonomously in the Permian Basin; they drive at 20 mph over private sand roads. It is a good use case, but not a real competition to Aurora. Kodiak also has military contracts and has received a lot of funding from BMW."
