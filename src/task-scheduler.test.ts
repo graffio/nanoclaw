@@ -1,16 +1,33 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
+const { mockSyncKnowledgeBase, mockRunContainerAgent } = vi.hoisted(() => ({
+  mockSyncKnowledgeBase: vi.fn().mockResolvedValue(undefined),
+  mockRunContainerAgent: vi.fn(),
+}));
+
+vi.mock('./knowledge-base-autosync.js', () => ({
+  syncKnowledgeBase: mockSyncKnowledgeBase,
+}));
+
+vi.mock('./container-runner.js', () => ({
+  runContainerAgent: (...args: unknown[]) => mockRunContainerAgent(...args),
+  writeTasksSnapshot: vi.fn(),
+}));
+
 import { _initTestDatabase, createTask, getTaskById } from './db.js';
 import {
   _resetSchedulerLoopForTests,
   computeNextRun,
   startSchedulerLoop,
 } from './task-scheduler.js';
+import { RegisteredGroup } from './types.js';
 
 describe('task scheduler', () => {
   beforeEach(() => {
     _initTestDatabase();
     _resetSchedulerLoopForTests();
+    mockSyncKnowledgeBase.mockClear();
+    mockRunContainerAgent.mockReset();
     vi.useFakeTimers();
   });
 
@@ -125,5 +142,71 @@ describe('task scheduler', () => {
     const offset =
       (new Date(nextRun!).getTime() - new Date(scheduledTime).getTime()) % ms;
     expect(offset).toBe(0);
+  });
+
+  async function runScheduledTaskWithOutcome(
+    outcome: 'success' | 'error',
+  ): Promise<void> {
+    const group: RegisteredGroup = {
+      name: 'Autosync Test',
+      folder: 'autosync-test',
+      trigger: '',
+      added_at: '2026-04-20T00:00:00.000Z',
+      isMain: true,
+    };
+
+    createTask({
+      id: `task-autosync-${outcome}`,
+      group_folder: 'autosync-test',
+      chat_jid: 'autosync@g.us',
+      prompt: 'run',
+      schedule_type: 'once',
+      schedule_value: new Date(Date.now() - 60_000).toISOString(),
+      context_mode: 'isolated',
+      next_run: new Date(Date.now() - 60_000).toISOString(),
+      status: 'active',
+      created_at: '2026-04-20T00:00:00.000Z',
+    });
+
+    mockRunContainerAgent.mockImplementation(async () => {
+      if (outcome === 'error') throw new Error('container crashed');
+      return { status: 'success', result: null };
+    });
+
+    const enqueueTask = vi.fn(
+      (_groupJid: string, _taskId: string, fn: () => Promise<void>) => {
+        void fn();
+      },
+    );
+
+    startSchedulerLoop({
+      registeredGroups: () => ({ 'autosync@g.us': group }),
+      getSessions: () => ({}),
+      queue: {
+        enqueueTask,
+        closeStdin: vi.fn(),
+        notifyIdle: vi.fn(),
+      } as any,
+      onProcess: () => {},
+      sendMessage: async () => {},
+    });
+
+    await vi.advanceTimersByTimeAsync(10);
+    // The finally block awaits syncKnowledgeBase; flush the microtask queue.
+    await vi.runOnlyPendingTimersAsync();
+    await Promise.resolve();
+    await Promise.resolve();
+  }
+
+  it('invokes syncKnowledgeBase after a scheduled container run succeeds', async () => {
+    await runScheduledTaskWithOutcome('success');
+    expect(mockRunContainerAgent).toHaveBeenCalledTimes(1);
+    expect(mockSyncKnowledgeBase).toHaveBeenCalledTimes(1);
+  });
+
+  it('invokes syncKnowledgeBase even when a scheduled container run throws', async () => {
+    await runScheduledTaskWithOutcome('error');
+    expect(mockRunContainerAgent).toHaveBeenCalledTimes(1);
+    expect(mockSyncKnowledgeBase).toHaveBeenCalledTimes(1);
   });
 });

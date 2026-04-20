@@ -50,6 +50,7 @@ import {
 import { GroupQueue } from './group-queue.js';
 import { resolveGroupFolderPath } from './group-folder.js';
 import { startIpcWatcher } from './ipc.js';
+import { syncKnowledgeBase } from './knowledge-base-autosync.js';
 import { findChannel, formatMessages, formatOutbound } from './router.js';
 import {
   isSenderAllowed,
@@ -395,6 +396,29 @@ async function runAgent(
   } catch (err) {
     logger.error({ group: group.name, err }, 'Agent error');
     return 'error';
+  } finally {
+    try {
+      await syncKnowledgeBase({
+        registeredGroups: () => registeredGroups,
+        sendMessage: async (jid, rawText) => {
+          const channel = findChannel(channels, jid);
+          if (!channel) {
+            logger.warn(
+              { jid },
+              'No channel owns JID, cannot send KB autosync failure ping',
+            );
+            return;
+          }
+          const text = formatOutbound(rawText);
+          if (text) await channel.sendMessage(jid, text);
+        },
+      });
+    } catch (syncErr) {
+      logger.error(
+        { group: group.name, err: syncErr },
+        'KB autosync failed after agent run',
+      );
+    }
   }
 }
 
