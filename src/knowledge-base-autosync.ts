@@ -44,8 +44,7 @@ function formatCommitSubject(now: Date): string {
     hour12: false,
   });
   const parts = fmt.formatToParts(now);
-  const get = (type: string) =>
-    parts.find((p) => p.type === type)?.value || '';
+  const get = (type: string) => parts.find((p) => p.type === type)?.value || '';
   const date = `${get('year')}-${get('month')}-${get('day')}`;
   // Some ICU builds emit "24" for midnight in hour12:false — normalize.
   const hour = get('hour') === '24' ? '00' : get('hour');

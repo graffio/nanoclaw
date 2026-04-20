@@ -18,6 +18,7 @@ import {
 } from './db.js';
 import { GroupQueue } from './group-queue.js';
 import { resolveGroupFolderPath } from './group-folder.js';
+import { syncKnowledgeBase } from './knowledge-base-autosync.js';
 import { logger } from './logger.js';
 import { RegisteredGroup, ScheduledTask } from './types.js';
 
@@ -216,6 +217,18 @@ async function runTask(
     if (closeTimer) clearTimeout(closeTimer);
     error = err instanceof Error ? err.message : String(err);
     logger.error({ taskId: task.id, error }, 'Task failed');
+  } finally {
+    try {
+      await syncKnowledgeBase({
+        registeredGroups: deps.registeredGroups,
+        sendMessage: deps.sendMessage,
+      });
+    } catch (syncErr) {
+      logger.error(
+        { taskId: task.id, err: syncErr },
+        'KB autosync failed after task run',
+      );
+    }
   }
 
   const durationMs = Date.now() - startTime;
