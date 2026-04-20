@@ -169,8 +169,7 @@ export function startCredentialProxy(
             'Credential proxy upstream error',
           );
           recordUpstreamError({
-            code:
-              (err as NodeJS.ErrnoException).code || err.message || 'ERROR',
+            code: (err as NodeJS.ErrnoException).code || err.message || 'ERROR',
             url: req.url || '',
             phase: res.headersSent ? 'mid-stream' : 'pre-header',
           });
