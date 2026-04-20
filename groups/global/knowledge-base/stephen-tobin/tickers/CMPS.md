@@ -191,3 +191,10 @@ Stephen posted: "It's all about timing I followed Psychedelic drugs for 5 years 
 
 Stephen posted: "All the Psychedelic stocks up today. Rumours of an executive order funding research in PTSD. Now markets move on a rumour that a Trump Post might be coming, a crazy time for investors. I have CMPS and am happily taking the gain but doubt it's longevity." No position change indicated — holding.
 *Source: [notes/note-c-244445184.md]*
+
+### 2026-04-20 — Note + Chat: Executive Order — big move; monitoring longevity of gains
+
+Note (c-246352740): Stephen on big move in psychedelic stocks today — "the Strategic Waves funnel in action. I first looked at these stocks in 2021 but didn't buy until the last couple of months. Emerging technology is about timing the technology not necessarily the market, you need to get in at the point of commercialisation not years beforehand."
+
+Chat reply (thread 82d9b0a3): "Today's move is welcomed and looks like a response to the president's Executive Order, I am working through the text of the order to see if the gains are likely to hold. As we know these sort of moves can be short lived — will update tomorrow."
+*Source: [notes/note-c-246352740.md], [chat/chat-2026-04-20.md]*

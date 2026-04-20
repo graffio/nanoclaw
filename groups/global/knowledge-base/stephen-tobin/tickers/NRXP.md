@@ -144,3 +144,8 @@ Full-year 2025: Operating expenses reduced. Cash on hand $7.80M plus ATM trends 
 
 Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: \$2.20, open P&L: +\$132.00 (+22%).
 *Source: [posts/sw-weekly-quantum-progress.md]*
+
+### 2026-04-20 — Note: Executive Order — big move in psychedelic stocks
+
+Stephen noted a big move in psychedelic stocks (CMPS + NRXP) today, attributing it to the president's Executive Order. "The Strategic Waves funnel in action" — Stephen had monitored since 2021 but waited until recent months to invest. Working through the EO text to assess longevity of the gains.
+*Source: [notes/note-c-246352740.md], [chat/chat-2026-04-20.md]*

@@ -2,6 +2,63 @@
   "year": 2026,
   "items": [
     {
+      "date": "2026-04-20",
+      "type": "chat",
+      "thread_id": "0f05308d-227e-4ca5-ba72-5853a227ed2b",
+      "file": "chat/chat-2026-04-20.md",
+      "author": "stephen",
+      "has_stephen": true,
+      "thread_topic": "MDA \u2014 Airbus/Eutelsat antenna order, holding",
+      "summary": "Stephen: MDA picked up big order from Airbus to make 1,300 antennas for Eutelsat LEO constellation. Space gaining momentum, MDA a non-aligned manufacturer. Stock down but holding for now.",
+      "tickers": [
+        "MDA"
+      ],
+      "reply_count": 0,
+      "stephen_reply_count": 1
+    },
+    {
+      "date": "2026-04-20",
+      "type": "chat",
+      "thread_id": "82d9b0a3-917b-4484-879e-65a20ff13ced",
+      "file": "chat/chat-2026-04-20.md",
+      "author": "member",
+      "has_stephen": true,
+      "thread_topic": "CMPS executive order move",
+      "summary": "Stephen on CMPS big move: 'looks like a response to the president's Executive Order, I am working through the text of the order to see if the gains are likely to hold. Will update tomorrow.'",
+      "tickers": [
+        "CMPS"
+      ],
+      "reply_count": 3,
+      "stephen_reply_count": 1
+    },
+    {
+      "date": "2026-04-20",
+      "type": "note",
+      "entity_key": "c-246352740",
+      "file": "notes/note-c-246352740.md",
+      "summary": "Big move on psychedelic stocks today. Strategic Waves funnel in action \u2014 first looked at them in 2021 but didn't buy until recently. Timing: get in at point of commercialisation, not years beforehand.",
+      "tickers": [
+        "CMPS",
+        "NRXP"
+      ]
+    },
+    {
+      "date": "2026-04-19",
+      "type": "chat",
+      "thread_id": "c74d016b-8f15-46bd-bdca-a154d28fb390",
+      "file": "chat/chat-2026-04-19.md",
+      "author": "stephen",
+      "has_stephen": true,
+      "thread_topic": "PONY CFO interview delayed to May",
+      "summary": "Stephen: PONY CFO Q&A session postponed to May due to Beijing Auto Show and upcoming news announcements. Stephen's reply on PONY vs WRD: 'I first invested simultaneously with half a trade in each. Hard to separate them.'",
+      "tickers": [
+        "PONY",
+        "WRD"
+      ],
+      "reply_count": 2,
+      "stephen_reply_count": 2
+    },
+    {
       "title": "SW Weekly: Photonics and Data Centers",
       "date": "2026-04-19",
       "slug": "sw-weekly-photonics-and-data-centers",
@@ -69,7 +126,7 @@
       "file": "chat/chat-2026-04-17.md",
       "author": "stephen",
       "has_stephen": true,
-      "thread_topic": "WeRide first mass-produced car — Aion N60 with GAC",
+      "thread_topic": "WeRide first mass-produced car \u2014 Aion N60 with GAC",
       "summary": "Stephen posted: WeRide launched its first mass produced car (Aion N60 with GAC, powered by WRD 3.0). 'I had not built this into my forecasts (to be honest I wasnt convinced it would ever happen) but it represents quite an upside.'",
       "tickers": [
         "WRD"
@@ -109,7 +166,7 @@
       "type": "post",
       "post_type": "trade_alert",
       "audience": "only_paid",
-      "summary": "Trade Alert #106: Buying ServiceNow (NOW). $550 position (~3% of portfolio) at market open. Thesis: retail panic (Robinhood -54% holdings) vs institutional buying (IFP +146%, Yarborough +155%, Prospera +131%). NOW down 66% from $240 peak to $82 low. Fundamentals strong: 20% revenue growth, 36% FCF, $6B cash. CEO bought $3M personally in Feb 2026. AI bear case refuted — ServiceNow is the AI orchestration layer, not a casualty. Analyst targets range $125 (Benchmark) to $260 (JMP). Portfolio MTD: +11.22% / +$1,893, total assets $18,760.",
+      "summary": "Trade Alert #106: Buying ServiceNow (NOW). $550 position (~3% of portfolio) at market open. Thesis: retail panic (Robinhood -54% holdings) vs institutional buying (IFP +146%, Yarborough +155%, Prospera +131%). NOW down 66% from $240 peak to $82 low. Fundamentals strong: 20% revenue growth, 36% FCF, $6B cash. CEO bought $3M personally in Feb 2026. AI bear case refuted \u2014 ServiceNow is the AI orchestration layer, not a casualty. Analyst targets range $125 (Benchmark) to $260 (JMP). Portfolio MTD: +11.22% / +$1,893, total assets $18,760.",
       "tickers": [
         "NOW"
       ],
@@ -123,8 +180,8 @@
       "file": "chat/chat-2026-04-16.md",
       "author": "stephen",
       "has_stephen": true,
-      "thread_topic": "NOW addition — portfolio update and profit calculation",
-      "summary": "Stephen posted portfolio update after adding NOW. Extended Q&A on profit calculation: 'Profit from trading is the difference between the current size of the portfolio and where it was at the end of last month minus the $250 deposit.' Added: 'added money is $500 not $750 as we add on the first of the month. Loss since Jan 31st is $601 or 3%.' On market sentiment: 'Very difficult to say — could be war end pricing, dip buying, or reassessment of impact. I am going to stay a little cautious.' On eVTOLs: 'They all seem a little cheap but have significant question marks.' On deploying cash: 'I will probably buy once or twice more this month. Wouldn't invest too much — good week but I don't think risk has dropped that much.' And added: 'And quantum I think'",
+      "thread_topic": "NOW addition \u2014 portfolio update and profit calculation",
+      "summary": "Stephen posted portfolio update after adding NOW. Extended Q&A on profit calculation: 'Profit from trading is the difference between the current size of the portfolio and where it was at the end of last month minus the $250 deposit.' Added: 'added money is $500 not $750 as we add on the first of the month. Loss since Jan 31st is $601 or 3%.' On market sentiment: 'Very difficult to say \u2014 could be war end pricing, dip buying, or reassessment of impact. I am going to stay a little cautious.' On eVTOLs: 'They all seem a little cheap but have significant question marks.' On deploying cash: 'I will probably buy once or twice more this month. Wouldn't invest too much \u2014 good week but I don't think risk has dropped that much.' And added: 'And quantum I think'",
       "tickers": [
         "NOW"
       ],
@@ -138,7 +195,7 @@
       "file": "chat/chat-2026-04-16.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "EVTL milestone — Stephen not re-entering",
+      "thread_topic": "EVTL milestone \u2014 Stephen not re-entering",
       "summary": "Stephen on EVTL certifiable aircraft milestone: 'I am not getting back in, the certifiable aircraft is so different from the one in testing today you have to worry about the relevance of these results... in EVTLs case they look completely different' (vs JOBY where certifiable plane is a small modification of prototype).",
       "tickers": [
         "EVTL"
@@ -161,7 +218,7 @@
       "file": "chat/chat-2026-04-15.md",
       "author": "stephen",
       "has_stephen": true,
-      "thread_topic": "Portfolio on a tear — caution and DWave update",
+      "thread_topic": "Portfolio on a tear \u2014 caution and DWave update",
       "summary": "Stephen: 'Portfolio on a tear this week but please dont get carried away... These gains could unwind with an errant Trump tweet.' Planning a trade tomorrow in 'a large company with technology of interest.' Also: 'DWave going great guns, over 40% this week and hopefully in profit soon.'",
       "tickers": [
         "QBTS"
@@ -176,7 +233,7 @@
       "file": "chat/chat-2026-04-15.md",
       "author": "stephen",
       "has_stephen": true,
-      "thread_topic": "Amazon acquires GlobalStar for $11B — MDA tech catalyst confirmed",
+      "thread_topic": "Amazon acquires GlobalStar for $11B \u2014 MDA tech catalyst confirmed",
       "summary": "Stephen started thread: Amazon acquired GlobalStar for $11B, partnering with Apple for direct-to-device services. 'Likely a big win for MDA as the expanded capabilities and new satellites are MDA tech.' Quote from Amazon presser confirms GlobalStar satellites operate alongside Amazon's planned systems.",
       "tickers": [
         "MDA"
@@ -189,7 +246,7 @@
       "type": "note",
       "entity_key": "c-243278892",
       "file": "notes/note-c-243278892.md",
-      "summary": "Broad based rally, portfolio up 8.5% this month. MDA bought at $25, targeting $55, approaching resistance alongside Amazon/GlobalStar news. Will review target after deal confirmed — expects significant raise.",
+      "summary": "Broad based rally, portfolio up 8.5% this month. MDA bought at $25, targeting $55, approaching resistance alongside Amazon/GlobalStar news. Will review target after deal confirmed \u2014 expects significant raise.",
       "tickers": [
         "MDA"
       ]
@@ -199,7 +256,7 @@
       "type": "note",
       "entity_key": "c-243396194",
       "file": "notes/note-c-243396194.md",
-      "summary": "It's all about timing — followed psychedelic drugs for 5 years before investing. Up 40%, ten bagger in the making.",
+      "summary": "It's all about timing \u2014 followed psychedelic drugs for 5 years before investing. Up 40%, ten bagger in the making.",
       "tickers": [
         "CMPS"
       ]
@@ -211,7 +268,7 @@
       "file": "chat/chat-2026-04-14.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "QBTS — NVIDIA Ising model and quantum sector momentum",
+      "thread_topic": "QBTS \u2014 NVIDIA Ising model and quantum sector momentum",
       "summary": "Stephen: QBTS jumping with all quantum stocks today. IONQ got a good contract from DARPA which has added momentum. Context: member shared NVIDIA Ising open AI model announcement.",
       "tickers": [
         "QBTS",
@@ -227,8 +284,8 @@
       "file": "chat/chat-2026-04-14.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "Amazon buys GlobalStar — implications for MDA",
-      "summary": "Stephen: Amazon deal is a reasonable outcome for MDA, much better than Starlink buying. Will review target price after confirmation — 'at the moment I am thinking a significant raise in the target price.' Already covered potential in a note recently.",
+      "thread_topic": "Amazon buys GlobalStar \u2014 implications for MDA",
+      "summary": "Stephen: Amazon deal is a reasonable outcome for MDA, much better than Starlink buying. Will review target price after confirmation \u2014 'at the moment I am thinking a significant raise in the target price.' Already covered potential in a note recently.",
       "tickers": [
         "MDA"
       ],
@@ -257,8 +314,8 @@
       "file": "chat/chat-2026-04-13.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "BYRN high-beta pump — TACO trade and UK ISA season",
-      "summary": "Stephen: BYRN up 16% but price collapsed from over $30 to $6 — bounce expected but can't imagine buying anytime soon. On TACO trade: 'A Trump threat is a buying signal even before he backs down. Blocking the strait of Hormuz? Never going to happen.' UK ISA season (new tax year Apr 6): can deposit £20k/yr tax-free. Added: 'I don't think the market believes Iran blockade will happen. Iran exports oil to China — will the US Navy attack a Chinese tanker? I really hope not.'",
+      "thread_topic": "BYRN high-beta pump \u2014 TACO trade and UK ISA season",
+      "summary": "Stephen: BYRN up 16% but price collapsed from over $30 to $6 \u2014 bounce expected but can't imagine buying anytime soon. On TACO trade: 'A Trump threat is a buying signal even before he backs down. Blocking the strait of Hormuz? Never going to happen.' UK ISA season (new tax year Apr 6): can deposit \u00a320k/yr tax-free. Added: 'I don't think the market believes Iran blockade will happen. Iran exports oil to China \u2014 will the US Navy attack a Chinese tanker? I really hope not.'",
       "tickers": [
         "BYRN"
       ],
@@ -272,8 +329,8 @@
       "file": "chat/chat-2026-04-13.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "ASPI Isotopes business update — Arbe comparison",
-      "summary": "Stephen: ASPI update has an 'ARBE promise vibe' — timelines are slipping. >75% probability of hitting some 2025 milestones. Commercial isotope shipment this year would be good enough; Helium online would be a positive surprise. Worrying language about power surges and safety. Market liked it — 8% gain. Full position so no adding.",
+      "thread_topic": "ASPI Isotopes business update \u2014 Arbe comparison",
+      "summary": "Stephen: ASPI update has an 'ARBE promise vibe' \u2014 timelines are slipping. >75% probability of hitting some 2025 milestones. Commercial isotope shipment this year would be good enough; Helium online would be a positive surprise. Worrying language about power surges and safety. Market liked it \u2014 8% gain. Full position so no adding.",
       "tickers": [
         "ASPI"
       ],
@@ -302,8 +359,8 @@
       "file": "chat/chat-2026-04-12.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "Newcomer drawdown — risk management and position sizing",
-      "summary": "Stephen: acknowledges drawdown since January. Has reduced trading frequency and raised threshold for new trades. Position sizing (not stop losses) is main risk control — flat 40% close rate proved to lock in losses. Plans to trade once or twice a month, focusing on companies closer to profitability that have already seen pullbacks.",
+      "thread_topic": "Newcomer drawdown \u2014 risk management and position sizing",
+      "summary": "Stephen: acknowledges drawdown since January. Has reduced trading frequency and raised threshold for new trades. Position sizing (not stop losses) is main risk control \u2014 flat 40% close rate proved to lock in losses. Plans to trade once or twice a month, focusing on companies closer to profitability that have already seen pullbacks.",
       "tickers": [],
       "reply_count": 6,
       "stephen_reply_count": 1
@@ -358,7 +415,7 @@
       "file": "chat/chat-2026-04-11.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "PCT Pure Cycle Technologies — watch list?",
+      "thread_topic": "PCT Pure Cycle Technologies \u2014 watch list?",
       "summary": "Stephen: has followed PCT for several years. Concerned about profitability of new recycling sites and P&G not extending plastic license beyond the first technology. Keeps getting close to investing but something puts him off. Wishes they would 'just focus on something and get it sorted.'",
       "tickers": [
         "PCT"
@@ -373,7 +430,7 @@
       "file": "chat/chat-2026-04-11.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "Tesla Europe FSD post — not robotaxi",
+      "thread_topic": "Tesla Europe FSD post \u2014 not robotaxi",
       "summary": "Stephen: 'It's not really about robotaxi, it is just the FSD level 2 operation already available in US Teslas.'",
       "tickers": [
         "TSLA"
@@ -388,8 +445,8 @@
       "file": "chat/chat-2026-04-10.md",
       "author": "stephen",
       "has_stephen": true,
-      "thread_topic": "Invited to Pony CFO meeting — collecting questions from members",
-      "summary": "Stephen was invited to meet with Pony's CFO to discuss profitability metrics and revenue projections. Confirmed it's not unusual for companies with limited coverage to invite analysts — helps get the story out to small investors via SeekingAlpha. Plans to press on unit economics and joint ventures.",
+      "thread_topic": "Invited to Pony CFO meeting \u2014 collecting questions from members",
+      "summary": "Stephen was invited to meet with Pony's CFO to discuss profitability metrics and revenue projections. Confirmed it's not unusual for companies with limited coverage to invite analysts \u2014 helps get the story out to small investors via SeekingAlpha. Plans to press on unit economics and joint ventures.",
       "tickers": [
         "PONY",
         "HSAI"
@@ -404,7 +461,7 @@
       "file": "chat/chat-2026-04-09.md",
       "author": "stephen",
       "has_stephen": true,
-      "thread_topic": "Minth Seeking Alpha article — not a trade alert, not adding to position",
+      "thread_topic": "Minth Seeking Alpha article \u2014 not a trade alert, not adding to position",
       "summary": "Stephen published a Seeking Alpha article on Minth today. Confirmed it is not a trade alert and he is not adding to the existing position.",
       "tickers": [
         "0425.HK"
@@ -420,7 +477,7 @@
       "author": "member",
       "has_stephen": true,
       "thread_topic": "BYRN under water",
-      "summary": "Stephen: poor results across the board, lack of new products, CEO was the company really. Can't see buying again — glad exited earlier.",
+      "summary": "Stephen: poor results across the board, lack of new products, CEO was the company really. Can't see buying again \u2014 glad exited earlier.",
       "tickers": [
         "BYRN"
       ],
@@ -434,7 +491,7 @@
       "file": "chat/chat-2026-04-09.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "VOYG fill price — above $500 target due to pre-market jump",
+      "thread_topic": "VOYG fill price \u2014 above $500 target due to pre-market jump",
       "summary": "Stephen confirmed $500 was the target but VOYG price jumped pre-market and the order was filled above what he had expected (~$559 for 19 shares at $29.43).",
       "tickers": [
         "VOYG"
@@ -447,7 +504,7 @@
       "type": "note",
       "entity_key": "c-240213190",
       "file": "notes/note-c-240213190.md",
-      "summary": "All stocks green but unconvincing rally. Price action looks like a fake — Hesai's 7% pop is typical: welcome but not convincing.",
+      "summary": "All stocks green but unconvincing rally. Price action looks like a fake \u2014 Hesai's 7% pop is typical: welcome but not convincing.",
       "tickers": [
         "HSAI"
       ],
@@ -455,13 +512,13 @@
       "images_extracted": false
     },
     {
-      "title": "Trade Alert: Next Generation Defense and Space — A High-Growth, High-Risk Investment",
+      "title": "Trade Alert: Next Generation Defense and Space \u2014 A High-Growth, High-Risk Investment",
       "date": "2026-04-08",
       "slug": "trade-alert-next-generation-defense",
       "type": "post",
       "post_type": "trade_alert",
       "audience": "only_paid",
-      "summary": "Trade Alert #105: Buying Voyager Technologies (VOYG). $500 position (reduced from usual $600 due to portfolio decline and elevated risk). Two-part thesis: (1) throttleable solid-fuel missile engine contracted with Lockheed Martin for NGI program — unique patent-protected tech with 200%+ upside thesis; (2) Starlab JV (61%-owned) — ISS replacement, $4B revenue + $1.5B FCF forecast, potential 10-bagger. Entry: ~$29.43/share (19 shares). Combined valuation thesis: $20.5B vs $1.6B market cap.",
+      "summary": "Trade Alert #105: Buying Voyager Technologies (VOYG). $500 position (reduced from usual $600 due to portfolio decline and elevated risk). Two-part thesis: (1) throttleable solid-fuel missile engine contracted with Lockheed Martin for NGI program \u2014 unique patent-protected tech with 200%+ upside thesis; (2) Starlab JV (61%-owned) \u2014 ISS replacement, $4B revenue + $1.5B FCF forecast, potential 10-bagger. Entry: ~$29.43/share (19 shares). Combined valuation thesis: $20.5B vs $1.6B market cap.",
       "tickers": [
         "VOYG",
         "MDA"
@@ -476,8 +533,8 @@
       "file": "chat/chat-2026-04-08.md",
       "author": "stephen",
       "has_stephen": true,
-      "thread_topic": "Portfolio update after VOYG purchase — with holdings screenshot",
-      "summary": "Stephen posted updated portfolio (22 holdings) after buying VOYG. TACO bounce caveat — only 2-week ceasefire. Confirmed VOYG defence angle is key to thesis.",
+      "thread_topic": "Portfolio update after VOYG purchase \u2014 with holdings screenshot",
+      "summary": "Stephen posted updated portfolio (22 holdings) after buying VOYG. TACO bounce caveat \u2014 only 2-week ceasefire. Confirmed VOYG defence angle is key to thesis.",
       "tickers": [
         "VOYG"
       ],
@@ -493,8 +550,8 @@
       "file": "chat/chat-2026-04-08.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "Vornik stepping down at DRO — stock down 20%",
-      "summary": "Stephen: planned board-led transition. Record Q1 — revenue +87%, cash receipts +300%, $33m in profit. May be a time to add. Vornik had zero shares.",
+      "thread_topic": "Vornik stepping down at DRO \u2014 stock down 20%",
+      "summary": "Stephen: planned board-led transition. Record Q1 \u2014 revenue +87%, cash receipts +300%, $33m in profit. May be a time to add. Vornik had zero shares.",
       "tickers": [
         "DRO"
       ],
@@ -508,7 +565,7 @@
       "file": "chat/chat-2026-04-08.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "Market going up — TACO Tuesday",
+      "thread_topic": "Market going up \u2014 TACO Tuesday",
       "summary": "Stephen: TACO trades have not generally lasted, a bit like US policies at the moment.",
       "tickers": [],
       "reply_count": 4,
@@ -519,7 +576,7 @@
       "type": "note",
       "entity_key": "c-239671868",
       "file": "notes/note-c-239671868.md",
-      "summary": "Favourite Artemis photo — all in Flickr free to view.",
+      "summary": "Favourite Artemis photo \u2014 all in Flickr free to view.",
       "tickers": [],
       "has_images": true,
       "images_extracted": false
@@ -531,7 +588,7 @@
       "file": "chat/chat-2026-04-07.md",
       "author": "member",
       "has_stephen": true,
-      "thread_topic": "European alternative energy companies — ITM Power, Nel, SFC, AFC",
+      "thread_topic": "European alternative energy companies \u2014 ITM Power, Nel, SFC, AFC",
       "summary": "Stephen: ITM is the one I have looked at in detail, also like Nel, SFC and AFC. Owned them all in the past with mixed results. They have the tech but have struggled to make commercial progress.",
       "tickers": [
         "ITM",
@@ -550,7 +607,7 @@
       "author": "member",
       "has_stephen": true,
       "thread_topic": "When are we going to start with new trades?",
-      "summary": "Stephen: Hoping to start buying this week — backlog of companies analysed during quiet period",
+      "summary": "Stephen: Hoping to start buying this week \u2014 backlog of companies analysed during quiet period",
       "tickers": [],
       "reply_count": 2,
       "stephen_reply_count": 1
@@ -560,7 +617,7 @@
       "type": "note",
       "entity_key": "c-239080806",
       "file": "notes/note-c-239080806.md",
-      "summary": "MDA Space up +7.19% on JP Morgan Buy rating — 25% upside target, Defence satellite prime contractor thesis. Portfolio making small progress.",
+      "summary": "MDA Space up +7.19% on JP Morgan Buy rating \u2014 25% upside target, Defence satellite prime contractor thesis. Portfolio making small progress.",
       "tickers": [
         "MDA"
       ],
@@ -575,7 +632,7 @@
       "author": "member",
       "has_stephen": true,
       "thread_topic": "SPCE is on fire",
-      "summary": "Stephen: Big move today on SPCE — high risk but solid business thesis in a less volatile world",
+      "summary": "Stephen: Big move today on SPCE \u2014 high risk but solid business thesis in a less volatile world",
       "tickers": [
         "SPCE"
       ],
@@ -646,8 +703,8 @@
       "file": null,
       "author": "Alex",
       "has_stephen": false,
-      "thread_topic": "$lunr has been on a good run following artemis 2 launch — should it be in the portfolio?",
-      "summary": "Alex: $lunr good run post Artemis 2 — no Stephen reply",
+      "thread_topic": "$lunr has been on a good run following artemis 2 launch \u2014 should it be in the portfolio?",
+      "summary": "Alex: $lunr good run post Artemis 2 \u2014 no Stephen reply",
       "tickers": [
         "LUNR"
       ],
@@ -673,7 +730,7 @@
       "author": "stephen Tobin",
       "has_stephen": true,
       "thread_topic": "Expecting a hit to the robotaxi stocks today. The FT is reporting an incident with ApolloGo (Baidu)",
-      "summary": "Stephen: Expecting robotaxi stock hit — ApolloGo/Baidu multiple cars stopped on highways",
+      "summary": "Stephen: Expecting robotaxi stock hit \u2014 ApolloGo/Baidu multiple cars stopped on highways",
       "tickers": [
         "PONY",
         "WRD"
@@ -689,7 +746,7 @@
       "author": "stephen Tobin",
       "has_stephen": true,
       "thread_topic": "News reports today that Amazon is in talks to buy GlobalStar, big relevance to MDA",
-      "summary": "Stephen: Amazon in talks to buy GlobalStar — big relevance to MDA satellite contract",
+      "summary": "Stephen: Amazon in talks to buy GlobalStar \u2014 big relevance to MDA satellite contract",
       "tickers": [
         "MDA",
         "GSAT"
@@ -718,7 +775,7 @@
       "author": "ValueGrowth",
       "has_stephen": true,
       "thread_topic": "Rezolve AI (Agentic AI for commercial customers) +23% in the last month",
-      "summary": "Stephen: Passed on Rezolve AI — concerned about retail dependency and software moat",
+      "summary": "Stephen: Passed on Rezolve AI \u2014 concerned about retail dependency and software moat",
       "tickers": [
         "RZLV"
       ],
@@ -759,7 +816,7 @@
       "author": "stephen Tobin",
       "has_stephen": true,
       "thread_topic": "Updated portfolio following the end of March. Not quite the worst month I have had, but a close second.",
-      "summary": "Stephen: March portfolio update — close to worst month ever",
+      "summary": "Stephen: March portfolio update \u2014 close to worst month ever",
       "tickers": [],
       "reply_count": 0,
       "stephen_reply_count": 0
@@ -772,7 +829,7 @@
       "author": "Roland ROJAS",
       "has_stephen": true,
       "thread_topic": "Hsai is giving a good entry point right now ema 9 is breaking ema 200 upside",
-      "summary": "Stephen: Doesn't trade EMA crosses — golden/death crosses are generally false signals",
+      "summary": "Stephen: Doesn't trade EMA crosses \u2014 golden/death crosses are generally false signals",
       "tickers": [
         "HSAI"
       ],
@@ -787,7 +844,7 @@
       "author": "Roland ROJAS",
       "has_stephen": true,
       "thread_topic": "Let's get ready for new investments this coming month or if we can add some to our existing stock",
-      "summary": "Stephen: Caution for April — not buying this week, EOS potential billion dollar order, NRXP and AUR holding up",
+      "summary": "Stephen: Caution for April \u2014 not buying this week, EOS potential billion dollar order, NRXP and AUR holding up",
       "tickers": [
         "EOS",
         "NRXP",
@@ -804,7 +861,7 @@
       "author": "Mumanrider",
       "has_stephen": true,
       "thread_topic": "Stephen, do you keep up with NPWR?",
-      "summary": "Stephen: NPWR been a disaster — original tech too expensive, pivot to turbines difficult",
+      "summary": "Stephen: NPWR been a disaster \u2014 original tech too expensive, pivot to turbines difficult",
       "tickers": [
         "NPWR"
       ],
@@ -816,7 +873,7 @@
       "type": "note",
       "entity_key": "c-236139083",
       "file": "notes/note-c-236139083.md",
-      "summary": "Big day — 5 of 18 US stocks up 10%+. Perma-bull but not rushing to spend cash. $WRD looks best today.",
+      "summary": "Big day \u2014 5 of 18 US stocks up 10%+. Perma-bull but not rushing to spend cash. $WRD looks best today.",
       "tickers": [
         "WRD"
       ]
@@ -829,7 +886,7 @@
       "author": "stephen Tobin",
       "has_stephen": true,
       "thread_topic": "Sharing the eyes on list, companies under constant review. Advance warning about likely trades in April.",
-      "summary": "Stephen: Sharing eyes-on list — advance warning of likely April trades",
+      "summary": "Stephen: Sharing eyes-on list \u2014 advance warning of likely April trades",
       "tickers": [],
       "reply_count": 4,
       "stephen_reply_count": 0
@@ -842,7 +899,7 @@
       "author": "stephen Tobin",
       "has_stephen": true,
       "thread_topic": "A good day today but one day does not make a trend.",
-      "summary": "Stephen: Good day today but trend uncertain — bear reversal or end of sharp down move?",
+      "summary": "Stephen: Good day today but trend uncertain \u2014 bear reversal or end of sharp down move?",
       "tickers": [],
       "reply_count": 1,
       "stephen_reply_count": 0
@@ -855,7 +912,7 @@
       "author": "stephen Tobin",
       "has_stephen": true,
       "thread_topic": "Excellent earnings report from Virgin Galactic. Strongly considering re opening that position.",
-      "summary": "Stephen: Virgin Galactic excellent earnings — considering reopening position. Cautious on dilution but positive cash flow guided.",
+      "summary": "Stephen: Virgin Galactic excellent earnings \u2014 considering reopening position. Cautious on dilution but positive cash flow guided.",
       "tickers": [
         "SPCE"
       ],
@@ -870,7 +927,7 @@
       "author": "Jack Nesje",
       "has_stephen": true,
       "thread_topic": "I found this article for you: - DWave Quantum has been cut in half, can a leveraged ETF help bulls",
-      "summary": "Stephen: Leverage is dangerous with risky assets — has tried it without success, not appropriate in current drawdown",
+      "summary": "Stephen: Leverage is dangerous with risky assets \u2014 has tried it without success, not appropriate in current drawdown",
       "tickers": [
         "QBTS"
       ],
@@ -937,7 +994,7 @@
       "author": "Alexandre Porchet",
       "has_stephen": true,
       "thread_topic": "MTM: announcement from InvestorHub",
-      "summary": "Stephen: MTM off-take agreement has no minimum volume — pointless contract, likely no impact",
+      "summary": "Stephen: MTM off-take agreement has no minimum volume \u2014 pointless contract, likely no impact",
       "tickers": [
         "MTM"
       ],
@@ -978,7 +1035,7 @@
       "author": "Tim Maddox",
       "has_stephen": true,
       "thread_topic": "The market WILL recover. As long as the invested companies positions don't change",
-      "summary": "Stephen: Agrees on thesis but may exit positions to buy back cheaper — difficult judgment call",
+      "summary": "Stephen: Agrees on thesis but may exit positions to buy back cheaper \u2014 difficult judgment call",
       "tickers": [],
       "reply_count": 6,
       "stephen_reply_count": 1
@@ -1021,7 +1078,7 @@
       "type": "note",
       "entity_key": "c-234126299",
       "file": "notes/note-c-234126299.md",
-      "summary": "MDA Space caught in first satellite war — first space grab of many",
+      "summary": "MDA Space caught in first satellite war \u2014 first space grab of many",
       "tickers": [
         "MDA"
       ]
@@ -1334,8 +1391,8 @@
       "file": null,
       "author": "Alexandre Porchet",
       "has_stephen": false,
-      "thread_topic": "DRO:\nSydney, Australia – 24 March 2026 – DroneShield Limited (ASX:DRO) (DroneShi",
-      "summary": "Alexandre Porchet: DRO:\nSydney, Australia – 24 March 2026 – DroneShield Limited (ASX:DRO) (DroneShi",
+      "thread_topic": "DRO:\nSydney, Australia \u2013 24 March 2026 \u2013 DroneShield Limited (ASX:DRO) (DroneShi",
+      "summary": "Alexandre Porchet: DRO:\nSydney, Australia \u2013 24 March 2026 \u2013 DroneShield Limited (ASX:DRO) (DroneShi",
       "tickers": [
         "ASX",
         "ASX:DRO",
@@ -1487,7 +1544,7 @@
       "type": "chat",
       "file": "2026-03-20-lunr-space-spending.md",
       "summary": "LUNR: \"not at the top of my space list.\" Was going to buy a space company this week but Iran war likely to cut US government spending. Watching but holding off.",
-      "thread_topic": "LUNR — space spending concerns post Iran war",
+      "thread_topic": "LUNR \u2014 space spending concerns post Iran war",
       "tickers": [
         "LUNR"
       ]
@@ -1514,8 +1571,8 @@
       "file": "chat/chat-2026-03-20.md",
       "author": "3xit$",
       "has_stephen": true,
-      "thread_topic": "QRHC +17% today 💩",
-      "summary": "3xit$: QRHC +17% today 💩... Stephen: Ya big purchase from the CEO",
+      "thread_topic": "QRHC +17% today \ud83d\udca9",
+      "summary": "3xit$: QRHC +17% today \ud83d\udca9... Stephen: Ya big purchase from the CEO",
       "tickers": [
         "QRHC"
       ],
@@ -1543,7 +1600,7 @@
       "author": "AN123",
       "has_stephen": true,
       "thread_topic": "Just wondering if anyone has been following Palladyne AI Corp (PDYN).  They just",
-      "summary": "AN123: Just wondering if anyone has been follow... Stephen: I haven’t looked at Palladyne but have been looking at a mis",
+      "summary": "AN123: Just wondering if anyone has been follow... Stephen: I haven\u2019t looked at Palladyne but have been looking at a mis",
       "tickers": [
         "GLTA",
         "PDYN",
@@ -1570,7 +1627,7 @@
       "type": "chat",
       "file": "2026-03-19-market-risk-off.md",
       "summary": "Market hitting hard. Stephen: \"Agreed, but easier said than done.\"",
-      "thread_topic": "Market risk-off — staying the course",
+      "thread_topic": "Market risk-off \u2014 staying the course",
       "tickers": []
     },
     {
@@ -1588,7 +1645,7 @@
       "date": "2026-03-19",
       "type": "chat",
       "file": "2026-03-19-aspi-vs-aisp.md",
-      "summary": "Clarified: exited AISP (Airship AI), NOT ASPI — \"those two tickers are too similar for comfort\". ASPI still held.",
+      "summary": "Clarified: exited AISP (Airship AI), NOT ASPI \u2014 \"those two tickers are too similar for comfort\". ASPI still held.",
       "thread_topic": "ASPI vs AISP clarification",
       "tickers": [
         "ASPI",
@@ -1599,8 +1656,8 @@
       "date": "2026-03-19",
       "type": "chat",
       "file": "2026-03-19-portfolio-exits.md",
-      "summary": "Posted final exit prices/losses for 6 positions closed today (BYRN, QRHC, AISP, SPCE + 2 others); \"a transitional time\" — positioning for changed economic environment post-Middle East escalation",
-      "thread_topic": "Portfolio exit update — final prices and losses",
+      "summary": "Posted final exit prices/losses for 6 positions closed today (BYRN, QRHC, AISP, SPCE + 2 others); \"a transitional time\" \u2014 positioning for changed economic environment post-Middle East escalation",
+      "thread_topic": "Portfolio exit update \u2014 final prices and losses",
       "tickers": [
         "BYRN",
         "QRHC",
@@ -1703,8 +1760,8 @@
       "file": null,
       "author": "Julian",
       "has_stephen": false,
-      "thread_topic": "Yeah I’m down 14% YTD disadvantage of trying to play catch up to the SWT portfol",
-      "summary": "Julian: Yeah I’m down 14% YTD disadvantage of trying to play catch up to the SWT portfol",
+      "thread_topic": "Yeah I\u2019m down 14% YTD disadvantage of trying to play catch up to the SWT portfol",
+      "summary": "Julian: Yeah I\u2019m down 14% YTD disadvantage of trying to play catch up to the SWT portfol",
       "tickers": [
         "SWT"
       ],
@@ -1978,7 +2035,7 @@
       "author": "Alex Mehrtens",
       "has_stephen": true,
       "thread_topic": "Anyone looking at NuScale at these prices?",
-      "summary": "Alex Mehrtens: Anyone looking at NuScale at these price... Stephen: I keep looking at SMR, they still don’t have that definitive",
+      "summary": "Alex Mehrtens: Anyone looking at NuScale at these price... Stephen: I keep looking at SMR, they still don\u2019t have that definitive",
       "tickers": [
         "SMR"
       ],
@@ -1992,7 +2049,7 @@
       "file": "chat/chat-2026-03-16.md",
       "author": "3xit$",
       "has_stephen": true,
-      "thread_topic": "Hi Stephen, time to cut BYRN? It seems the market doesn’t have much faith in the",
+      "thread_topic": "Hi Stephen, time to cut BYRN? It seems the market doesn\u2019t have much faith in the",
       "summary": "3xit$: Hi Stephen, time to cut BYRN? It seems t... Stephen: I am not sure it is about the new CEO, more the lacklustre r",
       "tickers": [
         "BYRN",
@@ -2009,7 +2066,7 @@
       "author": "ValueGrowth",
       "has_stephen": true,
       "thread_topic": "https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-",
-      "summary": "ValueGrowth: https://ir.nrxpharma.com/news-releases/n... Stephen: It’s great to get the written confirmation that the FDA are ",
+      "summary": "ValueGrowth: https://ir.nrxpharma.com/news-releases/n... Stephen: It\u2019s great to get the written confirmation that the FDA are ",
       "tickers": [
         "NDA",
         "NRXP"
@@ -2100,7 +2157,7 @@
       "type": "post",
       "post_type": "thematic",
       "audience": "everyone",
-      "summary": "The chips are becoming obsolete too quickly for these investments to make sense — arguing AI capex may be a massive write-down in the making.",
+      "summary": "The chips are becoming obsolete too quickly for these investments to make sense \u2014 arguing AI capex may be a massive write-down in the making.",
       "tickers": [],
       "has_images": true
     },
@@ -2108,7 +2165,7 @@
       "date": "2026-03-13",
       "type": "chat",
       "file": "2026-03-13-owl-entry.md",
-      "summary": "Watching OWL — bank run style drop, will buy when selling pressure eases",
+      "summary": "Watching OWL \u2014 bank run style drop, will buy when selling pressure eases",
       "thread_topic": "OWL entry point for long-term investment",
       "tickers": [
         "OWL"
@@ -2175,7 +2232,7 @@
       "author": "Fries",
       "has_stephen": true,
       "thread_topic": "Hello Stephen What price would be an interesting entry point for Owl if we are i",
-      "summary": "Fries: Hello Stephen What price would be an int... Stephen: I Lee watching owl, seems to be a “bank run” style drop at t",
+      "summary": "Fries: Hello Stephen What price would be an int... Stephen: I Lee watching owl, seems to be a \u201cbank run\u201d style drop at t",
       "tickers": [
         "SA"
       ],
@@ -2222,7 +2279,7 @@
       "type": "post",
       "post_type": "trade_alert",
       "audience": "only_paid",
-      "summary": "Trade Alert #104: Adding to EHang (EH) position after strong Q4 2025 earnings — revenue $28M, 43% YoY growth.",
+      "summary": "Trade Alert #104: Adding to EHang (EH) position after strong Q4 2025 earnings \u2014 revenue $28M, 43% YoY growth.",
       "tickers": [
         "EH"
       ],
@@ -2232,7 +2289,7 @@
       "date": "2026-03-12",
       "type": "chat",
       "file": "2026-03-12-roof.md",
-      "summary": "Still likes ROOF, wants to add but waiting for update — risk of missing a move",
+      "summary": "Still likes ROOF, wants to add but waiting for update \u2014 risk of missing a move",
       "thread_topic": "ROOF making progress",
       "tickers": [
         "ROOF"
@@ -2356,7 +2413,7 @@
       "date": "2026-03-11",
       "type": "chat",
       "file": "2026-03-11-minth-ibkr-fees.md",
-      "summary": "IBKR ISA fees for Minth: £22.11 for 2000 shares, prefers MNTHY over MNTHF as company-approved ADR",
+      "summary": "IBKR ISA fees for Minth: \u00a322.11 for 2000 shares, prefers MNTHY over MNTHF as company-approved ADR",
       "thread_topic": "Minth purchase details and IBKR fees",
       "tickers": [
         "MNTHY",
@@ -2368,7 +2425,7 @@
       "date": "2026-03-11",
       "type": "chat",
       "file": "2026-03-11-raytheon-anduril-missiles.md",
-      "summary": "Met Raytheon and Anduril engineers — new target company in missile engines sector, demand exceeds manufacturing capacity. QBTS not in golden dome yet, JOBY nowhere in defence",
+      "summary": "Met Raytheon and Anduril engineers \u2014 new target company in missile engines sector, demand exceeds manufacturing capacity. QBTS not in golden dome yet, JOBY nowhere in defence",
       "thread_topic": "Raytheon and Anduril meetings on missile tech and QBTS",
       "tickers": [
         "QBTS",
@@ -2523,7 +2580,7 @@
       "author": "alphastack",
       "has_stephen": true,
       "thread_topic": "Hi @stephen - for those without a full position in your positions at this point,",
-      "summary": "alphastack: Hi @stephen - for those without a full p... Stephen: As for the last bit I don’t know, but buy the rumours sell t",
+      "summary": "alphastack: Hi @stephen - for those without a full p... Stephen: As for the last bit I don\u2019t know, but buy the rumours sell t",
       "tickers": [
         "QBTS"
       ],
@@ -2660,8 +2717,8 @@
       "file": null,
       "author": "Justin",
       "has_stephen": false,
-      "thread_topic": "how do we feel about Northstar’s upcoming strategic update?\n\nThe language doesn’",
-      "summary": "Justin: how do we feel about Northstar’s upcoming strategic update?\n\nThe language doesn’",
+      "thread_topic": "how do we feel about Northstar\u2019s upcoming strategic update?\n\nThe language doesn\u2019",
+      "summary": "Justin: how do we feel about Northstar\u2019s upcoming strategic update?\n\nThe language doesn\u2019",
       "tickers": [
         "ERA"
       ],
@@ -2675,7 +2732,7 @@
       "file": "chat/chat-2026-03-09.md",
       "author": "Crossy",
       "has_stephen": true,
-      "thread_topic": "What a surprising turnaround on the markets today. QQQ is green…",
+      "thread_topic": "What a surprising turnaround on the markets today. QQQ is green\u2026",
       "summary": "Crossy: What a surprising turnaround on the mark... Stephen: That is becoming a pattern",
       "tickers": [
         "QQQ"
@@ -2704,7 +2761,7 @@
       "author": "stephen Tobin",
       "has_stephen": true,
       "thread_topic": "Looks like a tough day ahead, I am going to delay the Robot investment a day or ",
-      "summary": "stephen Tobin: Looks like a tough day ahead, I am going... Stephen: I will monitor but don’t like buying before giving people th",
+      "summary": "stephen Tobin: Looks like a tough day ahead, I am going... Stephen: I will monitor but don\u2019t like buying before giving people th",
       "tickers": [
         "GLTA",
         "WRD"
@@ -2720,7 +2777,7 @@
       "type": "post",
       "post_type": "sw_weekly",
       "audience": "only_paid",
-      "summary": "Weekly update plus deep-dive on humanoid robot bill of materials — identifying component plays ahead of Trade Alert #103.",
+      "summary": "Weekly update plus deep-dive on humanoid robot bill of materials \u2014 identifying component plays ahead of Trade Alert #103.",
       "tickers": [
         "EH",
         "APTV",
@@ -2750,8 +2807,8 @@
       "file": null,
       "author": "Alexandre Porchet",
       "has_stephen": false,
-      "thread_topic": "🤪",
-      "summary": "Alexandre Porchet: 🤪",
+      "thread_topic": "\ud83e\udd2a",
+      "summary": "Alexandre Porchet: \ud83e\udd2a",
       "tickers": [],
       "reply_count": 4,
       "stephen_reply_count": 0
@@ -2865,7 +2922,7 @@
       "date": "2026-03-06",
       "type": "note",
       "entity_key": "c-223811240",
-      "summary": "Electro Optic, making good progress but can it break $10 resistance ?should have added at the recent low but didn’t. I have 2 Position up 87% in total",
+      "summary": "Electro Optic, making good progress but can it break $10 resistance ?should have added at the recent low but didn\u2019t. I have 2 Position up 87% in total",
       "tickers": []
     },
     {
@@ -3179,8 +3236,8 @@
       "file": "chat/chat-2026-03-02.md",
       "author": "stephen Tobin",
       "has_stephen": true,
-      "thread_topic": "Looking like a poor day ahead, I intend to hold through this morning’s chaos and",
-      "summary": "stephen Tobin: Looking like a poor day ahead, I intend ... Stephen: I always let people know in advance I don’t make any actions",
+      "thread_topic": "Looking like a poor day ahead, I intend to hold through this morning\u2019s chaos and",
+      "summary": "stephen Tobin: Looking like a poor day ahead, I intend ... Stephen: I always let people know in advance I don\u2019t make any actions",
       "tickers": [
         "EOS",
         "GEX",
@@ -3336,8 +3393,8 @@
       "file": "chat/chat-2026-02-27.md",
       "author": "George Bronstein",
       "has_stephen": true,
-      "thread_topic": "Group question… what do you think about upcoming Hesai earnings?",
-      "summary": "George Bronstein: Group question… what do you think about ... Stephen: I think we need to see a good report, the share price is jus",
+      "thread_topic": "Group question\u2026 what do you think about upcoming Hesai earnings?",
+      "summary": "George Bronstein: Group question\u2026 what do you think about ... Stephen: I think we need to see a good report, the share price is jus",
       "tickers": [
         "ADAS",
         "APTV",
@@ -3370,8 +3427,8 @@
       "file": "chat/chat-2026-02-26.md",
       "author": "Fries",
       "has_stephen": true,
-      "thread_topic": "Hello Stephen,\n\nTAKOF is going nicely — any thoughts on it? With Trump's policie",
-      "summary": "Fries: Hello Stephen,\n\nTAKOF is going nicely — ... Stephen: I need to look at drones again, Takof seemed a good buy earl",
+      "thread_topic": "Hello Stephen,\n\nTAKOF is going nicely \u2014 any thoughts on it? With Trump's policie",
+      "summary": "Fries: Hello Stephen,\n\nTAKOF is going nicely \u2014 ... Stephen: I need to look at drones again, Takof seemed a good buy earl",
       "tickers": [
         "AIRO",
         "IR",
@@ -3409,7 +3466,7 @@
       "author": "Jason",
       "has_stephen": true,
       "thread_topic": "Not in portfolio, but anyone have thoughts on ARBE?",
-      "summary": "Jason: Not in portfolio, but anyone have though... Stephen: I agree, I can’t work out why they don’t have any real volum",
+      "summary": "Jason: Not in portfolio, but anyone have though... Stephen: I agree, I can\u2019t work out why they don\u2019t have any real volum",
       "tickers": [
         "AEVA",
         "ARBE"
@@ -3566,7 +3623,7 @@
       "type": "post",
       "post_type": "trade_alert",
       "audience": "only_paid",
-      "summary": "Buying NRX Pharmaceuticals (NRXP) — nano-cap psychedelic/ketamine drug play. Very high risk.",
+      "summary": "Buying NRX Pharmaceuticals (NRXP) \u2014 nano-cap psychedelic/ketamine drug play. Very high risk.",
       "tickers": [
         "NRXP",
         "CMPS"
@@ -3759,7 +3816,7 @@
       "type": "post",
       "post_type": "trade_alert",
       "audience": "only_paid",
-      "summary": "Buying Compass Pathways (CMPS) — psilocybin therapy for TRD. $40 price target.",
+      "summary": "Buying Compass Pathways (CMPS) \u2014 psilocybin therapy for TRD. $40 price target.",
       "tickers": [
         "CMPS"
       ],
@@ -3769,7 +3826,7 @@
       "date": "2026-02-18",
       "type": "note",
       "entity_key": "c-216135147",
-      "summary": "SimplyWall Street, has a new logo and colour scheme. I normally hate revamps but this one is OK. it’s a great tool if you don’t have it, excellent coverage of companies with graphics that make the sto",
+      "summary": "SimplyWall Street, has a new logo and colour scheme. I normally hate revamps but this one is OK. it\u2019s a great tool if you don\u2019t have it, excellent coverage of companies with graphics that make the sto",
       "tickers": []
     },
     {
@@ -3855,7 +3912,7 @@
       "author": "Harshad",
       "has_stephen": true,
       "thread_topic": "Compass Pathways Third phase Success causes to soar 45%",
-      "summary": "Harshad: Compass Pathways Third phase Success cau... Stephen: Strange really, today’s release showed almost exactly the sa",
+      "summary": "Harshad: Compass Pathways Third phase Success cau... Stephen: Strange really, today\u2019s release showed almost exactly the sa",
       "tickers": [],
       "reply_count": 2,
       "stephen_reply_count": 1
@@ -3994,7 +4051,7 @@
       "author": "Chris walker",
       "has_stephen": true,
       "thread_topic": "Thanks for your recent post Stephen regarding correlation,with all that you have",
-      "summary": "Chris walker: Thanks for your recent post Stephen rega... Stephen: I don’t like to give a blanket view. Some of them are down w",
+      "summary": "Chris walker: Thanks for your recent post Stephen rega... Stephen: I don\u2019t like to give a blanket view. Some of them are down w",
       "tickers": [
         "ABAT",
         "AISP",
@@ -4126,7 +4183,7 @@
       "file": "chat/chat-2026-02-12.md",
       "author": "CForce",
       "has_stephen": true,
-      "thread_topic": "Did our portfolio peak with crypto in October time period?  I’m trying to unders",
+      "thread_topic": "Did our portfolio peak with crypto in October time period?  I\u2019m trying to unders",
       "summary": "CForce: Did our portfolio peak with crypto in Oc... Stephen: it is definately true a short term correlation has developed",
       "tickers": [
         "ARKK",
@@ -4145,8 +4202,8 @@
       "file": null,
       "author": "CForce",
       "has_stephen": false,
-      "thread_topic": "PSCT is making new highs and we are getting killed….",
-      "summary": "CForce: PSCT is making new highs and we are getting killed….",
+      "thread_topic": "PSCT is making new highs and we are getting killed\u2026.",
+      "summary": "CForce: PSCT is making new highs and we are getting killed\u2026.",
       "tickers": [
         "PSCT"
       ],
@@ -4161,7 +4218,7 @@
       "author": "Ken",
       "has_stephen": true,
       "thread_topic": "looking to recycle any positions? A number of names down 30% - 40%.",
-      "summary": "Ken: looking to recycle any positions? A numb... Stephen: I am not planning any trading at the moment. Although I don’",
+      "summary": "Ken: looking to recycle any positions? A numb... Stephen: I am not planning any trading at the moment. Although I don\u2019",
       "tickers": [
         "AMZN",
         "SOUN",
@@ -4348,7 +4405,7 @@
       "date": "2026-02-09",
       "type": "note",
       "entity_key": "c-212219181",
-      "summary": "Made my 100th trade today on my $250 to $100k project. Still on target and over half way there, it’s been a wild ride but a lot of fun and very profitable.",
+      "summary": "Made my 100th trade today on my $250 to $100k project. Still on target and over half way there, it\u2019s been a wild ride but a lot of fun and very profitable.",
       "tickers": []
     },
     {
@@ -4431,8 +4488,8 @@
       "file": "chat/chat-2026-02-09.md",
       "author": "Carl",
       "has_stephen": true,
-      "thread_topic": "The futures market has already started to fall…",
-      "summary": "Carl: The futures market has already started t... Stephen: China has less than 2%’of American debt so the fact they are",
+      "thread_topic": "The futures market has already started to fall\u2026",
+      "summary": "Carl: The futures market has already started t... Stephen: China has less than 2%\u2019of American debt so the fact they are",
       "tickers": [
         "BRICS",
         "FED",
@@ -4554,7 +4611,7 @@
       "date": "2026-02-06",
       "type": "note",
       "entity_key": "c-210677010",
-      "summary": "Traders Who panic pay the market, those with a plan get payed. During yesterday’s market meltdown I added to $BYRN, outstanding earnings report with a forecast of increased margins new products and a ",
+      "summary": "Traders Who panic pay the market, those with a plan get payed. During yesterday\u2019s market meltdown I added to $BYRN, outstanding earnings report with a forecast of increased margins new products and a ",
       "tickers": [
         "BYRN"
       ]
@@ -4703,8 +4760,8 @@
       "file": null,
       "author": "Crossy",
       "has_stephen": false,
-      "thread_topic": "Premarket is green for the US. 🤞🤞",
-      "summary": "Crossy: Premarket is green for the US. 🤞🤞",
+      "thread_topic": "Premarket is green for the US. \ud83e\udd1e\ud83e\udd1e",
+      "summary": "Crossy: Premarket is green for the US. \ud83e\udd1e\ud83e\udd1e",
       "tickers": [],
       "reply_count": 1,
       "stephen_reply_count": 0
@@ -4763,7 +4820,7 @@
       "file": "chat/chat-2026-02-06.md",
       "author": "Crossy",
       "has_stephen": true,
-      "thread_topic": "EOS trading halt mid session. Interesting… hopefully good news so I can get at l",
+      "thread_topic": "EOS trading halt mid session. Interesting\u2026 hopefully good news so I can get at l",
       "summary": "Crossy: EOS trading halt mid session. Interestin... Stephen: We will have to wait for the EOS rebuttal. The Korean deal c",
       "tickers": [
         "ASX",
@@ -4829,8 +4886,8 @@
       "file": "chat/chat-2026-02-05.md",
       "author": "Jack Nesje",
       "has_stephen": true,
-      "thread_topic": "Hi Stephen,\n\nWhat’s your thoughts about BITF right now? It is getting down with ",
-      "summary": "Jack Nesje: Hi Stephen,\n\nWhat’s your thoughts about ... Stephen: I had a good look at bitf, it is just too dependent on the p",
+      "thread_topic": "Hi Stephen,\n\nWhat\u2019s your thoughts about BITF right now? It is getting down with ",
+      "summary": "Jack Nesje: Hi Stephen,\n\nWhat\u2019s your thoughts about ... Stephen: I had a good look at bitf, it is just too dependent on the p",
       "tickers": [
         "BITF",
         "BTC"
@@ -4861,7 +4918,7 @@
       "file": "chat/chat-2026-02-05.md",
       "author": "Jason Smith",
       "has_stephen": true,
-      "thread_topic": "Stephen what are your thoughts about ONDS now that it’s down quite a bit with ve",
+      "thread_topic": "Stephen what are your thoughts about ONDS now that it\u2019s down quite a bit with ve",
       "summary": "Jason Smith: Stephen what are your thoughts about OND... Stephen: I will look again after the drop but I am quite exposed to c",
       "tickers": [
         "ONDS",
@@ -4936,7 +4993,7 @@
       "date": "2026-02-04",
       "type": "note",
       "entity_key": "c-209881302",
-      "summary": "I have been spending a lot of time reviewing my past  performance. I decided to ask Gemini how my newsletter ranks to the market leaders, here is the answer. Not sure if it’s good or bad",
+      "summary": "I have been spending a lot of time reviewing my past  performance. I decided to ask Gemini how my newsletter ranks to the market leaders, here is the answer. Not sure if it\u2019s good or bad",
       "tickers": []
     },
     {
@@ -4946,8 +5003,8 @@
       "file": "chat/chat-2026-02-04.md",
       "author": "George Bronstein",
       "has_stephen": true,
-      "thread_topic": "Also, what’s your view on AISP? That one is either a mammoth win in the making, ",
-      "summary": "George Bronstein: Also, what’s your view on AISP? That one... Stephen: I agree with the lack of sales issue, but they don’t have a ",
+      "thread_topic": "Also, what\u2019s your view on AISP? That one is either a mammoth win in the making, ",
+      "summary": "George Bronstein: Also, what\u2019s your view on AISP? That one... Stephen: I agree with the lack of sales issue, but they don\u2019t have a ",
       "tickers": [
         "AISP",
         "BTC",
@@ -4967,7 +5024,7 @@
       "file": "chat/chat-2026-02-04.md",
       "author": "George Bronstein",
       "has_stephen": true,
-      "thread_topic": "Stephen, what do you make of Joby? Seems like it’s entering a reasonable reentry",
+      "thread_topic": "Stephen, what do you make of Joby? Seems like it\u2019s entering a reasonable reentry",
       "summary": "George Bronstein: Stephen, what do you make of Joby? Seems... Stephen: JOBY is under review but I am having valuation anxiety with ",
       "tickers": [
         "FAA",
@@ -5326,7 +5383,7 @@
       "date": "2026-02-01",
       "type": "note",
       "entity_key": "c-208276819",
-      "summary": "Half way to $100k, but adjustments to increase profits identified. I don’t have a WhatsApp don’t fall for the scammers responding to this note",
+      "summary": "Half way to $100k, but adjustments to increase profits identified. I don\u2019t have a WhatsApp don\u2019t fall for the scammers responding to this note",
       "tickers": []
     },
     {
@@ -5373,8 +5430,8 @@
       "file": null,
       "author": "Harshad",
       "has_stephen": false,
-      "thread_topic": "First Commodity\nSecond Crypto\nThird? 😂",
-      "summary": "Harshad: First Commodity\nSecond Crypto\nThird? 😂",
+      "thread_topic": "First Commodity\nSecond Crypto\nThird? \ud83d\ude02",
+      "summary": "Harshad: First Commodity\nSecond Crypto\nThird? \ud83d\ude02",
       "tickers": [],
       "reply_count": 0,
       "stephen_reply_count": 0
@@ -5401,8 +5458,8 @@
       "file": null,
       "author": "3xit$",
       "has_stephen": false,
-      "thread_topic": "BTC!💀",
-      "summary": "3xit$: BTC!💀",
+      "thread_topic": "BTC!\ud83d\udc80",
+      "summary": "3xit$: BTC!\ud83d\udc80",
       "tickers": [
         "BTC"
       ],
@@ -5510,8 +5567,8 @@
       "file": null,
       "author": "Jason",
       "has_stephen": false,
-      "thread_topic": "What’s going on with SOUN? Does anyone have any updates or insights? The stock k",
-      "summary": "Jason: What’s going on with SOUN? Does anyone have any updates or insights? The stock k",
+      "thread_topic": "What\u2019s going on with SOUN? Does anyone have any updates or insights? The stock k",
+      "summary": "Jason: What\u2019s going on with SOUN? Does anyone have any updates or insights? The stock k",
       "tickers": [
         "SOUN"
       ],
@@ -5686,8 +5743,8 @@
       "file": "chat/chat-2026-01-29.md",
       "author": "Lambert Gingras",
       "has_stephen": true,
-      "thread_topic": "Anyone knows what’s going on with DRO?",
-      "summary": "Lambert Gingras: Anyone knows what’s going on with DRO?... Stephen: If you look at the chart for DRO, the answer to what is goin",
+      "thread_topic": "Anyone knows what\u2019s going on with DRO?",
+      "summary": "Lambert Gingras: Anyone knows what\u2019s going on with DRO?... Stephen: If you look at the chart for DRO, the answer to what is goin",
       "tickers": [
         "DRO"
       ],
@@ -5714,7 +5771,7 @@
       "file": "chat/chat-2026-01-28.md",
       "author": "Chai",
       "has_stephen": true,
-      "thread_topic": "Hi Stephen, I came across the news titled “Ondas’ American Robotics Optimus Dron",
+      "thread_topic": "Hi Stephen, I came across the news titled \u201cOndas\u2019 American Robotics Optimus Dron",
       "summary": "Chai: Hi Stephen, I came across the news title... Stephen: No plans to add ONDS, I know lots of people still have it fr",
       "tickers": [
         "DCMA",
@@ -5858,7 +5915,7 @@
       "date": "2026-01-27",
       "type": "note",
       "entity_key": "c-206089773",
-      "summary": "$MDA moving again, space has not been my best sector but this one is going great, long from $25 up over 50% and expecting another 100%. I don’t have WhatsApp don’t fall for the fraud trying to con you",
+      "summary": "$MDA moving again, space has not been my best sector but this one is going great, long from $25 up over 50% and expecting another 100%. I don\u2019t have WhatsApp don\u2019t fall for the fraud trying to con you",
       "tickers": [
         "MDA"
       ]
@@ -5989,7 +6046,7 @@
       "date": "2026-01-23",
       "type": "note",
       "entity_key": "c-203949658",
-      "summary": "Down a little today, $MTM jumped 10% and now all 6 trades taken in December are in profit. One good month doesn’t make a fortune, all four trades taken in January are underwater by an average of 4%. A",
+      "summary": "Down a little today, $MTM jumped 10% and now all 6 trades taken in December are in profit. One good month doesn\u2019t make a fortune, all four trades taken in January are underwater by an average of 4%. A",
       "tickers": [
         "MTM"
       ]
@@ -6016,8 +6073,8 @@
       "file": null,
       "author": "Crossy",
       "has_stephen": false,
-      "thread_topic": "DRO CEO got some more options vest 😅",
-      "summary": "Crossy: DRO CEO got some more options vest 😅",
+      "thread_topic": "DRO CEO got some more options vest \ud83d\ude05",
+      "summary": "Crossy: DRO CEO got some more options vest \ud83d\ude05",
       "tickers": [
         "DRO"
       ],
@@ -6089,10 +6146,10 @@
       "type": "chat",
       "thread_id": "f19ab0aa-0eb1-4ca0-8b44-b03cb2a55a72",
       "file": "chat/chat-2026-01-22.md",
-      "author": "Havu Järvelä",
+      "author": "Havu J\u00e4rvel\u00e4",
       "has_stephen": true,
       "thread_topic": "Hello Stephen, regarding the emerging theme of quantum secure hardware do you ha",
-      "summary": "Havu Järvelä: Hello Stephen, regarding the emerging th... Stephen: Hi Havu, I have doubts about quantum safe hardware and softw",
+      "summary": "Havu J\u00e4rvel\u00e4: Hello Stephen, regarding the emerging th... Stephen: Hi Havu, I have doubts about quantum safe hardware and softw",
       "tickers": [
         "IBM",
         "QNC"
@@ -6235,8 +6292,8 @@
       "file": null,
       "author": "Mr P",
       "has_stephen": false,
-      "thread_topic": "Any idea why ABAT is down 10% today? I couldn’t  find any news",
-      "summary": "Mr P: Any idea why ABAT is down 10% today? I couldn’t  find any news",
+      "thread_topic": "Any idea why ABAT is down 10% today? I couldn\u2019t  find any news",
+      "summary": "Mr P: Any idea why ABAT is down 10% today? I couldn\u2019t  find any news",
       "tickers": [
         "ABAT"
       ],
@@ -6304,7 +6361,7 @@
       "author": "Alex",
       "has_stephen": true,
       "thread_topic": "Also whilst I'm on a roll... Did you have any further thoughts on Light Path Tec",
-      "summary": "Alex: Also whilst I'm on a roll... Did you hav... Stephen: Yes, can’t argue with 300% in a year!",
+      "summary": "Alex: Also whilst I'm on a roll... Did you hav... Stephen: Yes, can\u2019t argue with 300% in a year!",
       "tickers": [
         "ONDS"
       ],
@@ -6400,8 +6457,8 @@
       "file": "chat/chat-2026-01-20.md",
       "author": "Chris walker",
       "has_stephen": true,
-      "thread_topic": "Broke even on Droneshield today. 😁moving along nicely.",
-      "summary": "Chris walker: Broke even on Droneshield today. 😁movin... Stephen: That’s good news Chris, if I add up all three trade I am nic",
+      "thread_topic": "Broke even on Droneshield today. \ud83d\ude01moving along nicely.",
+      "summary": "Chris walker: Broke even on Droneshield today. \ud83d\ude01movin... Stephen: That\u2019s good news Chris, if I add up all three trade I am nic",
       "tickers": [
         "DRO"
       ],
@@ -6511,10 +6568,10 @@
       "type": "chat",
       "thread_id": "b7e50afb-cdce-430d-9c3c-cd75e2406131",
       "file": "chat/chat-2026-01-18.md",
-      "author": "Andreas Kallesø",
+      "author": "Andreas Kalles\u00f8",
       "has_stephen": true,
       "thread_topic": "Have anyone looked at Gorilla Technology (GRRR)? They seem to have some decent t",
-      "summary": "Andreas Kallesø: Have anyone looked at Gorilla Technology... Stephen: It is in the weekly update sent yesterday",
+      "summary": "Andreas Kalles\u00f8: Have anyone looked at Gorilla Technology... Stephen: It is in the weekly update sent yesterday",
       "tickers": [
         "GRRR"
       ],
@@ -6635,8 +6692,8 @@
       "file": "chat/chat-2026-01-16.md",
       "author": "3xit$",
       "has_stephen": true,
-      "thread_topic": "MDA on Fire🚀",
-      "summary": "3xit$: MDA on Fire🚀... Stephen: MDA and AISP both up 13%,",
+      "thread_topic": "MDA on Fire\ud83d\ude80",
+      "summary": "3xit$: MDA on Fire\ud83d\ude80... Stephen: MDA and AISP both up 13%,",
       "tickers": [
         "AISP",
         "MDA"
@@ -6701,8 +6758,8 @@
       "file": "chat/chat-2026-01-16.md",
       "author": "George Bronstein",
       "has_stephen": true,
-      "thread_topic": "And the dam cracks….. thanks to trumps actions, Canada shifting to china… all th",
-      "summary": "George Bronstein: And the dam cracks….. thanks to trumps a... Stephen: I think a Europe China deal will follow soon. The US is purs",
+      "thread_topic": "And the dam cracks\u2026.. thanks to trumps actions, Canada shifting to china\u2026 all th",
+      "summary": "George Bronstein: And the dam cracks\u2026.. thanks to trumps a... Stephen: I think a Europe China deal will follow soon. The US is purs",
       "tickers": [
         "AFP",
         "BYD",
@@ -6734,10 +6791,10 @@
       "type": "chat",
       "thread_id": "73ba884c-7897-487d-b555-1356a71d0e98",
       "file": null,
-      "author": "NATEture’s Domain",
+      "author": "NATEture\u2019s Domain",
       "has_stephen": false,
       "thread_topic": "Anyone following SentinelOne? It's beaten down the most in cyber names. Cheap in",
-      "summary": "NATEture’s Domain: Anyone following SentinelOne? It's beaten down the most in cyber names. Cheap in",
+      "summary": "NATEture\u2019s Domain: Anyone following SentinelOne? It's beaten down the most in cyber names. Cheap in",
       "tickers": [
         "IP"
       ],
@@ -6858,10 +6915,10 @@
       "type": "chat",
       "thread_id": "9561f65f-5909-47e7-9274-8c8a82ce6b36",
       "file": "chat/chat-2026-01-13.md",
-      "author": "NATEture’s Domain",
+      "author": "NATEture\u2019s Domain",
       "has_stephen": true,
       "thread_topic": "Hi Stephen, members, follower from SA and new member here. Appreciate your work ",
-      "summary": "NATEture’s Domain: Hi Stephen, members, follower from SA an... Stephen: Hi Nate, thanks for joining hope we make some money together",
+      "summary": "NATEture\u2019s Domain: Hi Stephen, members, follower from SA an... Stephen: Hi Nate, thanks for joining hope we make some money together",
       "tickers": [
         "SA"
       ],
@@ -6903,8 +6960,8 @@
       "file": "chat/chat-2026-01-13.md",
       "author": "Russell Dodds",
       "has_stephen": true,
-      "thread_topic": "Stephen, I don’t know if you are interested, but you can combine a stealth drone",
-      "summary": "Russell Dodds: Stephen, I don’t know if you are interes... Stephen: I have spoken to the management at XTI, I considered them an",
+      "thread_topic": "Stephen, I don\u2019t know if you are interested, but you can combine a stealth drone",
+      "summary": "Russell Dodds: Stephen, I don\u2019t know if you are interes... Stephen: I have spoken to the management at XTI, I considered them an",
       "tickers": [
         "EVTL",
         "FAA",
@@ -6921,8 +6978,8 @@
       "file": "chat/chat-2026-01-13.md",
       "author": "Crossy",
       "has_stephen": true,
-      "thread_topic": "Another strong day for EOS. I’m up almost 88% on it so far!",
-      "summary": "Crossy: Another strong day for EOS. I’m up almos... Stephen: It is going nicely, solid business progress driving the move",
+      "thread_topic": "Another strong day for EOS. I\u2019m up almost 88% on it so far!",
+      "summary": "Crossy: Another strong day for EOS. I\u2019m up almos... Stephen: It is going nicely, solid business progress driving the move",
       "tickers": [
         "EOS",
         "TP"
@@ -6938,7 +6995,7 @@
       "author": "George Bronstein",
       "has_stephen": true,
       "thread_topic": "Stephen, have you taken a look at airgain AIRG, here in San Diego? Microcap at s",
-      "summary": "George Bronstein: Stephen, have you taken a look at airgai... Stephen: No I haven’t come across them I will put them on my list",
+      "summary": "George Bronstein: Stephen, have you taken a look at airgai... Stephen: No I haven\u2019t come across them I will put them on my list",
       "tickers": [
         "AIRG"
       ],
@@ -6953,7 +7010,7 @@
       "author": "Lambert Gingras",
       "has_stephen": true,
       "thread_topic": "ABAT seems to be moving on good volume. Any news?",
-      "summary": "Lambert Gingras: ABAT seems to be moving on good volume. ... Stephen: I haven’t seen any news but it did move a lot without news i",
+      "summary": "Lambert Gingras: ABAT seems to be moving on good volume. ... Stephen: I haven\u2019t seen any news but it did move a lot without news i",
       "tickers": [
         "ABAT"
       ],
@@ -7106,7 +7163,7 @@
       "date": "2026-01-09",
       "type": "note",
       "entity_key": "c-197432859",
-      "summary": "$ASPI flies and drags the portfolio to a 15% return in January so far. Half of the holdings up 10% or more this week, a big start to the year let’s hope it continues ",
+      "summary": "$ASPI flies and drags the portfolio to a 15% return in January so far. Half of the holdings up 10% or more this week, a big start to the year let\u2019s hope it continues ",
       "tickers": [
         "ASPI"
       ]
@@ -7115,7 +7172,7 @@
       "date": "2026-01-09",
       "type": "note",
       "entity_key": "c-197330539",
-      "summary": "I think this is my best ever start to a year, I only keep monthly returns but can’t remember such a solid first week. Hopefully it will continue, next trade Monday and possibly a second next week.  No",
+      "summary": "I think this is my best ever start to a year, I only keep monthly returns but can\u2019t remember such a solid first week. Hopefully it will continue, next trade Monday and possibly a second next week.  No",
       "tickers": []
     },
     {
@@ -7233,7 +7290,7 @@
       "author": "stephen Tobin",
       "has_stephen": true,
       "thread_topic": "A full list of open trades is attached, as requested by a couple of subscribers.",
-      "summary": "stephen Tobin: A full list of open trades is attached, ... Stephen: I don’t have any identified at the moment but I do expect to",
+      "summary": "stephen Tobin: A full list of open trades is attached, ... Stephen: I don\u2019t have any identified at the moment but I do expect to",
       "tickers": [
         "AUR",
         "AUS",
@@ -7297,7 +7354,7 @@
       "author": "Pepper",
       "has_stephen": true,
       "thread_topic": "For Stephen or anyone following - do you have thoughts on the Donut lab / Nordic",
-      "summary": "Pepper: For Stephen or anyone following - do you... Stephen: I will try to look into them. I hadn’t heard about the compa",
+      "summary": "Pepper: For Stephen or anyone following - do you... Stephen: I will try to look into them. I hadn\u2019t heard about the compa",
       "tickers": [
         "CES",
         "ELVA",
@@ -7389,7 +7446,7 @@
       "date": "2026-01-06",
       "type": "note",
       "entity_key": "c-196054594",
-      "summary": "The portfolio is moving again, now up 10.3% in January. $HSAI is today’s star. It is up 10% and as it is my largest single investment, it has an outsized effect on the portfolio. The chart shows all p",
+      "summary": "The portfolio is moving again, now up 10.3% in January. $HSAI is today\u2019s star. It is up 10% and as it is my largest single investment, it has an outsized effect on the portfolio. The chart shows all p",
       "tickers": [
         "HSAI"
       ]
@@ -7398,7 +7455,7 @@
       "date": "2026-01-06",
       "type": "note",
       "entity_key": "c-195932620",
-      "summary": "Starting January in fifth place on Seeking Alpha’s top analyst board. I was number 1 for much of 2025, but I am happy to have any position on this board and have a lot of respect for the other authors",
+      "summary": "Starting January in fifth place on Seeking Alpha\u2019s top analyst board. I was number 1 for much of 2025, but I am happy to have any position on this board and have a lot of respect for the other authors",
       "tickers": []
     },
     {
@@ -7452,8 +7509,8 @@
       "file": "chat/chat-2026-01-06.md",
       "author": "stephen Tobin",
       "has_stephen": true,
-      "thread_topic": "A few imposters active at the\nMoment. Just to remind everyone I don’t have a Wha",
-      "summary": "Stephen: A few imposters active at the\nMoment. Just to remind everyone I don’t have a Wha",
+      "thread_topic": "A few imposters active at the\nMoment. Just to remind everyone I don\u2019t have a Wha",
+      "summary": "Stephen: A few imposters active at the\nMoment. Just to remind everyone I don\u2019t have a Wha",
       "tickers": [],
       "reply_count": 0,
       "stephen_reply_count": 0
@@ -7465,7 +7522,7 @@
       "file": "chat/chat-2026-01-06.md",
       "author": "George Bronstein",
       "has_stephen": true,
-      "thread_topic": "Nanoxplore is another one that appears to be waking up from slumber… finally and",
+      "thread_topic": "Nanoxplore is another one that appears to be waking up from slumber\u2026 finally and",
       "summary": "George Bronstein: Nanoxplore is another one that appears t... Stephen: It could also be a bit of inside knowledge about the insulat",
       "tickers": [],
       "reply_count": 3,
@@ -7508,8 +7565,8 @@
       "file": null,
       "author": "Julian",
       "has_stephen": false,
-      "thread_topic": "ELVA is it worth getting in when it’s near ATH?  Can’t believe doubled since Nov",
-      "summary": "Julian: ELVA is it worth getting in when it’s near ATH?  Can’t believe doubled since Nov",
+      "thread_topic": "ELVA is it worth getting in when it\u2019s near ATH?  Can\u2019t believe doubled since Nov",
+      "summary": "Julian: ELVA is it worth getting in when it\u2019s near ATH?  Can\u2019t believe doubled since Nov",
       "tickers": [
         "ELVA"
       ],
@@ -7523,8 +7580,8 @@
       "file": null,
       "author": "George Bronstein",
       "has_stephen": false,
-      "thread_topic": "Hesai is waking up… big volume and start of CES. Increasing production, offshore",
-      "summary": "George Bronstein: Hesai is waking up… big volume and start of CES. Increasing production, offshore",
+      "thread_topic": "Hesai is waking up\u2026 big volume and start of CES. Increasing production, offshore",
+      "summary": "George Bronstein: Hesai is waking up\u2026 big volume and start of CES. Increasing production, offshore",
       "tickers": [
         "CES"
       ],
@@ -7553,8 +7610,8 @@
       "file": null,
       "author": "Chris walker",
       "has_stephen": false,
-      "thread_topic": "One more push and DRO is back baby😁",
-      "summary": "Chris walker: One more push and DRO is back baby😁",
+      "thread_topic": "One more push and DRO is back baby\ud83d\ude01",
+      "summary": "Chris walker: One more push and DRO is back baby\ud83d\ude01",
       "tickers": [
         "DRO"
       ],
@@ -7588,8 +7645,8 @@
       "file": "chat/chat-2026-01-05.md",
       "author": "Roland ROJAS",
       "has_stephen": true,
-      "thread_topic": "We don’t have Abat now",
-      "summary": "Roland ROJAS: We don’t have Abat now... Stephen: ABAT was trade 83 on November 20th.",
+      "thread_topic": "We don\u2019t have Abat now",
+      "summary": "Roland ROJAS: We don\u2019t have Abat now... Stephen: ABAT was trade 83 on November 20th.",
       "tickers": [
         "ABAT"
       ],
@@ -7679,7 +7736,7 @@
       "file": "chat/chat-2026-01-04.md",
       "author": "Jasper",
       "has_stephen": true,
-      "thread_topic": "Hey Stephen, any thoughts on ASUR? It looks like they’ve hit a bottom and meet y",
+      "thread_topic": "Hey Stephen, any thoughts on ASUR? It looks like they\u2019ve hit a bottom and meet y",
       "summary": "Jasper: Hey Stephen, any thoughts on ASUR? It lo... Stephen: USAR is in the list, and I will be working through the secto",
       "tickers": [
         "ASUR",
@@ -7756,7 +7813,7 @@
       "author": "Tamara Bendahan",
       "has_stephen": true,
       "thread_topic": "Hi Stephen, I wanted to bring FEIM to your attention again as it seems it fits a",
-      "summary": "Tamara Bendahan: Hi Stephen, I wanted to bring FEIM to yo... Stephen: FEIM is high on the “eyes on” list. Waiting for a good entry",
+      "summary": "Tamara Bendahan: Hi Stephen, I wanted to bring FEIM to yo... Stephen: FEIM is high on the \u201ceyes on\u201d list. Waiting for a good entry",
       "tickers": [
         "FEIM"
       ],
@@ -7803,8 +7860,8 @@
       "file": "chat/chat-2026-01-02.md",
       "author": "Chris walker",
       "has_stephen": true,
-      "thread_topic": "Hi Stephen happy new year. Just a quick one from me. We are close to your “targe",
-      "summary": "Chris walker: Hi Stephen happy new year. Just a quick ... Stephen: It’s a good question, the rapid rise and close to target oft",
+      "thread_topic": "Hi Stephen happy new year. Just a quick one from me. We are close to your \u201ctarge",
+      "summary": "Chris walker: Hi Stephen happy new year. Just a quick ... Stephen: It\u2019s a good question, the rapid rise and close to target oft",
       "tickers": [
         "ALK",
         "DRO",
@@ -7837,7 +7894,7 @@
       "author": "Devin Himel",
       "has_stephen": true,
       "thread_topic": "ELVA has been on a run hitting $8 on a solid earnings report. Given you had assi",
-      "summary": "Devin Himel: ELVA has been on a run hitting $8 on a s... Stephen: Yes exit was an error but that’s easy to say with hindsight.",
+      "summary": "Devin Himel: ELVA has been on a run hitting $8 on a s... Stephen: Yes exit was an error but that\u2019s easy to say with hindsight.",
       "tickers": [
         "ELVA",
         "QBTS"
@@ -7853,7 +7910,7 @@
       "author": "SteveR",
       "has_stephen": true,
       "thread_topic": "Stephen, unfortunately my order for the additional position in EOS failed and th",
-      "summary": "SteveR: Stephen, unfortunately my order for the ... Stephen: That is a pain, I am not sure I would buy now. I don’t like ",
+      "summary": "SteveR: Stephen, unfortunately my order for the ... Stephen: That is a pain, I am not sure I would buy now. I don\u2019t like ",
       "tickers": [
         "ASX",
         "EOS"
@@ -7907,7 +7964,7 @@
       "date": "2026-01-01",
       "type": "note",
       "entity_key": "c-193865131",
-      "summary": "2025 ended with an 85% roí, a bit below the last couple of years but well ahead of the indices.  ",
+      "summary": "2025 ended with an 85% ro\u00ed, a bit below the last couple of years but well ahead of the indices.  ",
       "tickers": []
     },
     {
@@ -7917,8 +7974,8 @@
       "file": "chat/chat-2026-01-01.md",
       "author": "Alexandre Porchet",
       "has_stephen": true,
-      "thread_topic": "MTM news: FYI 😊",
-      "summary": "Alexandre Porchet: MTM news: FYI 😊... Stephen: A material feedstock announcement sounds positive but we wil",
+      "thread_topic": "MTM news: FYI \ud83d\ude0a",
+      "summary": "Alexandre Porchet: MTM news: FYI \ud83d\ude0a... Stephen: A material feedstock announcement sounds positive but we wil",
       "tickers": [
         "FYI",
         "MTM"

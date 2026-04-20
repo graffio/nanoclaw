@@ -271,3 +271,8 @@ Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: 
 
 Stephen posted: "WeRide launched its first mass produced car today. The press releases is worth a read, I had not built this into my forecasts (to be honest I wasnt convinced it would ever happen) but it represents quite an upside." Refers to the Aion N60, co-developed with GAC, powered by WeRide Driving (WRD 3.0) — WeRide's one-stage end-to-end ADAS solution. Pre-sales launched April 16, 2026.
 *Source: [chat/chat-2026-04-17.md]*
+
+### 2026-04-19 — Chat: PONY vs WRD — "hard to separate them"
+
+In response to a member asking which has more potential at current prices — PONY or WRD — Stephen replied: "When I first invested in them I did it simultaneously with half a trade in each. Hard to separate them." No preference given between the two; views them as a paired trade.
+*Source: [chat/chat-2026-04-19.md]*

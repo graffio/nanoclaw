@@ -298,3 +298,8 @@ Holdings snapshot extracted from SW Weekly: Quantum Progress post. Apr 5 price: 
 
 Stephen was invited to meet with Pony's CFO to discuss profitability metrics and revenue projections. He opened the thread to collect questions from subscribers. On the unusualness of the invite: "No it's not so unusual, they will want me to keep covering them on SeekingAlpha. They will know that a lot of my articles there have been quoted by Wall Street analysts and it is a good way for companies with limited coverage to gain exposure." Plans to focus on unit economics and joint ventures: "Because it's the CFO I doubt he will talk about the roll out but I want to press him on unit economics especially with the joint ventures."
 *Source: [chat/chat-2026-04-10.md]*
+
+### 2026-04-19 — Chat: CFO Q&A session postponed to May (Beijing Auto Show)
+
+Stephen posted an update on the planned PONY CFO interview: email received from PONY: "Unfortunately, due to our tight schedule surrounding the Beijing Auto Show this April, and important news we will be releasing, we need to postpone the CFO Q&A session to May." Stephen's reply when asked to compare PONY vs WRD: "When I first invested in them I did it simultaneously with half a trade in each. Hard to separate them."
+*Source: [chat/chat-2026-04-19.md]*

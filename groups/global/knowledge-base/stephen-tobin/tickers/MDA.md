@@ -209,3 +209,8 @@ Portfolio snapshot: 28 shares at CAD\$25.36 avg, latest CAD\$48.15, +CAD\$638 (+
 
 Stephen started the thread: "Amazon have acquired GlobalStar for \$11 billion and have agreed to partner with Apple to provide direct to device services. It looks good for MDA here is the quote from the Amazon presser: 'Globalstar's existing satellite fleet and its new satellites with expanded capabilities will operate alongside the Amazon Leo broadband system and Amazon's planned direct-to-device satellite system.' Likely a big win for MDA as the expanded capabilities and new satellites are MDA tech."
 *Source: [chat/chat-2026-04-15.md]*
+
+### 2026-04-20 — Chat: Airbus/Eutelsat order — still holding despite "Exit Near" flag
+
+Stephen updated on MDA: "I did think I was close to exiting but they picked up a big order from Airbus to make 1,300 antennas for use on the Eutelsat low earth orbit satellite constellation. Space seems to be gaining momentum and MDA seems to have found a niche as a non-aligned manufacturer. Stock is down today but I think I should hold for a bit longer." Revises prior "Exit Near" assessment — holding position for now pending further news.
+*Source: [chat/chat-2026-04-20.md]*
