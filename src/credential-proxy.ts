@@ -23,6 +23,13 @@ export interface ProxyConfig {
   authMode: AuthMode;
 }
 
+// If the upstream goes this long without sending any bytes, treat it as stalled
+// and tear the connection down. Claude streaming responses emit events frequently
+// (well under a minute between chunks), so 2 minutes of total silence is anomalous.
+// Without this, a stalled /v1/messages response pins the container until the
+// 30-min hard task timeout fires with no output and no error.
+const UPSTREAM_IDLE_TIMEOUT_MS = 120_000;
+
 export function startCredentialProxy(
   port: number,
   host = '127.0.0.1',
@@ -90,8 +97,27 @@ export function startCredentialProxy(
           (upRes) => {
             res.writeHead(upRes.statusCode!, upRes.headers);
             upRes.pipe(res);
+            // Propagate mid-stream upstream failures to the client so the
+            // SDK sees a socket error instead of waiting forever.
+            upRes.on('error', (err) => {
+              logger.error(
+                { err, url: req.url },
+                'Credential proxy upstream response error',
+              );
+              res.destroy(err);
+            });
           },
         );
+
+        // Idle-timeout the upstream request: if no bytes flow for this long,
+        // destroy the socket so the SDK sees a connection failure.
+        upstream.setTimeout(UPSTREAM_IDLE_TIMEOUT_MS, () => {
+          logger.error(
+            { url: req.url, timeoutMs: UPSTREAM_IDLE_TIMEOUT_MS },
+            'Credential proxy upstream idle timeout',
+          );
+          upstream.destroy(new Error('upstream idle timeout'));
+        });
 
         upstream.on('error', (err) => {
           logger.error(
@@ -101,6 +127,10 @@ export function startCredentialProxy(
           if (!res.headersSent) {
             res.writeHead(502);
             res.end('Bad Gateway');
+          } else {
+            // Headers already sent means we're mid-stream. Destroying the
+            // client response surfaces the failure to the SDK.
+            res.destroy(err);
           }
         });
 

@@ -242,6 +242,19 @@ async function runTask(
     error,
   });
 
+  if (error) {
+    const promptPreview = task.prompt.slice(0, 80).replace(/\s+/g, ' ').trim();
+    const notice = `⚠️ Scheduled task failed: "${promptPreview}${task.prompt.length > 80 ? '…' : ''}"\n${error}`;
+    try {
+      await deps.sendMessage(task.chat_jid, notice);
+    } catch (sendErr) {
+      logger.error(
+        { taskId: task.id, err: sendErr },
+        'Failed to send task-failure notification',
+      );
+    }
+  }
+
   const nextRun = computeNextRun(task);
   const resultSummary = error
     ? `Error: ${error}`
