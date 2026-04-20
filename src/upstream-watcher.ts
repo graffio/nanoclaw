@@ -60,7 +60,7 @@ function writeState(statePath: string, state: UpstreamState): void {
 }
 
 function todayIso(): string {
-  return new Date().toISOString().slice(0, 10);
+  return new Date().toLocaleDateString('en-CA', { timeZone: TIMEZONE });
 }
 
 function listNewCommits(sinceSha: string): Commit[] {
