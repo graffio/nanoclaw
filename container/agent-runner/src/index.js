@@ -427,6 +427,9 @@ async function runQuery(
         for (const block of content) {
           if (block.type === 'tool_use' && block.name) {
             const input = block.input || {};
+            // Collapse newlines so the log stays one line per tool call.
+            // (Host-side stderr parser splits on \n and drops continuation lines.)
+            const oneLine = (s) => String(s).replace(/\s*\n\s*/g, ' \\n ');
             let summary = '';
             if (block.name === 'Bash' && input.command) {
               const cmd = String(input.command);
@@ -438,11 +441,11 @@ async function runQuery(
                 const lines = body.split('\n').filter(l => l.trim());
                 const commentLines = lines.filter(l => /^\s*#/.test(l)).map(l => l.trim().replace(/^#\s*/, ''));
                 const desc = commentLines.length > 0
-                  ? commentLines.join(' | ').slice(0, 200)
-                  : lines.slice(0, 2).join(' ').trim().slice(0, 200);
+                  ? commentLines.join(' | ').slice(0, 500)
+                  : lines.slice(0, 2).join(' ').trim().slice(0, 500);
                 summary = ` cmd=${interpreter}: ${desc}`;
               } else {
-                summary = ` cmd=${cmd.slice(0, 200)}`;
+                summary = ` cmd=${oneLine(cmd).slice(0, 500)}`;
               }
             } else if (block.name === 'WebSearch' && input.query) {
               summary = ` query="${input.query}"`;
@@ -460,7 +463,7 @@ async function runQuery(
               const keys = Object.keys(input).slice(0, 3);
               if (keys.length > 0) summary = ` ${keys.map(k => {
                 const v = input[k];
-                const str = typeof v === 'object' ? JSON.stringify(v).slice(0, 80) : String(v).slice(0, 80);
+                const str = typeof v === 'object' ? JSON.stringify(v).slice(0, 200) : oneLine(v).slice(0, 200);
                 return `${k}=${str}`;
               }).join(' ')}`;
             }
