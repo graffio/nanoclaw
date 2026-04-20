@@ -30,6 +30,39 @@ export interface ProxyConfig {
 // 30-min hard task timeout fires with no output and no error.
 const UPSTREAM_IDLE_TIMEOUT_MS = 120_000;
 
+// Ring buffer of recent upstream errors. Used to annotate "API Error: …"
+// messages that the Claude Agent SDK surfaces when its retries exhaust, so
+// the user can tell upstream flakiness from other failures.
+export interface UpstreamErrorEntry {
+  ts: number;
+  code: string;
+  url: string;
+  phase: 'pre-header' | 'mid-stream' | 'idle-timeout';
+}
+const UPSTREAM_ERROR_RETENTION_MS = 300_000;
+const upstreamErrorLog: UpstreamErrorEntry[] = [];
+
+function recordUpstreamError(entry: Omit<UpstreamErrorEntry, 'ts'>): void {
+  const now = Date.now();
+  upstreamErrorLog.push({ ...entry, ts: now });
+  const cutoff = now - UPSTREAM_ERROR_RETENTION_MS;
+  while (upstreamErrorLog.length > 0 && upstreamErrorLog[0].ts < cutoff) {
+    upstreamErrorLog.shift();
+  }
+}
+
+export function getRecentUpstreamErrors(
+  windowMs: number = UPSTREAM_ERROR_RETENTION_MS,
+): UpstreamErrorEntry[] {
+  const cutoff = Date.now() - windowMs;
+  return upstreamErrorLog.filter((e) => e.ts >= cutoff);
+}
+
+/** @internal - for tests */
+export function _clearUpstreamErrorLog(): void {
+  upstreamErrorLog.length = 0;
+}
+
 export function startCredentialProxy(
   port: number,
   host = '127.0.0.1',
@@ -104,6 +137,12 @@ export function startCredentialProxy(
                 { err, url: req.url },
                 'Credential proxy upstream response error',
               );
+              recordUpstreamError({
+                code:
+                  (err as NodeJS.ErrnoException).code || err.message || 'ERROR',
+                url: req.url || '',
+                phase: 'mid-stream',
+              });
               res.destroy(err);
             });
           },
@@ -116,6 +155,11 @@ export function startCredentialProxy(
             { url: req.url, timeoutMs: UPSTREAM_IDLE_TIMEOUT_MS },
             'Credential proxy upstream idle timeout',
           );
+          recordUpstreamError({
+            code: 'IDLE_TIMEOUT',
+            url: req.url || '',
+            phase: 'idle-timeout',
+          });
           upstream.destroy(new Error('upstream idle timeout'));
         });
 
@@ -124,6 +168,11 @@ export function startCredentialProxy(
             { err, url: req.url },
             'Credential proxy upstream error',
           );
+          recordUpstreamError({
+            code: (err as NodeJS.ErrnoException).code || err.message || 'ERROR',
+            url: req.url || '',
+            phase: res.headersSent ? 'mid-stream' : 'pre-header',
+          });
           if (!res.headersSent) {
             res.writeHead(502);
             res.end('Bad Gateway');

@@ -11,7 +11,11 @@ vi.mock('./logger.js', () => ({
   logger: { info: vi.fn(), error: vi.fn(), debug: vi.fn(), warn: vi.fn() },
 }));
 
-import { startCredentialProxy } from './credential-proxy.js';
+import {
+  _clearUpstreamErrorLog,
+  getRecentUpstreamErrors,
+  startCredentialProxy,
+} from './credential-proxy.js';
 
 function makeRequest(
   port: number,
@@ -51,6 +55,7 @@ describe('credential-proxy', () => {
   let lastUpstreamHeaders: http.IncomingHttpHeaders;
 
   beforeEach(async () => {
+    _clearUpstreamErrorLog();
     lastUpstreamHeaders = {};
 
     upstreamServer = http.createServer((req, res) => {
@@ -188,6 +193,51 @@ describe('credential-proxy', () => {
 
     expect(res.statusCode).toBe(502);
     expect(res.body).toBe('Bad Gateway');
+  });
+
+  it('records upstream connection failures in the ring buffer', async () => {
+    Object.assign(mockEnv, {
+      ANTHROPIC_API_KEY: 'sk-ant-real-key',
+      ANTHROPIC_BASE_URL: 'http://127.0.0.1:59999',
+    });
+    proxyServer = await startCredentialProxy(0);
+    proxyPort = (proxyServer.address() as AddressInfo).port;
+
+    await makeRequest(
+      proxyPort,
+      {
+        method: 'POST',
+        path: '/v1/messages',
+        headers: { 'content-type': 'application/json' },
+      },
+      '{}',
+    );
+
+    const errors = getRecentUpstreamErrors();
+    expect(errors).toHaveLength(1);
+    expect(errors[0].phase).toBe('pre-header');
+    expect(errors[0].code).toBe('ECONNREFUSED');
+    expect(errors[0].url).toBe('/v1/messages');
+  });
+
+  it('getRecentUpstreamErrors honours the time window', async () => {
+    Object.assign(mockEnv, {
+      ANTHROPIC_API_KEY: 'sk-ant-real-key',
+      ANTHROPIC_BASE_URL: 'http://127.0.0.1:59999',
+    });
+    proxyServer = await startCredentialProxy(0);
+    proxyPort = (proxyServer.address() as AddressInfo).port;
+
+    await makeRequest(
+      proxyPort,
+      { method: 'POST', path: '/x', headers: {} },
+      '{}',
+    );
+
+    // A zero-ms window should return nothing
+    expect(getRecentUpstreamErrors(0)).toHaveLength(0);
+    // A generous window should include the just-recorded error
+    expect(getRecentUpstreamErrors(60_000)).toHaveLength(1);
   });
 
   it('destroys the client socket when upstream stalls mid-stream', async () => {
