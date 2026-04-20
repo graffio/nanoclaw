@@ -82,6 +82,29 @@ export class TelegramChannel implements Channel {
       ctx.reply(`${ASSISTANT_NAME} is online.`);
     });
 
+    // Interrupt the agent's current turn. Must be a grammy command — the
+    // general text handler below drops any message starting with '/'.
+    this.bot.command('stop', (ctx) => {
+      if (!ctx.message) return;
+      const chatJid = `tg:${ctx.chat.id}`;
+      const group = this.opts.registeredGroups()[chatJid];
+      if (!group) return;
+
+      this.opts.onMessage(chatJid, {
+        id: ctx.message.message_id.toString(),
+        chat_jid: chatJid,
+        sender: ctx.from?.id?.toString() || '',
+        sender_name:
+          ctx.from?.first_name ||
+          ctx.from?.username ||
+          ctx.from?.id?.toString() ||
+          'Unknown',
+        content: '/stop',
+        timestamp: new Date(ctx.message.date * 1000).toISOString(),
+        is_from_me: false,
+      });
+    });
+
     this.bot.on('message:text', async (ctx) => {
       // Skip commands
       if (ctx.message.text.startsWith('/')) return;

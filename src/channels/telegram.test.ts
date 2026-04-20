@@ -207,6 +207,7 @@ describe('TelegramChannel', () => {
 
       expect(currentBot().commandHandlers.has('chatid')).toBe(true);
       expect(currentBot().commandHandlers.has('ping')).toBe(true);
+      expect(currentBot().commandHandlers.has('stop')).toBe(true);
       expect(currentBot().filterHandlers.has('message:text')).toBe(true);
       expect(currentBot().filterHandlers.has('message:photo')).toBe(true);
       expect(currentBot().filterHandlers.has('message:video')).toBe(true);
@@ -922,6 +923,42 @@ describe('TelegramChannel', () => {
       await handler(ctx);
 
       expect(ctx.reply).toHaveBeenCalledWith('Andy is online.');
+    });
+
+    it('/stop forwards a synthetic /stop message for registered chats', async () => {
+      const opts = createTestOpts();
+      const channel = new TelegramChannel('test-token', opts);
+      await channel.connect();
+
+      const handler = currentBot().commandHandlers.get('stop')!;
+      await handler({
+        chat: { id: 100200300, type: 'private' },
+        from: { id: 99001, first_name: 'Alice', username: 'alice_user' },
+        message: { message_id: 42, date: 1700000000 },
+      });
+
+      expect(opts.onMessage).toHaveBeenCalledTimes(1);
+      const [jid, msg] = (opts.onMessage as any).mock.calls[0];
+      expect(jid).toBe('tg:100200300');
+      expect(msg.content).toBe('/stop');
+      expect(msg.sender).toBe('99001');
+      expect(msg.sender_name).toBe('Alice');
+      expect(msg.is_from_me).toBe(false);
+    });
+
+    it('/stop is ignored for unregistered chats', async () => {
+      const opts = createTestOpts();
+      const channel = new TelegramChannel('test-token', opts);
+      await channel.connect();
+
+      const handler = currentBot().commandHandlers.get('stop')!;
+      await handler({
+        chat: { id: 999999, type: 'private' },
+        from: { id: 99001, first_name: 'Alice' },
+        message: { message_id: 42, date: 1700000000 },
+      });
+
+      expect(opts.onMessage).not.toHaveBeenCalled();
     });
   });
 
