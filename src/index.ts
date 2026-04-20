@@ -11,7 +11,10 @@ import {
   TIMEZONE,
   TRIGGER_PATTERN,
 } from './config.js';
-import { startCredentialProxy } from './credential-proxy.js';
+import {
+  getRecentUpstreamErrors,
+  startCredentialProxy,
+} from './credential-proxy.js';
 import { startOutboundProxy } from './outbound-proxy.js';
 import './channels/index.js';
 import {
@@ -65,6 +68,55 @@ import { logger } from './logger.js';
 
 // Re-export for backwards compatibility during refactor
 export { escapeXml, formatMessages } from './router.js';
+
+// Matches the Claude Agent SDK's error-surface text that leaks through as a
+// "success" result when the Anthropic API's retry budget exhausts (e.g.,
+// "API Error: 502 Bad Gateway", "API Error: 529 Overloaded"). We rewrite
+// these into a reply that tells the user what actually failed.
+const API_ERROR_RE = /^API Error: (\d{3})\b/;
+
+/**
+ * Detect the Claude Agent SDK's "API Error: NNN …" surface and return an
+ * enriched reply, correlating with the credential proxy's recent upstream
+ * errors. Returns null if the text isn't an API-error surface.
+ * @internal - exported for tests
+ */
+export function augmentApiError(
+  text: string,
+  sessionId: string | undefined,
+  now: number = Date.now(),
+): string | null {
+  const trimmed = text.trim();
+  const m = trimmed.match(API_ERROR_RE);
+  if (!m) return null;
+
+  const windowMs = 300_000;
+  const errors = getRecentUpstreamErrors(windowMs).filter(
+    (e) => now - e.ts <= windowMs,
+  );
+
+  const lines: string[] = [`⚠️ ${trimmed}`, ''];
+  if (errors.length > 0) {
+    const counts = new Map<string, number>();
+    for (const e of errors) counts.set(e.code, (counts.get(e.code) || 0) + 1);
+    const breakdown = [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([c, n]) => `${n}× ${c}`)
+      .join(', ');
+    const spanMin = Math.max(1, Math.ceil((now - errors[0].ts) / 60_000));
+    lines.push(
+      `Upstream (api.anthropic.com) hit ${errors.length} connection error${errors.length === 1 ? '' : 's'} in the last ${spanMin} min (${breakdown}). SDK retries exhausted — likely transient, try again.`,
+    );
+  } else {
+    lines.push(
+      `No proxy-side connection errors in the last 5 min — this ${m[1]} came as a response from Anthropic. Try again.`,
+    );
+  }
+  if (sessionId) {
+    lines.push('', `_session: ${sessionId.slice(0, 8)}_`);
+  }
+  return lines.join('\n');
+}
 
 let lastTimestamp = '';
 let sessions: Record<string, string> = {};
@@ -192,10 +244,25 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
 
   if (missedMessages.length === 0) return true;
 
+  // /stop is a control command handled by the message loop, not an agent
+  // prompt. Drop any /stop messages before handing off so that if one
+  // slips through to this path (e.g., startup recovery picks up a /stop
+  // whose cursor never advanced), we don't run the agent with "/stop" as
+  // its prompt.
+  const agentMessages = missedMessages.filter(
+    (m) => !/^\/stop\b/i.test(m.content.trim()),
+  );
+  if (agentMessages.length === 0) {
+    lastAgentTimestamp[chatJid] =
+      missedMessages[missedMessages.length - 1].timestamp;
+    saveState();
+    return true;
+  }
+
   // For non-main groups, check if trigger is required and present
   if (!isMainGroup && group.requiresTrigger !== false) {
     const allowlistCfg = loadSenderAllowlist();
-    const hasTrigger = missedMessages.some(
+    const hasTrigger = agentMessages.some(
       (m) =>
         TRIGGER_PATTERN.test(m.content.trim()) &&
         (m.is_from_me || isTriggerAllowed(chatJid, m.sender, allowlistCfg)),
@@ -203,17 +270,19 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
     if (!hasTrigger) return true;
   }
 
-  const prompt = formatMessages(missedMessages, TIMEZONE);
+  const prompt = formatMessages(agentMessages, TIMEZONE);
 
   // Advance cursor so the piping path in startMessageLoop won't re-fetch
   // these messages. Save the old cursor so we can roll back on error.
+  // Use the full missedMessages range so the cursor also covers any
+  // trailing /stop we filtered out above.
   const previousCursor = lastAgentTimestamp[chatJid] || '';
   lastAgentTimestamp[chatJid] =
     missedMessages[missedMessages.length - 1].timestamp;
   saveState();
 
   logger.info(
-    { group: group.name, messageCount: missedMessages.length },
+    { group: group.name, messageCount: agentMessages.length },
     'Processing messages',
   );
 
@@ -246,7 +315,19 @@ async function processGroupMessages(chatJid: string): Promise<boolean> {
       const text = raw.replace(/<internal>[\s\S]*?<\/internal>/g, '').trim();
       logger.info({ group: group.name }, `Agent output: ${raw.length} chars`);
       if (text) {
-        await channel.sendMessage(chatJid, text);
+        // If the agent's "result" is actually the Claude Agent SDK's
+        // "API Error: NNN …" surface (exhausted-retry text packaged as
+        // success), replace it with a diagnostic reply that cites the
+        // credential proxy's recent upstream errors so the user can tell
+        // what actually failed.
+        const augmented = augmentApiError(text, result.newSessionId);
+        if (augmented) {
+          logger.warn(
+            { group: group.name, raw: text },
+            'Agent surfaced API error; sending augmented reply',
+          );
+        }
+        await channel.sendMessage(chatJid, augmented ?? text);
         outputSentToUser = true;
         // Agent produced visible output — notify queue to reset heartbeat
         queue.notifyActivity(chatJid);
@@ -485,6 +566,15 @@ async function startMessageLoop(): Promise<void> {
               await channel.sendMessage(chatJid, 'Stopping current task...');
             } else {
               await channel.sendMessage(chatJid, 'Nothing running to stop.');
+            }
+            // Advance the per-group agent cursor past /stop so that a later
+            // restart's recoverPendingMessages() doesn't see it as pending
+            // and replay it through processGroupMessages — which would run
+            // the agent with "/stop" as its prompt.
+            const existingCursor = lastAgentTimestamp[chatJid] || '';
+            if (stopMsg.timestamp > existingCursor) {
+              lastAgentTimestamp[chatJid] = stopMsg.timestamp;
+              saveState();
             }
             continue;
           }
